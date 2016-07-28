@@ -1,2 +1,2 @@
-# lasdb2017
-lasdb2017 meeting
+# Laupuntu Projects
+Aqui colcoar infomracion general de proyectos Laupuntu
