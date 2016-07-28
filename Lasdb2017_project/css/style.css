@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+}
+
+#img1 {
+    background-image: url('../img/01.jpg');
+}
+#img2 {
+    background-image: url('../img/02.jpg');
+}
+#img3 {
+    background-image: url('../img/03.jpg');
+}
+#img4 {
+    background-image: url('../img/04.jpg');
+}
+.text {
+    width: 70%;
+    height: 500px;
+    margin:0 auto;
+    background-color: red;
+}
+.parallax {
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
