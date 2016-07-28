@@ -1,2 +1,2 @@
 # Laupuntu Projects
-Aqui colcoar infomracion general de proyectos Laupuntu
+Aqui colocar información general de proyectos Laupuntu
