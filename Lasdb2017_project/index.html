@@ -2,11 +2,63 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Pagina de Pruba</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" content=" ">
+    <meta name="description" content="" >
+    <meta name="author" content="" >
+    <meta name="robots" content="index, follow">
+	<title>Lasbd2017</title>
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--Fonts-->
+	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"/>
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.css"/> 
+	<!-- Default Theme -->
+	<link rel="stylesheet" href="owl-carousel/owl.theme.css"/>
+	<!-- Web Page Style -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="parallax" id="img1"></div>
+<header>
+	<div class="contactUp">
+		<span><a href="#">ES - EN</a></span>
+		<span><a href="tel:573148937533">(57) 314 893 7533</a></span>
+		<span><a href="mailto:nfo@contacticacomunicaciones.com">info@contacticacomunicaciones.com</a></span>
+	</div>
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Meeting2017</a></li>
+	        <li><a href="#">Programme</a></li>
+	        <li><a href="#">Speakers</a></li>
+	        <li><a href="#">Venue</a></li>
+	        <li><a href="#">Ticket</a></li>
+	        <li><a href="#">Sponsors</a></li>
+	        <li><a href="#bajo">Contact</a></li>
+	        
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+</header>
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/01.jpg"><div class="text2">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div></div>
 
 <div class="text">
 Scroll Up and Down this page to see the parallax scrolling effect.
@@ -14,7 +66,7 @@ This div is just here to enable scrolling.
 Tip: Try to remove the background-attachment property to remove the scrolling effect.
 </div>
 
-<div class="parallax" id="img2"></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/02.jpg"></div>
 
 <div class="text">
 Scroll Up and Down this page to see the parallax scrolling effect.
@@ -22,7 +74,7 @@ This div is just here to enable scrolling.
 Tip: Try to remove the background-attachment property to remove the scrolling effect.
 </div>
 
-<div class="parallax" id="img3"></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/03.jpg"></div>
 
 <div class="text">
 Scroll Up and Down this page to see the parallax scrolling effect.
@@ -30,7 +82,7 @@ This div is just here to enable scrolling.
 Tip: Try to remove the background-attachment property to remove the scrolling effect.
 </div>
 
-<div class="parallax" id="img4"></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/04.jpg"></div>
 
 <div class="text">
 Scroll Up and Down this page to see the parallax scrolling effect.
@@ -38,7 +90,44 @@ This div is just here to enable scrolling.
 Tip: Try to remove the background-attachment property to remove the scrolling effect.
 </div>
 
-<div class="parallax" id="img1"></div>
+<div id="bajo" class="parallax-window" data-parallax="scroll" data-image-src="img/01.jpg"></div>
+<!-- Scripts -->
 
+	<!--  jQuery 1.7+  -->
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<!-- Parallax Efect -->
+	<script src="parallax.js-1.4.2/parallax.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Include js plugin -->
+	<script src="owl-carousel/owl.carousel.js"></script>
+	<!--Slide Configuration-->
+	<script>
+		$(document).ready(function() {
+ 
+		$("#owl-demo").owlCarousel({
+ 
+	      navigation : false, // Show next and prev buttons
+	      slideSpeed : 1000,
+	      paginationSpeed : 1000,
+	      singleItem:true,
+	      autoPlay:true,
+	      pagination:false,
+  		});
+ 
+		});
+	</script>
+<!-- Google Analytics-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-73173122-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+<!-- **** -- >
 </body>
 </html>

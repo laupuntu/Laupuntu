@@ -1,33 +1,31 @@
-body, html {
-    height: 100%;
-}
+@charset 'UTF-8';
 
-#img1 {
-    background-image: url('../img/01.jpg');
-}
-#img2 {
-    background-image: url('../img/02.jpg');
-}
-#img3 {
-    background-image: url('../img/03.jpg');
-}
-#img4 {
-    background-image: url('../img/04.jpg');
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 .text {
+    box-sizing: border-box;
     width: 70%;
     height: 500px;
-    margin:0 auto;
-    background-color: red;
+    margin: 0 auto;
+    background: transparent;
+    display: flex;
 }
-.parallax {
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
-
+.text2{
+    padding-top: 50px;
+    box-sizing: border-box;
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    background: transparent;
+}
+.nav {
+    padding-right: 100px;
+}
