@@ -1,31 +1,145 @@
 @charset 'UTF-8';
 
+/**************
+CSS PRINCIPAL
+************/
+/*
+Corporativos
+Azul Cielo ContacUp: #0088aa
+Rojo Hover: #f00304
+Blanco Azulado Brand Text: #e2e5e6
+Rojo Oscuro Headers Articles: #d40000
+Blanco Gris Fondos Secciones: #ececec
+Gris Textos: #959595
+Gris textos strong: #747474
+Azul Cielo Titulos. #2d97b2q
+Gris Footer: #666666
+
+*/
+
+/*Reset Inicial*/
+
 *   {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-decoration: none;
-}
-.text {
-    box-sizing: border-box;
-    width: 70%;
-    height: 500px;
-    margin: 0 auto;
-    background: transparent;
-    display: flex;
 }
 .parallax-window {
     min-height: 400px;
     background: transparent;
 }
-.text2{
-    padding-top: 50px;
-    box-sizing: border-box;
-    width: 70%;
-    height: 500px;
+body {
+    padding-top: 30px;
+}
+/**********/
+/* Wrapper */
+
+/* Header */
+.wrap {
+    width: 100%;
+    background-color: #0088aa;
+    position: fixed;
+    top: 0;
+}
+.wrapper {
+    width: 992px;
     margin: 0 auto;
-    background: transparent;
 }
-.nav {
-    padding-right: 100px;
+.contactUp {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    flex-flow:row no-wrap;
+    height: 30px;
+    color: #ffffff;
+    width: 60%;
+    margin-left: auto;
 }
+.contacto p{
+    padding: 5px 0;
+    padding-right: 15px;  
+    font-size: 0.85em;
+}
+.contacto p span {
+    padding-right: 10px;
+}
+.contacto p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.contacto a:hover {
+    color:darkblue;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+/* Navegation Bar */
+#menu {
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    top: 30px;
+    position: fixed;
+}
+#list {
+    margin-right: -4%;
+
+}
+#list li a {
+    color: #ffffff;
+}
+/**********/
+
+/* Section 1 */
+
+/***********/
+
+/* Section 2 */
+
+/***********/
+
+/* Section 3 */
+
+/***********/
+
+/* Section 4 */
+
+/***********/
+
+/* Section 5 */
+
+/***********/
+
+/* Section 6 */
+
+/***********/
+
+/* Section 7 */
+
+/***********/
+
+/* Section 8 */
+
+/***********/
+
+/* Section 9 */
+
+/***********/
+
+/* Section 10 */
+
+/***********/
+
+/* Section 11 */
+
+/***********/
+
+/* Footer */
+
+/***********/
