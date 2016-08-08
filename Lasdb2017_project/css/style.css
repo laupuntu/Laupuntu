@@ -5,15 +5,24 @@ CSS PRINCIPAL
 ************/
 /*
 Corporativos
-Azul Cielo ContacUp: #0088aa
-Rojo Hover: #f00304
-Blanco Azulado Brand Text: #e2e5e6
-Rojo Oscuro Headers Articles: #d40000
-Blanco Gris Fondos Secciones: #ececec
-Gris Textos: #959595
-Gris textos strong: #747474
-Azul Cielo Titulos. #2d97b2q
-Gris Footer: #666666
+Azul: #0088aa;
+Rojo: #da1418;
+
+*******
+Fonts
+*******
+
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Mono', monospace;
+font-family: 'Ubuntu Condensed', sans-serif;
+
+*****
+Titulos Noticias: 16 pt;
+Contenido Noticias: 10pt;
+Titulo seccion: 20pt;
+Subtitulo seccion: 14pt;
+Contenido Principal Seccion: 13pt;
+Contenido Secundario Seccion: 10pt;
 
 */
 
@@ -79,8 +88,6 @@ body {
 /* Navegation Bar */
 #menu {
     width: 100%;
-    border: 0;
-    border-radius: 0;
     padding: 0;
     margin: 0;
     background-color: transparent;
