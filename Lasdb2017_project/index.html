@@ -18,7 +18,7 @@
 	<!-- Web Page Style -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="loadText()">
 	<header>
 		<!--Contacto-->
 		<div class="wrap">
@@ -31,65 +31,96 @@
 			</div>
 		</div>
 		<!--Menu-->
-		<nav id="menu">
-		      <ul id="list" class="nav navbar-nav navbar-right">
-		        <li><a href="#">Meeting2017</a></li>
-		        <li><a href="#">Programme</a></li>
-		        <li><a href="#">Speakers</a></li>
-		        <li><a href="#">Venue</a></li>
-		        <li><a href="#">Ticket</a></li>
-		        <li><a href="#">Sponsors</a></li>
-		        <li><a href="#bajo">Contact</a></li>
-		      </ul>
-		</nav>
-
+		<div class="wrapper">	
+			<nav>
+			      <ul>
+			        <li><a href="#meet">Meeting2017</a></li>
+			        <li><a href="#prog">Programme</a></li>
+			        <li><a href="#speak">Speakers</a></li>
+			        <li><a href="#venue">Venue</a></li>
+			        <li><a href="#tick">Ticket</a></li>
+			        <li><a href="#spons">Sponsors</a></li>
+			        <li><a href="#cont">Contact</a></li>
+			      </ul>
+			</nav>
+		</div>
 	</header>
 
-		<div class="parallax-window" data-parallax="scroll" data-image-src="imagenes/slide/Slide_blue1.jpg"></div>
-
-		<div class="text">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa saepe omnis assumenda at, magni veniam ullam aspernatur, consequatur, id tenetur rerum esse asperiores quis excepturi eum? Facilis similique, architecto reprehenderit.
+		<section class="parallax-window" data-parallax="scroll" data-image-src="imagenes/slide/Slide_blue1.jpg">
+		<div class="wrapper content">
+			<img id="logo" src="imagenes/logos/lasdb_logo_white.png" alt="Logo Lasdb2017">
+			<h1 id="textlogo"><span id="le1">IX</span><br><span id="le2">LATIN AMERICAN SOCIETY FOR</span><br><span id="le3">DEVELOPMENTAL</span><br><span id="le4">BIOLOGY</span><br><span id="le5">MEETING 2017</span></h1>
+			<p id="dateplace"><span>9<sup>TH</sup> - 13<sup>TH</sup> OCTOBER</span><span> MEDELLIN - COLOMBIA</span></p>
 		</div>
+		</section>
 
-		<div class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fondos/lasdb_intro.jpg"></div>
+		<section class="wrapper content news">
+		<div class="info">
+			<article>
+				<header>
+					<img src="imagenes/iconos/icon_resumen.png" alt="Icono Convocatoria Resumenes" class="icons">
+					<h2>CONVOCATORIA PARA<br>RESUMENES ABIERTA</h2>
+				</header>
+				<p id="text1"></p>
+				<footer>
+				<a href="http://www.google.com" target="blanck">Más información
+				<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</footer>
+			</article>
+			<div class="line"></div>
+			<article>
+				<header>
+					<img src="imagenes/iconos/icon_inscripciones.png" alt="Icono Inscrip" class="icons">
+					<h2>INSCRIPCIONES CON<br>DESCUENTO</h2>
+				</header>
+				<p id="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ex, doloremque omnis quisquam, fugit facilis inventore consequuntur voluptatum nobis deleniti molestiae nam! Recusandae nihil numquam nobis, non rerum accusantium obcaecati?</p>
+				<footer>
+				<a href="http://www.bing.com" target="blanck">Más información
+				<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</footer>
+			</article>
+		</div>
+		</section>
 
-		<div class="text">
+		<section class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fondos/lasdb_intro.jpg"><div class="wrapper content"></div></section>
+
+		<section class="wrapper content">
 		Scroll Up and Down this page to see the parallax scrolling effect.
 		This div is just here to enable scrolling.
 		Tip: Try to remove the background-attachment property to remove the scrolling effect.
-		</div>
+		</section>
 
-		<div class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fondos/speakers.jpg"></div>
+		<section class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fondos/speakers.jpg"><div class="wrapper content"></div></section>
 
-		<div class="text">
+		<section class="wrapper content">
 		Scroll Up and Down this page to see the parallax scrolling effect.
 		This div is just here to enable scrolling.
 		Tip: Try to remove the background-attachment property to remove the scrolling effect.
-		</div>
+		</section>
 
-		<div id="bajo" class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fondos/city.jpg"></div>
+		<section id="bajo" class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fondos/city.jpg"><div class="wrapper content"></div></section>
 
-		<div class="text">
+		<section class="wrapper content">
 		Scroll Up and Down this page to see the parallax scrolling effect.
 		This div is just here to enable scrolling.
 		Tip: Try to remove the background-attachment property to remove the scrolling effect.
-		</div>
+		</section>
 
-		<div id="bajo" class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fondos/city2.jpg"></div>
+		<section id="bajo" class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fondos/city2.jpg"><div class="wrapper content"></div></section>
 
-		<div class="text">
+		<section class="wrapper content">
 		Scroll Up and Down this page to see the parallax scrolling effect.
 		This div is just here to enable scrolling.
 		Tip: Try to remove the background-attachment property to remove the scrolling effect.
-		</div>
+		</section>
 
-		<div id="bajo" class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fondos/newsletter.jpg"></div>
+		<section id="bajo" class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fondos/newsletter.jpg"><div class="wrapper content"></div></section>
 
-		<div class="text">
+		<section class="wrapper content">
 		Scroll Up and Down this page to see the parallax scrolling effect.
 		This div is just here to enable scrolling.
 		Tip: Try to remove the background-attachment property to remove the scrolling effect.
-		</div>
+		</section>
 
 <!-- Scripts -->
 
@@ -99,22 +130,8 @@
 	<script src="parallax.js-1.4.2/parallax.min.js"></script>
 	<!-- Include js plugin -->
 	<script src="owl-carousel/owl.carousel.js"></script>
-	<!--Slide Configuration-->
-	<script>
-		$(document).ready(function() {
- 
-		$("#owl-demo").owlCarousel({
- 
-	      navigation : false, // Show next and prev buttons
-	      slideSpeed : 1000,
-	      paginationSpeed : 1000,
-	      singleItem:true,
-	      autoPlay:true,
-	      pagination:false,
-  		});
- 
-		});
-	</script>
+	<!--Configuration Interactions-->
+	<script src="js/interactions.js"></script>
 <!-- Google Analytics-->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

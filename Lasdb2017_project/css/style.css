@@ -32,6 +32,9 @@ Contenido Secundario Seccion: 10pt;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
 }
 .parallax-window {
     min-height: 400px;
@@ -41,7 +44,6 @@ body {
     padding-top: 30px;
 }
 /**********/
-/* Wrapper */
 
 /* Header */
 .wrap {
@@ -51,9 +53,10 @@ body {
     top: 0;
 }
 .wrapper {
-    width: 992px;
+    max-width: 814px;
     margin: 0 auto;
 }
+/*-----*/
 .contactUp {
     display: -webkit-flex;
     display: flex;
@@ -66,9 +69,12 @@ body {
     margin-left: auto;
 }
 .contacto p{
-    padding: 5px 0;
+    padding-top: 7px;
     padding-right: 15px;  
-    font-size: 0.85em;
+    font-size: 0.67em;
+}
+.contacto p:last-child {
+    padding-right: 0;
 }
 .contacto p span {
     padding-right: 10px;
@@ -85,30 +91,144 @@ body {
     -o-transition: 1s;
     transition: 1s;
 }
-/* Navegation Bar */
-#menu {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+/* Menu */
+nav {
     background-color: transparent;
-    top: 30px;
-    position: fixed;
+    text-align: right;
+    word-spacing: 22px;
 }
-#list {
-    margin-right: -4%;
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+}
 
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px 2px;
+    font-size: 0.67em;
 }
-#list li a {
-    color: #ffffff;
-}
+
+
 /**********/
-
+/*Sections Reset*/
+.content {
+    height: 400px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
 /* Section 1 */
+#logo {
+    float: left;
+    margin-top: 60px;
+    margin-left: 117px;
+}
+#textlogo {
+    height: 160px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 30px;
+    vertical-align: ;
+}
+#le1 {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+}
+#le2 {
+    font-size: 0.75em;
+    letter-spacing: 0.3em;
+}
+#le3 {
+    font-size: 1em;
+    letter-spacing: 0.3em;
+}
+#le4 {
+    font-size: 1.5em;
+    letter-spacing: 0.3em;
+}
+#le5 {
+    font-size: 1em;
+    letter-spacing: 0.3em;
+}
+#dateplace {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    clear: both;
+    width: 100%;
+    letter-spacing: 0.2em;
+}
+#dateplace sup {
+    margin-left: -3px;
+    letter-spacing: 0;
+    font-size: .4em;
+}
 
 /***********/
-
+/*Reset Section*/
+.info a {
+    text-decoration: none;
+    font-size: 0.625em;
+    color: #6f6f6f;
+}
+.news {
+    height: auto;
+}
 /* Section 2 */
+.line {
+    height: 160px;
+    width: 4px;
+    background-color: #da1418;
 
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 46px;
+
+}
+.icons {
+    width: 37px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+.info h2 {
+    float: left;
+}
+#text1,#text2 {
+    clear: both;
+}
+.info footer {
+    text-align: right;
+}
+.info article {
+    padding-right: 60px;
+    margin-bottom: 25px;
+}
+.info article:last-child {
+    padding-left: 50px;
+    padding-right: 0;
+}
+.info p {
+    padding: 30px 0;
+}
+.info i {
+    margin-left: 15px;
+    color: #da1418;
+}
+.info header {
+    font-size: 1em;
+    color: #da1418;
+}
+.info p {
+    font-size: 0.625em;
+    color: #6f6f6f;
+}
 /***********/
 
 /* Section 3 */
