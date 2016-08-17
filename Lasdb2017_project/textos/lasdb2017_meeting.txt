@@ -1,8 +1,6 @@
-﻿LASDB 2017 MEETING
-
 The LADSDB meeting will be an inspiring conference for all those working in any of the colliding themes in developmental biology, whether it is the cellular and molecular signalling underlying developmental changes, gene regulatory networks and their evolution, transcriptional regulation and organogenesis, cell differentiation, stem cell biology, neurobiology or regeneration. This is an exciting opportunity for all developmental biologists in the Americas and around the world, to meet and discuss advances, approaches, experiences and framing new leading questions in the field.      
 
-MEETING HIGHLIGHTS
+<h1>MEETING HIGHLIGHTS</h1>
 
 The LASDB meeting 2017 will bring together a leading group of international scientists and a vibrant student body representing the multiple fronts in the modern field of Developmental Biology.
 
