@@ -202,7 +202,7 @@ nav ul li a {
 /* Section 2 */
 .line {
     height: 145px;
-    width: 3px;
+    width: 1px;
     background-color: #da1418;
 }
 .info {
@@ -291,8 +291,106 @@ nav ul li a {
     letter-spacing: 0.1em;
 }
 /***********/
-
+/*Reset Section*/
+#prog ul li {
+    list-style: none;
+}
+#prog ol li {
+    font-size: 0.8em;
+}
+#prog {
+    color: #6f6f6f;
+    padding-bottom: 50px;
+}
 /* Section 4 */
+#prog h1 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 15px;
+    color: #da1418;
+    font-size: 1.250em;
+    letter-spacing: 0.1em;
+}
+#prog hr {
+    margin:  0 auto;
+    height: 1px;
+    width: 40px;
+    background-color: #da1418;
+    border: none;
+}
+.program {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+/* Seccion lado Izquierdo Programme */
+.program ol span {
+    margin-left: -10px;
+}
+.program ol li {
+    margin-bottom: 10px;
+}
+/*Seccion Tabla*/
+.divTable{
+    display: table;
+    width: 100%;
+    font-size: 0.813em;
+}
+.divTableRow {
+    display: table-row;
+}
+.divTableHeading {
+    display: table-header-group;
+}
+.divTableCell, .divTableHead {
+    display: table-cell;
+    padding: 11px 21px;
+}
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+.divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+}
+.divTableBody {
+    display: table-row-group;
+}
+.divTableRow .divTableCell:last-child {
+    padding-right: 0;
+}
+.divTableRow .divTableCell:first-child {
+    padding-left: 0;
+}
+/* Menu Tabla */
+.program nav a {
+    text-decoration: none;
+}
+.program nav img {
+    width: 21px;
+    height: auto;
+    float: left;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+.program nav {
+    margin-top: 35px;
+    border-top: 1px solid #6f6f6f;
+    padding-top: 16px;
+    text-align: center;
+    word-spacing: 0.1em;
+}
+.program nav span {
+    padding: 0 30px 0 30px;
+
+}
+.program nav span:hover {
+    transition: 1s;
+    color: #da1418;
+    cursor: pointer;
+}
 
 /***********/
 
