@@ -68,7 +68,6 @@ body {
 .wrap {
     width: 100%;
     background-color: #0088aa;
-    position: fixed;
     top: 0;
 }
 .wrapper {
@@ -393,9 +392,65 @@ nav ul li a {
 }
 
 /***********/
-
+/*Reset Seccion*/
+.dif {
+   padding-bottom: 50px;
+}
+.speak {
+    height: 840px;
+    background-color: rgba(255, 255, 255,.7);
+    color: #0088aa;
+    word-spacing: 0.1em;
+}
+.box {
+    margin: 30px 100px 100px 100px;
+}
 /* Section 5 */
-
+.speak h1 {
+    text-align: center;
+    color: #0088aa;
+    font-size: 1.250em;
+    letter-spacing: 0.1em;
+    padding-top: 32px;
+    padding-bottom: 15px;
+}
+.speak hr {
+    margin:  0 auto;
+    height: 1px;
+    width: 40px;
+    background-color: #0088aa;
+    border: none;
+}
+.box img {
+    float: left;
+}
+.box div {
+    background-color: #0088aa;
+    color: #FFFFFF;
+    margin-left: 260px;
+    height: 250px;
+    font-size: 0.813em;
+}
+#viptext h2 {
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-bottom: 12px;
+    font-size: 1.250em;
+    letter-spacing: 0.15em;
+    word-spacing: 0.2em;
+}
+#viptext h3 {
+    padding-left: 40px;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+#viptext h3:last-child {
+    padding-top: 22px;
+    color:  #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+} 
 /***********/
 
 /* Section 6 */
