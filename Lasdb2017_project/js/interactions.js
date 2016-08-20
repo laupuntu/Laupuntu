@@ -4,12 +4,15 @@
  
 		$("#owl-demo").owlCarousel({
  
-	      navigation : false, // Show next and prev buttons
-	      slideSpeed : 1000,
-	      paginationSpeed : 1000,
-	      singleItem:true,
-	      autoPlay:true,
-	      pagination:false,
+	    autoPlay: false, //Set AutoPlay to 3 seconds
+	    items : 1,
+	    itemsDesktop : [1199,1],
+	    itemsDesktopSmall : [979,1],
+    	afterInit : function(elem){
+     		 var that = this
+    		  that.owlControls.prependTo(elem)
+    		},
+    	transitionStyle : "backSlide"
   		});
  
 		});

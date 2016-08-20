@@ -40,9 +40,9 @@ Contenido Secundario Seccion: 10pt;
     min-height: 400px;
     background: transparent;
 }
-body {
+/* body {
     padding-top: 30px;
-}
+} */
 
 /*Scroll Bar Solo funciona en Chrome*/
 
@@ -69,6 +69,7 @@ body {
     width: 100%;
     background-color: #0088aa;
     top: 0;
+/*     position: fixed; */
 }
 .wrapper {
     max-width: 814px;
@@ -421,6 +422,7 @@ nav ul li a {
     background-color: #0088aa;
     border: none;
 }
+/*VIP*/
 .box img {
     float: left;
 }
@@ -450,7 +452,130 @@ nav ul li a {
     color:  #FFFFFF;
     font-weight: 400;
     letter-spacing: 0.05em;
-} 
+}
+/*Slider*/
+#owl-demo {
+    width: 100%;
+}
+#owl-demo .item{
+    display: block;
+    width: 75.43%;
+    height: 300px;
+    margin: 0 auto;
+}
+.owl-theme .owl-controls {
+    margin-top: -120px;
+    margin-bottom: 26px;
+    margin-right: 100px;
+    text-align: right;
+}
+.owl-theme .owl-controls .owl-page span{
+    border: 2px solid #0088aa;
+    background:  transparent;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background:  #0088aa;
+}
+/* backSlide */
+.owl-backSlide-out {
+  animation: backSlideOut 2s both ease;
+}
+.owl-backSlide-in {
+  animation: backSlideIn 2s both ease;
+}
+/*Speakers*/
+#animal {
+    margin-top: 36px;
+}
+/*Info Clientes*/
+.secdown {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content:space-between;
+}
+.icof {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    background-color: #0088aa;
+    color: #FFFFFF;
+    padding: 12px;
+    text-align: left;
+    letter-spacing: 0.051em;
+}
+.icof h2 {
+    font-weight: 700;
+    font-size: 0.813em;
+}
+.icof h3 {
+    font-size: 0.625em;
+    padding-top: 5px;
+}
+.icof p {
+    height: 50px;
+    margin-top: 50px;
+    font-size: 0.625em;
+    overflow: scroll;
+}
+.icof div {
+    display: none;
+}
+#item1 {
+    background-image: url('../imagenes/speakers/Alejandro_Sanchez.jpg');
+}
+#item2 {
+    background-image: url('../imagenes/speakers/Carole_Labonne.jpg');
+}
+#item3 {
+    background-image: url('../imagenes/speakers/Jesus_Monroy.jpg');
+}
+#item4 {
+    background-image: url('../imagenes/speakers/Joachim_Wittbrodt.jpg');
+}
+#item5 {
+    background-image: url('../imagenes/speakers/Mariana_Barna.jpg');
+}
+#item6 {
+    background-image: url('../imagenes/speakers/Miguel_Concha.jpg');
+}
+#item7 {
+    background-image: url('../imagenes/speakers/Robb_Krumlauf.jpg');
+}
+#item8 {
+    background-image: url('../imagenes/speakers/Roberto_Mayor.jpg');
+}
+/*Hover Speakers*/
+
+
+#item1:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Alejandro_Sanchez.jpg');
+}
+#item1:hover div {
+    display: block;
+}
+#item2:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Carole_Labonne.jpg');
+}
+#item3:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Jesus_Monroy.jpg');
+}
+#item4:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Joachim_Wittbrodt.jpg');
+}
+#item5:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Mariana_Barna.jpg');
+}
+#item6:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Miguel_Concha.jpg');
+}
+#item7:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Robb_Krumlauf.jpg');
+}
+#item8:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Roberto_Mayor.jpg');
+}
 /***********/
 
 /* Section 6 */
