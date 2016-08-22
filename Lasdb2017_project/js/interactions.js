@@ -40,13 +40,31 @@ function loadText() {
 	xhttp2.open("GET","textos/noticia_inscripciones.txt", true);
 	xhttp2.send();
 
-		var xhttp3 = new XMLHttpRequest();
+	var xhttp3 = new XMLHttpRequest();
 	xhttp3.onreadystatechange = function() {
-		if (xhttp2.readyState == 4 && xhttp3.status == 200) {
+		if (xhttp3.readyState == 4 && xhttp3.status == 200) {
 			document.querySelector("#text3").innerHTML = xhttp3.responseText;		
 		}
 	};
 	xhttp3.open("GET","textos/lasdb2017_meeting.txt", true);
 	xhttp3.send();
+
+	var xhttp4 = new XMLHttpRequest();
+	xhttp4.onreadystatechange = function() {
+		if (xhttp4.readyState == 4 && xhttp4.status == 200) {
+			document.querySelector("#text4").innerHTML = xhttp4.responseText;		
+		}
+	};
+	xhttp4.open("GET","textos/meeting_venue.txt", true);
+	xhttp4.send();
+
+	var xhttp5 = new XMLHttpRequest();
+	xhttp5.onreadystatechange = function() {
+		if (xhttp5.readyState == 4 && xhttp5.status == 200) {
+			document.querySelector("#text5").innerHTML = xhttp5.responseText;		
+		}
+	};
+	xhttp5.open("GET","textos/welcome_medellin.txt", true);
+	xhttp5.send();
 }
 

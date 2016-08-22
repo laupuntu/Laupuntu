@@ -384,7 +384,9 @@ nav ul li a {
 }
 .program nav span {
     padding: 0 30px 0 30px;
-
+}
+.program nav span:first-child {
+    color: #da1418;
 }
 .program nav span:hover {
     transition: 1s;
@@ -597,6 +599,7 @@ nav ul li a {
     display: block;
 }
 /***********/
+
 /* Section 6 */
 #venue h1 {
     text-align: center;
@@ -640,8 +643,81 @@ nav ul li a {
     overflow: auto;
 }
 /***********/
-
+/*Reset Section*/
+#welmed {
+    height: 700px;
+    background-color: rgba(255, 255, 255,.7);
+    color: #0088aa;
+    word-spacing: 0.1em;
+}
 /* Section 7 */
+#welmed h1 {
+    text-align: center;
+    color: #0088aa;
+    font-size: 1.250em;
+    letter-spacing: 0.1em;
+    padding-top: 32px;
+    padding-bottom: 15px;
+}
+#welmed hr {
+    margin:  0 auto;
+    height: 1px;
+    width: 40px;
+    background-color: #0088aa;
+    border: none;
+}
+#welmed div {
+    margin-top: 26px;
+    margin-bottom: 40px;
+}
+#welmed div img {
+    float: left;
+    margin-left: 100px;
+    width: 205px;
+    height: 275px;
+}
+#welmed div p {
+    color: #6f6f6f;
+    margin-left: 334px;
+    margin-right: 100px;
+    font-size: 0.813em;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    line-height: 1.7em;
+    text-align: justify;
+    max-height: 275px;
+    overflow: auto;
+}
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 36px;
+}
+.box2 ul {
+    margin-top: 123px;
+    list-style-type: none;
+}
+.box2 ul i {
+    margin:  6px 12px 0 0;
+    float: left;
+    color: #da1418;
+}
+.box2 li {
+    line-height: 1.7em;
+    text-align: right;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+}
+.box2 li a {
+    color: #6f6f6f;
+    text-decoration: none;
+}
+#welmed iframe{
+    border: 13px solid #FFFFFF;
+}
 
 /***********/
 
