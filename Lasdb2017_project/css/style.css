@@ -597,10 +597,6 @@ nav ul li a {
     display: block;
 }
 /***********/
-/*Reset Section*/
-.content {
-    background-color: transparent;
-}
 /* Section 6 */
 #venue h1 {
     text-align: center;
@@ -620,6 +616,28 @@ nav ul li a {
 /*Google Maps*/
 #venue iframe{
     margin-top: 30px;
+}
+#venue div {
+    margin-top: 37px;
+    margin-bottom: 50px;
+}
+#venue div img {
+    width: 275px;
+    height: 200px;
+    float: left;
+}
+#venue p {
+    color: #6f6f6f;
+    padding-top: 0;
+    margin-left: 304px;
+    margin-right: 45px;
+    font-size: 0.813em;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    line-height: 1.7em;
+    text-align: justify;
+    max-height: 200px;
+    overflow: auto;
 }
 /***********/
 
