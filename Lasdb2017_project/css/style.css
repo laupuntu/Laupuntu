@@ -460,12 +460,12 @@ nav ul li a {
 #owl-demo .item{
     display: block;
     width: 75.43%;
-    height: 300px;
+    height: 400px;
     margin: 0 auto;
 }
 .owl-theme .owl-controls {
-    margin-top: -120px;
-    margin-bottom: 26px;
+    margin-top: -60px;
+    margin-bottom: -20px;
     margin-right: 100px;
     text-align: right;
 }
@@ -484,11 +484,11 @@ nav ul li a {
 .owl-backSlide-in {
   animation: backSlideIn 2s both ease;
 }
-/*Speakers*/
+/*Exposition Title*/
 #animal {
-    margin-top: 36px;
+    margin-bottom: 36px;
 }
-/*Info Clientes*/
+/*Info Speakers*/
 .secdown {
     display: flex;
     align-items: center;
@@ -522,6 +522,7 @@ nav ul li a {
 .icof div {
     display: none;
 }
+/*Speakers Photo*/
 #item1 {
     background-image: url('../imagenes/speakers/Alejandro_Sanchez.jpg');
 }
@@ -547,8 +548,6 @@ nav ul li a {
     background-image: url('../imagenes/speakers/Roberto_Mayor.jpg');
 }
 /*Hover Speakers*/
-
-
 #item1:hover {
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Alejandro_Sanchez.jpg');
 }
@@ -558,28 +557,70 @@ nav ul li a {
 #item2:hover {
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Carole_Labonne.jpg');
 }
+#item2:hover div {
+    display: block;
+}
 #item3:hover {
-    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Jesus_Monroy.jpg');
+   background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Jesus_Monroy.jpg');
+}
+#item3:hover div {
+    display: block;
 }
 #item4:hover {
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Joachim_Wittbrodt.jpg');
 }
+#item4:hover div {
+    display: block;
+}
 #item5:hover {
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Mariana_Barna.jpg');
+}
+#item5:hover div {
+    display: block;
 }
 #item6:hover {
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Miguel_Concha.jpg');
 }
+#item6:hover div {
+    display: block;
+}
 #item7:hover {
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Robb_Krumlauf.jpg');
+}
+#item7:hover div {
+    display: block;
 }
 #item8:hover {
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Roberto_Mayor.jpg');
 }
+#item8:hover div {
+    display: block;
+}
 /***********/
-
+/*Reset Section*/
+.content {
+    background-color: transparent;
+}
 /* Section 6 */
-
+#venue h1 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 15px;
+    color: #da1418;
+    font-size: 1.250em;
+    letter-spacing: 0.1em;
+}
+#venue hr {
+    margin:  0 auto;
+    height: 1px;
+    width: 40px;
+    background-color: #da1418;
+    border: none;
+}
+/*Google Maps*/
+#venue iframe{
+    margin-top: 30px;
+}
 /***********/
 
 /* Section 7 */

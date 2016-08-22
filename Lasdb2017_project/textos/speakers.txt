@@ -1,4 +1,4 @@
-﻿SPEAKERS
+SPEAKERS
 
 
 Nobel Awardee
@@ -24,7 +24,7 @@ Laboratory of Experimental Ontogeny, Chile
  Epithelial organization, epiboly and gastrulation
 
 Robb Krumlauf 
-Stowers Institute for Medical Research, USA 
+Stowers Institute for Medical Research, USA
 Hox gene regulation and evolution
 
 Carole LaBonne 
@@ -32,7 +32,7 @@ Northwestern University, USA
  Stem cells during Xenopus development
 
 Roberto Mayor 
-University College London, UK 
+University College London, UK
 Development of the neural crest 
 
 Alejandro Sánchez-Alvarado
