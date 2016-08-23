@@ -32,8 +32,8 @@ Contenido Secundario Seccion: 10pt;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.97em;
     font-weight: 400;
 }
 .parallax-window {
@@ -211,8 +211,6 @@ nav ul li a {
     padding-top: 46px;
 }
 .icons {
-    width: 37px;
-    height: auto;
     float: left;
     margin-right: 20px;
 }
@@ -223,6 +221,7 @@ nav ul li a {
     clear: both;
 }
 .info footer {
+    margin-top: 10px;
     text-align: right;
 }
 .info article {
@@ -235,18 +234,21 @@ nav ul li a {
 .info p {
     padding: 30px 0;
     width: 350px;
-    height: 90px;
-    font-size: 0.625em;
+    max-height: 80px;
+    font-size: 0.7em;
     color: #6f6f6f;
     overflow: hidden;
 }
-.info i {
+.info article footer a i {
     margin-left: 15px;
     color: #da1418;
 }
 .info header {
     font-size: 1em;
     color: #da1418;
+}
+.info article footer a {
+    font-size: 0.8em;
 }
 /***********/
 /*Reset Section*/
@@ -256,7 +258,7 @@ nav ul li a {
 .met {
     height: 300px;
     background-color: rgba(255, 255, 255,.7);
-    color: #FFFFFF;
+    color: #6f6f6f;
     word-spacing: 0.1em;
 }
 /* Section 3 */
@@ -336,6 +338,7 @@ nav ul li a {
     display: table;
     width: 100%;
     font-size: 0.813em;
+    margin-left: 20px;
 }
 .divTableRow {
     display: table-row;
@@ -368,14 +371,9 @@ nav ul li a {
 .program nav a {
     text-decoration: none;
 }
-.program nav img {
-    width: 21px;
-    height: auto;
-    float: left;
-    margin-top: -5px;
-    margin-left: 10px;
-}
 .program nav {
+    width: calc(100% -20px);
+    margin-left: 20px;
     margin-top: 35px;
     border-top: 1px solid #6f6f6f;
     padding-top: 16px;
@@ -474,6 +472,9 @@ nav ul li a {
 .owl-theme .owl-controls .owl-page span{
     border: 2px solid #0088aa;
     background:  transparent;
+    position: relative;
+    left: 10px;
+    z-index: 1000;
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
@@ -489,6 +490,8 @@ nav ul li a {
 /*Exposition Title*/
 #animal {
     margin-bottom: 36px;
+    font-size: 1.1em;
+
 }
 /*Info Speakers*/
 .secdown {
