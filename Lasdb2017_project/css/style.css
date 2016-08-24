@@ -40,10 +40,10 @@ Contenido Secundario Seccion: 10pt;
     min-height: 400px;
     background: transparent;
 }
-/* body {
-    padding-top: 30px;
-} */
-
+body {
+    background-color: #ececec;
+/*     padding-top: 30px; */
+}
 /*Scroll Bar Solo funciona en Chrome*/
 
 ::-webkit-scrollbar {
@@ -232,12 +232,13 @@ nav ul li a {
     padding-right: 0;
 }
 .info p {
-    padding: 30px 0;
+    margin-top: 50px;
     width: 350px;
+    height: 60px;
     max-height: 80px;
-    font-size: 0.7em;
+    font-size: 0.75em;
     color: #6f6f6f;
-    overflow: hidden;
+    overflow: auto;
 }
 .info article footer a i {
     margin-left: 15px;
@@ -289,8 +290,7 @@ nav ul li a {
     margin-top: 30px;
     text-align: justify;
     overflow: scroll;
-    font-size: 0.813em;
-    letter-spacing: 0.1em;
+    font-size: 0.9em;
 }
 /***********/
 /*Reset Section*/
@@ -328,17 +328,18 @@ nav ul li a {
 }
 /* Seccion lado Izquierdo Programme */
 .program ol span {
-    margin-left: -10px;
+    margin-left: 0;
 }
 .program ol li {
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 /*Seccion Tabla*/
 .divTable{
     display: table;
-    width: 100%;
+    width: 95%;
     font-size: 0.813em;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .divTableRow {
     display: table-row;
@@ -372,16 +373,16 @@ nav ul li a {
     text-decoration: none;
 }
 .program nav {
-    width: calc(100% -20px);
-    margin-left: 20px;
-    margin-top: 35px;
+    width: calc(100% - 34px);
+    margin-left: 40px;
+    margin-top: 25px;
     border-top: 1px solid #6f6f6f;
-    padding-top: 16px;
+    padding-top: 30px;
     text-align: center;
     word-spacing: 0.1em;
 }
 .program nav span {
-    padding: 0 30px 0 30px;
+    padding: 0 20px 0 30px;
 }
 .program nav span:first-child {
     color: #da1418;
@@ -395,7 +396,8 @@ nav ul li a {
 /***********/
 /*Reset Seccion*/
 .dif {
-   padding-bottom: 50px;
+    padding-top: 41px;  
+    padding-bottom: 50px;
 }
 .speak {
     height: 840px;
@@ -512,16 +514,16 @@ nav ul li a {
 }
 .icof h2 {
     font-weight: 700;
-    font-size: 0.813em;
+    font-size: 1em;
 }
 .icof h3 {
-    font-size: 0.625em;
+    font-size: 0.8em;
     padding-top: 5px;
 }
 .icof p {
     height: 50px;
     margin-top: 50px;
-    font-size: 0.625em;
+    font-size: 0.8em;
     overflow: scroll;
 }
 .icof div {
@@ -625,7 +627,7 @@ nav ul li a {
 }
 #venue div {
     margin-top: 37px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 #venue div img {
     width: 275px;
@@ -700,11 +702,11 @@ nav ul li a {
     margin-top: 36px;
 }
 .box2 ul {
-    margin-top: 123px;
+    margin-top: 150px;
     list-style-type: none;
 }
 .box2 ul i {
-    margin:  6px 12px 0 0;
+    margin:  6px 15px 0 0;
     float: left;
     color: #da1418;
 }
@@ -713,6 +715,7 @@ nav ul li a {
     text-align: right;
     letter-spacing: 0.1em;
     word-spacing: 0.1em;
+    font-size: 1em;
 }
 .box2 li a {
     color: #6f6f6f;
@@ -725,7 +728,138 @@ nav ul li a {
 /***********/
 
 /* Section 8 */
+.tick h1 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 15px;
+    color: #da1418;
+    font-size: 1.250em;
+    letter-spacing: 0.1em;
+}
+.tick hr {
+    margin:  0 auto;
+    height: 1px;
+    width: 40px;
+    background-color: #da1418;
+    border: none;
+}
+.tableTicks {
+    margin-top:  30px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.uno {
+    width: 38%;
+    height: 300px;
+}
+.dos {
+    width: 58%;
+    height: 300px;
+}
+.caja {
+    background-color: #ececec;
+    height: auto;
+}
+.uno hr {
+    width: 111%;
+    height: 1px;
+    background-color: #808080;
+    border: none;
+}
+.dos hr {
+    width: 100%;
+    height: 1px;
+    background-color: #808080;
+    border: none;
+}
+.divTable1{
+    display: table;
+    width: 100%;
+    margin-left: 16px;
+    margin-bottom: 7px;
+}
 
+#caja1 {
+    width: 100%;
+    height: 30px;
+}
+.divTableRow1 {
+    display: table-row;
+}
+.divTableCell1 {
+    display: table-cell;
+    padding: 5px 10px;
+    color: #a3a3a3;
+    font-size: 1em;
+    text-align: center;
+}
+.divTableBody1 {
+    display: table-row-group;
+}
+.caja h4 {
+    margin: 7px 0 3px 0;
+    color: #da1418;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+}
+.textR {
+    text-align: right;
+    font-size: 0.9em;
+}
+.cellR {
+    margin-top: 3px;
+    margin-left: -11px;
+}
+.cellR1 {
+    margin-top: 1px;
+    margin-left: -17px;
+}
+.leftbox {
+    display: flex;
+    justify-content: space-between;
+}
+.tie {
+    padding: 25px 0 30px 18px;
+    color: #da1418;
+}
+.cap {
+    padding: 5px 0 0 10px;
+    color: #da1418;
+}
+.underg {
+    padding: 5px 0 0 15px;
+    color: #da1418;
+}
+.tick p {
+    text-align: right;
+    color: #a3a3a3;
+    font-size: 0.85em;
+    margin-top: -55px;
+    margin-bottom: 35px;
+}
+.button {
+    background-color: #da1418;
+    border: none;
+    color: white;
+    padding: 8px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9em;
+    margin: 0  340px;
+}
+.tick h5 a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #a3a3a3;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+.tick h5 {
+    margin: 20px 125px 70px 125px;
+}
 /***********/
 
 /* Section 9 */
