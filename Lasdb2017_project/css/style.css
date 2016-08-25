@@ -91,7 +91,7 @@ body {
 .contacto p{
     padding-top: 7px;
     padding-right: 15px;  
-    font-size: 0.67em;
+    font-size: 0.8em;
 }
 .contacto p:last-child {
     padding-right: 0;
@@ -104,18 +104,18 @@ body {
     color: #ffffff;
 }
 .contacto a:hover {
-    color:darkblue;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
+    font-size: 1em;
 }
 /* Menu */
-nav {
+.navbar {
+    width: 100%;
     background-color: transparent;
+    position: fixed;
+}
+nav {
     text-align: right;
     word-spacing: 22px;
+    padding: 13px 0;
 }
 nav ul {
     list-style: none;
@@ -123,22 +123,28 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
+    padding-top: 10px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #ececec;
     padding: 2px 2px;
-    font-size: 0.67em;
+    font-size: 0.9em;
 }
-
-
+nav ul li:hover {
+    border-top: 2px solid #da1418;
+    margin-top: -2px;
+}
 /**********/
 /*Sections Reset*/
 .content {
     height: 400px;
     background-color: rgba(255,0,0,0.6);
     color: #FFFFFF;
+}
+.main {
+    padding-top: 60px;
 }
 /* Section 1 */
 #logo {
@@ -1081,6 +1087,7 @@ nav ul li a {
 .end img {
     width: 253px;
     height: 129px;
+    margin-top: -20px;
 }
 .end h5 {
     text-align: center;
@@ -1096,6 +1103,7 @@ nav ul li a {
     letter-spacing: 0.06em;
     font-size: 0.8em;
     margin-bottom: 25px;
+    text-align: center;
 }
 .end h6 {
     text-align: center;
