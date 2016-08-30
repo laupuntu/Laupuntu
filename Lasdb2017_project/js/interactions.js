@@ -1,5 +1,4 @@
 /* Configuracion Carrusel Owl*/
-
 		$(document).ready(function() {
  
 		$("#owl-demo").owlCarousel({
@@ -70,4 +69,17 @@ function loadText() {
 	xhttp5.open("GET","textos/welcome_medellin.txt", true);
 	xhttp5.send();
 }
+/* Fijar menu en la parte de arriba cuando se haga scroll a la pagina */
+window.onscroll = function() {fixedtop()};
 
+function fixedtop() {
+	if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+		document.querySelector(".navbar").style.transition = "all 1s";
+		document.querySelector(".navbar").style.top = 0;
+		document.querySelector(".navbar").style.backgroundColor = "rgba(0,136,170,0.6)";
+		document.querySelector(".navbar").style.zIndex = "1";
+	} else {
+		document.querySelector(".navbar").style.top = "initial";
+		document.querySelector(".navbar").style.backgroundColor = "transparent";
+	}
+}
