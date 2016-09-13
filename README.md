@@ -17,6 +17,9 @@ Subtitulo seccion (mayus fija):14pt
 Contenido principal seccion: 13pt
 Contenido secundario seccion: 10pt
 
+interlineado de los textos de contenido es 1.5 
+(revisar seccion noticias y lasdb meeting)
+
 
 
 
