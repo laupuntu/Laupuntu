@@ -20,7 +20,7 @@ Contenido secundario seccion: 10pt
 interlineado de los textos de contenido es 1.5 
 (revisar seccion noticias y lasdb meeting)
 
-
+Disminuir tamaño iconos seccion tickets a un 80% del tamaño actual 
 
 
 
