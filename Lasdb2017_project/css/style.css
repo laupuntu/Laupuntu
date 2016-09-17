@@ -580,7 +580,7 @@ header nav ul li:hover {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 .icof {
     width: 150px;
@@ -614,6 +614,10 @@ header nav ul li:hover {
 }
 #item5 p, #item12 p, #item13 p, #item20 p, #item23 p,#item25 p,#item27 p, #item29 p{
     margin-top: 60px;
+}
+#item14, #item20 {
+    margin-right: auto;
+    margin-left: 4px;
 }
 /*Speakers Photo*/
 #item1 {
@@ -924,9 +928,7 @@ header nav ul li:hover {
     margin-left: 304px;
     margin-right: 45px;
     font-size: 0.813em;
-    letter-spacing: 0.1em;
-    word-spacing: 0.1em;
-    line-height: 1.7em;
+    line-height: 1.5;
     text-align: justify;
     max-height: 200px;
     overflow: auto;
@@ -970,9 +972,7 @@ header nav ul li:hover {
     margin-left: 334px;
     margin-right: 100px;
     font-size: 0.813em;
-    letter-spacing: 0.1em;
-    word-spacing: 0.1em;
-    line-height: 1.7em;
+    line-height: 1.5;
     text-align: justify;
     max-height: 275px;
     overflow: auto;
