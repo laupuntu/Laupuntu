@@ -75,6 +75,12 @@ body {
     margin: 0 auto;
     color: #FFFFFF;
 }
+.menu_bar {
+    text-align: right;
+    cursor: pointer;
+    display:none;
+}
+
 /*-----*/
 .contactUp {
     display: -webkit-flex;
@@ -134,6 +140,31 @@ nav ul li a {
 nav ul li:hover {
     border-top: 2px solid #da1418;
     margin-top: -2px;
+}
+.navimg {
+    float: left;
+    margin-left: 120px;
+    margin-top: -4px;
+    padding-bottom: 10px;
+    display: none;
+}
+/*Media Querys*/
+@media screen and (max-width:768px){
+.wrap {
+    display: none;
+}
+header nav {
+    text-align: center;
+}
+header nav ul li:hover {
+    display: none;
+}
+.navimg {
+    margin-left: 50px;
+    margin-top: -4px;
+    padding-bottom: 10px;
+    display: block;
+}
 }
 /**********/
 /*Sections Reset*/
@@ -241,6 +272,7 @@ nav ul li:hover {
     width: 350px;
     height: 60px;
     max-height: 80px;
+    line-height: 1.5;
     font-size: 0.75em;
     color: #6f6f6f;
     overflow: auto;
@@ -255,6 +287,19 @@ nav ul li:hover {
 }
 .info article footer a {
     font-size: 0.8em;
+}
+/*Media Querys*/
+@media screen and (max-width:768px){
+.info article {
+    padding-right: 0;
+}
+.info article:first-child {
+    padding-right: 15px;
+}
+.info article:last-child {
+    padding-left: 15px;
+    padding-right: 0;
+}
 }
 /***********/
 /*Reset Section*/
@@ -296,6 +341,7 @@ nav ul li:hover {
     text-align: justify;
     overflow: scroll;
     font-size: 0.9em;
+    line-height: 1.5;
 }
 /***********/
 /*Reset Section*/
@@ -397,7 +443,36 @@ nav ul li:hover {
     color: #da1418;
     cursor: pointer;
 }
+/*Media Querys*/
+@media screen and (max-width:768px){
+/* Seccion lado Izquierdo Programme */
+.program ol span {
+    margin-left: 5px;
+}
+.program ol li {
+    margin-left: 15px;
+}
+/*Seccion Tabla*/
+.divTable{
+    display: table;
+    width: 100%;
 
+    margin-left: 5px;
+}
+.program nav {
+    width: 100%;
+    margin-left: 0;
+}
+.program nav span {
+    padding: 0 20px 0 30px;
+}
+.program nav span:first-child {
+    color: #da1418;
+}
+.program nav span:hover {
+    transition: 0s;
+}
+}
 /***********/
 /*Reset Seccion*/
 .dif {
@@ -505,7 +580,7 @@ nav ul li:hover {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 .icof {
     width: 150px;
@@ -534,6 +609,12 @@ nav ul li:hover {
 .icof div {
     display: none;
 }
+#item11 p {
+    margin-top: 25px;
+}
+#item5 p, #item12 p, #item13 p, #item20 p, #item23 p,#item25 p,#item27 p, #item29 p{
+    margin-top: 60px;
+}
 /*Speakers Photo*/
 #item1 {
     background-image: url('../imagenes/speakers/Alejandro_Sanchez.jpg');
@@ -558,6 +639,72 @@ nav ul li:hover {
 }
 #item8 {
     background-image: url('../imagenes/speakers/Roberto_Mayor.jpg');
+}
+#item9 {
+    background-image: url('../imagenes/speakers/Shioban_Brady.jpg');
+}
+#item10 {
+    background-image: url('../imagenes/speakers/Veronica_DiStilio.jpg');
+}
+#item11 {
+    background-image: url('../imagenes/speakers/Cristina_Ferrandiz.jpg');
+}
+#item12 {
+    background-image: url('../imagenes/speakers/Vivian_Irish.jpg');
+}
+#item13 {
+    background-image: url('../imagenes/speakers/Robert_Sablowski.jpg');
+}
+#item14 {
+    background-image: url('../imagenes/speakers/Miltos_Tsiantis.jpg');
+}
+#item15 {
+    background-image: url('../imagenes/speakers/Enrique_Amaya.jpg');
+}
+#item16 {
+    background-image: url('../imagenes/speakers/Karen_Echeverri.jpg');
+}
+#item17 {
+    background-image: url('../imagenes/speakers/Patricia_Ferreti.jpg');
+}
+#item18 {
+    background-image: url('../imagenes/speakers/Brigitte_Galliot.jpg');
+}
+#item19 {
+    background-image: url('../imagenes/speakers/Jose_García.jpg');
+}
+#item20 {
+    background-image: url('../imagenes/speakers/Tsonis_Panagiotis.jpg');
+}
+#item21 {
+    background-image: url('../imagenes/speakers/Sylvain_Marcellini.jpg');
+}
+#item22 {
+    background-image: url('../imagenes/speakers/Rodrigo_Nunez.jpg');
+}
+#item23 {
+    background-image: url('../imagenes/speakers/Robert_Reed.jpg');
+}
+#item24 {
+    background-image: url('../imagenes/speakers/Igor_Schneider.jpg');
+}
+#item25 {
+    background-image: url('../imagenes/speakers/Karen_Sears.jpg');
+}
+#item26 {
+    background-image: url('../imagenes/speakers/Joseph_Arboleda.jpg');
+}
+#item27 {
+    background-image: url('../imagenes/speakers/Mariane_Bronner.jpg');
+}
+#item28 {
+    background-image: url('../imagenes/speakers/Angela_Nieto.jpg');
+}
+#item29 {
+    background-image: url('../imagenes/speakers/Lee_Niswander.jpg');
+}
+#item30 {
+    background-image: url('../imagenes/speakers/Fernando_Camargo.jpg');
 }
 /*Hover Speakers*/
 #item1:hover {
@@ -606,6 +753,138 @@ nav ul li:hover {
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Roberto_Mayor.jpg');
 }
 #item8:hover div {
+    display: block;
+}
+#item9:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Shioban_Brady.jpg');
+}
+#item9:hover div {
+    display: block;
+}
+#item10:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Veronica_DiStilio.jpg');
+}
+#item10:hover div {
+    display: block;
+}
+#item11:hover {
+   background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Cristina_Ferrandiz.jpg');
+}
+#item11:hover div {
+    display: block;
+}
+#item12:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Vivian_Irish.jpg');
+}
+#item12:hover div {
+    display: block;
+}
+#item13:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Robert_Sablowski.jpg');
+}
+#item13:hover div {
+    display: block;
+}
+#item14:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Miltos_Tsiantis.jpg');
+}
+#item14:hover div {
+    display: block;
+}
+#item15:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Enrique_Amaya.jpg');
+}
+#item15:hover div {
+    display: block;
+}
+#item16:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Karen_Echeverri.jpg');
+}
+#item16:hover div {
+    display: block;
+}
+#item17:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Patricia_Ferreti.jpg');
+}
+#item17:hover div {
+    display: block;
+}
+#item18:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Brigitte_Galliot.jpg');
+}
+#item18:hover div {
+    display: block;
+}
+#item19:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Jose_García.jpg');
+}
+#item19:hover div {
+    display: block;
+}
+#item20:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Tsonis_Panagiotis.jpg');
+}
+#item20:hover div {
+    display: block;
+}
+#item21:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Sylvain_Marcellini.jpg');
+}
+#item21:hover div {
+    display: block;
+}
+#item22:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Rodrigo_Nunez.jpg');
+}
+#item22:hover div {
+    display: block;
+}
+#item23:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Robert_Reed.jpg');
+}
+#item23:hover div {
+    display: block;
+}
+#item24:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Igor_Schneider.jpg');
+}
+#item24:hover div {
+    display: block;
+}
+#item25:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Karen_Sears.jpg');
+}
+#item25:hover div {
+    display: block;
+}
+#item26:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Joseph_Arboleda.jpg');
+}
+#item26:hover div {
+    display: block;
+}
+#item27:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Mariane_Bronner.jpg');
+}
+#item27:hover div {
+    display: block;
+}
+#item28:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Angela_Nieto.jpg');
+}
+#item28:hover div {
+    display: block;
+}
+#item29:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Lee_Niswander.jpg');
+}
+#item29:hover div {
+    display: block;
+}
+#item30:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Fernando_Camargo.jpg');
+}
+#item30:hover div {
     display: block;
 }
 /***********/
@@ -826,15 +1105,15 @@ nav ul li:hover {
     justify-content: space-between;
 }
 .tie {
-    padding: 25px 0 30px 18px;
+    padding: 25px 0 30px 15px;
     color: #da1418;
 }
 .cap {
-    padding: 5px 0 0 10px;
+    padding: 10px 0 0 15px;
     color: #da1418;
 }
 .underg {
-    padding: 5px 0 0 15px;
+    padding: 10px 0 0 15px;
     color: #da1418;
 }
 .tick p {
@@ -868,6 +1147,16 @@ nav ul li:hover {
     text-align: center;
     letter-spacing: 0.01em;
     margin: 20px auto 70px auto;
+}
+
+/*Media Querys*/
+@media screen and (max-width:768px){
+.divTableCell1 {
+    display: table-cell;
+    padding: 5px 5px;
+    margin-left: -20px;
+    font-size: 0.9em;
+}
 }
 /***********/
 
@@ -991,6 +1280,9 @@ nav ul li:hover {
     width: 40px;
     background-color: #da1418;
     border: none;
+}
+.logspon {
+    margin-top: 20px;
 }
 /***********/
 

@@ -76,10 +76,41 @@ function fixedtop() {
 	if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
 		document.querySelector(".navbar").style.transition = "all 1s";
 		document.querySelector(".navbar").style.top = 0;
-		document.querySelector(".navbar").style.backgroundColor = "rgba(0,136,170,0.6)";
+		document.querySelector(".navbar").style.backgroundColor = "rgba(0,136,170,1)";
 		document.querySelector(".navbar").style.zIndex = "1";
+		document.querySelector(".navimg").style.display = "block";
 	} else {
 		document.querySelector(".navbar").style.top = "initial";
 		document.querySelector(".navbar").style.backgroundColor = "transparent";
+		document.querySelector(".navimg").style.display = "none";
 	}
+}
+
+/*para el header de navegacion*/
+$(document).ready(main);
+ 
+var contador = 1;
+ 
+function main(){
+	$('.menu_bar').click(function(){
+		// $('nav').toggle(); 
+ 
+		if(contador == 1){
+			$('nav').animate({
+				right: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				right: '-100%'
+			});
+		}
+ 
+	});
+
+	// Mostramos y ocultamos submenus
+	$('.submenu').click(function(){
+		$(this).children('.children').slideToggle();
+	});
 }

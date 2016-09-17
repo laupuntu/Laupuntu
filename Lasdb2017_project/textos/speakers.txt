@@ -59,7 +59,7 @@ MADS-box gene evolution and sex determination
 in flowering plants
 
 Cristina Ferrandiz
-IInstituto de  Biologia Molecular y Celular de Plantas, 
+Instituto de  Biologia Molecular y Celular de Plantas, 
 Universitat Politècnica de València, Spain
 Molecular mechanisms underlying fruit development
 
@@ -132,7 +132,7 @@ Non-traditional mammalian model systems
 MEDICINE, NEUROBIOLOGY 
 AND DEVELOPMENT
 
-oseph Arboleda Velasquez 
+Joseph Arboleda Velasquez 
 Schepens Eye Research Institute, USA
 Eye Development
 
