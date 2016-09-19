@@ -1,0 +1,58 @@
+﻿New Claim Assignment
+
+(por corregir) We provide valuable insurance and risk management services to insurance companies, self-insured corporations, claim adjusting firms and governmental entities 
+
+	Client information
+Company:  
+Address: 
+City, State, & Zip: 
+Adjuster Name: 
+Adjuster Email:
+Phone:
+Extension: 
+Fax:
+
+	Insured information
+Insured:  
+Address: 
+City, State, & Zip: 
+Phone: 
+Phone:
+Phone:
+
+	Claimant information
+Claim:  
+Address: 
+City, State, & Zip: 
+Phone: 
+Phone:
+Phone:
+
+	Coverage information
+Claim N°:
+Policy N°:  
+Type of Policy: 
+Effective date: 
+Coverage amounts: 
+A:
+B:
+C:
+D:
+Deductible:
+Lien Holder
+
+	Loss information
+Loss Date:
+Loss Location:  
+Description of Loss: 
+Special instruction: 
+
+
+
+Full Adjustment:
+Agreed Apraisal:
+Attach file:
+Attach file:
+Attach file:
+
+SUBMIT REPORT
