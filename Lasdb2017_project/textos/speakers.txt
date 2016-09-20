@@ -1,0 +1,177 @@
+<<<<<<< HEAD
+﻿SPEAKERS
+=======
+SPEAKERS
+>>>>>>> 8479e90a3694157e175e63c5b1ded26265c25e5a
+
+
+Nobel Awardee
+Sir John B. Gurdon
+Gurdon Institute, UK 
+Reprogramming of 
+mature cells
+
+ANIMAL DEVELOPMENTAL 
+BIOLOGY
+
+Maria Barna 
+Stanford University, USA
+Bio-imaging of tissue patterning and cellular  communication during embryonic development
+
+Jesus Chimal Monroy
+Universidad Nacional Autónoma de México
+Morphogenesis and cartilage differentiation during chick 
+and mouse embryo development
+
+Miguel Concha
+Laboratory of Experimental Ontogeny, Chile
+ Epithelial organization, epiboly and gastrulation
+
+Robb Krumlauf 
+<<<<<<< HEAD
+Stowers Institute for Medical Research, USA 
+=======
+Stowers Institute for Medical Research, USA
+>>>>>>> 8479e90a3694157e175e63c5b1ded26265c25e5a
+Hox gene regulation and evolution
+
+Carole LaBonne 
+Northwestern University, USA
+ Stem cells during Xenopus development
+
+Roberto Mayor 
+<<<<<<< HEAD
+University College London, UK 
+=======
+University College London, UK
+>>>>>>> 8479e90a3694157e175e63c5b1ded26265c25e5a
+Development of the neural crest 
+
+Alejandro Sánchez-Alvarado
+Stowers Institute for Medical Research, USA
+Planarian developmental biology
+
+Joachim Wittbrodt 
+Centre for Organismal Studies - Heidelberg, Germany
+Vertebrate eye and brain development and regeneration
+
+
+
+PLANT DEVELOPMENTAL 
+BIOLOGY
+
+
+Shioban Brady 
+University of California Davis, USA
+Protein interactions, plant genomics and metabolomics
+
+Veronica DiStilio
+University of Washington, USA
+MADS-box gene evolution and sex determination
+in flowering plants
+
+Cristina Ferrandiz
+<<<<<<< HEAD
+IInstituto de  Biologia Molecular y Celular de Plantas, 
+=======
+Instituto de  Biologia Molecular y Celular de Plantas, 
+>>>>>>> 8479e90a3694157e175e63c5b1ded26265c25e5a
+Universitat Politècnica de València, Spain
+Molecular mechanisms underlying fruit development
+
+Vivian Irish 
+Yale University, USA
+Plant development and morphogenesis
+
+Robert Sablowski
+John Innes Centre, UK
+Plant embryogenesis
+
+Miltos Tsiantis  
+Max Planck Institute for Plant Breeding Research, Germany
+Leaf development and evolution
+
+POST- EMBRYONIC DEVELOPMENT 
+AND REGENERATION
+
+Enrique Amaya 
+The University of Manchester, UK
+Growth factor signal interpretation during development, 
+wound healing and regeneration; 
+functional genomics in Xenopus
+
+Karen Echeverri 
+University of Minnesota, USA
+ Molecular and cellular mechanisms of regeneration
+
+Patricia Ferreti 
+University College London, Institute of Child Health, UK
+Regeneration of complex body structures in vertebrates
+
+Brigitte Galliot 
+Université de Genéve, Switzerland
+Regeneration and adult neurogenesis
+
+José García Arrarás 
+University of Puerto Rico, Rio Piedras
+Cellular and molecular aspects of intestinal
+and neural regeneration
+
+Tsonis Panagiotis
+University of Dayton, USA
+Tissue regeneration and engineering
+
+EVO-DEVO
+
+Sylvain Marcellini
+Universidad de Concepción, Chile
+Transcriptional regulation during the development 
+of skeletal cells, particularly osteoblasts and osteocytes
+
+Rodrigo Nunes Da Fonseca 
+Universidade Federal do Rio de Janeiro, Brazil
+Evolutionary developmental biology of non-model arthropods
+
+Robert Reed 
+Cornell University, USA
+Genes and developmental processes in the diversification 
+of animal color patterns
+
+Igor Schneider 
+Universidade Federal de Pará, Brazil
+Development of the South American lungfish as a model species for comparative developmental biology and regeneration
+
+Karen Sears 
+University of Illinois, USA
+Non-traditional mammalian model systems 
+
+MEDICINE, NEUROBIOLOGY 
+AND DEVELOPMENT
+
+<<<<<<< HEAD
+oseph Arboleda Velasquez 
+=======
+Joseph Arboleda Velasquez 
+>>>>>>> 8479e90a3694157e175e63c5b1ded26265c25e5a
+Schepens Eye Research Institute, USA
+Eye Development
+
+Mariane Bronner
+Caltech, USA
+Neurobiology
+
+M. Angela Nieto
+Instituto de Neurociencias, Alicante, Spain
+Cell movements in development and disease, cancer 
+and developmental biology
+
+Lee Niswander
+University of Colorado, USA
+Closure of the neural tube
+
+STEM CELLS AND EARLY
+EMBRYO DEVELOPMENT
+
+Fernando Camargo
+Boston Children's Hospital, USA
+Adult stem cell biology,  organ size regulation and cancer
