@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-﻿CONVOCATORIA PARA RESUMENES ABIERTA
-
-=======
->>>>>>> 8479e90a3694157e175e63c5b1ded26265c25e5a
-Temáticas  generales para la presentación de trabajos: Biología del desarrollo animal, Biología del desarrollo en plantas, Evolución y Desarrollo, Evo-Devo, Desarrollo post-embrionario y regeneració, Medicina, neurobiología y desarrollo, Células madre y reprogramación celular.
+﻿Temáticas  generales para la presentación de trabajos: Biología del desarrollo animal, Biología del desarrollo en plantas, Evolución y Desarrollo, Evo-Devo, Desarrollo post-embrionario y regeneració, Medicina, neurobiología y desarrollo, Células madre y reprogramación celular.
 

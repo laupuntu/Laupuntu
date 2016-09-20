@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-﻿SPEAKERS
-=======
-SPEAKERS
->>>>>>> 8479e90a3694157e175e63c5b1ded26265c25e5a
-
+﻿﻿SPEAKERS
 
 Nobel Awardee
 Sir John B. Gurdon
@@ -28,23 +23,15 @@ Laboratory of Experimental Ontogeny, Chile
  Epithelial organization, epiboly and gastrulation
 
 Robb Krumlauf 
-<<<<<<< HEAD
-Stowers Institute for Medical Research, USA 
-=======
 Stowers Institute for Medical Research, USA
->>>>>>> 8479e90a3694157e175e63c5b1ded26265c25e5a
 Hox gene regulation and evolution
 
 Carole LaBonne 
 Northwestern University, USA
- Stem cells during Xenopus development
+Stem cells during Xenopus development
 
 Roberto Mayor 
-<<<<<<< HEAD
-University College London, UK 
-=======
 University College London, UK
->>>>>>> 8479e90a3694157e175e63c5b1ded26265c25e5a
 Development of the neural crest 
 
 Alejandro Sánchez-Alvarado
@@ -71,11 +58,7 @@ MADS-box gene evolution and sex determination
 in flowering plants
 
 Cristina Ferrandiz
-<<<<<<< HEAD
-IInstituto de  Biologia Molecular y Celular de Plantas, 
-=======
 Instituto de  Biologia Molecular y Celular de Plantas, 
->>>>>>> 8479e90a3694157e175e63c5b1ded26265c25e5a
 Universitat Politècnica de València, Spain
 Molecular mechanisms underlying fruit development
 
@@ -102,7 +85,7 @@ functional genomics in Xenopus
 
 Karen Echeverri 
 University of Minnesota, USA
- Molecular and cellular mechanisms of regeneration
+Molecular and cellular mechanisms of regeneration
 
 Patricia Ferreti 
 University College London, Institute of Child Health, UK
@@ -148,11 +131,7 @@ Non-traditional mammalian model systems
 MEDICINE, NEUROBIOLOGY 
 AND DEVELOPMENT
 
-<<<<<<< HEAD
-oseph Arboleda Velasquez 
-=======
 Joseph Arboleda Velasquez 
->>>>>>> 8479e90a3694157e175e63c5b1ded26265c25e5a
 Schepens Eye Research Institute, USA
 Eye Development
 
