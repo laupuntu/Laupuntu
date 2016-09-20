@@ -1,0 +1,72 @@
+ENGAGE SOLUTION
+WIREFRAME 1
+
+Concepto de interacción
+parallex
+
+Paleta de colores
+gris oscuro: 		#4d4d4d
+gris medio:		#b3b3b3
+gris claro:		#e6e6e6
+blanco:			#fff
+azul: 			#227bff
+azul oscuro:		#0070bc
+
+Tipografia
+Open Sans
+
+Tamaño
+Barra de Menu(blanco) : 14pt
+titulos secciones (azul): 21pt
+contenido secciones (blanco): 14pt
+
+Secciones
+Lineas
+	Linea debajo titulo: 30px ancho
+Seccion header
+	email: azul, 11pt
+	submit: azul, 14pt
+	tel:azul, 14pt
+Seccion Standars
+	Valores: azul y 11pt
+Sección Operational Model
+	Subtitulos: blanco, negrilla 14pt
+	contenido: blanco, 12 pt
+Sección Contac us:
+	titulo: azul, mayuscula fija, 14pt
+	subtitulo: gris oscuro, negrilla, 12pt	
+	contenido: gris oscuro, sin negrilla, 12pt
+
+Copyritgh
+azul, 12pt
+
+
+
+
+
+
+
+
+WIREFRAME 2
+
+Background
+gris oscuro, transparencia 0.9
+
+Box
+gris claro
+800pxx300px
+
+titulo: open sans, negrilla, azul, 18pt
+contenido: open sans, normal, gris oscuro, 12pt
+
+WIREFRAME 3
+
+Formulario
+Background formulario:azul oscuro
+cajas para rellenar: 220px ancho por 16px alto, color blanco, transparencia 0.6
+
+titulos formulario: open sans, negrilla, 11pt
+subtitulos fomrulario: open sans, normal. 12pt.
+
+
+
