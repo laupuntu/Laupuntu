@@ -1,4 +1,5 @@
-﻿﻿SPEAKERS
+SPEAKERS
+
 
 Nobel Awardee
 Sir John B. Gurdon
@@ -28,7 +29,7 @@ Hox gene regulation and evolution
 
 Carole LaBonne 
 Northwestern University, USA
-Stem cells during Xenopus development
+ Stem cells during Xenopus development
 
 Roberto Mayor 
 University College London, UK
@@ -85,7 +86,7 @@ functional genomics in Xenopus
 
 Karen Echeverri 
 University of Minnesota, USA
-Molecular and cellular mechanisms of regeneration
+ Molecular and cellular mechanisms of regeneration
 
 Patricia Ferreti 
 University College London, Institute of Child Health, UK

@@ -1,14 +1,10 @@
-﻿﻿LASDB 2017 MEETING
-
 The LADSDB meeting will be an inspiring conference for all those working in any of the colliding themes in developmental biology, whether it is the cellular and molecular signalling underlying developmental changes, gene regulatory networks and their evolution, transcriptional regulation and organogenesis, cell differentiation, stem cell biology, neurobiology or regeneration. This is an exciting opportunity for all developmental biologists in the Americas and around the world, to meet and discuss advances, approaches, experiences and framing new leading questions in the field.      
 
-MEETING HIGHLIGHTS
-=======
-The LADSDB meeting will be an inspiring conference for all those working in any of the colliding themes in developmental biology, whether it is the cellular and molecular signalling underlying developmental changes, gene regulatory networks and their evolution, transcriptional regulation and organogenesis, cell differentiation, stem cell biology, neurobiology or regeneration. This is an exciting opportunity for all developmental biologists in the Americas and around the world, to meet and discuss advances, approaches, experiences and framing new leading questions in the field.      
+<h1>MEETING HIGHLIGHTS</h1>
 
 The LASDB meeting 2017 will bring together a leading group of international scientists and a vibrant student body representing the multiple fronts in the modern field of Developmental Biology.
 
-This is the first time the Society will meet in Colombia, one of the most biodiverse countries in the world, at the core of the Americas. 
+This is the first time the Society will meet in Colombia, one of the most biodiverse countries in the world, at the core of the Americas. 
 
 Medellín, at the heart of Colombia is located at 
 1475 m above sea level and has an average temperature of 24°C. The city is a recommended destination in Latin America, both for business and pleasure.
