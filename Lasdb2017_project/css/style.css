@@ -76,11 +76,8 @@ body {
     color: #FFFFFF;
 }
 .menu_bar {
-    text-align: right;
-    cursor: pointer;
     display:none;
 }
-
 /*-----*/
 .contactUp {
     display: -webkit-flex;
@@ -153,17 +150,62 @@ nav ul li:hover {
 .wrap {
     display: none;
 }
-header nav {
-    text-align: center;
+.menu_bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index:1001;
 }
-header nav ul li:hover {
-    display: none;
+.menu_bar .bt-menu {
+    display: block;
+    padding: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    float: right;
+}
+.bt-menu {
+    cursor: pointer;
+}
+.menu_bar span {
+    color: #FFFFFF;
+    font-size: 2em;
+}
+/* Menu */
+#navip {
+    width: 20%;
+    height: 102%;
+    top: 0;
+    position: fixed;
+    right: -100%;
+    margin: 0;
+    padding-right: 10px;
+    padding-top: 30px;
+    z-index: 1000;
+    background-color: rgba(0,136,170,0.7);
+}
+#navip ul li {
+    display: block;
+    padding-top: 10px;
+    border-bottom: 1px solid #FFFFFF;
+    text-align: center;
+    width: 107%;
+    padding: 20px;
+    margin: 0;
+}
+#navip ul li:hover {
+    border-top: 0px solid #da1418;
+    margin-top: 0px;
+}
+#navip ul li a {
+    font-size: 1em;
 }
 .navimg {
-    margin-left: 50px;
-    margin-top: -4px;
-    padding-bottom: 10px;
-    display: block;
+    clear:  both;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: none;
 }
 }
 /**********/
@@ -1151,12 +1193,7 @@ header nav ul li:hover {
 
 /*Media Querys*/
 @media screen and (max-width:768px){
-.divTableCell1 {
-    display: table-cell;
-    padding: 5px 5px;
-    margin-left: -20px;
-    font-size: 0.9em;
-}
+
 }
 /***********/
 

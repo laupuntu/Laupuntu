@@ -20,7 +20,7 @@
 	<!-- Web Page Style -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body onload="loadText()">
+<body>
 	<header>
 	<!--Contacto-->
 		<div class="wrap">
@@ -48,19 +48,19 @@
 		<div class="navbar">
 			<div class="wrapper">
 				<div class="menu_bar">
-	            <a class="bt-menu"><span class="fa fa-bars fa-2x"></span></a>
+	            <a class="bt-menu"><span class="fa fa-bars"></span></a>
 	    		</div>
-				<nav>
+				<nav id="navip">
 					<img src="imagenes/logos/logoLASDB_red.png" alt="Logo LASDB Rojo" class="navimg">
 				      <ul>
 						<!-- <li></li> -->
-				        <li><a href="#meetnav" class="lnks">Meeting2017</a></li>
-				        <li><a href="#prog" class="lnks">Programme</a></li>
+				        <li><a href="#meet" class="lnks">Meeting2017</a></li>
+				        <li><a href="#prog0" class="lnks">Programme</a></li>
 				        <li><a href="#speak" class="lnks">Speakers</a></li>
-				        <li><a href="#venue" class="lnks">Venue</a></li>
+				        <li><a href="#venue0" class="lnks">Venue</a></li>
 				        <li><a href="#tick" class="lnks">Ticket</a></li>
 				        <li><a href="#spon" class="lnks">Sponsors</a></li>
-				        <li><a href="#cont" class="lnks">Contact</a></li>
+				        <li><a href="#cont0" class="lnks">Contact</a></li>
 				      </ul>
 				</nav>
 			</div>
@@ -101,13 +101,14 @@
 				</footer>
 			</article>
 		</div>
+		<span id="meet"></span>
 		</section>
 	<!--Texto Meeting-->
-		<section class="parallax-window dif" data-parallax="scroll" data-image-src="imagenes/fondos/lasdb_intro.jpg"  id="meet">
+		<section class="parallax-window dif" data-parallax="scroll" data-image-src="imagenes/fondos/lasdb_intro.jpg">
 			<div class="wrapper content met">
 				<article>
 					<header>
-						<h1 id="meetnav">LASDB 2017 MEETING</h1>
+						<h1>LASDB 2017 MEETING</h1>
 						<hr>
 					</header>
 					<p id="text3">
@@ -115,8 +116,10 @@
 				</article>
 				
 			</div>
+			<span id="prog0"></span>
 		</section>
 	<!--Programme-->
+
 		<section class="wrapper" id="prog">
 			<h1>PROGRAMME</h1>
 			<hr>
@@ -161,7 +164,7 @@
 				</div>
 					<nav>
 						<span class="fa fa-calendar fa-lg" aria-hidden="true"></span>
-						<span>Day 1</span>
+						<span onclick="programme()">Day 1</span>
 						<span>Day 2</span>
 						<span>Day 3</span>
 						<span>Day 4</span>
@@ -169,9 +172,10 @@
 					</nav>
 				</div>
 			</div>
+			<span id="speak"></span>
 		</section>
 	<!--Speakers-->
-		<section class="parallax-window dif" data-parallax="scroll" data-image-src="imagenes/fondos/speakers.jpg" id="speak">
+		<section class="parallax-window dif" data-parallax="scroll" data-image-src="imagenes/fondos/speakers.jpg">
 			<div class="wrapper speak">
 				<h1>CONFIRMED SPEAKERS</h1>
 				<hr>
@@ -426,6 +430,7 @@
 					</div>
 				</div>
 			</div>
+			<span id="venue0"></span>
 		</section>
     <!--Meeting Venue-->
 		<section class="wrapper" id="venue">
@@ -455,9 +460,10 @@
 						<iframe width="386" height="228" src="https://www.youtube.com/embed/fOuSk6nNUFU" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
+			<span  id="tick"></span>
 		</section>
 	<!--Tickets-->
-		<section class="wrapper tick" id="tick">
+		<section class="wrapper tick">
 			<h1>TICKETS</h1>
 			<hr>
 			<div class="tableTicks">			
@@ -668,14 +674,16 @@
 					<a href="http://www.eafit.edu.co/" target="_blank"><img src="imagenes/logos/U_eafit.png" alt="Universidad EAFIT" id="eafit"></a>
 				</div>				
 			</div>
+			<span id="spon"></span>
 		</section>
 	<!--Sponsors-->
-		<section class="wrapper spon" id="spon">
+		<section class="wrapper spon">
 			<h1>SPONSORS</h1>
 			<hr>
 			<div class="logspon">
 				<a href="http://www.biologist.com" target="_blank"><img src="imagenes/logos/sponsor_thebiologist.png" alt="The Company of Biologist" id="biocom"></a>
 			</div>
+			<span id="cont0"></span>
 		</section>
 	<!--Contact-->
 		<section class="parallax-window dif" data-parallax="scroll" data-image-src="imagenes/fondos/newsletter.jpg">
