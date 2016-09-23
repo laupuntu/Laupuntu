@@ -71,15 +71,21 @@ function loadText() {
 	xhttp5.send();
 }
 /* Fijar menu en la parte de arriba cuando se haga scroll a la pagina */
+var w = window.innerWidth;
+window.addEventListener("resize", pagewidth);
+function pagewidth() {
+	w = window.innerWidth;
+}
 window.onscroll = function() {fixedtop()};
-
 function fixedtop() {
 	if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
 		document.querySelector(".navbar").style.transition = "all 1s";
 		document.querySelector(".navbar").style.top = 0;
 		document.querySelector(".navbar").style.backgroundColor = "rgba(0,136,170,1)";
 		document.querySelector(".navbar").style.zIndex = "1";
-		document.querySelector(".navimg").style.display = "block";
+		if (w > 768) {
+			document.querySelector(".navimg").style.display = "block";
+		}
 	} else {
 		document.querySelector(".navbar").style.top = "initial";
 		document.querySelector(".navbar").style.backgroundColor = "transparent";

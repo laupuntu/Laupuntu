@@ -145,21 +145,26 @@ nav ul li:hover {
     padding-bottom: 10px;
     display: none;
 }
+.navimgres {
+    display: none;
+}
 /*Media Querys*/
 @media screen and (max-width:768px){
 .wrap {
     display: none;
 }
 .menu_bar {
+    width: 100%;
     display: block;
     position: fixed;
     top: 0;
     right: 0;
     z-index:1001;
+    background-color: #0088aa;
 }
 .menu_bar .bt-menu {
     display: block;
-    padding: 10px;
+    padding: 15px;
     overflow: hidden;
     text-decoration: none;
     float: right;
@@ -179,6 +184,7 @@ nav ul li:hover {
     position: fixed;
     right: -100%;
     margin: 0;
+    margin-top: 40px;
     padding-right: 10px;
     padding-top: 30px;
     z-index: 1000;
@@ -200,12 +206,10 @@ nav ul li:hover {
 #navip ul li a {
     font-size: 1em;
 }
-.navimg {
-    clear:  both;
-    margin-left: 3px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    display: none;
+.navimgres {
+    display: block;
+    float: left;
+    padding: 3px 0 3px 10px;
 }
 }
 /**********/
