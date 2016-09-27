@@ -1,0 +1,239 @@
+@charset 'UTF-8';
+
+/**************
+CSS PRINCIPAL
+************/
+/*
+Paleta de colores
+gris oscuro:        #4d4d4d
+gris medio:     #b3b3b3
+gris claro:     #e6e6e6
+blanco:         #fff
+azul:           #227bff
+azul oscuro:        #0070bc
+
+Tipografia
+Open Sans
+
+Tamaño
+Barra de Menu(blanco) : 14pt
+titulos secciones (azul): 21pt
+contenido secciones (blanco): 14pt
+
+Secciones
+Lineas
+    Linea debajo titulo: 30px ancho
+Seccion header
+    email: azul, 11pt
+    submit: azul, 14pt
+    tel:azul, 14pt
+Seccion Standars
+    Valores: azul y 11pt
+Sección Operational Model
+    Subtitulos: blanco, negrilla 14pt
+    contenido: blanco, 12 pt
+Sección Contac us:
+    titulo: azul, mayuscula fija, 14pt
+    subtitulo: gris oscuro, negrilla, 12pt  
+    contenido: gris oscuro, sin negrilla, 12pt
+
+Copyritgh
+azul, 12pt
+WIREFRAME 2
+
+Background
+gris oscuro, transparencia 0.9
+
+Box
+gris claro
+800pxx300px
+
+titulo: open sans, negrilla, azul, 18pt
+contenido: open sans, normal, gris oscuro, 12pt
+
+WIREFRAME 3
+
+Formulario
+Background formulario:azul oscuro
+cajas para rellenar: 220px ancho por 16px alto, color blanco, transparencia 0.6
+
+titulos formulario: open sans, negrilla, 11pt
+subtitulos fomrulario: open sans, normal. 12pt.
+*/
+
+/*Reset Inicial*/
+*   
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.parallax-window 
+{
+    min-height: 400px;
+    background: transparent;
+}
+body 
+{
+    background-color: #4d4d4d;
+}
+.wrap {
+    max-width: 814px;
+    margin: 0 auto;
+}
+.dif {
+    height: 480px;
+}
+section 
+{
+    height: 200px;
+} 
+div.wrap {
+    height: 200px;
+}
+/*Scroll Bar Solo funciona en Chrome*/
+
+/* ::-webkit-scrollbar {
+    width: 0;
+    border-radius: 0;
+    border: 0 solid transparent;
+}
+ 
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    border: 0 solid transparent;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 0;
+} */
+/* Header */
+    .contactUp 
+    {
+        height: 30px;
+        display: flex;
+        justify-content: ;
+        flex-flow:row wrap;
+        height: 30px;
+        font-size: 14px;
+    }
+    .contactUp a 
+    {
+        color: #227bff;
+    } 
+    .contactUp a:hover 
+    {
+        text-decoration: none;
+        color: #227bff;
+    }
+    .contacto:first-child
+    {
+        margin-right: auto;
+        font-size: 11px;
+    }
+    .contacto img 
+    {
+        margin-right: 10px;
+    }
+    .boxUp
+    {
+        width: 200px;
+        height: 40px;
+        background-color: #ffffff;
+        margin-right: 5px ;
+        z-index: 1;
+    }
+    .boxUp p {
+        text-align: center;
+        padding: 10px;
+    }
+    #correo p 
+    {
+        text-align: center;
+        padding-top: 5px;
+    }
+/**********/
+/* Menu */
+    .navbar-brand 
+    {
+        padding: 0;
+        margin: -25px;
+    }
+    .navbar-default 
+    {
+        background-color: transparent;
+        border-color: transparent;
+        padding-top: 50px;
+    }
+    .navbar-default .navbar-nav > li > a 
+    {
+        color: #ffffff;
+        font-size: 14px;
+    }
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus 
+    {
+        color: white;
+        background-color: transparent;
+        border-bottom: 2px solid #227bff;
+        margin-bottom: -2px;
+    }
+    hr
+    {
+        width: 600px;
+        margin-left: auto;
+        color: white;
+        margin-top: -10px;
+        border: 1px solid #fff;
+    }
+/**********/
+/* Section Bilingual */
+    .jumbotron 
+    {
+        background-color: transparent;
+        margin-right: 60%;
+        margin-left: 10%;
+    }
+    .jumbotron h1 
+    {
+      color: #227bff;
+      font-size: 21px;
+      text-align: right;
+      font-weight: 400;
+      padding-bottom: 20px;
+    }
+    .jumbotron p 
+    {
+      color: #fff;
+      font-size: 14px;
+      text-align: right;
+      font-weight: 400;
+    }       
+/*Copyrigth*/
+    .copy 
+    {
+        height: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:space-between;
+        align-items: center;
+        padding-top: 21px;
+        padding-bottom: 15px;
+    }
+    .copy p 
+    {
+        color: #CCCCCC;
+    }
+    .copy a 
+    {
+        width: 84px;
+    }
+    .copy img 
+    {
+        width: 100%;
+        height: 30px;
+    }
