@@ -3,8 +3,7 @@
 Nobel Awardee
 Sir John B. Gurdon
 Gurdon Institute, UK 
-Reprogramming of 
-mature cells
+Reprogramming of mature cells
 
 ANIMAL DEVELOPMENTAL 
 BIOLOGY
@@ -48,7 +47,7 @@ PLANT DEVELOPMENTAL
 BIOLOGY
 
 
-Shioban Brady 
+Siobhan Brady 
 University of California Davis, USA
 Protein interactions, plant genomics and metabolomics
 
@@ -104,7 +103,7 @@ Tsonis Panagiotis
 University of Dayton, USA
 Tissue regeneration and engineering
 
-EVO-DEVO
+EVO-DEVO AND NEXT GENERATION SEQUENCING
 
 Sylvain Marcellini
 Universidad de Concepción, Chile
@@ -128,8 +127,16 @@ Karen Sears
 University of Illinois, USA
 Non-traditional mammalian model systems 
 
-MEDICINE, NEUROBIOLOGY 
-AND DEVELOPMENT
+Randall Voss
+University of Kentucky, USA
+Salamander genome project
+
+Jeremiah Smith
+University of Kentucky, USA
+Development of sea lamprey
+
+STEM CELLS, NEUROBIOLOGY,
+MEDICINE AND DEVELOPMENT
 
 Joseph Arboleda Velasquez 
 Schepens Eye Research Institute, USA
@@ -148,9 +155,14 @@ Lee Niswander
 University of Colorado, USA
 Closure of the neural tube
 
-STEM CELLS AND EARLY
-EMBRYO DEVELOPMENT
+Claudia Torrez Farfán
+Universidad Austral de Chile
+Development and chronobiology
 
 Fernando Camargo
 Boston Children's Hospital, USA
 Adult stem cell biology,  organ size regulation and cancer
+
+Hernan Lopez-Schier
+Helmholtz Zentrum münchen, Germany
+Optogenetic stimulation of neuronal repair
