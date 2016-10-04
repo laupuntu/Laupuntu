@@ -200,6 +200,9 @@ subtitulos fomrulario: open sans, normal. 12pt.
         margin-top: -2px ;
         border: 1px solid white;
     }
+    #sub {
+        display: none;
+    }
 /*Media Querys*/
     @media screen and (max-width:768px){
     header {
@@ -266,10 +269,16 @@ subtitulos fomrulario: open sans, normal. 12pt.
     .navimg {
         display: none;
     }
+    #sub {
+        display: block;
+    }
     }
     @media screen and (max-width:375px){
     #navip {
         width: 30%;
+    }
+    #sub {
+        display: block;
     }
     }
 /**********/
