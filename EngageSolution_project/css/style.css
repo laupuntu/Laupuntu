@@ -90,7 +90,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
 /*Scroll Bar Solo funciona en Chrome*/
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 0;
     border-radius: 0;
     border: 0 solid transparent;
@@ -104,7 +104,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
 ::-webkit-scrollbar-thumb {
     background-color: transparent;
     border-radius: 0;
-} */
+}
 /* Header */
     .contactUp 
     {
@@ -138,7 +138,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     {
         width: 200px;
         height: 40px;
-        background-color: #ffffff;
+        background-color: #b3b3b3;
         margin-right: 5px ;
     }
     .boxUp p {
@@ -592,6 +592,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
     .boxCc 
     {
+        height: 280px;
         width: 430px;
         font-size: 11px;
         margin-top: -50px;
