@@ -207,7 +207,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         top: 0;
         right: 0;
         z-index:1001;
-        background-color: #0088aa;
+        background-color: #4d4d4d
     }
     .menu_bar .bt-menu {
         display: block;
@@ -235,7 +235,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         padding-right: 10px;
         padding-top: 30px;
         z-index: 1000;
-        background-color: rgba(0,136,170,0.7);
+        background-color: rgba(77,77,77,0.7);
     }
     #navip ul li {
         display: block;
@@ -257,6 +257,9 @@ subtitulos fomrulario: open sans, normal. 12pt.
         display: block;
         float: left;
         padding: 3px 0 3px 10px;
+    }
+    .navimg {
+        display: none;
     }
     }
     @media screen and (max-width:375px){
@@ -348,6 +351,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
     .boxBb ul li {
         padding: 2px;
+        cursor: pointer;
     }
     .boxBb ul li h4
     {
@@ -378,8 +382,23 @@ subtitulos fomrulario: open sans, normal. 12pt.
         transition: 1s;
         padding-left: 10px;
     }
+    /* The Close Button Modal Service Standars*/
+    .close1 {
+        color: #aaa;
+        float: right;
+        font-size: 30px;
+        font-weight: 400;
+        margin: 25px;
+    }
+
+    .close1:hover,
+    .close1:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
 /**********/
-/* Services Standars */
+/* Solutions */
     .circles 
     {
         float: left;
@@ -413,22 +432,25 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
     .icons div img:hover
     {
-        transition: 2s;
-        width: 100%;
+        transition: 1s;
+        width: 55%;
         height: auto;
-        margin: -20px;
+        margin: 20px;
+        cursor: pointer;
     }
     .icons h4
     {   
         width: 110px;
         color: #ffffff;
         text-align: center;
+        margin-top: 10px;
     }
     .boxC
     {
         background-color: transparent;
         margin-left: 70%;
         padding-top: 160px;
+        padding-bottom: 200px;
     }
     .boxC h1 
     {
@@ -449,8 +471,8 @@ subtitulos fomrulario: open sans, normal. 12pt.
     {
         margin-top: 20px;
     }
+
 /**********/
-/* Modal Test */
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -521,6 +543,61 @@ subtitulos fomrulario: open sans, normal. 12pt.
     text-decoration: none;
     cursor: pointer;
 }
+/**********/
+/* Operational Model */
+    button.accordion {
+        background-color: #0070bc;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+
+    button.accordion.active, button.accordion:hover {
+        background-color: #227bff;
+    }
+
+    button.accordion:after {
+        content: '\2228';
+        font-size: 20px;
+        color: #FFFFFF;
+        float: right;
+        margin-left: 5px;
+    }
+
+    button.accordion.active:after {
+        content: "\2227";
+
+    }
+
+    div.panel {
+        padding: 0 50px;
+        background-color: #227bff;
+        color: #ffffff;
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.6s ease-in-out;
+        opacity: 0;
+        text-align: justify;
+    }
+
+    div.panel.show {
+        opacity: 1;
+        max-height: 500px;
+    }
+    .boxCc 
+    {
+        width: 430px;
+        font-size: 11px;
+        margin-top: -50px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.75);
+    }
 /*Copyrigth*/
     .copy 
     {
