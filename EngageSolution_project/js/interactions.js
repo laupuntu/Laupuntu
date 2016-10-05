@@ -84,9 +84,24 @@ $(function(){
 var acc = document.getElementsByClassName("accordion");
 var i;
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
+acc[0].addEventListener("click", function(){
         this.classList.toggle("active");
         this.nextElementSibling.classList.toggle("show");
-  }
-}
+        acc[1].nextElementSibling.classList.remove("show");
+ 	 });
+acc[1].addEventListener("click", function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+        acc[0].nextElementSibling.classList.remove("show");
+ 	 });
+
+
+
+
+
+
+
+
+
+
+

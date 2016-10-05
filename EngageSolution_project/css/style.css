@@ -81,6 +81,9 @@ subtitulos fomrulario: open sans, normal. 12pt.
         background-color: #4d4d4d;
     /*     position: fixed; */
     }
+    .wrapsub {
+        height: 100px;
+    }
     .wrapper {
         max-width: 814px;
         margin: 0 auto;
@@ -88,6 +91,19 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
     .menu_bar {
         display: none;
+    }
+    .lineaiz {
+        width: 15%;
+        border-color: #227bff;
+        margin-bottom: 20px;
+        margin-top: -5px;
+    }
+    .lineader {
+        margin-right: 90%;
+        width: 15%;
+        border-color: #227bff;
+        margin-bottom: 20px;
+        margin-top: -5px;
     }
 /*Scroll Bar Solo funciona en Chrome*/
 
@@ -142,6 +158,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         background-color: #b3b3b3;
         margin-right: 0;
         box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+        z-index: 2;
     }
     #submit {
         margin-right: 5px;
@@ -171,11 +188,11 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
     nav ul li {
         display: inline-block;
-        margin-right: 50px;
+        margin-right: 55px;
         padding-bottom: 10px;
     }
     nav ul li:last-child{
-        margin-right: 0;
+        margin-right: -55px;
     }
     nav ul li a {
         text-decoration: none;
@@ -509,7 +526,15 @@ subtitulos fomrulario: open sans, normal. 12pt.
         width: 800px;
         height: 300px;
         box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+        animation-name: animatetop;
+        animation-duration: 1s;
     }
+    /* Add Animation */
+    @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+    }
+    /*-----*/
     .modal-content img
     {
         width: 10%;
@@ -615,7 +640,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
     div.panel.show {
         opacity: 1;
-        max-height: 170px;
+        max-height: 180px;
     }
     .boxCc 
     {
@@ -635,12 +660,27 @@ subtitulos fomrulario: open sans, normal. 12pt.
         align-items: center;
         align-content: center;
         width: 60%;
-        margin-top: 170px;
-        text-align: center;
+        margin-top: 110px;
+        text-align: right;
+    }
+    .locmap:first-child {
+        margin-left: -130px;
+        margin-right: 80px;
+    }
+    .locmap img {
+        float: right;
+        margin-left: -30px;
+        margin-top: -20px;
     }
     .locmap h4 {
         color: #227bff;
         font-size: 14px;
+        float: right;
+        margin-top: 20px;
+        margin-right: -15px;
+    }
+    #textCA {
+        margin-right: -5px;
     }
     .locmap h5 {
         color:  #4d4d4d;
@@ -651,6 +691,11 @@ subtitulos fomrulario: open sans, normal. 12pt.
         color:  #4d4d4d;
         font-size: 12px;
         font-weight: 400;
+    }
+    .address {
+        float: left;
+        margin-right: 20px;
+        margin-top: -20px;
     }
     .boxD
     {
@@ -696,4 +741,71 @@ subtitulos fomrulario: open sans, normal. 12pt.
     {
         width: 100%;
         height: 30px;
+    }
+/**********/
+/* Submit */
+    button.accordion {
+        background-color: #0070bc;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 14px;
+        font-weight: 600;
+        transition: 0.4s;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+    }
+
+    button.accordion.active, button.accordion:hover {
+        background-color: #227bff;
+        box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+    }
+    .arrowup {
+        display: none;     
+    }
+    .arrowdown {
+        font-size: 20px;
+        color: #FFFFFF;
+        float: right;
+        margin-left: 5px;  
+    }
+    button.accordion.active .arrowup {
+        display: block;
+        font-size: 20px;
+        color: #FFFFFF;
+        float: right;
+        margin-left: 5px;
+    }
+    button.accordion.active .arrowdown{
+        display: none;
+    }
+    div.panel {
+        padding: 0 18px;
+        background-color: #227bff;
+        color: #ffffff;
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.6s ease-in-out;
+        opacity: 0;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75); 
+    }
+    div.panel p{
+        text-align: justify;
+        font-size: 12px;
+        padding: 30px 32px 50px 32px;
+    }
+    div.panel.show {
+        opacity: 1;
+        max-height: 180px;
+    }
+    .boxDc 
+    {
+        float: right;
+        height: auto;
+        width: 430px;
+        margin-top: -285px;
+ 
     }
