@@ -75,14 +75,103 @@
 
 			</div>
 			<div class="boxDc">
-				<button class="accordion">Task Model<i class="fa fa-angle-up arrowup" aria-hidden="true"></i><i class="fa fa-angle-down arrowdown" aria-hidden="true"></i></button>
+ 				<form action="php/email.php" method="post" id="formulario">
+				<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Client information</div>
 					<div class="panel">
- 						 <p>We make a first quality contact with your customer (usually within a few hours after assignment), schedule and then complete a professional  inspection, prepare the estimate using state of the art software, and finally return a detailed report with images and complete sketches of our findings with a recommendation to your staff examiners who will complete the claim from that point forward.</p>
+ 						<h6>Company:</h6>
+ 						<input class="box" name="company" type="text">
+ 						<h6>Address:</h6>
+                        <input class="box" name="address" type="text">
+                        <h6>City, State, & Zip:</h6>
+                        <input class="box" name="place" type="text">
+                        <h6>Adjuster Name:</h6>
+                        <input class="box" name="adjname" type="tex">
+                        <h6>Adjuster Email:</h6>
+                        <input class="box" name="adjemail" type="email" placeholder="my_email@email.com">
+                        <h6>Phone:</h6>
+                        <input class="box" name="phone" type="tel">
+                        <h6>Extension:</h6>
+                        <input class="box" name="ext" type="tel">
+                        <h6>Fax :</h6>
+                        <input class="box" name="fax" type="tel">
 					</div>
-				<button class="accordion">Managed Claims Model<i class="fa fa-angle-up arrowup" aria-hidden="true"></i><i class="fa fa-angle-down arrowdown" aria-hidden="true"></i></button>
+				<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Insured Information</div>
 					<div class="panel">
- 						 <p>We handle the claim from the initial quality contact to determine cause of loss and to set the appropriate reserves, all the way to settlement and final voice to voice contact with the insured (including any required correspondence under state law), just to have the claim closed in your system by your staff</p>
+ 						<h6>Company:</h6>
+ 						<input class="box" name="company" type="text">
+ 						<h6>Address:</h6>
+                        <input class="box" name="address" type="text">
+                        <h6>City, State, & Zip:</h6>
+                        <input class="box" name="place" type="text">
+                        <h6>Adjuster Name:</h6>
+                        <input class="box" name="adjname" type="tex">
+                        <h6>Adjuster Email:</h6>
+                        <input class="box" name="adjemail" type="email" placeholder="my_email@email.com">
+                        <h6>Phone:</h6>
+                        <input class="box" name="phone" type="tel">
+                        <h6>Extension:</h6>
+                        <input class="box" name="ext" type="tel">
+                        <h6>Fax :</h6>
+                        <input class="box" name="fax" type="tel">
 					</div>
+				<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Claimant information</div>
+					<div class="panel">
+  						<h6>Company:</h6>
+ 						<input class="box" name="company" type="text">
+ 						<h6>Address:</h6>
+                        <input class="box" name="address" type="text">
+                        <h6>City, State, & Zip:</h6>
+                        <input class="box" name="place" type="text">
+                        <h6>Adjuster Name:</h6>
+                        <input class="box" name="adjname" type="tex">
+                        <h6>Adjuster Email:</h6>
+                        <input class="box" name="adjemail" type="email" placeholder="my_email@email.com">
+                        <h6>Phone:</h6>
+                        <input class="box" name="phone" type="tel">
+                        <h6>Extension:</h6>
+                        <input class="box" name="ext" type="tel">
+                        <h6>Fax :</h6>
+                        <input class="box" name="fax" type="tel">
+					</div>
+				<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Coverage information</div>
+					<div class="panel">
+  						<h6>Company:</h6>
+ 						<input class="box" name="company" type="text">
+ 						<h6>Address:</h6>
+                        <input class="box" name="address" type="text">
+                        <h6>City, State, & Zip:</h6>
+                        <input class="box" name="place" type="text">
+                        <h6>Adjuster Name:</h6>
+                        <input class="box" name="adjname" type="tex">
+                        <h6>Adjuster Email:</h6>
+                        <input class="box" name="adjemail" type="email" placeholder="my_email@email.com">
+                        <h6>Phone:</h6>
+                        <input class="box" name="phone" type="tel">
+                        <h6>Extension:</h6>
+                        <input class="box" name="ext" type="tel">
+                        <h6>Fax :</h6>
+                        <input class="box" name="fax" type="tel">
+					</div>				
+					<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Loss information</div>
+					<div class="panel">
+  						<h6>Company:</h6>
+ 						<input class="box" name="company" type="text">
+ 						<h6>Address:</h6>
+                        <input class="box" name="address" type="text">
+                        <h6>City, State, & Zip:</h6>
+                        <input class="box" name="place" type="text">
+                        <h6>Adjuster Name:</h6>
+                        <input class="box" name="adjname" type="tex">
+                        <h6>Adjuster Email:</h6>
+                        <input class="box" name="adjemail" type="email" placeholder="my_email@email.com">
+                        <h6>Phone:</h6>
+                        <input class="box" name="phone" type="tel">
+                        <h6>Extension:</h6>
+                        <input class="box" name="ext" type="tel">
+                        <h6>Fax :</h6>
+                        <input class="box" name="fax" type="tel">
+					</div>
+			</form>
 			</div>
 		<span id="about"></span>
 		</div>
@@ -141,8 +230,8 @@
 	<script src="owl-carousel/owl.carousel.js"></script>
 	<!--Configuration Interactions-->
 	<script src="js/interactions.js"></script>
-	<!--Configuration Modal-->
-	<script src="js/modal.js"></script>
+	<!--Configuration Interactions-->
+	<script src="js/accsubmit.js"></script>
 <!-- Google Analytics-->
 	<!-- 	<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

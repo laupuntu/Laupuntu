@@ -82,7 +82,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     /*     position: fixed; */
     }
     .wrapsub {
-        height: 100px;
+        height: 200px;
     }
     .wrapper {
         max-width: 814px;
@@ -728,6 +728,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         align-items: center;
         padding-top: 21px;
         padding-bottom: 15px;
+        z-index: -100000;
     }
     .copy p 
     {
@@ -744,7 +745,13 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
 /**********/
 /* Submit */
-    button.accordion {
+    .accordion1 i {
+        margin-left: 70px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    div.accordion1 {
         background-color: #0070bc;
         color: #ffffff;
         cursor: pointer;
@@ -752,54 +759,57 @@ subtitulos fomrulario: open sans, normal. 12pt.
         width: 100%;
         border: none;
         text-align: left;
-        outline: none;
-        font-size: 14px;
+        font-size: 11px;
         font-weight: 600;
+        outline: none;
         transition: 0.4s;
         box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
     }
-
-    button.accordion.active, button.accordion:hover {
-        background-color: #227bff;
+    div.accordion1.active, div.accordion1:hover {
+        background-color: #0070bc;
         box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
     }
-    .arrowup {
-        display: none;     
-    }
-    .arrowdown {
-        font-size: 20px;
-        color: #FFFFFF;
-        float: right;
-        margin-left: 5px;  
-    }
-    button.accordion.active .arrowup {
+
+    div.accordion1.active1 .arrowup {
         display: block;
         font-size: 20px;
         color: #FFFFFF;
         float: right;
         margin-left: 5px;
     }
-    button.accordion.active .arrowdown{
+    div.accordion1.active1 .arrowdown{
         display: none;
     }
     div.panel {
         padding: 0 18px;
-        background-color: #227bff;
+        background-color: #0070bc;
         color: #ffffff;
         max-height: 0;
         overflow: hidden;
         transition: 0.6s ease-in-out;
         opacity: 0;
         box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75); 
+        z-index: 1000000;
+        overflow: auto;
     }
-    div.panel p{
-        text-align: justify;
+    div.panel h6{
         font-size: 12px;
-        padding: 30px 32px 50px 32px;
+        font-weight: 400;
+        margin-top: 10px;
     }
-    div.panel.show {
+    div.panel input{
+        margin-top: -15px;
+        font-size: 12px;
+        font-weight: 400;
+        width: 220px;
+        height: 16px;
+        background-color: #ffffff;
+        opacity: 0.6;
+        float: right;
+    }
+    div.panel.show1 {
         opacity: 1;
-        max-height: 180px;
+        max-height: 400px;
     }
     .boxDc 
     {
@@ -809,3 +819,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         margin-top: -285px;
  
     }
+/**********/
+
+
+

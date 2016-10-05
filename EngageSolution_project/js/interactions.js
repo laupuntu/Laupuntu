@@ -14,6 +14,7 @@ function fixedtop() {
 		document.querySelector(".navimg").style.marginTop = "-20px";
 		document.querySelector(".navbar hr").style.display = "none";
 		document.querySelector("#sub").style.display = "block";
+		document.querySelector("nav ul li:last-child").style.marginRight = "0";
 	} else {
 		document.querySelector(".navbar").style.top = "initial";
 		document.querySelector(".navbar").style.backgroundColor = "transparent";
@@ -24,6 +25,7 @@ function fixedtop() {
 		document.querySelector(".navimg").style.marginTop = "0";
 		document.querySelector(".navbar hr").style.display = "block";
 		document.querySelector("#sub").style.display = "none";
+		document.querySelector("nav ul li:last-child").style.marginRight = "-55px";
 	}
 }
 
@@ -82,7 +84,6 @@ $(function(){
 
 });
 var acc = document.getElementsByClassName("accordion");
-var i;
 
 acc[0].addEventListener("click", function(){
         this.classList.toggle("active");
@@ -94,8 +95,6 @@ acc[1].addEventListener("click", function(){
         this.nextElementSibling.classList.toggle("show");
         acc[0].nextElementSibling.classList.remove("show");
  	 });
-
-
 
 
 
