@@ -667,20 +667,21 @@ subtitulos fomrulario: open sans, normal. 12pt.
         margin-left: -130px;
         margin-right: 80px;
     }
-    .locmap img {
+    .locmap i {
         float: right;
-        margin-left: -30px;
-        margin-top: -20px;
+        color: #ffffff;
+        margin-left: -25px;
+        margin-top: -30px;
     }
     .locmap h4 {
-        color: #227bff;
+        color: #ffffff;
         font-size: 14px;
         float: right;
         margin-top: 20px;
         margin-right: -15px;
     }
     #textCA {
-        margin-right: -5px;
+        margin-right: -10px;
     }
     .locmap h5 {
         color:  #4d4d4d;
