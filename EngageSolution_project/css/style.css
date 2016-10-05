@@ -765,22 +765,22 @@ subtitulos fomrulario: open sans, normal. 12pt.
         transition: 0.4s;
         box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
     }
-    div.accordion1.active, div.accordion1:hover {
+    div.accordion1.active1, div.accordion1:hover {
         background-color: #0070bc;
         box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
     }
 
-    div.accordion1.active1 .arrowup {
+    div.accordion1.active1 .arrowup1 {
         display: block;
         font-size: 20px;
         color: #FFFFFF;
         float: right;
         margin-left: 5px;
     }
-    div.accordion1.active1 .arrowdown{
+    div.accordion1.active1 .arrowdown1{
         display: none;
     }
-    div.panel {
+    div.panel1 {
         padding: 0 18px;
         background-color: #0070bc;
         color: #ffffff;
@@ -792,12 +792,12 @@ subtitulos fomrulario: open sans, normal. 12pt.
         z-index: 1000000;
         overflow: auto;
     }
-    div.panel h6{
+    div.panel1 h6{
         font-size: 12px;
         font-weight: 400;
         margin-top: 10px;
     }
-    div.panel input{
+    div.panel1 input{
         margin-top: -15px;
         font-size: 12px;
         font-weight: 400;
@@ -807,7 +807,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         opacity: 0.6;
         float: right;
     }
-    div.panel.show1 {
+    div.panel1.show1 {
         opacity: 1;
         max-height: 400px;
     }
