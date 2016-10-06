@@ -18,8 +18,9 @@
   		});
  
 		});
-/* Funcion que permite tomar textos desde el servidor e inyectarlos en html*/
 
+/* Funcion que permite tomar textos desde el servidor e inyectarlos en html*/
+loadText();
 function loadText() {
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
@@ -70,22 +71,94 @@ function loadText() {
 	xhttp5.send();
 }
 /* Fijar menu en la parte de arriba cuando se haga scroll a la pagina */
+var w = window.innerWidth;
+window.addEventListener("resize", pagewidth);
+function pagewidth() {
+	w = window.innerWidth;
+}
 window.onscroll = function() {fixedtop()};
-
 function fixedtop() {
 	if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
 		document.querySelector(".navbar").style.transition = "all 1s";
 		document.querySelector(".navbar").style.top = 0;
 		document.querySelector(".navbar").style.backgroundColor = "rgba(0,136,170,1)";
 		document.querySelector(".navbar").style.zIndex = "1";
-		document.querySelector(".navimg").style.display = "block";
+		if (w > 768) {
+			document.querySelector(".navimg").style.display = "block";
+		}
 	} else {
 		document.querySelector(".navbar").style.top = "initial";
 		document.querySelector(".navbar").style.backgroundColor = "transparent";
 		document.querySelector(".navimg").style.display = "none";
 	}
 }
+/*Funcion para cambiar por dia el programa de expositores*/
+var speakers = new Array();
+var time = new Array();
+var workday = ["Coffe Brake", "Lunch"];
+//Asignando Speakers
+speakers[0] = "Sir John B. Gurdon";
+speakers[1] = "Maria Barna";
+speakers[2] = "Jesus Chimal Monroy";
+speakers[3] = "Miguel Concha";
+speakers[4] = "Robb Krumlauf";
+speakers[5] = "Carole LaBonne";
+speakers[6] = "Roberto Mayor";
+speakers[7] = "Alejandro Sánchez-Alvarado";
+speakers[8] = "Joachim Wittbrodt";
+speakers[9] = "Shioban Brady";
+speakers[10] = "Veronica DiStilio";
+speakers[11] = "Cristina Ferrandiz";
+speakers[12] = "Vivian Irish";
+speakers[13] = "Robert Sablowski";
+speakers[14] = "Miltos Tsiantis";
+speakers[15] = "Enrique Amaya";
+speakers[16] = "Karen Echeverri";
+speakers[17] = "Patricia Ferreti";
+speakers[18] = "Brigitte Galliot";
+speakers[19] = "José García Arrarás";
+speakers[20] = "Tsonis Panagiotis";
+speakers[21] = "Sylvain Marcellini";
+speakers[22] = "Rodrigo Nunes Da Fonseca ";
+speakers[23] = "Sylvain Marcellini";
+speakers[24] = "Robert Reed";
+speakers[25] = "Igor Schneider";
+speakers[26] = "Karen Sears";
+speakers[27] = "Joseph Arboleda Velasquez";
+speakers[28] = "Mariane Bronner";
+speakers[29] = "M. Angela Nieto";
+speakers[30] = "Lee Niswander";
+speakers[31] = "Fernando Camargo";
+//Asignando Horas
+time[0] = "08:30 am";
+time[1] = "11:00 am";
+time[2] = "01:30 pm";
+time[3] = "03:30 pm";
+time[4] = "09:00 am";
+time[5] = "11:30 am";
+time[6] = "02:00 pm";
+time[7] = "04:00 pm";
+time[8] = "09:30 am";
+time[9] = "12:00 pm";
+time[10] = "02:30 pm";
+time[11] = "04:30 pm";
+time[12] = "10:30 am";
+time[13] = "12:30 pm";
+time[14] = "03:00 pm";
+time[15] = "05:00 pm";
 
+//Funcion Asignacion Speakers y Horas 
+function programme() {
+	var cell = document.getElementsByClassName("divTableCell");
+	for (var i = 0; i < cell.length; i++) {
+		if (i == 12 || i == 3) {
+			cell[i].innerHTML = time[i] + " " + workday[0];	
+		} else if (i == 13) {
+			cell[i].innerHTML = time[i] + " " + workday[1];
+		} else
+		cell[i].innerHTML = time[i] + " " + speakers[i];
+	}
+}
 /*para el header de navegacion*/
 $(document).ready(main);
  
@@ -114,3 +187,29 @@ function main(){
 		$(this).children('.children').slideToggle();
 	});
 }
+$(function(){
+
+     $('.lnks').click(function() {
+
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+
+             var $target = $(this.hash);
+
+             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+             if ($target.length) {
+
+                 var targetOffset = $target.offset().top;
+
+                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+
+                 return false;
+
+            }
+
+       }
+
+   });
+
+});

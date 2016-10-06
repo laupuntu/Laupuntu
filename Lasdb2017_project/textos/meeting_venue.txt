@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿MEETING VENUE
 
 INTERCONTINENTAL MEDELLÍN
@@ -16,3 +17,8 @@ Tel:  +57-4-4448106
 LEARN MORE  >   
 
 (link: https://www.ihg.com/intercontinental/hotels/us/es/medellin/mdeha/hoteldetail)
+=======
+PLAZA MAYOR<br><br>
+Gracias a su ubicación, Plaza Mayor Medellin cuenta con diferentes rutas y medios de acceso. Los invitamos a usar el transporte público para llegar a todos los eventos que se realizan en El Corazón de Medellin.<br><br>
+Metro: tanto la estación Alpujarra como Exposiciones se encuentran cerca de Plaza Mayor y cuentan con señalización para facilitar la llegada de los visitantes hasta el recinto.
+>>>>>>> bfe437d8154ba79b5c35a13cdc35177d677d1112

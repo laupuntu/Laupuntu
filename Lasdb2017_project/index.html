@@ -20,7 +20,7 @@
 	<!-- Web Page Style -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body onload="loadText()">
+<body>
 	<header>
 	<!--Contacto-->
 		<div class="wrap">
@@ -38,7 +38,7 @@
 			        </div>
 			        <div class="contacto">
 				        <p>
-				        	<a href="mailto:nfo@contacticacomunicaciones.com"><span class="fa fa-envelope fa-lg"></span>info@contacticacomunicaciones.com</a>
+				        	<a href="mailto:nfo@contacticacomunicaciones.com"><span class="fa fa-envelope fa-lg"></span>info@contabcticacomunicaciones.com</a>
 				        </p>
 			        </div>
 				</div>
@@ -48,19 +48,20 @@
 		<div class="navbar">
 			<div class="wrapper">
 				<div class="menu_bar">
-	            <a class="bt-menu"><span class="fa fa-bars fa-2x"></span></a>
+				<img src="imagenes/logos/logoLASDB_red.png" alt="Logo LASDB Rojo" class="navimgres">
+	            <a class="bt-menu"><span class="fa fa-bars"></span></a>
 	    		</div>
-				<nav>
+				<nav id="navip">
 					<img src="imagenes/logos/logoLASDB_red.png" alt="Logo LASDB Rojo" class="navimg">
 				      <ul>
 						<!-- <li></li> -->
 				        <li><a href="#meet" class="lnks">Meeting2017</a></li>
-				        <li><a href="#prog" class="lnks">Programme</a></li>
+				        <li><a href="#prog0" class="lnks">Programme</a></li>
 				        <li><a href="#speak" class="lnks">Speakers</a></li>
-				        <li><a href="#venue" class="lnks">Venue</a></li>
+				        <li><a href="#venue0" class="lnks">Venue</a></li>
 				        <li><a href="#tick" class="lnks">Ticket</a></li>
 				        <li><a href="#spon" class="lnks">Sponsors</a></li>
-				        <li><a href="#cont" class="lnks">Contact</a></li>
+				        <li><a href="#cont0" class="lnks">Contact</a></li>
 				      </ul>
 				</nav>
 			</div>
@@ -101,9 +102,10 @@
 				</footer>
 			</article>
 		</div>
+		<span id="meet"></span>
 		</section>
 	<!--Texto Meeting-->
-		<section class="parallax-window dif" data-parallax="scroll" data-image-src="imagenes/fondos/lasdb_intro.jpg"  id="meet">
+		<section class="parallax-window dif" data-parallax="scroll" data-image-src="imagenes/fondos/lasdb_intro.jpg">
 			<div class="wrapper content met">
 				<article>
 					<header>
@@ -115,6 +117,7 @@
 				</article>
 				
 			</div>
+			<span id="prog0"></span>
 		</section>
 	<!--Programme-->
 		<section class="wrapper" id="prog">
@@ -161,7 +164,7 @@
 				</div>
 					<nav>
 						<span class="fa fa-calendar fa-lg" aria-hidden="true"></span>
-						<span>Day 1</span>
+						<span onclick="programme()">Day 1</span>
 						<span>Day 2</span>
 						<span>Day 3</span>
 						<span>Day 4</span>
@@ -169,9 +172,10 @@
 					</nav>
 				</div>
 			</div>
+			<span id="speak"></span>
 		</section>
 	<!--Speakers-->
-		<section class="parallax-window dif" data-parallax="scroll" data-image-src="imagenes/fondos/speakers.jpg" id="speak">
+		<section class="parallax-window dif" data-parallax="scroll" data-image-src="imagenes/fondos/speakers.jpg">
 			<div class="wrapper speak">
 				<h1>CONFIRMED SPEAKERS</h1>
 				<hr>
@@ -415,7 +419,7 @@
 					<div class="item">
 					<h2 id="animal">STEM CELLS AND EARLY<br>EMBRYO DEVELOPMENT</h2>
 					<div class="secdown">
-							<div class="icof" id="item1">
+							<div class="icof" id="item30">
 								<div>
 									<h2>Fernando Camargo</h2>
 									<h3>Boston Children's Hospital, USA</h3>
@@ -426,6 +430,7 @@
 					</div>
 				</div>
 			</div>
+			<span id="venue0"></span>
 		</section>
     <!--Meeting Venue-->
 		<section class="wrapper" id="venue">
@@ -434,7 +439,7 @@
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1534406760347!2d-75.57834868487421!3d6.243499995480673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429ab627545c1%3A0x23674fd4c47ec19c!2sPlaza+Mayor!5e0!3m2!1sen!2sco!4v1471887054924" width="100%" height="211" frameborder="0" style="border:0" allowfullscreen></iframe>
 			<div>
 				<img src="imagenes/fondos/plaza-mayor.jpg" alt="Plaza Mayor Medellin, Colombia">
-				<p id="text4">PLAZA MAYOR<br><br>Gracias a su ubicación, Plaza Mayor Medellin cuenta con diferentes rutas y medios de acceso. Los invitamos a usar el transporte público para llegar a todos los eventos que se realizan en El Corazón de Medellin.<br><br>Metro: tanto la estación Alpujarra como Exposiciones se encuentran cerca de Plaza Mayor y cuentan con señalización para facilitar la llegada de los visitantes hasta el recinto.</p>
+				<p id="text4"></p>
 			</div>
 		</section>
 	<!--Welcome To Medellin-->
@@ -452,12 +457,13 @@
 						<li><i class="fa fa-taxi fa-fw fa-lg" aria-hidden="true"></i><a href="#">Transport</a></li>
 						<li><i class="fa fa-bed fa-fw fa-lg" aria-hidden="true"></i><a href="#">Hotels</a></li>
 					</ul>
-						<iframe width="386" height="228" src="https://www.youtube.com/embed/fOuSk6nNUFU" frameborder="0" allowfullscreen></iframe>
+					<iframe width="386" height="228" src="https://www.youtube.com/embed/fOuSk6nNUFU" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
+			<span  id="tick"></span>
 		</section>
 	<!--Tickets-->
-		<section class="wrapper tick" id="tick">
+		<section class="wrapper tick">
 			<h1>TICKETS</h1>
 			<hr>
 			<div class="tableTicks">			
@@ -544,46 +550,24 @@
 									<div class="divTableCell1">&nbsp;</div>
 								</div>
 								<div class="divTableRow1">
-									<div class="divTableCell1">COP$350</div>
-									<div class="divTableCell1">COP$425</div>
-									<div class="divTableCell1">COP$500</div>
+									<div class="divTableCell1 rowA">COP$350</div>
+									<div class="divTableCell1 rowA">COP$425</div>
+									<div class="divTableCell1 rowA">COP$500</div>
 								</div>
 								<div class="divTableRow1">
-									<div class="divTableCell1">COP$250</div>
-									<div class="divTableCell1">COP$300</div>
-									<div class="divTableCell1">COP$350</div>
+									<div class="divTableCell1 rowA">COP$250</div>
+									<div class="divTableCell1 rowA">COP$300</div>
+									<div class="divTableCell1 rowA">COP$350</div>
 								</div>
 								<div class="divTableRow1">
-									<div class="divTableCell1">COP$200</div>
-									<div class="divTableCell1">COP$260</div>
-									<div class="divTableCell1">COP$300</div>
+									<div class="divTableCell1 rowA">COP$200</div>
+									<div class="divTableCell1 rowA">COP$260</div>
+									<div class="divTableCell1 rowA">COP$300</div>
 								</div>
 								<div class="divTableRow1">
-									<div class="divTableCell1">COP$175</div>
-									<div class="divTableCell1">COP$220</div>
-									<div class="divTableCell1">COP$250</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<hr>
-					<div class="caja">
-						<div class="divTable1">
-							<div class="divTableBody1">
-								<div class="divTableRow1">
-									<div class="divTableCell1">&nbsp;</div>
-									<div class="divTableCell1">&nbsp;</div>
-									<div class="divTableCell1">&nbsp;</div>
-								</div>
-								<div class="divTableRow1">
-									<div class="divTableCell1">COP$175</div>
-									<div class="divTableCell1">COP$220</div>
-									<div class="divTableCell1">COP$250</div>
-								</div>
-								<div class="divTableRow1">
-									<div class="divTableCell1">COP$140</div>
-									<div class="divTableCell1">COP$180</div>
-									<div class="divTableCell1">COP$200</div>
+									<div class="divTableCell1 rowA">COP$175</div>
+									<div class="divTableCell1 rowA">COP$220</div>
+									<div class="divTableCell1 rowA">COP$250</div>
 								</div>
 							</div>
 						</div>
@@ -598,9 +582,31 @@
 									<div class="divTableCell1">&nbsp;</div>
 								</div>
 								<div class="divTableRow1">
-									<div class="divTableCell1">COP$105</div>
-									<div class="divTableCell1">COP$130</div>
-									<div class="divTableCell1">COP$150</div>
+									<div class="divTableCell1 rowb">COP$175</div>
+									<div class="divTableCell1 rowb">COP$220</div>
+									<div class="divTableCell1 rowb">COP$250</div>
+								</div>
+								<div class="divTableRow1">
+									<div class="divTableCell1 rowb">COP$140</div>
+									<div class="divTableCell1 rowb">COP$180</div>
+									<div class="divTableCell1 rowb">COP$200</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="caja">
+						<div class="divTable1">
+							<div class="divTableBody1">
+								<div class="divTableRow1">
+									<div class="divTableCell1">&nbsp;</div>
+									<div class="divTableCell1">&nbsp;</div>
+									<div class="divTableCell1">&nbsp;</div>
+								</div>
+								<div class="divTableRow1">
+									<div class="divTableCell1 rowc">COP$105</div>
+									<div class="divTableCell1 rowc">COP$130</div>
+									<div class="divTableCell1 rowc">COP$150</div>
 								</div>
 								<div class="divTableRow1">
 									<div class="divTableCell1">&nbsp;</div>
@@ -613,6 +619,7 @@
 					<hr>
 				</div>
 			</div>
+
 			<p>* Thousand of Colombian Pesos</p>
 			<a href="#" class="button">Buy Ticket</a>
 			<h5><a href="">I want to become COLSDB (Colombian Society for Developmental Biology) Member</a></h5>
@@ -668,14 +675,16 @@
 					<a href="http://www.eafit.edu.co/" target="_blank"><img src="imagenes/logos/U_eafit.png" alt="Universidad EAFIT" id="eafit"></a>
 				</div>				
 			</div>
+			<span id="spon"></span>
 		</section>
 	<!--Sponsors-->
-		<section class="wrapper spon" id="spon">
+		<section class="wrapper spon">
 			<h1>SPONSORS</h1>
 			<hr>
 			<div class="logspon">
 				<a href="http://www.biologist.com" target="_blank"><img src="imagenes/logos/sponsor_thebiologist.png" alt="The Company of Biologist" id="biocom"></a>
 			</div>
+			<span id="cont0"></span>
 		</section>
 	<!--Contact-->
 		<section class="parallax-window dif" data-parallax="scroll" data-image-src="imagenes/fondos/newsletter.jpg">
