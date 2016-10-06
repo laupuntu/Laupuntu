@@ -1,5 +1,4 @@
-SPEAKERS
-
+﻿﻿SPEAKERS
 
 Nobel Awardee
 Sir John B. Gurdon
@@ -12,35 +11,51 @@ BIOLOGY
 Maria Barna 
 Stanford University, USA
 Bio-imaging of tissue patterning and cellular  communication during embryonic development
+Webpage: http://barnalab.stanford.edu/
+e-mail: mbarna@stanford.edu
 
 Jesus Chimal Monroy
 Universidad Nacional Autónoma de México
 Morphogenesis and cartilage differentiation during chick 
 and mouse embryo development
+Webpage:http://www.biomedicas.unam.mx/_administracion/_departamentos/medicina_genomica_toxicologia_ambiental/jesus_chimal.html
+e-mail: jchimal@unam.mx
 
 Miguel Concha
 Laboratory of Experimental Ontogeny, Chile
  Epithelial organization, epiboly and gastrulation
+Webpage: http://www.ontogenesis.cl/
+e-mail: mconcha@med.uchile.cl
 
 Robb Krumlauf 
 Stowers Institute for Medical Research, USA
 Hox gene regulation and evolution
+Webpage: http://www.stowers.org/faculty/krumlauf-lab
+e-mail: rek@stowers.org
 
 Carole LaBonne 
 Northwestern University, USA
- Stem cells during Xenopus development
+Stem cells during Xenopus development
+Webpage:http://groups.molbiosci.northwestern.edu/labonne/carolelabonne.htm
+e-mail: clabonne@northwestern.edu
 
 Roberto Mayor 
 University College London, UK
 Development of the neural crest 
+Webpage: http://www.ucl.ac.uk/cdb/research/mayor/mayor_lab
+e-mail: r.mayor@ucl.ac.uk
 
 Alejandro Sánchez-Alvarado
 Stowers Institute for Medical Research, USA
 Planarian developmental biology
+Webpage: http://www.stowers.org/faculty/s%C3%A1nchez-lab
+e-mail: asa@stowers.org
 
 Joachim Wittbrodt 
 Centre for Organismal Studies - Heidelberg, Germany
 Vertebrate eye and brain development and regeneration
+Webpage: http://www.cos.uni-heidelberg.de/index.php/j.wittbrodt?l=_e
+e-mail: jochen.wittbrodt@cos.uni-heidelberg.de
 
 
 
@@ -51,32 +66,45 @@ BIOLOGY
 Siobhan Brady 
 University of California Davis, USA
 Protein interactions, plant genomics and metabolomics
+Webpage: http://www-plb.ucdavis.edu/labs/brady/
+e-mail:  sbrady@ucdavis.edu 
 
 Luis Alfredo Cruz Ramirez
 Langebio, Cinvestav, México
 Genetic networks patterning root development
 
+
 Veronica DiStilio
 University of Washington, USA
 MADS-box gene evolution and sex determination
 in flowering plants
+Webpage: http://faculty.washington.edu/distilio/
+e-mail: distilio@u.washington.edu
 
 Cristina Ferrandiz
 Instituto de  Biologia Molecular y Celular de Plantas, 
 Universitat Politècnica de València, Spain
 Molecular mechanisms underlying fruit development
+Webpage: http://www.ibmcp.upv.es/FerrandizLab/groupweb/FerrandizLab/Ferrandiz_Lab.html 
+e-mail: cferrandiz@ibmcp.upv.es
 
 Vivian Irish 
 Yale University, USA
 Plant development and morphogenesis
+Webpage: http://www.bbs.yale.edu/people/vivian_irish.profile
+e-mail: vivian.irish@yale.edu
 
 Robert Sablowski
 John Innes Centre, UK
 Plant embryogenesis
+Webpage: https://www.jic.ac.uk/directory/robert-sablowski/
+e-mail: robert.sablowski@jic.ac.uk
 
 Miltos Tsiantis  
 Max Planck Institute for Plant Breeding Research, Germany
 Leaf development and evolution
+Webpage: http://www.mpipz.mpg.de/226344/tsiantis-dpt
+e-mail: tsiantis@mpipz.mpg.de
 
 POST- EMBRYONIC DEVELOPMENT 
 AND REGENERATION
@@ -86,58 +114,86 @@ The University of Manchester, UK
 Growth factor signal interpretation during development, 
 wound healing and regeneration; 
 functional genomics in Xenopus
+Webpage: http://www.ls.manchester.ac.uk/people/profile/?personid=134
+e-mail: enrique.amaya@manchester.ac.uk
 
 Karen Echeverri 
 University of Minnesota, USA
- Molecular and cellular mechanisms of regeneration
+Molecular and cellular mechanisms of regeneration
+Webpage: http://cbs.umn.edu/contacts/karen-echeverri-phd-0
+e-mail: echev020@umn.edu
 
 Patricia Ferreti 
 University College London, Institute of Child Health, UK
 Regeneration of complex body structures in vertebrates
+Webpage: https://iris.ucl.ac.uk/iris/browse/profile?upi=PFERR04 
+e-mail: p.ferretti@ucl.ac.uk
 
 Brigitte Galliot 
 Université de Genéve, Switzerland
 Regeneration and adult neurogenesis
+Webpage: http://genev.unige.ch/en/users/Brigitte-Galliot
+e-mail: brigitte.galliot@unige.ch
 
 José García Arrarás 
 University of Puerto Rico, Rio Piedras
 Cellular and molecular aspects of intestinal
 and neural regeneration
+Webpage: http://devneuro.hpcf.upr.edu/DevNeuro/Welcome.html
+e-mail: jegarcia@hpcf.upr.edu
 
 Tsonis Panagiotis
 University of Dayton, USA
 Tissue regeneration and engineering
+R.I.P 
+
+Webpage: www.udayton.edu/directory/artssciences/biology/tsonis_panagiotis.php
+e-mail: ptsonis1@udayton.edu
 
 EVO-DEVO AND NEXT GENERATION SEQUENCING
 
 Sylvain Marcellini
 Universidad de Concepción, Chile
 Evolution of the vertebrate skeletogenic programme
+webpage: http://www.xenbase.org/community/person.do?method=display&personId=1675
+email: smarcellini@udec.cl 
 
 Rodrigo Nunes Da Fonseca 
 Universidade Federal do Rio de Janeiro, Brazil
 Evolutionary developmental biology of non-model arthropods
+webpage: https://www.researchgate.net/profile/Rodrigo_Nunes_da_Fonseca/publications
+e-mail: rodrigo.nunes.da.fonseca@gmail.com
 
 Robert Reed 
 Cornell University, USA
 Genes and developmental processes in the diversification 
 of animal color patterns
+Webpage: http://ecologyandevolution.cornell.edu/people/faculty/robert-reed.cfm
+e-mail: rdr96@cornell.edu
 
 Igor Schneider 
 Universidade Federal de Pará, Brazil
 Development of the South American lungfish as a model species for comparative developmental biology and regeneration
+Webpage: http://www.evodevo.com.br/people/
+e-mail: ischneider.evodevo@gmail.com
 
 Karen Sears 
 University of Illinois, USA
 Non-traditional mammalian model systems 
+Webpage: http://www.life.illinois.edu/sears/
+e-mail: ksears2@illinois.edu
 
 Randall Voss
 University of Kentucky, USA
 Salamander genome project
+Webpage: https://bio.as.uky.edu/users/srvoss
+e-mail: srvoss@uky.edu
 
 Jeremiah Smith
 University of Kentucky, USA
 Development of sea lamprey
+Webpage: https://bio.as.uky.edu/users/jjsmit3
+e-mail: jjsmit3@uky.edu
 
 STEM CELLS, NEUROBIOLOGY,
 MEDICINE AND DEVELOPMENT
@@ -145,28 +201,42 @@ MEDICINE AND DEVELOPMENT
 Joseph Arboleda Velasquez 
 Schepens Eye Research Institute, USA
 Eye Development
+Webpage: http://www.schepens.harvard.edu/arboleda
+e-mail: joseph_arboleda@meei.harvard.edu
 
 Mariane Bronner
 Caltech, USA
 Neurobiology
+Webpage: https://www.bbe.caltech.edu/content/marianne-bronner 
+e-mail: mbronner@caltech.edu
 
 M. Angela Nieto
 Instituto de Neurociencias, Alicante, Spain
 Cell movements in development and disease, cancer 
 and developmental biology
+Webpage: http://in.umh.es/personal-detalle.aspx?personal=165
+e-mail: anieto@umh.es
 
 Lee Niswander
 University of Colorado, USA
 Closure of the neural tube
+Webpage:http://www.ucdenver.edu/academics/colleges/medicalschool/programs/Molbio/faculty/NiswanderL/Pages/NiswanderL.aspx
+e-mail: Lee.Niswander@ucdenver.edu
 
 Claudia Torrez Farfán
 Universidad Austral de Chile
 Development and chronobiology
+Webpage: http://www.medicina.uach.cl/investigacion/claudia-torres/index.php
+e-mail: claudia.torres@uach.cl
 
 Fernando Camargo
 Boston Children's Hospital, USA
 Adult stem cell biology,  organ size regulation and cancer
+Webpage: http://stemcell.childrenshospital.org/about-us/stem-cell-program-labs/the-camargo-lab/
+e-mail:  camargo@fas.harvard.edu
 
 Hernan Lopez-Schier
 Helmholtz Zentrum münchen, Germany
 Optogenetic stimulation of neuronal repair
+Webpage: http://www.helmholtz-muenchen.de/sbo
+Email: 
