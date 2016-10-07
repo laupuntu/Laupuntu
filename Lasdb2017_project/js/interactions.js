@@ -1,5 +1,5 @@
 /* Configuracion Carrusel Owl*/
-		$(document).ready(function() {
+/*		$(document).ready(function() {
  
 		$("#owl-demo").owlCarousel({
  
@@ -18,7 +18,7 @@
   		});
  
 		});
-
+*/
 /* Funcion que permite tomar textos desde el servidor e inyectarlos en html*/
 loadText();
 function loadText() {
@@ -237,3 +237,25 @@ document.getElementById('min').innerHTML = floor_mins;
 
 }
 setInterval(timer,1000);
+
+/* Configuracion Carrusel Owl 2*/
+$(document).ready(function() {
+ 
+  $("#owl-demo1").owlCarousel({
+ 
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+});
+

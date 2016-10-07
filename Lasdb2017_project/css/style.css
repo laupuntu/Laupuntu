@@ -284,7 +284,7 @@ nav ul li:hover {
     justify-content: space-between;
     align-content: center;
     padding: 15px 100px;
-    color: #cd1b21;
+    color: #da1418;
     font-size: 1em;
     word-spacing: 2px;
     letter-spacing: 1px;
@@ -347,113 +347,137 @@ nav ul li:hover {
 }
 /***********/
 /*Reset Section*/
-.info a {
-    text-decoration: none;
-    font-size: 0.625em;
-    color: #6f6f6f;
+.news h1 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 15px;
+    color: #da1418;
+    font-size: 1.250em;
+    letter-spacing: 0.1em;
+}
+.news hr {
+    margin:  0 auto;
+    height: 1px;
+    width: 40px;
+    background-color: #da1418;
+    border: none;
 }
 .news {
     height: auto;
     padding-bottom: 25px;
 }
 /* Section 2 */
-.line {
-    height: 145px;
-    width: 1px;
-    background-color: #da1418;
+/*Slider*/
+#owl-demo1 .item1{
+    display: block;
+    width: 100%;
+    height: auto;
 }
-.info {
+.owl-theme .owl-controls .owl-page span{
+    border: 2px solid #0088aa;
+    background:  transparent;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background:  #0088aa;
+}
+/*News*/
+.lastnews {
     display: flex;
-    justify-content: space-around;
-    padding-top: 46px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin: 20px 100px;
 }
-.icons {
-    float: left;
+.lastnews article p {
+    float: right;
+    color: #6f6f6f;
+    font-size: 1.2em;
+}
+.lastnews article span {
+    color: #6f6f6f;
     margin-right: 20px;
 }
-.info h2 {
-    float: left;
+.lastnews article:hover{
+    cursor: pointer;
 }
-#text1,#text2 {
-    clear: both;
-}
-.info footer {
-    margin-top: 10px;
-    text-align: right;
-}
-.info article {
-    padding-right: 60px;
-}
-.info article:last-child {
-    padding-left: 50px;
-    padding-right: 0;
-}
-.info p {
-    margin-top: 50px;
-    width: 350px;
-    height: 60px;
-    max-height: 80px;
-    line-height: 1.5;
-    font-size: 0.75em;
-    color: #6f6f6f;
-    overflow: auto;
-}
-.info article footer a i {
-    margin-left: 15px;
+.lastnews article:hover p {
     color: #da1418;
 }
-.info header {
-    font-size: 1em;
+.lastnews article:hover span {
     color: #da1418;
+
 }
-.info article footer a {
-    font-size: 0.8em;
-}
-/*Media Querys*/
-@media screen and (max-width:768px){
-/* Section 2 */
-.info article:first-child {
-    padding-right: 0;
-}
-.info article:last-child {
-    padding-left: 0;
-}
-}
-@media screen and (max-width:375px){
-/* Section 2 */
-.line {
-    margin: 40px 0;
-    height: 1px;
-    width: 145px;
-    background-color: #da1418;
-}
-.info {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 46px;}
-.icons {
-    margin-right: 5%;
-    margin-left: 25%;
-}
-.info p {
-    text-align: justify;
-    padding: 0 20px;
-    height: auto;
-    width: 100%;
-}
-.info article footer a i {
-    margin-right: 10px;
-}
-.info header {
-    font-size: 1em;
-    color: #da1418;
-}
-.info article footer a {
-    font-size: 0.8em;
-}
-}
+    /**********/
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(77,77,77); /* Fallback color */
+        background-color: rgba(77,77,77,0.9); /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #e6e6e6;
+        margin: 15% auto;
+        width: 800px;
+        height: 300px;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+        animation-name: animatetop;
+        animation-duration: 1s;
+        padding-right: 100px;
+    }
+    /* Add Animation */
+    @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+    }
+    /*-----*/
+    .modal-content i
+    {
+        float: left;
+        margin: 120px 100px;
+        color: #da1418;
+    }
+    .modal-content h1 {
+        color: #da1418;
+        font-size: 1em;
+        font-weight: 600;
+        text-align: left;
+        padding-top: 70px;
+    }
+    .modal-content p {
+        color: #4d4d4d;
+        height: 140px;
+        margin-top: 30px;
+        text-align: justify;
+        overflow: scroll;
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+    /* The Close Button */
+    .close {
+        color: #da1418;
+        float: right;
+        font-size: 30px;
+        font-weight: 400;
+        margin: 25px 0;
+        margin-right: -50px;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
 /***********/
 /*Reset Section*/
 .dif {
@@ -751,7 +775,7 @@ nav ul li:hover {
     letter-spacing: 0.05em;
 }
 /*Slider*/
-#owl-demo {
+/* #owl-demo {
     width: 100%;
 }
 #owl-demo .item{
@@ -776,14 +800,14 @@ nav ul li:hover {
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
     background:  #0088aa;
-}
+} */
 /* backSlide */
-.owl-backSlide-out {
+/* .owl-backSlide-out {
   animation: backSlideOut 2s both ease;
 }
 .owl-backSlide-in {
   animation: backSlideIn 2s both ease;
-}
+} */
 /*Exposition Title*/
 #animal {
     margin-bottom: 36px;
