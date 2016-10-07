@@ -213,3 +213,27 @@ $(function(){
    });
 
 });
+/*Conteo Regresivo*/
+timer();
+function timer()
+{
+
+var futureDate =  new Date("Oct 09 2017 008:00:00 GMT-0500 (BDT)");
+var date = new Date();
+var presentTime = date.getTime();
+var timelapse = futureDate - presentTime;
+var days = timelapse / (3600*1000*24);
+var floor_days = Math.floor(days);
+
+document.getElementById('date').innerHTML = floor_days;
+
+var hours = (days - floor_days) * 24;
+var floor_hours = Math.floor(hours);
+document.getElementById('hour').innerHTML = floor_hours;
+
+var mins = (hours - floor_hours) * 60;
+var floor_mins = Math.floor(mins);
+document.getElementById('min').innerHTML = floor_mins;
+
+}
+setInterval(timer,1000);

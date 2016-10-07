@@ -86,13 +86,14 @@ body {
     flex-flow:row no-wrap;
     height: 30px;
     color: #ffffff;
-    width: 60%;
+    width: 63.5%;
     margin-left: auto;
+    font-weight: normal;
 }
 .contacto p{
     padding-top: 7px;
     padding-right: 15px;  
-    font-size: 0.8em;
+    font-size: 0.85em;
 }
 .contacto p:last-child {
     padding-right: 0;
@@ -115,7 +116,7 @@ body {
 }
 nav {
     text-align: right;
-    word-spacing: 22px;
+    word-spacing: 13px;
     padding: 20px 0;
 }
 nav ul {
@@ -230,7 +231,7 @@ nav ul li:hover {
 #logo {
     float: left;
     margin-top: 60px;
-    margin-left: 117px;
+    margin-left: 107px;
 }
 #textlogo {
     height: 160px;
@@ -272,6 +273,47 @@ nav ul li:hover {
     margin-left: -3px;
     letter-spacing: 0;
     font-size: .4em;
+}
+.countdown {
+    height: 80px;
+    background-color: #0088aa;
+}
+.time {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 100px;
+    color: #cd1b21;
+    font-size: 1em;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.count:first-child {
+    margin-right: auto;
+}
+.count {
+    padding-right: 50px;
+}
+.count:last-child {
+    padding-right: 0;
+}
+.count p {
+    margin: 5px 0;
+    font-size: 2em;
+}
+#date {
+    margin-left: -8px;
+}   
+#hour {
+    margin-left: 8px;
+}
+#min {
+    margin-left: 15px;
+}
+#timemeet {
+    margin: 15px auto;
+    font-size: 1.5em;
 }
 /*Media Querys*/
 @media screen and (max-width:768px){

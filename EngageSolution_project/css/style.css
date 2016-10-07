@@ -664,8 +664,13 @@ subtitulos fomrulario: open sans, normal. 12pt.
         text-align: right;
     }
     .locmap:first-child {
-        margin-left: -130px;
+        margin-left: -30px;
         margin-right: 80px;
+        margin-bottom: 100px;
+    }
+    .locmap:last-child {
+        margin-top: 50px;
+        margin-right: 70px;
     }
     .locmap i {
         float: right;
