@@ -108,6 +108,35 @@ body {
 .contacto a:hover {
     font-size: 1em;
 }
+/*-----*/
+.contactUp2 {
+    display: none;
+    justify-content: space-between;
+    flex-flow:row no-wrap;
+    height: 20px;
+    color: #ffffff;
+    width: 63.5%;
+    margin-left: auto;
+    font-weight: normal;
+}
+.contacto2 p{
+    padding-top: 7px;
+    padding-right: 15px;  
+    font-size: 0.85em;
+}
+.contacto2 p:last-child {
+    padding-right: 0;
+}
+.contacto2 p span {
+    padding-right: 10px;
+}
+.contacto2 p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.contacto2 a:hover {
+    font-size: 1em;
+}
 /* Menu */
 .navbar {
     width: 100%;
@@ -368,7 +397,7 @@ nav ul li:hover {
 }
 /* Section 2 */
 /*Slider*/
-#owl-demo1 .item1{
+/* #owl-demo1 .item1{
     display: block;
     width: 100%;
     height: auto;
@@ -380,7 +409,7 @@ nav ul li:hover {
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
     background:  #da1418;
-}
+} */
 /*News*/
 .lastnews {
     display: flex;
@@ -699,7 +728,7 @@ nav ul li:hover {
     letter-spacing: 0.05em;
 }
 /*Slider*/
-/* #owl-demo {
+#owl-demo {
     width: 100%;
 }
 #owl-demo .item{
@@ -719,19 +748,19 @@ nav ul li:hover {
     background:  transparent;
     position: relative;
     left: 10px;
-    z-index: 1000;
+    z-index: 1;
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
     background:  #0088aa;
-} */
+}
 /* backSlide */
-/* .owl-backSlide-out {
+.owl-backSlide-out {
   animation: backSlideOut 2s both ease;
 }
 .owl-backSlide-in {
   animation: backSlideIn 2s both ease;
-} */
+}
 /*Exposition Title*/
 #animal {
     margin-bottom: 36px;
@@ -744,6 +773,8 @@ nav ul li:hover {
     align-items: center;
     flex-flow: row wrap;
     justify-content:space-between;
+    align-content: center;
+    align-items: center;
 }
 .icof {
     width: 150px;
@@ -752,10 +783,11 @@ nav ul li:hover {
     background-color: #0088aa;
     color: #FFFFFF;
     padding: 12px;
-    text-align: left;
+    text-align: center;
     letter-spacing: 0.051em;
 }
 .icof h2 {
+    margin-top: 20px;
     font-weight: 700;
     font-size: 1em;
 }
@@ -765,23 +797,103 @@ nav ul li:hover {
 }
 .icof p {
     height: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 0.8em;
     overflow: scroll;
+}
+.icof span {
+    cursor: pointer;
 }
 .icof div {
     display: none;
 }
-#item11 p {
-    margin-top: 25px;
+#item14, #item46, #item30 {
+    margin-left: auto;
 }
-#item5 p, #item12 p, #item13 p, #item20 p, #item23 p,#item25 p,#item27 p, #item29 p{
-    margin-top: 60px;
+#item50, #item47, #item49 {
+    margin-right: 155px;
+    margin-left: 5px;
 }
-#item14, #item20 {
+#item20 {
     margin-right: auto;
-    margin-left: 4px;
+    margin-left: 5px;
 }
+   /**********/
+    /* The Modal (background) */
+    .modal1 {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(77,77,77); /* Fallback color */
+        background-color: rgba(77,77,77,0.9); /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .modal-content1 {
+        background-color: #e6e6e6;
+        margin: 15% auto;
+        width: 800px;
+        height: 300px;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+        animation-name: animatetop;
+        animation-duration: 1s;
+        padding-right: 100px;
+    }
+    /* Add Animation */
+    @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+    }
+    /*-----*/
+    .modal-content1 img
+    {
+        float: left;
+        margin: 0;
+        width: 300px;
+        height: 300px;
+        color: #da1418;
+        margin-right: 80px;
+    }
+    .modal-content1 h1 {
+        text-align: left;
+        color: #da1418;
+        padding-top: 70px;
+    }
+    .modal-content1 h3 {
+        margin-top: -15px;
+        color: #da1418;
+    }
+    .modal-content1 p {
+        color: #4d4d4d;
+        height: 140px;
+        margin-top: 30px;
+        text-align: justify;
+        overflow: scroll;
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+    /* The Close Button */
+    .close1 {
+        color: #4d4d4d;
+        float: right;
+        font-size: 30px;
+        font-weight: 400;
+        margin: 25px 0;
+        margin-right: -50px;
+    }
+
+    .close1:hover,
+    .close1:focus {
+        color: #da1418;
+        text-decoration: none;
+        cursor: pointer;
+    }
+/***********/
 /*Media Querys*/
 @media screen and (max-width:768px){
 /*Info Speakers*/
@@ -932,7 +1044,7 @@ nav ul li:hover {
     background-image: url('../imagenes/speakers/Vivian_Irish.jpg');
 }
 #item13 {
-    background-image: url('../imagenes/speakers/Robert_Sablowski.jpg');
+    background-image: url('../imagenes/speakers/Robert_Sablowski .jpg');
 }
 #item14 {
     background-image: url('../imagenes/speakers/Miltos_Tsiantis.jpg');
@@ -956,7 +1068,7 @@ nav ul li:hover {
     background-image: url('../imagenes/speakers/Tsonis_Panagiotis.jpg');
 }
 #item21 {
-    background-image: url('../imagenes/speakers/Sylvain_Marcellini.jpg');
+    background-image: url('../imagenes/speakers/Silvain_Marcellini.jpg');
 }
 #item22 {
     background-image: url('../imagenes/speakers/Rodrigo_Nunez.jpg');
@@ -984,6 +1096,21 @@ nav ul li:hover {
 }
 #item30 {
     background-image: url('../imagenes/speakers/Fernando_Camargo.jpg');
+}
+#item46 {
+    background-image: url('../imagenes/speakers/Randall_Voss.jpg');
+}
+#item47 {
+    background-image: url('../imagenes/speakers/Jeremiah_Smith.jpg');
+}
+#item48 {
+    background-image: url('../imagenes/speakers/Claudia_Torrez.jpg');
+}
+#item49 {
+    background-image: url('../imagenes/speakers/Hernan_Lopez.jpg');
+}
+#item50 {
+    background-image: url('../imagenes/speakers/Luis_Cruz.jpg');
 }
 /*Hover Speakers*/
 #item1:hover {
@@ -1107,7 +1234,7 @@ nav ul li:hover {
     display: block;
 }
 #item21:hover {
-    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Sylvain_Marcellini.jpg');
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Silvain_Marcellini.jpg');
 }
 #item21:hover div {
     display: block;
@@ -1166,6 +1293,36 @@ nav ul li:hover {
 #item30:hover div {
     display: block;
 }
+#item46:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Randall_Voss.jpg');
+}
+#item46:hover div {
+    display: block;
+}
+#item47:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Jeremiah_Smith.jpg');
+}
+#item47:hover div {
+    display: block;
+}
+#item48:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Claudia_Torrez.jpg');
+}
+#item48:hover div {
+    display: block;
+}
+#item49:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Hernan_Lopez.jpg');
+}
+#item49:hover div {
+    display: block;
+}
+#item50:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Luis_Cruz.jpg');
+}
+#item50:hover div {
+    display: block;
+}
 /***********/
 
 /* Section 6 */
@@ -1189,13 +1346,13 @@ nav ul li:hover {
 }
 /*Google Maps*/
 #venue iframe {
-    margin-bottom: 50px;
+    margin: 0 100px 50px 100px;
 }
 #venue div {
-    margin-bottom: 30px;
+    margin:  0 100px 30px 100px;
 }
 #venue div > img {
-    width: 402px;
+    width: 300px;
     height: auto;
     margin-left: 6px;
 }
@@ -1209,7 +1366,7 @@ nav ul li:hover {
     font-size: 0.9em;
     line-height: 1.5;
     color: #6f6f6f;
-    margin-bottom: 60px;
+    margin: 0 100px 60px 100px;
 }
 /*Media Querys*/
 @media screen and (max-width:768px){
@@ -1517,19 +1674,32 @@ nav ul li:hover {
 .logsec2 a:hover {
     background-color: rgba(255, 255, 255,.15);
 }
-.icof {
-    width: 115px !important;
-    height: 115px !important;
-    text-align: center !important;
-    letter-spacing: 0!important;
-}
-.icof h2 {
+.icof1 h2 {
+    font-weight: 700;
     margin-top: 45px;
     font-size: 0.8em;
 }
-.icof h3 {
+.icof1 h3 {
     font-size: 0.8em;
     padding-top: 5px;
+}
+.secdown1 {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content:space-between;
+}
+.icof1 {
+    width: 115px;
+    height: 115px;
+    margin-bottom: 5px;
+    background-color: #0088aa;
+    color: #FFFFFF;
+    padding: 12px;
+    text-align: center;
+}
+.icof1 div {
+    display: none;
 }
 #item31, #item33,#item34{
     margin-right: 10px;

@@ -1,9 +1,9 @@
 /* Configuracion Carrusel Owl*/
-/*		$(document).ready(function() {
+		$(document).ready(function() {
  
 		$("#owl-demo").owlCarousel({
  
-	    autoPlay: 5000, //Set AutoPlay to 3 seconds
+	    autoPlay: false, //Set AutoPlay to 3 seconds
 	    items : 1,
 	    itemsDesktop : [1199,1],
 	    itemsDesktopSmall : [979,1],
@@ -18,7 +18,7 @@
   		});
  
 		});
-*/
+
 /* Funcion que permite tomar textos desde el servidor e inyectarlos en html*/
 loadText();
 function loadText() {
@@ -62,6 +62,7 @@ function fixedtop() {
 		document.querySelector(".navbar").style.top = 0;
 		document.querySelector(".navbar").style.backgroundColor = "rgba(0,136,170,1)";
 		document.querySelector(".navbar").style.zIndex = "1";
+		document.querySelector(".contactUp2").style.display = "flex";
 		if (w > 768) {
 			document.querySelector(".navimg").style.display = "block";
 		}
@@ -69,6 +70,7 @@ function fixedtop() {
 		document.querySelector(".navbar").style.top = "initial";
 		document.querySelector(".navbar").style.backgroundColor = "transparent";
 		document.querySelector(".navimg").style.display = "none";
+		document.querySelector(".contactUp2").style.display = "none";
 	}
 }
 /*Funcion para cambiar por dia el programa de expositores*/
@@ -155,7 +157,7 @@ setInterval(timer,1000);
 /* Configuracion Carrusel Owl 2*/
 $(document).ready(function() {
  
-  $("#owl-demo1").owlCarousel({
+  $("#owl-demo").owlCarousel({
  
       navigation : false, // Show next and prev buttons
       slideSpeed : 300,

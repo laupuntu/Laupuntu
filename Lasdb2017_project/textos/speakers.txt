@@ -1,4 +1,4 @@
-﻿﻿SPEAKERS
+SPEAKERS
 
 Nobel Awardee
 Sir John B. Gurdon
@@ -8,11 +8,17 @@ Reprogramming of mature cells
 ANIMAL DEVELOPMENTAL 
 BIOLOGY
 
-Maria Barna 
-Stanford University, USA
-Bio-imaging of tissue patterning and cellular  communication during embryonic development
-Webpage: http://barnalab.stanford.edu/
-e-mail: mbarna@stanford.edu
+Alejandro Sánchez-Alvarado
+Stowers Institute for Medical Research, USA
+Planarian developmental biology
+Webpage: http://www.stowers.org/faculty/s%C3%A1nchez-lab
+e-mail: asa@stowers.org
+
+Carole LaBonne 
+Northwestern University, USA
+Stem cells during Xenopus development
+Webpage:http://groups.molbiosci.northwestern.edu/labonne/carolelabonne.htm
+e-mail: clabonne@northwestern.edu
 
 Jesus Chimal Monroy
 Universidad Nacional Autónoma de México
@@ -20,6 +26,18 @@ Morphogenesis and cartilage differentiation during chick
 and mouse embryo development
 Webpage:http://www.biomedicas.unam.mx/_administracion/_departamentos/medicina_genomica_toxicologia_ambiental/jesus_chimal.html
 e-mail: jchimal@unam.mx
+
+Joachim Wittbrodt 
+Centre for Organismal Studies - Heidelberg, Germany
+Vertebrate eye and brain development and regeneration
+Webpage: http://www.cos.uni-heidelberg.de/index.php/j.wittbrodt?l=_e
+e-mail: jochen.wittbrodt@cos.uni-heidelberg.de
+
+Maria Barna 
+Stanford University, USA
+Bio-imaging of tissue patterning and cellular  communication during embryonic development
+Webpage: http://barnalab.stanford.edu/
+e-mail: mbarna@stanford.edu
 
 Miguel Concha
 Laboratory of Experimental Ontogeny, Chile
@@ -33,31 +51,11 @@ Hox gene regulation and evolution
 Webpage: http://www.stowers.org/faculty/krumlauf-lab
 e-mail: rek@stowers.org
 
-Carole LaBonne 
-Northwestern University, USA
-Stem cells during Xenopus development
-Webpage:http://groups.molbiosci.northwestern.edu/labonne/carolelabonne.htm
-e-mail: clabonne@northwestern.edu
-
 Roberto Mayor 
 University College London, UK
 Development of the neural crest 
 Webpage: http://www.ucl.ac.uk/cdb/research/mayor/mayor_lab
 e-mail: r.mayor@ucl.ac.uk
-
-Alejandro Sánchez-Alvarado
-Stowers Institute for Medical Research, USA
-Planarian developmental biology
-Webpage: http://www.stowers.org/faculty/s%C3%A1nchez-lab
-e-mail: asa@stowers.org
-
-Joachim Wittbrodt 
-Centre for Organismal Studies - Heidelberg, Germany
-Vertebrate eye and brain development and regeneration
-Webpage: http://www.cos.uni-heidelberg.de/index.php/j.wittbrodt?l=_e
-e-mail: jochen.wittbrodt@cos.uni-heidelberg.de
-
-
 
 PLANT DEVELOPMENTAL 
 BIOLOGY
@@ -68,11 +66,6 @@ University of California Davis, USA
 Protein interactions, plant genomics and metabolomics
 Webpage: http://www-plb.ucdavis.edu/labs/brady/
 e-mail:  sbrady@ucdavis.edu 
-
-Luis Alfredo Cruz Ramirez
-Langebio, Cinvestav, México
-Genetic networks patterning root development
-
 
 Veronica DiStilio
 University of Washington, USA
@@ -105,6 +98,10 @@ Max Planck Institute for Plant Breeding Research, Germany
 Leaf development and evolution
 Webpage: http://www.mpipz.mpg.de/226344/tsiantis-dpt
 e-mail: tsiantis@mpipz.mpg.de
+
+Luis Alfredo Cruz Ramirez
+Langebio, Cinvestav, México
+Genetic networks patterning root development
 
 POST- EMBRYONIC DEVELOPMENT 
 AND REGENERATION
@@ -180,7 +177,7 @@ e-mail: ischneider.evodevo@gmail.com
 Karen Sears 
 University of Illinois, USA
 Non-traditional mammalian model systems 
-Webpage: http://www.life.illinois.edu/sears/
+Webpage: http://c
 e-mail: ksears2@illinois.edu
 
 Randall Voss
