@@ -174,4 +174,70 @@ $(document).ready(function() {
   });
  
 });
+/* Configuracion Program*/
 
+var day = document.getElementsByClassName("days");
+var	h = document.getElementsByClassName("programa");
+day[0].style.color = "#da1418;"
+day[0].style.transition = "all 1s";
+h[0].style.display = "flex";
+day[0].addEventListener("click", function(){
+	h[0].style.display = "flex";
+	h[0].style.marginBottom = "30px";
+	h[1].style.display = "none";
+	h[2].style.display = "none";
+	h[3].style.display = "none";
+	h[4].style.display = "none";
+ });
+day[1].addEventListener("click", function(){
+	day[1].style.color = "#da1418;"
+	day[1].style.transition = "all 1s";
+	h[0].style.display = "none";
+	h[1].style.display = "flex";
+	h[1].style.transition = "all 1s";
+	h[1].style.marginBottom = "30px";
+	h[2].style.display = "none";
+	h[3].style.display = "none";
+	h[4].style.display = "none";
+ });
+day[2].addEventListener("click", function(){
+	h[0].style.display = "none";
+	h[1].style.display = "none";
+	h[2].style.display = "flex";
+	h[2].style.transition = "all 1s";
+	h[2].style.marginBottom = "30px";
+	h[3].style.display = "none";
+	h[4].style.display = "none";
+ });
+day[3].addEventListener("click", function(){
+	h[0].style.display = "none";
+	h[1].style.display = "none";
+	h[2].style.display = "none";
+	h[3].style.display = "flex";
+	h[3].style.transition = "all 1s";
+	h[3].style.marginBottom = "30px";
+	h[4].style.display = "none";
+ });
+day[4].addEventListener("click", function(){
+	h[0].style.display = "none";
+	h[1].style.display = "none";
+	h[2].style.display = "none";
+	h[3].style.display = "none";
+	h[4].style.display = "flex";
+	h[4].style.transition = "all 1s";
+	h[4].style.marginBottom = "30px";
+ });
+/*var acc = document.getElementsByClassName("accordion");
+
+acc[0].addEventListener("click", function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+        acc[1].nextElementSibling.classList.remove("show");
+        acc[1].classList.toggle("active",false);
+ 	 });
+acc[1].addEventListener("click", function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+        acc[0].nextElementSibling.classList.remove("show");
+        acc[0].classList.toggle("active",false);
+ 	 });*/

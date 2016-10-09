@@ -169,7 +169,7 @@ nav ul li:hover {
 }
 .navimg {
     float: left;
-    margin-left: 120px;
+    margin-left: 0;
     margin-top: -4px;
     padding-bottom: 10px;
     display: none;
@@ -586,6 +586,7 @@ nav ul li:hover {
 #prog {
     color: #6f6f6f;
     padding-bottom: 50px;
+    height: 900px;
 }
 /* Section 4 */
 #prog h1 {
@@ -621,12 +622,14 @@ nav ul li:hover {
 .program nav h6 {
     margin: 20px;
     float: left;
+    cursor: pointer;
 }
 .program nav h6:hover {
     transition: 1s;
     color: #da1418;
     cursor: pointer;
 }
+
 /*--------------------*/
 /*tablas program*/
 
@@ -668,7 +671,7 @@ nav ul li:hover {
 
 .programa td a:hover span{
     height: 35px;
-    width: 90%;
+    width: 100%;
     padding-top:8%;
     display: inline-block; 
     font-weight: 500;    
@@ -688,10 +691,8 @@ nav ul li:hover {
 
 .programa{
     width: 80%;
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
-    flex-flow:row no-wrap;
+    display:none;
+    flex-flow:row nowrap;
     justify-content:space-around;
     }
 
@@ -734,6 +735,22 @@ nav ul li:hover {
 .posters{
     height:60px;
 }
+/* Configuracion Program*/
+#moday {
+    display: block;
+}
+/* #tuesday {
+    display: none;
+}
+#wednesday {
+    display: none;
+}
+#thursday {
+    display: none;
+}
+#friday {
+    display: none;
+} */
 /*Media Querys*/
 @media screen and (max-width:768px){
 /* Section 4 */
