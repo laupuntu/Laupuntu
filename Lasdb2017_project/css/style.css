@@ -1853,7 +1853,7 @@ nav ul li:hover {
     background-image: url('../imagenes/comite/Favio_Gonzalez.png');
 }
 #item35 {
-    background-image: url('../imagenes/comite/Carolina_Pustorvh.png');
+    background-image: url('../imagenes/comite/Carolina_Pustovrh.png');
 }
 #item36 {
     background-image: url('../imagenes/comite/Pablo_Wappner.png');
@@ -1911,7 +1911,7 @@ nav ul li:hover {
     display: block;
 }
 #item35:hover {
-    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Carolina_Pustorvh.png');
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Carolina_Pustovrh.png');
 }
 #item35:hover div {
     display: block;
