@@ -994,6 +994,10 @@ nav ul li:hover {
         margin-top: -15px;
         color: #da1418;
     }
+    .modal-content1 a {
+        text-decoration: none;
+        color: #4d4d4d;
+    }
     .modal-content1 p {
         color: #4d4d4d;
         height: 140px;
