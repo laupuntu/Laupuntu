@@ -75,7 +75,7 @@
 
 			</div>
 			<div class="boxDc">
- 				<form action="php/email.php" method="post" id="formulario">
+ 				<form action='php/email.php' method="post" id="formulario" enctype="multipart/form-data">
 				<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Client information</div>
 					<div class="panel1">
  						<h6>Company:</h6>
@@ -106,9 +106,9 @@
                         <h6>Phone:</h6>
                         <input class="box" name="iPhone" type="tel">
                         <h6>Phone:</h6>
-                        <input class="box" name="iPhone" type="tel">
+                        <input class="box" name="iPhone1" type="tel">
                         <h6>Phone:</h6>
-                        <input class="box" name="iPhone" type="tel">
+                        <input class="box" name="iPhone2" type="tel">
 					</div>
 				<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Claimant information</div>
 					<div class="panel1">
@@ -121,9 +121,9 @@
                          <h6>Phone:</h6>
                         <input class="box" name="clPhone" type="tel">
                         <h6>Phone:</h6>
-                        <input class="box" name="clPhone" type="tel">
+                        <input class="box" name="clPhone1" type="tel">
                         <h6>Phone:</h6>
-                        <input class="box" name="clPhone" type="tel">
+                        <input class="box" name="clPhone2" type="tel">
 					</div>
 				<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Coverage information</div>
 					<div class="panel1">
@@ -134,44 +134,44 @@
                         <h6>Type of Policy:</h6>
                         <input class="box" name="coPlace" type="text">
                         <h6>Effective date:</h6>
-                        <input class="box" name="coAdjname" type="tex">
+                        <input class="box" name="coEffecDate" type="tex">
                         <h6>Coverage amounts:</h6>
-                        <input class="box" name="coAdjname" type="tex">
+                        <input class="box" name="coCoveAmounts" type="tex">
                         <h6>A:</h6>
-                        <input class="box" name="adjname" type="tex">
+                        <input class="box" name="coA" type="tex">
                         <h6>B:</h6>
-                        <input class="box" name="adjname" type="tex">
+                        <input class="box" name="coB" type="tex">
                         <h6>C:</h6>
-                        <input class="box" name="adjname" type="tex">
+                        <input class="box" name="coC" type="tex">
                         <h6>D:</h6>
-                        <input class="box" name="adjname" type="tex">
+                        <input class="box" name="coD" type="tex">
                         <h6>Deductible:</h6>
-                        <input class="box" name="adjname" type="tex">
+                        <input class="box" name="coDeduct" type="tex">
                         <h6>Lien Holder:</h6>
-                        <input class="box" name="adjname" type="tex">
+                        <input class="box" name="coLienHol" type="tex">
 					</div>				
 					<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Loss information</div>
 					<div class="panel1">
   						<h6>Loss Date:</h6>
- 						<input class="box" name="company" type="text">
+ 						<input class="box" name="lDate" type="text">
  						<h6>Loss Location:</h6>
-                        <input class="box" name="address" type="text">
+                        <input class="box" name="lPlace" type="text">
                         <h6>Description of loss:</h6>
-                        <input class="box" name="place" type="text">
+                        <input class="box" name="lDescpLoss" type="text">
                         <h6>Special instruction:</h6>
-                        <input class="box" name="adjname" type="tex">
+                        <textarea class="box" name="lSpecInstruc" rows="5" cols="40"></textarea>
                         <h6>Full Adjustment:</h6>  	
-                        <input class="box" name="adjname" type="tex">
+                        <input class="box" name="lFullAdj" type="tex">
                         <h6>Agreed Apraisal:</h6>  	
-                        <input class="box" name="adjname" type="tex">
+                        <input class="box" name="lAgreApra" type="tex">
                         <h6>Aattach file:</h6>
-                        <input class="box" name="adjname" type="file" multiple> 
+                        <input class="box" name="lAttachfile" type="file" multiple> 
                         <h6>Aattach file:</h6>
-                        <input class="box" name="adjname" type="file" multiple>
+                        <input class="box" name="lAttachfile1" type="file" multiple>
                         <h6>Aattach file:</h6>
-                        <input class="box" name="adjname" type="file" multiple>
+                        <input class="box" name="lAttachfile2" type="file" multiple>
                         <h6>SUBMIT REPORT</h6>
-                        <input class="box" name="adjname" type="submit">
+                        <input class="box" name="submit" type="submit" value="SUBMIT REPORT">
 					</div>
 			</form>
 			</div>
