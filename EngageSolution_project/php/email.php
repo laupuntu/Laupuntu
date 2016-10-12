@@ -50,7 +50,7 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }*/
-
+/*
 $nombre_archivo = $_FILES['lAttachfile']['name'];
 $tipo_archivo = $_FILES['lAttachfile']['type'];
 $tamano_archivo = $_FILES['lAttachfile']['size'];
@@ -81,9 +81,9 @@ $body_top .= "Content-description: Mail message body"."\n";
 $cuerpo = $body_top.$mensaje;
  
 if($tamano_archivo>0)
-{
+{*/
 //Leo el fichero
-   $oFichero = fopen($_FILES["lAttachfile"]["tmp_name"], 'r'); 
+/*   $oFichero = fopen($_FILES["lAttachfile"]["tmp_name"], 'r'); 
    $sContenido = fread($oFichero, filesize($_FILES["lAttachfile"]["tmp_name"]));
    $sAdjuntos .= chunk_split(base64_encode($sContenido));
    fclose($oFichero);
@@ -94,12 +94,12 @@ if($tamano_archivo>0)
    $cuerpo .= "Content-disposition: attachment; filename=".$nombref."\n";
    $cuerpo .= $sAdjuntos."\n";
    $cuerpo .= "--Message-Boundary--";
-}
+}*/
 //Envío el correo
-mail($email, $asunto, $cuerpo, $cabeceras);
+/*mail($email, $asunto, $cuerpo, $cabeceras);
+*/
 
-
-/*	$mail_cliente=$_POST ["email"];
+	$mail_cliente=$_POST ["cAdjemail"];
 	$mensaje="Email de la persona: ".$mail_cliente."\r\nEsta persona quiere recibir noticias de CJE ";
 	$cabecera="From:".$mail_cliente."";
 	$enviar=("consulta@cje.com.co", "Mensaje desde CJE website", $mensaje, $cabecera);
@@ -108,5 +108,5 @@ mail($email, $asunto, $cuerpo, $cabeceras);
 	}
 else{
 		echo "Error sending the message. Please try again.";
-	}	*/
+	}	
 ?>
