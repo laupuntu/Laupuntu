@@ -79,11 +79,14 @@ body {
 }
 /*-----*/
 .contactUp {
-    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    flex-flow:row no-wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-flow:row no-wrap;
+        flex-flow:row no-wrap;
     height: 30px;
     color: #ffffff;
     width: 63.5%;
@@ -111,8 +114,11 @@ body {
 /*-----*/
 .contactUp2 {
     display: none;
-    justify-content: space-between;
-    flex-flow:row no-wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-flow:row no-wrap;
+        flex-flow:row no-wrap;
     height: 20px;
     color: #ffffff;
     width: 63.5%;
@@ -290,8 +296,12 @@ nav ul li:hover {
     letter-spacing: 0.3em;
 }
 #dateplace {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 100px;
     padding-bottom: 62px;
     clear: both;
@@ -308,10 +318,16 @@ nav ul li:hover {
     background-color: #0088aa;
 }
 .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
     padding: 15px 100px;
     color: #da1418;
     font-size: 1em;
@@ -351,8 +367,11 @@ nav ul li:hover {
     margin-left: 25%;
 }
 #dateplace {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 }
 @media screen and (max-width:375px){
@@ -365,8 +384,11 @@ nav ul li:hover {
     text-align: center;
 }
 #dateplace {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 #dateplace sup {
     margin-left: -3px;
@@ -414,10 +436,16 @@ nav ul li:hover {
 }
 /*News*/
 .lastnews {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin: 35px 100px;
 }
 .lastnews article p {
@@ -461,11 +489,17 @@ nav ul li:hover {
         width: 800px;
         height: 300px;
         box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
-        animation-name: animatetop;
-        animation-duration: 1s;
+        -webkit-animation-name: animatetop;
+                animation-name: animatetop;
+        -webkit-animation-duration: 1s;
+                animation-duration: 1s;
         padding-right: 100px;
     }
     /* Add Animation */
+    @-webkit-keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+    }
     @keyframes animatetop {
         from {top:-300px; opacity:0}
         to {top:0; opacity:1}
@@ -604,11 +638,18 @@ nav ul li:hover {
     border: none;
 }
 .program {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
+    -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
 }
 /* Menu Tabla */
@@ -624,6 +665,7 @@ nav ul li:hover {
     cursor: pointer;
 }
 .program nav h6:hover {
+    -webkit-transition: 1s;
     transition: 1s;
     color: #da1418;
     cursor: pointer;
@@ -691,8 +733,10 @@ nav ul li:hover {
 .programa{
     width: 80%;
     display:none;
-    flex-flow:row nowrap;
-    justify-content:space-around;
+    -ms-flex-flow:row nowrap;
+        flex-flow:row nowrap;
+    -ms-flex-pack:distribute;
+        justify-content:space-around;
     }
 
 .tabla{
@@ -755,9 +799,13 @@ nav ul li:hover {
 /* Section 4 */
 .program {
     margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap-reverse;
-    justify-content: space-around;
+    -ms-flex-flow: row wrap-reverse;
+        flex-flow: row wrap-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     width: 100%;
     text-align: center;
 }
@@ -775,9 +823,13 @@ nav ul li:hover {
 /* Section 4 */
 .program {
     margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap-reverse;
-    justify-content: space-around;
+    -ms-flex-flow: row wrap-reverse;
+        flex-flow: row wrap-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     width: 100%;
     text-align: center;
 }
@@ -881,10 +933,12 @@ nav ul li:hover {
 }
 /* backSlide */
 .owl-backSlide-out {
-  animation: backSlideOut 2s both ease;
+  -webkit-animation: backSlideOut 2s both ease;
+          animation: backSlideOut 2s both ease;
 }
 .owl-backSlide-in {
-  animation: backSlideIn 2s both ease;
+  -webkit-animation: backSlideIn 2s both ease;
+          animation: backSlideIn 2s both ease;
 }
 /*Exposition Title*/
 #animal {
@@ -894,11 +948,19 @@ nav ul li:hover {
 }
 /*Info Speakers*/
 .secdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content:space-between;
-    align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
     align-items: center;
 }
 .icof {
@@ -965,8 +1027,10 @@ nav ul li:hover {
         width: 800px;
         height: 300px;
         box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
-        animation-name: animatetop;
-        animation-duration: 1s;
+        -webkit-animation-name: animatetop;
+                animation-name: animatetop;
+        -webkit-animation-duration: 1s;
+                animation-duration: 1s;
         padding-right: 100px;
     }
     /* Add Animation */
@@ -1027,10 +1091,17 @@ nav ul li:hover {
 @media screen and (max-width:768px){
 /*Info Speakers*/
 .secdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content:space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
 }
 .icof {
     width: 140px;
@@ -1072,10 +1143,16 @@ nav ul li:hover {
     height: auto;
 }
 .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
     margin: auto;
     margin-top: 30px;
@@ -1121,10 +1198,17 @@ nav ul li:hover {
 }
 /*Info Speakers*/
 .secdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content:space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
 }
 .icof {
     width: 140px;
@@ -1243,210 +1327,245 @@ nav ul li:hover {
 }
 /*Hover Speakers*/
 #item1:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Alejandro_Sanchez.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Alejandro_Sanchez.jpg');
 }
 #item1:hover div {
     display: block;
 }
 #item2:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Carole_Labonne.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Carole_Labonne.jpg');
 }
 #item2:hover div {
     display: block;
 }
 #item3:hover {
+   background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Jesus_Monroy.jpg');
    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Jesus_Monroy.jpg');
 }
 #item3:hover div {
     display: block;
 }
 #item4:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Joachim_Wittbrodt.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Joachim_Wittbrodt.jpg');
 }
 #item4:hover div {
     display: block;
 }
 #item5:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Mariana_Barna.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Mariana_Barna.jpg');
 }
 #item5:hover div {
     display: block;
 }
 #item6:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Miguel_Concha.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Miguel_Concha.jpg');
 }
 #item6:hover div {
     display: block;
 }
 #item7:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Robb_Krumlauf.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Robb_Krumlauf.jpg');
 }
 #item7:hover div {
     display: block;
 }
 #item8:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Roberto_Mayor.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Roberto_Mayor.jpg');
 }
 #item8:hover div {
     display: block;
 }
 #item9:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Shioban_Brady.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Shioban_Brady.jpg');
 }
 #item9:hover div {
     display: block;
 }
 #item10:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Veronica_DiStilio.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Veronica_DiStilio.jpg');
 }
 #item10:hover div {
     display: block;
 }
 #item11:hover {
+   background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Cristina_Ferrandiz.jpg');
    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Cristina_Ferrandiz.jpg');
 }
 #item11:hover div {
     display: block;
 }
 #item12:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Vivian_Irish.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Vivian_Irish.jpg');
 }
 #item12:hover div {
     display: block;
 }
 #item13:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Robert_Sablowski .jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Robert_Sablowski .jpg');
 }
 #item13:hover div {
     display: block;
 }
 #item14:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Miltos_Tsiantis.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Miltos_Tsiantis.jpg');
 }
 #item14:hover div {
     display: block;
 }
 #item15:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Enrique_Amaya.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Enrique_Amaya.jpg');
 }
 #item15:hover div {
     display: block;
 }
 #item16:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Karen_Echeverri.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Karen_Echeverri.jpg');
 }
 #item16:hover div {
     display: block;
 }
 #item17:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Patricia_Ferreti.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Patricia_Ferreti.jpg');
 }
 #item17:hover div {
     display: block;
 }
 #item18:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Brigitte_Galliot.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Brigitte_Galliot.jpg');
 }
 #item18:hover div {
     display: block;
 }
 #item19:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Jose_García.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Jose_García.jpg');
 }
 #item19:hover div {
     display: block;
 }
 #item20:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Tsonis_Panagiotis.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Tsonis_Panagiotis.jpg');
 }
 #item20:hover div {
     display: block;
 }
 #item21:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Silvain_Marcellini.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Silvain_Marcellini.jpg');
 }
 #item21:hover div {
     display: block;
 }
 #item22:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Rodrigo_Nunez.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Rodrigo_Nunez.jpg');
 }
 #item22:hover div {
     display: block;
 }
 #item23:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Robert_Reed.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Robert_Reed.jpg');
 }
 #item23:hover div {
     display: block;
 }
 #item24:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Igor_Schneider.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Igor_Schneider.jpg');
 }
 #item24:hover div {
     display: block;
 }
 #item25:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Karen_Sears.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Karen_Sears.jpg');
 }
 #item25:hover div {
     display: block;
 }
 #item26:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Joseph_Arboleda.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Joseph_Arboleda.jpg');
 }
 #item26:hover div {
     display: block;
 }
 #item27:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Mariane_Bronner.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Mariane_Bronner.jpg');
 }
 #item27:hover div {
     display: block;
 }
 #item28:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Angela_Nieto.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Angela_Nieto.jpg');
 }
 #item28:hover div {
     display: block;
 }
 #item29:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Lee_Niswander.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Lee_Niswander.jpg');
 }
 #item29:hover div {
     display: block;
 }
 #item30:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Fernando_Camargo.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Fernando_Camargo.jpg');
 }
 #item30:hover div {
     display: block;
 }
 #item46:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Randall_Voss.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Randall_Voss.jpg');
 }
 #item46:hover div {
     display: block;
 }
 #item47:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Jeremiah_Smith.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Jeremiah_Smith.jpg');
 }
 #item47:hover div {
     display: block;
 }
 #item48:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Claudia_Torrez.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Claudia_Torrez.jpg');
 }
 #item48:hover div {
     display: block;
 }
 #item49:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Hernan_Lopez.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Hernan_Lopez.jpg');
 }
 #item49:hover div {
     display: block;
 }
 #item50:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Luis_Cruz.jpg');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Luis_Cruz.jpg');
 }
 #item50:hover div {
@@ -1508,6 +1627,7 @@ nav ul li:hover {
     font-weight: 700;
 }
 #text4 a:hover i {
+    -webkit-transition: 1s;
     transition: 1s;
     margin-left: 10px;
 }
@@ -1563,9 +1683,14 @@ nav ul li:hover {
     overflow: auto;
 }
 .box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 36px;
@@ -1599,9 +1724,13 @@ nav ul li:hover {
     height: auto;
 }
 #welmed div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    align-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin-top: 26px;
     margin-bottom: 0;
 }
@@ -1615,9 +1744,14 @@ nav ul li:hover {
     padding: 0 30px;
 }
 .box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-flow: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
 }
 .box2 ul {
     margin-top: -30px;
@@ -1647,9 +1781,13 @@ nav ul li:hover {
     border: none;
 }
 .registration {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     color: #6f6f6f;
     margin: 50px 100px;
 }
@@ -1673,6 +1811,7 @@ nav ul li:hover {
 }
 .button:hover {
     background-color: #800000;
+    -webkit-transition: 1s;
     transition: 1s;
 }
 .tick h5 {
@@ -1705,6 +1844,7 @@ nav ul li:hover {
 }
 .button:hover {
     background-color: #800000;
+    -webkit-transition: 0s;
     transition: 0s;
 }
 .tick h5 a {
@@ -1743,8 +1883,12 @@ nav ul li:hover {
     border: none;
 }
 .orga {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 30px 100px;
     color: #a3a3a3;
 }
@@ -1763,18 +1907,27 @@ nav ul li:hover {
     margin-bottom: 25px !important;
 }
 .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column nowrap;
-    align-content: center;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin: 0 100px 35px 100px;
     border-top: 1px solid #808080;
     padding-top: 40px;
 }
 .logsec {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin: 20px 150px 40px 150px;
 }
 .logsec h5 {
@@ -1797,10 +1950,16 @@ nav ul li:hover {
     text-align: center;
 }
 .logsec2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin: 0 0 20px 0;
 }
 .logsec2 img {
@@ -1827,10 +1986,17 @@ nav ul li:hover {
     padding-top: 5px;
 }
 .secdown1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content:space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
 }
 .icof1 {
     width: 115px;
@@ -1904,90 +2070,105 @@ nav ul li:hover {
 }
 /*Hover Organizers*/
 #item31:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Natalia_Pabon.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Natalia_Pabon.png');
 }
 #item31:hover div {
     display: block;
 }
 #item32:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Jean_Delgado.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Jean_Delgado.png');
 }
 #item32:hover div {
     display: block;
 }
 #item33:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Zayra_Garavito.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Zayra_Garavito.png');
 }
 #item33:hover div {
     display: block;
 }
 #item34:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Favio_Gonzalez.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Favio_Gonzalez.png');
 }
 #item34:hover div {
     display: block;
 }
 #item35:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Carolina_Pustovrh.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Carolina_Pustovrh.png');
 }
 #item35:hover div {
     display: block;
 }
 #item36:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Pablo_Wappner.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Pablo_Wappner.png');
 }
 #item36:hover div {
     display: block;
 }
 #item37:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Federico_Brown.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Federico_Brown.png');
 }
 #item37:hover div {
     display: block;
 }
 #item38:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Juan_Larrain.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Juan_Larrain.png');
 }
 #item38:hover div {
     display: block;
 }
 #item39:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Alejandra_Vasco.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Alejandra_Vasco.png');
 }
 #item39:hover div {
     display: block;
 }
 #item40:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Edwin_Acosta.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Edwin_Acosta.png');
 }
 #item40:hover div {
     display: block;
 }
 #item41:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Fagua_Alvarez.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Fagua_Alvarez.png');
 }
 #item41:hover div {
     display: block;
 }
 #item42:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Maria_Correa.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Maria_Correa.png');
 }
 #item42:hover div {
     display: block;
 }
 #item43:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Roxana_Yockteng.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Roxana_Yockteng.png');
 }
 #item43:hover div {
     display: block;
 }
 #item44:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Gloria_Cardona.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Gloria_Cardona.png');
 }
 #item44:hover div {
     display: block;
 }
 #item45:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../../imagenes/comite/Carolina_Pustovrh.png');
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../../imagenes/comite/Carolina_Pustovrh.png');
 }
 #item45:hover div {
@@ -1999,28 +2180,45 @@ nav ul li:hover {
     height: auto;
 }
 .orga {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
     margin: 30px 50px;
 }
 .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin: 0 50px 35px 50px;
     border-top: 1px solid #808080;
     padding-top: 40px;
 }
 .logsec {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
     margin-bottom: 30px;
 }
 .logsec2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
     margin: 16px 50px 40px 50px;
 }
 }
@@ -2029,23 +2227,38 @@ nav ul li:hover {
     height: 1220px;
 }
 .orga {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
     margin: 30px 100px;
     color: #a3a3a3;
     text-align: center;
 }
 .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 0 30px 10px 30px;
 }
 .logsec {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
 }
 .logsec img {
     width: auto;
@@ -2054,8 +2267,12 @@ nav ul li:hover {
     margin-top: 10px;
 }
 .logsec2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 16px 30px 40px 30px;
     padding-bottom: 20px;
 }
@@ -2082,29 +2299,47 @@ nav ul li:hover {
     border: none;
 }
 .logspon {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin: 50px 70px;
 
 }
 /*Media Querys*/
 @media screen and (max-width:768px){
 .logspon {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin-top: 50px;
 }
 }
 @media screen and (max-width:375px){
 .logspon {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
     margin-top: 50px;
 }
 }
@@ -2120,8 +2355,12 @@ nav ul li:hover {
 }
 .cont {
     color: #0088aa;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 30px 100px;
 }
 .cont i {
@@ -2166,6 +2405,7 @@ nav ul li:hover {
 }
 .boton:hover {
     background-color: #800000;
+    -webkit-transition: 1s;
     transition: 1s;
 }
 #cont hr {
@@ -2197,10 +2437,16 @@ nav ul li:hover {
 /*Media Querys*/
 @media screen and (max-width:768px){
 .cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
 }
 .cont i {
     color: #da1418;
@@ -2216,10 +2462,16 @@ nav ul li:hover {
 }
 .cont {
     color: #0088aa;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
     padding: 20px 30px;
 }
 .cont i {
@@ -2254,11 +2506,18 @@ nav ul li:hover {
     border: none;
 }
 .end {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 40px 100px;
 }
 .end img {
@@ -2305,9 +2564,13 @@ nav ul li:hover {
     margin-top: -20px;
 }
 .end h6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column;
-    align-content: center;   
+    -ms-flex-flow: column;
+        flex-flow: column;
+    -ms-flex-line-pack: center;
+        align-content: center;   
 }
 .end h6 a {
     margin-bottom: 10px;
@@ -2325,10 +2588,17 @@ nav ul li:hover {
 .copy {
     max-width: 814px;
     height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row;
-    justify-content:space-between;
-    align-items: center;
+    -ms-flex-flow: row;
+        flex-flow: row;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 21px;
     padding-bottom: 15px;
 }
@@ -2349,11 +2619,19 @@ nav ul li:hover {
 /*Media Querys*/
 @media screen and (max-width:768px){
 .copy {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content:center;
-    align-content: center;
-    align-items: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 45px 0;
 }
 .copy p {

@@ -787,7 +787,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         display: none;
     }
     div.panel1 {
-        padding: 0 18px;
+        padding: 0 45px;
         background-color: #0070bc;
         color: #ffffff;
         max-height: 0;
@@ -803,6 +803,9 @@ subtitulos fomrulario: open sans, normal. 12pt.
         font-weight: 400;
         margin-top: 10px;
     }
+    div.panel1 h6:first-child{
+        margin-top: 20px;
+    }
     div.panel1 input{
         margin-top: -15px;
         font-size: 12px;
@@ -812,6 +815,9 @@ subtitulos fomrulario: open sans, normal. 12pt.
         background-color: #ffffff;
         opacity: 0.6;
         float: right;
+    }
+    div.panel1 input:last-child{
+        margin-bottom: 20px;
     }
     div.panel1.show1 {
         opacity: 1;

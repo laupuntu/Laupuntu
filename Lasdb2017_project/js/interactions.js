@@ -174,12 +174,12 @@ $(document).ready(function() {
   });
  
 });
-/* Configuracion Program*/
-
+/* Configuracion Program #6f6f6f */
+document.addEventListener("DOMContentLoaded",
+  function (event) {
 var day = document.getElementsByClassName("days");
 var	h = document.getElementsByClassName("programa");
-day[0].style.color = "#da1418;"
-day[0].style.transition = "all 1s";
+day[0].style.color = "#da1418";
 h[0].style.display = "flex";
 day[0].addEventListener("click", function(){
 	h[0].style.display = "flex";
@@ -188,10 +188,18 @@ day[0].addEventListener("click", function(){
 	h[2].style.display = "none";
 	h[3].style.display = "none";
 	h[4].style.display = "none";
+	day[0].style.color = "#da1418";
+	day[1].style.color = "#6f6f6f";
+	day[2].style.color = "#6f6f6f";
+	day[3].style.color = "#6f6f6f";
+	day[4].style.color = "#6f6f6f";
  });
 day[1].addEventListener("click", function(){
-	day[1].style.color = "#da1418;"
-	day[1].style.transition = "all 1s";
+	day[1].style.color = "#da1418";
+	day[0].style.color = "#6f6f6f";
+	day[2].style.color = "#6f6f6f";
+	day[3].style.color = "#6f6f6f";
+	day[4].style.color = "#6f6f6f";
 	h[0].style.display = "none";
 	h[1].style.display = "flex";
 	h[1].style.transition = "all 1s";
@@ -201,6 +209,11 @@ day[1].addEventListener("click", function(){
 	h[4].style.display = "none";
  });
 day[2].addEventListener("click", function(){
+	day[2].style.color = "#da1418";
+	day[0].style.color = "#6f6f6f";
+	day[1].style.color = "#6f6f6f";
+	day[3].style.color = "#6f6f6f";
+	day[4].style.color = "#6f6f6f";
 	h[0].style.display = "none";
 	h[1].style.display = "none";
 	h[2].style.display = "flex";
@@ -210,6 +223,11 @@ day[2].addEventListener("click", function(){
 	h[4].style.display = "none";
  });
 day[3].addEventListener("click", function(){
+	day[3].style.color = "#da1418";
+	day[0].style.color = "#6f6f6f";
+	day[1].style.color = "#6f6f6f";
+	day[2].style.color = "#6f6f6f";
+	day[4].style.color = "#6f6f6f";
 	h[0].style.display = "none";
 	h[1].style.display = "none";
 	h[2].style.display = "none";
@@ -219,6 +237,11 @@ day[3].addEventListener("click", function(){
 	h[4].style.display = "none";
  });
 day[4].addEventListener("click", function(){
+	day[4].style.color = "#da1418";
+	day[0].style.color = "#6f6f6f";
+	day[1].style.color = "#6f6f6f";
+	day[2].style.color = "#6f6f6f";
+	day[3].style.color = "#6f6f6f";
 	h[0].style.display = "none";
 	h[1].style.display = "none";
 	h[2].style.display = "none";
@@ -227,6 +250,8 @@ day[4].addEventListener("click", function(){
 	h[4].style.transition = "all 1s";
 	h[4].style.marginBottom = "30px";
  });
+}
+);
 /*var acc = document.getElementsByClassName("accordion");
 
 acc[0].addEventListener("click", function(){
