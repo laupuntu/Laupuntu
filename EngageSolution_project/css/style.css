@@ -82,7 +82,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     /*     position: fixed; */
     }
     .wrapsub {
-        height: 200px;
+        height: 100px;
     }
     .wrapper {
         max-width: 814px;
@@ -650,7 +650,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         margin-top: -50px;
         margin-bottom: 50px;
     }
-/**********/
+/**********/ 
 /* Contact Us */
     .location {
         float: left;
@@ -823,15 +823,55 @@ subtitulos fomrulario: open sans, normal. 12pt.
         opacity: 1;
         max-height: 400px;
     }
+   /*MOdificado para posicionar por encima el formulario de submit*/ 
     .boxDc 
     {
-        float: right;
         height: auto;
         width: 430px;
         margin-top: -285px;
+        position: absolute;
+        margin-right: 100px;
+        margin-left: 386px;
+        z-index: -0;
  
     }
+    textarea {
+        margin-top: -15px;
+        margin-left: 120px;
+        width: 220px;
+        background-color: #ffffff;
+        opacity: 0.6;
+    }
 /**********/
-
+/**********/
+/* Careers */
+.boton {
+    background-color: #4d4d4d;
+    border: 0px;
+    width: 100%;
+    padding: 2% 0;
+    margin: 20px auto;
+    color: #ffffff;
+}
+#attachfile, #attachfile1, #attachfile2, #attachfile3 {
+    display: none;
+}
+div.panel1 label {
+        margin-top: -15px;
+        font-size: 12px;
+        font-weight: 400;
+        width: 220px;
+        height: 25px;
+        opacity: 0.6;
+        float: right;
+        border: 1px solid #ffffff; 
+        text-align: center;
+        padding: 1% 0;
+        cursor: pointer;
+}
+div.panel1 label:active {
+    border: 2px solid #ffffff;
+}
+/**********/
 
 

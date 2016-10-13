@@ -1,6 +1,6 @@
 <?
 	// define variables and set to empty values
-/*	$company = $cAddress = $cPlace = $cAdjname = $cAdjemail = $cPhone = $cExt = $cFax = $insured = $iAddress = $iPlace = $iPhone = $iPhone1 = $iPhone2 = $claim = $clAddress = $clPlace = $clPhone = $clPhone1 = $clPhone2 = $coClaimNum = $coPolicyNum = $coPlace = $coEffecDate = $coCoveAmounts = $coA = $coB = $coC = $coD = $coDeduct = $coLienHol = $lDate = $lPlace = $lDescpLoss = $lSpecInstruc = $lFullAdj = $lAgreApra = $lAttachfile = $lAttachfile1 = $$lAttachfile2 = "";
+	$company = $cAddress = $cPlace = $cAdjname = $cAdjemail = $cPhone = $cExt = $cFax = $insured = $iAddress = $iPlace = $iPhone = $iPhone1 = $iPhone2 = $claim = $clAddress = $clPlace = $clPhone = $clPhone1 = $clPhone2 = $coClaimNum = $coPolicyNum = $coPlace = $coEffecDate = $coCoveAmounts = $coA = $coB = $coC = $coD = $coDeduct = $coLienHol = $lDate = $lPlace = $lDescpLoss = $lSpecInstruc = $lFullAdj = $lAgreApra = $lAttachfile = $lAttachfile1 = $lAttachfile2 = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $company = test_input($_POST["company"]);
@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $lDescpLoss = test_input($_POST["lDescpLoss"]);
   $lSpecInstruc = test_input($_POST["lSpecInstruc"]);
   $lFullAdj = test_input($_POST["lFullAdj"]);
-  $lAgreApra = test_input($_POST["clAgreApra"]);
+  $lAgreApra = test_input($_POST["lAgreApra"]);
   $lAttachfile = test_input($_POST["lAttachfile"]);
   $lAttachfile1 = test_input($_POST["lAttachfile1"]);
   $lAttachfile2 = test_input($_POST["lAttachfile2"]);
@@ -49,8 +49,8 @@ function test_input($data) {
   $data = stripslashes($data);
   $data = htmlspecialchars($data);
   return $data;
-}*/
-/*
+}
+
 $nombre_archivo = $_FILES['lAttachfile']['name'];
 $tipo_archivo = $_FILES['lAttachfile']['type'];
 $tamano_archivo = $_FILES['lAttachfile']['size'];
@@ -81,9 +81,9 @@ $body_top .= "Content-description: Mail message body"."\n";
 $cuerpo = $body_top.$mensaje;
  
 if($tamano_archivo>0)
-{*/
+{
 //Leo el fichero
-/*   $oFichero = fopen($_FILES["lAttachfile"]["tmp_name"], 'r'); 
+   $oFichero = fopen($_FILES["lAttachfile"]["tmp_name"], 'r'); 
    $sContenido = fread($oFichero, filesize($_FILES["lAttachfile"]["tmp_name"]));
    $sAdjuntos .= chunk_split(base64_encode($sContenido));
    fclose($oFichero);
@@ -94,12 +94,12 @@ if($tamano_archivo>0)
    $cuerpo .= "Content-disposition: attachment; filename=".$nombref."\n";
    $cuerpo .= $sAdjuntos."\n";
    $cuerpo .= "--Message-Boundary--";
-}*/
+}
 //Envío el correo
-/*mail($email, $asunto, $cuerpo, $cabeceras);
-*/
+mail($email, $asunto, $cuerpo, $cabeceras);
 
-	$mail_cliente=$_POST ["cAdjemail"];
+
+/*	$mail_cliente=$_POST ["cAdjemail"];
 	$mensaje="Email de la persona: ".$mail_cliente."\r\nEsta persona quiere recibir noticias de CJE ";
 	$cabecera="From:".$mail_cliente."";
 	$enviar=("consulta@cje.com.co", "Mensaje desde CJE website", $mensaje, $cabecera);
@@ -108,5 +108,5 @@ if($tamano_archivo>0)
 	}
 else{
 		echo "Error sending the message. Please try again.";
-	}	
+	}	*/
 ?>
