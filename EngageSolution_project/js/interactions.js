@@ -15,6 +15,10 @@ function fixedtop() {
 		document.querySelector(".navbar hr").style.display = "none";
 		document.querySelector("#sub").style.display = "block";
 		document.querySelector("nav ul li:last-child").style.marginRight = "0";
+		if (document.body.scrollHeight - document.body.scrollTop < 1000) {
+			document.querySelector(".location").style.transition = "all 1s";
+			document.querySelector(".location").style.opacity = "1";
+		}
 	} else {
 		document.querySelector(".navbar").style.top = "initial";
 		document.querySelector(".navbar").style.backgroundColor = "transparent";
@@ -26,9 +30,9 @@ function fixedtop() {
 		document.querySelector(".navbar hr").style.display = "block";
 		document.querySelector("#sub").style.display = "none";
 		document.querySelector("nav ul li:last-child").style.marginRight = "-55px";
+		document.querySelector(".location").style.opacity = "0";
 	}
 }
-
 /*para el header de navegacion*/
 $(document).ready(main);
  

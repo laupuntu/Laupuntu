@@ -660,26 +660,27 @@ subtitulos fomrulario: open sans, normal. 12pt.
         align-items: center;
         align-content: center;
         width: 60%;
-        margin-top: 110px;
+        margin-top: 130px;
         text-align: right;
+        opacity: 0;
     }
     .locmap:first-child {
-        margin-left: -30px;
-        margin-right: 80px;
-        margin-bottom: 100px;
+        margin-left: -150px;
+        margin-right: 50px;
+        margin-bottom: 0;
     }
     .locmap:last-child {
-        margin-top: 50px;
-        margin-right: 70px;
+        margin-top: 0;
+        margin-right: 10px;
     }
     .locmap i {
         float: right;
-        color: #ffffff;
+        color: #227bff;
         margin-left: -25px;
         margin-top: -30px;
     }
     .locmap h4 {
-        color: #ffffff;
+        color: #227bff;
         font-size: 14px;
         float: right;
         margin-top: 20px;
@@ -689,12 +690,12 @@ subtitulos fomrulario: open sans, normal. 12pt.
         margin-right: -10px;
     }
     .locmap h5 {
-        color:  #4d4d4d;
+        color:  #ffffff;
         font-size: 12px;
         font-weight: 600;
     }
     .locmap p {
-        color:  #4d4d4d;
+        color:  #ffffff;
         font-size: 12px;
         font-weight: 400;
     }
@@ -823,7 +824,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         opacity: 1;
         max-height: 400px;
     }
-   /*MOdificado para posicionar por encima el formulario de submit*/ 
+   /*Modificado para posicionar por encima el formulario de submit*/ 
     .boxDc 
     {
         height: auto;
