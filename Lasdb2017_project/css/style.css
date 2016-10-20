@@ -852,6 +852,11 @@ nav ul li:hover {
     font-weight: 400;
     letter-spacing: 0.05em;
 }
+#viptext a {
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 /*Slider*/
 #owl-demo {
     width: 100%;
@@ -932,17 +937,14 @@ nav ul li:hover {
 .icof div {
     display: none;
 }
-#item14, #item46, #item30 {
+#item14, #item46, #item30, #item20 {
     margin-left: auto;
 }
-#item50, #item47, #item49 {
+#item50, #item47, #item49, #item51 {
     margin-right: 155px;
     margin-left: 5px;
 }
-#item20 {
-    margin-right: auto;
-    margin-left: 5px;
-}
+
    /**********/
     /* The Modal (background) */
     .modal1 {
@@ -1241,6 +1243,9 @@ nav ul li:hover {
 #item50 {
     background-image: url('../imagenes/speakers/Luis_Cruz.jpg');
 }
+#item51 {
+    background-image: url('../imagenes/speakers/Katia_DelRio_Tsonis.jpg');
+}
 /*Hover Speakers*/
 #item1:hover {
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Alejandro_Sanchez.jpg');
@@ -1450,6 +1455,12 @@ nav ul li:hover {
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Luis_Cruz.jpg');
 }
 #item50:hover div {
+    display: block;
+}
+#item51:hover {
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Katia_DelRio_Tsonis.jpg');
+}
+#item51:hover div {
     display: block;
 }
 /***********/
@@ -1844,7 +1855,7 @@ nav ul li:hover {
 .icof1 div {
     display: none;
 }
-#item31, #item33,#item34{
+#item31, #item33, #item34{
     margin-right: 10px;
 }
 #item33 h2, #item35 h2, #item36 h2, #item43 h2{
