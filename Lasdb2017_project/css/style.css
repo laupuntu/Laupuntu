@@ -1875,7 +1875,7 @@ nav ul li:hover {
     background-image: url('../imagenes/comite/Jean_Delgado.png');
 }
 #item33 {
-    background-image: url('../imagenes/comite/Zayra_Garavito.png');
+    background-image: url('../imagenes/comite/Zayra_Garavito.jpg');
 }
 #item34 {
     background-image: url('../imagenes/comite/Favio_Gonzalez.png');
@@ -1927,7 +1927,7 @@ nav ul li:hover {
     display: block;
 }
 #item33:hover {
-    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Zayra_Garavito.png');
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Zayra_Garavito.jpg');
 }
 #item33:hover div {
     display: block;
