@@ -5,7 +5,7 @@ function fixedtop() {
 		document.querySelector(".navbar").style.transition = "all 1s";
 		document.querySelector(".navbar").style.top = 0;
 		document.querySelector(".navbar").style.backgroundColor = "rgba(77,77,77,1)";
-		document.querySelector(".navbar").style.zIndex = "1";
+
 		document.querySelector(".navbar").style.boxShadow = "0px 3px 10px 1px rgba(0, 0, 0, 0.75)";
 		document.querySelector("nav").style.paddingtop = "0";
 		document.querySelector("nav").style.paddingBottom = "10px";
@@ -28,7 +28,6 @@ function fixedtop() {
 		document.querySelector(".navimg").style.width = "initial";
 		document.querySelector(".navimg").style.marginTop = "0";
 		document.querySelector(".navbar hr").style.display = "block";
-		document.querySelector("#sub").style.display = "none";
 		document.querySelector("nav ul li:last-child").style.marginRight = "-55px";
 		document.querySelector(".location").style.opacity = "0";
 	}
