@@ -177,6 +177,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     .navbar {
         width: 100%;
         position: fixed;
+        z-index: 1;
     }
     nav {
         text-align: right;
@@ -259,7 +260,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         margin-top: 40px;
         padding-right: 10px;
         padding-top: 30px;
-        z-index: 1000;
+        z-index: 1;
         background-color: rgba(77,77,77,0.7);
     }
     #navip ul li {
@@ -854,25 +855,76 @@ subtitulos fomrulario: open sans, normal. 12pt.
     margin: 20px auto;
     color: #ffffff;
 }
+.boxDc {
+    z-index: 0;
+} 
 #attachfile, #attachfile1, #attachfile2, #attachfile3 {
     display: none;
 }
-div.panel1 label {
+/* Modifica texto choose file en submit y careers */
+div.panel2 label, div.panel1 label {
         margin-top: -15px;
         font-size: 12px;
         font-weight: 400;
         width: 220px;
         height: 25px;
-        opacity: 0.6;
+        opacity: 1;
         float: right;
         border: 1px solid #ffffff; 
         text-align: center;
         padding: 1% 0;
         cursor: pointer;
 }
-div.panel1 label:active {
+div.panel2 label:active, div.panel1 label:active {
     border: 2px solid #ffffff;
 }
+/********/
+   .accordion2 i {
+        margin-left: 70px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    div.accordion2 {
+        background-color: #0070bc;
+        color: #ffffff;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        font-size: 11px;
+        font-weight: 600;
+        outline: none;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+    }
+
+    div.panel2 {
+        padding: 10px 45px;
+        background-color: #0070bc;
+        color: #ffffff;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+    }
+    div.panel2 h6{
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    div.panel2 h6:first-child{
+        margin-top: 20px;
+    }
+    div.panel2 input{
+        margin-top: -15px;
+        font-size: 12px;
+        font-weight: 400;
+        width: 220px;
+        height: 16px;
+        background-color: #ffffff;
+        opacity: 0.6;
+        float: right;
+    }
+    div.panel2 input:last-child{
+        margin-bottom: 20px;
+    }
 /**********/
 
 
