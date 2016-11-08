@@ -1878,7 +1878,7 @@ nav ul li:hover {
     background-image: url('../imagenes/comite/Zayra_Garavito.jpg');
 }
 #item34 {
-    background-image: url('../imagenes/comite/Favio_Gonzalez.png');
+    background-image: url('../imagenes/comite/Favio_Gonzalez.jpg');
 }
 #item35 {
     background-image: url('../imagenes/comite/Carolina_Pustovrh.png');
@@ -1933,7 +1933,7 @@ nav ul li:hover {
     display: block;
 }
 #item34:hover {
-    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Favio_Gonzalez.png');
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Favio_Gonzalez.jpg');
 }
 #item34:hover div {
     display: block;
