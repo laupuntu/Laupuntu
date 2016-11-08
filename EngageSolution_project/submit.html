@@ -75,7 +75,7 @@
 
 			</div>
 			<div class="boxDc">
- 				<form action='php/email.php' method="post" id="formulario" enctype="multipart/form-data">
+ 				<form action="php/correosubmit.php" method="post" id="formulario" enctype="multipart/form-data">
 				<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Client information</div>
 					<div class="panel1">
  						<h6>Company:</h6>
@@ -164,17 +164,12 @@
                         <input class="box" name="lFullAdj" type="tex">
                         <h6>Agreed Apraisal:</h6>
                         <input class="box" name="lAgreApra" type="tex">
-                        <h6>Aattach file:</h6>
-                        <input class="box" name="lAttachfile" type="file" id="attachfile1">
-                        <label class="box" for="attachfile1">CHOOSE FILE </label> 
-                        <h6>Aattach file:</h6>
-                        <input class="box" name="lAttachfile1" type="file" id="attachfile2">
-                        <label class="box" for="attachfile2">CHOOSE FILE </label>
-                        <h6>Aattach file:</h6>
-                        <input class="box" name="lAttachfile2" type="file" id="attachfile3">
-                        <label class="box" for="attachfile3">CHOOSE FILE </label>
+                        <h6>Attach files:</h6>
+                        <input class="box"  name="userfile[]" type="file" multiple="multiple" id="attachfile">
+                        <label class="box" for="attachfile">CHOOSE FILES </label> 
                        <button type="submit" class="boton">SUBMIT REPORT</button>
 					</div>
+					<input type="hidden" name="correosubmit">
 			</form>
 			</div>
 		<span id="about"></span>

@@ -1,4 +1,4 @@
-<?php
+<?
 
 $msg = null;
 
@@ -7,9 +7,9 @@ $msg = null;
         
     $nombre = htmlspecialchars($_POST["nombre"]);
     $email = htmlspecialchars($_POST["email"]);
-    $asunto = "Email send from Join Team CV";
-    $mensaje = "CV attachment from Join Team CV";
-    $adjunto = $_FILES["attach"];
+    $asunto =htmlspecialchars( $_POST["asunto"]);
+    $mensaje = $_POST["mensaje"];
+    $adjunto = $_FILES["adjunto"];
         
         require "phpmailer/class.phpmailer.php";
     
@@ -21,7 +21,7 @@ $msg = null;
           //permite modo debug para ver mensajes de las cosas que van ocurriendo
           //$mail->SMTPDebug = 2;
 
-      //Debo de hacer autenticaciÃ³n SMTP
+      //Debo de hacer autenticación SMTP
           $mail->SMTPAuth = true;
           $mail->SMTPSecure = "ssl";
 
@@ -37,7 +37,7 @@ $msg = null;
        
           $mail->From = "danielgaravito@gmail.com";
         
-          $mail->FromName = "Join Team CV";
+          $mail->FromName = "Administrador";
         
           $mail->Subject = $asunto;
         
@@ -46,19 +46,21 @@ $msg = null;
           $mail->MsgHTML($mensaje);
         
     
-       if ($adjunto ["size"] > 0) & ($adjunto ["size"] < 7000000)
-        }
+       if ($adjunto ["size"] > 0)
+      {
+           
           $mail->addAttachment($adjunto ["tmp_name"], $adjunto ["name"]);
-        }
+   }
     
         
           if($mail->Send())
         {
-    $msg= "Your CV has been send.";
+    $msg= "En hora buena el mensaje ha sido enviado con exito a $email";
     }
         else
         {
-    $msg = "Sorry. Try send later. Thank you.";
+    $msg = "Lo siento, ha habido un error al enviar el mensaje a $email";
     }
  }
 ?>
+ 

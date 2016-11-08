@@ -14,9 +14,12 @@ function fixedtop() {
 		document.querySelector(".navbar hr").style.display = "none";
 		document.querySelector("#sub").style.display = "block";
 		document.querySelector("nav ul li:last-child").style.marginRight = "0";
-		if (document.body.scrollHeight - document.body.scrollTop < 1000) {
+		if (document.body.scrollHeight - document.body.scrollTop < 700) {
 			document.querySelector(".location").style.transition = "all 1s";
 			document.querySelector(".location").style.opacity = "1";
+		} else {
+			document.querySelector(".location").style.transition = "all 1s";
+			document.querySelector(".location").style.opacity = "0";
 		}
 	} else {
 		document.querySelector(".navbar").style.top = "initial";
@@ -29,6 +32,7 @@ function fixedtop() {
 		document.querySelector(".navbar hr").style.display = "block";
 		document.querySelector("nav ul li:last-child").style.marginRight = "-55px";
 		document.querySelector(".location").style.opacity = "0";
+		document.querySelector("#sub").style.display = "none";
 	}
 }
 /*para el header de navegacion*/

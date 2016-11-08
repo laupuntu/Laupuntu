@@ -76,7 +76,7 @@
 			</div>
 			<!--<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?> -->
 			<div class="boxDc">
- 				<form action='<?php echo $_SERVER["PHP_SELF"] ?>' method="post" enctype="multipart/form-data" id="formulario">
+ 				<form action="php/correo.php" method="post" enctype="multipart/form-data" id="formulario">
 				<div class="accordion2"><i class="fa fa-angle-right" aria-hidden="true"></i>Join Our Team</div>
 					<div class="panel2" id="join">
  						<h6>Name:</h6>
@@ -85,12 +85,12 @@
                         <input class="box" name="email" type="email" placeholder="my_email@email.com">
                         <h6>Attach file :</h6>
                         <input class="box" name="attach" type="file" id="attachfile">
-                        <span class="sendmail"><?php echo $msg;?></span>
                         <label class="box" for="attachfile">CHOOSE FILE </label>
                         <button type="submit" class="boton">SEND</button>
-                        <input type="hidden" name="phpmailer">
 					</div>
+					<input type="hidden" name="correo">
 			</form>
+			<strong><?php echo $msg; ?></strong>
 			</div>
 		<span id="about"></span>
 		</div>
