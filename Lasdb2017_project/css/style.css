@@ -1884,7 +1884,7 @@ nav ul li:hover {
     background-image: url('../imagenes/comite/Carolina_Pustovrh.png');
 }
 #item36 {
-    background-image: url('../imagenes/comite/Pablo_Wappner.png');
+    background-image: url('../imagenes/comite/Pablo_Wappner.jpg');
 }
 #item37 {
     background-image: url('../imagenes/comite/Federico_Brown.jpg');
@@ -1902,7 +1902,7 @@ nav ul li:hover {
     background-image: url('../imagenes/comite/Fagua_Alvarez.jpg');
 }
 #item42 {
-    background-image: url('../imagenes/comite/Maria_Correa.png');
+    background-image: url('../imagenes/comite/Maria_Correa.jpg');
 }
 #item43 {
     background-image: url('../imagenes/comite/Roxana_Yockteng.jpg');
@@ -1945,7 +1945,7 @@ nav ul li:hover {
     display: block;
 }
 #item36:hover {
-    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Pablo_Wappner.png');
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Pablo_Wappner.jpg');
 }
 #item36:hover div {
     display: block;
@@ -1981,7 +1981,7 @@ nav ul li:hover {
     display: block;
 }
 #item42:hover {
-    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Maria_Correa.png');
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/comite/Maria_Correa.jpg');
 }
 #item42:hover div {
     display: block;
