@@ -1,0 +1,60 @@
+﻿MIDESFI
+WIREFRAME 1
+
+Concepto de interacción
+scroll infinito
+
+Paleta de colores
+Amarillo: 		#f5c400
+gris oscuro:	#666666
+gris claro:		#e6e6e6
+blanco:		#fff
+
+
+Tipografia
+ubuntu
+
+
+
+MENU
+Barra de contacto superior: 10pt
+Menú: 12pt
+Ingresar:14pt
+indicadores: 10pt
+
+SLIDE
+Frase publicidad:20pt
+
+SECCION NECESIDADES
+Franjas de textos: 20pt negrilla + 16pt
+textos iconos: 14pt
+
+SECCION EQUIPO
+frase inicial seccion:16pt
+contenido: 14pt
+
+SECCION SERVICIOS
+titulos servicios:16pt(necesito) 20pt (servicio) y 16pt(conocer mas)
+boton registrate: 16pt
+
+SECCION BLOG
+texto blog:14pt + 16pt y negrilla
+
+SECCION CONTACTENOS
+Contenido:14pt
+Ciudad:12pt
+Redes Sociales:14pt
+
+COPYRITGH
+contenido:10pt
+
+
+
+
+
+
+
+
+
+
+
