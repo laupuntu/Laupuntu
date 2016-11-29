@@ -492,6 +492,33 @@ nav ul li:hover {
         font-size: 0.9em;
         line-height: 1.5;
     }
+    .modal-content strong {
+        font-weight: bold;
+    }
+    .modal-content a {
+        text-decoration: none;
+        color: #4d4d4d;
+        font-weight: bold;
+    }
+    .modal-content a:hover {
+        color: #da1418;
+    }
+    .modal-content h6 {
+        color: #4d4d4d;
+        text-align: left;
+        font-size: 1em;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .modal-content ul {
+        color: #4d4d4d;
+        height: 140px;
+        padding-left: 15px;
+        text-align: justify;
+        font-size: 0.9em;
+        line-height: 1.7em;
+        overflow: scroll;
+    }
     /* The Close Button */
     .close {
         color: #da1418;
@@ -1729,7 +1756,7 @@ nav ul li:hover {
 }
 .divTableBody .tickline {
     height: 1px;
-    width: 150%;
+    width: 160%;
     margin: auto 20%;
     background-color: #999999;
 }
