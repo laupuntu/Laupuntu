@@ -1697,8 +1697,9 @@ nav ul li:hover {
 .registration .fa-black-tie {
     padding-left: 10px;
 }
-.tie {
+.registration .tie {
     margin-left: 7px;
+    margin-top: 20px;
 }
 
 /* DivTable.com */
