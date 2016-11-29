@@ -1718,15 +1718,20 @@ nav ul li:hover {
     font-weight: bold;
 } 
 .divTableCell {
-    border: 1px solid #999999;
+    border-top: 0px solid #999999;
     display: table-cell;
     padding: 5px 10px;
     text-align: right;
     vertical-align: middle;
-    vertical-align: middle;
 }
 .divTableBody {
     display: table-row-group;
+}
+.divTableBody .tickline {
+    height: 1px;
+    width: 150%;
+    margin: auto 20%;
+    background-color: #999999;
 }
 .button {
     background-color: #da1418;
@@ -1749,7 +1754,7 @@ nav ul li:hover {
     font-size: 0.9em;
     text-align: center;
     letter-spacing: 0.01em;
-    margin: 0 auto 30px auto;
+    margin: 30px auto;
 }
 /*Media Querys*/
 @media screen and (max-width:768px){
