@@ -44,7 +44,7 @@ body {
     background-color: #ececec;
 }
 /*Scroll Bar Solo funciona en Chrome*/
-
+/* 
 ::-webkit-scrollbar {
     width: 0;
     border-radius: 0;
@@ -59,7 +59,7 @@ body {
 ::-webkit-scrollbar-thumb {
     background-color: transparent;
     border-radius: 0;
-}
+} */
 /**********/
 
 /* Header */
@@ -1781,21 +1781,36 @@ nav ul li:hover {
     border: none;
 }
 .registration {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    color: #6f6f6f;
-    margin: 50px 100px;
 }
-.registration > div {
-    text-align: center;
+/* DivTable.com */
+.divTable{
+    display: table;
+    width: 100%;
 }
-.registration i {
-    padding-bottom: 15px;
+.divTableRow {
+    display: table-row;
+}
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+.divTableCell, .divTableHead {
+    border: 1px solid #999999;
+    display: table-cell;
+    padding: 3px 10px;
+}
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+.divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+.divTableBody {
+    display: table-row-group;
 }
 .button {
     background-color: #da1418;
