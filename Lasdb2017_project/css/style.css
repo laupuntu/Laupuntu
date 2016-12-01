@@ -485,7 +485,7 @@ nav ul li:hover {
     }
     .modal-content p {
         color: #4d4d4d;
-        height: 140px;
+        height: 135px;
         margin-top: 30px;
         text-align: justify;
         overflow: scroll;
@@ -496,12 +496,15 @@ nav ul li:hover {
         font-weight: bold;
     }
     .modal-content a {
+        position: absolute;
+        top: 420px;
+        left: 380px;
         text-decoration: none;
-        color: #4d4d4d;
+        color: #da1418;
         font-weight: bold;
     }
     .modal-content a:hover {
-        color: #da1418;
+        color: #4d4d4d;
     }
     .modal-content h6 {
         color: #4d4d4d;
@@ -512,7 +515,7 @@ nav ul li:hover {
     }
     .modal-content ul {
         color: #4d4d4d;
-        height: 140px;
+        height: 135px;
         padding-left: 15px;
         text-align: justify;
         font-size: 0.9em;
@@ -1559,7 +1562,7 @@ nav ul li:hover {
 /*Reset Section*/
 #welmed {
     height: 700px;
-    background-color: rgba(255, 255, 255,.7);
+    background-color: rgba(255, 255, 255,.8);
     color: #0088aa;
     word-spacing: 0.1em;
 }
@@ -1724,6 +1727,10 @@ nav ul li:hover {
 .registration .fa-black-tie {
     padding-left: 10px;
 }
+.registration .fa-users {
+    padding-left: 5px;
+    padding-right: 18px;
+}
 .registration .tie {
     margin-left: 7px;
     margin-top: 20px;
@@ -1776,6 +1783,9 @@ nav ul li:hover {
     background-color: #800000;
     transition: 1s;
 }
+.tick a {
+    text-decoration: none;
+}
 .tick h5 {
     color: #da1418;
     font-size: 0.9em;
@@ -1808,9 +1818,8 @@ nav ul li:hover {
     background-color: #800000;
     transition: 0s;
 }
-.tick h5 a {
+#btnsub {
     text-decoration: none;
-    color: #a3a3a3;
 }
 .tick h5 {
     font-size: 0.9em;
