@@ -1946,6 +1946,13 @@ nav ul li:hover {
     letter-spacing: 0.01em;
     margin: 30px auto;
 }
+#btnsub h5 {
+    color: gray;
+    text-decoration: underline;
+}
+#btnsub h5:hover {
+    color: #da1418;
+}
 /*Media Querys*/
 @media screen and (max-width:768px){
 .tick p {
@@ -1971,9 +1978,6 @@ nav ul li:hover {
     background-color: #800000;
     -webkit-transition: 0s;
     transition: 0s;
-}
-#btnsub {
-    text-decoration: none;
 }
 .tick h5 {
     font-size: 0.9em;
