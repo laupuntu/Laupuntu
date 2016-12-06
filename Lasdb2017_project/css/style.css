@@ -731,21 +731,24 @@ nav ul li:hover {
     color: #4d4d4d;
 }
 .programa h3{ 
-    font-size:1.2em;
+    font-size:1.1em;
     color: #d40000;
 }
 .programa td{
     padding:1% 3%;
     height: 30px;
-    text-align: left;
+    
 }
 
+
 .programa td span{
-    padding-left:5%; 
-    text-align: center;
+    width: 100%;
+    padding:0 1%; 
     color:#d40000;
     font-size: 1.4em;
 }
+
+
 /*Para hover hora*/
 .programa td a {
     text-decoration:none;
@@ -755,10 +758,10 @@ nav ul li:hover {
 .programa td a:hover span{
     height: 35px;
     width: 100%;
-    padding-top:8%;
+    padding-top:1%;
     display: inline-block; 
     font-weight: 500;    
-    font-size:1em;
+    font-size:1.3em;
     color: #4d4d4d;
     background-color: rgba(179,179,179,0.7);
     cursor: pointer;
@@ -783,13 +786,13 @@ nav ul li:hover {
 
 .tabla{
     width:40%;
-    margin: 5% 5%;
+    margin: 3% 3%;
     background-color:rgba(204,204,204, 0.3);
 }
 
 .tabla_head{
     height: 40px;
-    width: 100%;
+    
     }
 .tabla_head h1{
     margin:auto;
@@ -801,6 +804,7 @@ nav ul li:hover {
 .coffee{
     height: 60px;
     background-color: #b3b3b3;
+    border-color: #b3b3b3;
     }
 
 .coffee h3, .coffee span{
@@ -820,8 +824,15 @@ nav ul li:hover {
 .posters{
     height:60px;
 }
+
+.special a{
+    text-decoration-color: #d40000;
+}
+
+
+
 /* Configuracion Program*/
-#moday {
+#monday {
     display: block;
 }
 /* #tuesday {
@@ -2703,6 +2714,7 @@ nav ul li:hover {
 .end h6 a {
     margin-bottom: 10px;
     margin-left: 0;
+   
 }
 .end h6 a:hover {
     margin-left: 0;
