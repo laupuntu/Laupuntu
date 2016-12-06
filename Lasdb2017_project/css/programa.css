@@ -9,6 +9,7 @@
 .programa th{
     text-align: center;
     background-color: #d40000;
+    display:block;
 }
 
 .programa p{
@@ -21,7 +22,7 @@
     color: #d40000;
 }
 .programa td{
-    padding:1% 5%;
+    padding:1% 15%;
     height: 30px;
     text-align: left;
 }
@@ -66,7 +67,7 @@
     }
 
 .tabla{
-    width:80%;
+    width:90%;
     margin: 5% 5%;
     background-color:rgba(204,204,204, 0.3);
 }
@@ -105,7 +106,7 @@
     height:60px;
 }
 /* Configuracion Program*/
-#moday {
+#monday {
     display: block;
 }
 /* #tuesday {
