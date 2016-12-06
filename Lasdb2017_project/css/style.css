@@ -426,12 +426,12 @@ nav ul li:hover {
     height: auto;
 }
 .owl-theme1 .owl-controls1 .owl-page1 span{
-    border: 2px solid #da1418;
+    border: 2px solid /* #da1418 */transparent;
     background:  transparent;
 }
 .owl-theme1 .owl-controls1 .owl-page1.active1 span,
 .owl-theme1 .owl-controls1.clickable1 .owl-page1:hover span{
-    background:  #da1418;
+    background:  /* #da1418 */transparent;
 }
 /*News*/
 .lastnews {

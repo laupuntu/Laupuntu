@@ -1,0 +1,212 @@
+@charset 'UTF-8';
+
+/**************
+CSS PRINCIPAL
+************/
+/*
+MIDESFI
+WIREFRAME 1
+
+Concepto de interacción
+scroll infinito
+
+Paleta de colores
+Amarillo:       #f5c400
+gris oscuro:    #666666
+gris claro:     #e6e6e6
+blanco:     #fff
+
+
+Tipografia
+ubuntu
+
+MENU
+Barra de contacto superior: 10pt
+Menú: 12pt
+Ingresar:14pt
+indicadores: 10pt
+
+SLIDE
+Frase publicidad:20pt
+
+SECCION NECESIDADES
+Franjas de textos: 20pt negrilla + 16pt
+textos iconos: 14pt
+
+SECCION EQUIPO
+frase inicial seccion:16pt
+contenido: 14pt
+
+SECCION SERVICIOS
+titulos servicios:16pt(necesito) 20pt (servicio) y 16pt(conocer mas)
+boton registrate: 16pt
+
+SECCION BLOG
+texto blog:14pt + 16pt y negrilla
+
+SECCION CONTACTENOS
+Contenido:14pt
+Ciudad:12pt
+Redes Sociales:14pt
+
+COPYRITGH
+contenido:10pt
+
+
+*/
+
+/*Reset Inicial*/
+
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+}
+body {
+    background-color: #666666;
+}
+.wrap {
+    width: 100%;
+    background-color: #f5c400; 
+    height: 30px;
+}
+/*Contacto Up*/
+.contactUp, .menu {
+    margin: 0 auto;
+    width: 824px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.contactUp a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px 20px;
+}
+.contactUp a:last-child {
+    margin-right: 0;
+}
+.contactUp a span{
+    margin-right: 10px;
+}
+/*Menu*/
+.menu {
+    justify-content: space-between;
+    height: 90px;   
+}
+.logo {
+    height: 90px;
+    width: 200px;
+    background-image: url('../imagenes/logos/Midesfi_logo_menu.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 15px auto;
+}
+nav {
+    margin: 30px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+nav a:hover {
+    border-top: 2px solid #f5c400;
+}
+/*Indicadores Economicos*/
+#index {
+    margin: 0 auto;
+    width: 824px;
+}
+.bgCarouselH {width: 100%; background-color:#fff;}
+.bgCarouselH li {padding: 15px; margin-left: 40px; float: left;}
+.bgCarouselH li a {margin-right: 10px;}
+.bgCarouselH div  {padding-top:15px;}
+/*Imagen Entrepreneur*/
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.franja {
+    color: #fff;
+    margin-top: -350px;
+    margin-left: 17%;
+}
+/*Servicios*/
+.blanco {
+    margin: 0 auto;
+    width: 824px;
+    background-color: #e6e6e6;
+}
+.blanco header {
+    background-color: #f5c400;
+}
+.blanco header p{
+    color: #666666;
+    text-align: center;
+    padding: 15px;
+}
+/*Servicios Iconos*/
+#servicon {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.icons a {
+    text-decoration: none;
+}
+.icons img{
+    margin: 25px 100px;
+    margin-top: 60px;
+}
+.icons p{
+    text-align: center;
+    color: #666666;
+}
+#item2, #item6 {
+    margin-top: 5px;
+}
+#item3 {
+    margin-top: -5px;
+}
+/*Quines Somos*/
+.gris{
+    width: 824px;
+    margin: 0 auto;
+    padding: 40px 0 90px 0;
+}
+.gris div img {
+    margin: 0 50%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.gris div p {
+    margin: 0 auto;
+    text-align: center;
+    width: 590px;
+    color: #fff;
+}
+.textserv p {
+    text-align: center;
+    padding: 40px 130px;
+    color: #666666;
+}
+.serv {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.boxleft h4 {
+    color: #666666;
+    font-size: 0.7em;
+    margin: 0 20px;
+}
+.boxleft i {
+    color: #f5c400;
+    float: right;
+}
