@@ -21,36 +21,36 @@ Tipografia
 ubuntu
 
 MENU
-Barra de contacto superior: 10pt
-Menú: 12pt
-Ingresar:14pt
-indicadores: 10pt
+Barra de contacto superior: 10pt / 13px
+Menú: 12pt / 16px
+Ingresar:14pt / 18px
+indicadores: 10pt / 13px
 
 SLIDE
-Frase publicidad:20pt
+Frase publicidad:20pt / 26px
 
 SECCION NECESIDADES
-Franjas de textos: 20pt negrilla + 16pt
-textos iconos: 14pt
+Franjas de textos: 20pt / 26px negrilla + 16pt
+textos iconos: 14pt / 18px
 
 SECCION EQUIPO
-frase inicial seccion:16pt
-contenido: 14pt
+frase inicial seccion:16pt / 21px
+contenido: 14pt / 18px
 
 SECCION SERVICIOS
-titulos servicios:16pt(necesito) 20pt (servicio) y 16pt(conocer mas)
-boton registrate: 16pt
+titulos servicios:16pt / 21px (necesito) 20pt / 26px (servicio) y 16pt / 21px (conocer mas)
+boton registrate: 16pt / 21px
 
 SECCION BLOG
-texto blog:14pt + 16pt y negrilla
+texto blog:14pt / 18px + 16pt / 21px y negrilla
 
 SECCION CONTACTENOS
-Contenido:14pt
-Ciudad:12pt
-Redes Sociales:14pt
+Contenido:14pt / 18px
+Ciudad:12pt / 16px
+Redes Sociales:14pt / 18px
 
 COPYRITGH
-contenido:10pt
+contenido:10pt / 13px
 
 
 */
@@ -70,12 +70,12 @@ body {
 .wrap {
     width: 100%;
     background-color: #f5c400; 
-    height: 30px;
+    height: auto;
 }
 /*Contacto Up*/
 .contactUp, .menu {
     margin: 0 auto;
-    width: 824px;
+    width: 80%;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -83,61 +83,68 @@ body {
 .contactUp a {
     text-decoration: none;
     color: #fff;
-    margin: 5px 20px;
+    font-size: 13px;
+    margin: 10px 20px;
 }
 .contactUp a:last-child {
     margin-right: 0;
 }
 .contactUp a span{
+    float: left;
+    margin-top: -5px;
     margin-right: 10px;
 }
 /*Menu*/
 .menu {
     justify-content: space-between;
-    height: 90px;   
+    height: 110px;   
 }
 .logo {
-    height: 90px;
-    width: 200px;
+    height: 70px;
+    width: 290px;
     background-image: url('../imagenes/logos/Midesfi_logo_menu.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: 15px auto;
+    margin: 15px 0 30px 10px;
 }
 nav {
-    margin: 30px 0;
+    margin: 40px 0;
 }
 nav a {
     text-decoration: none;
     color: #fff;
-    margin-left: 20px;
-    padding-top: 10px;
+    font-size: 16px;
+    margin-left: 50px;
+    padding-top: 5px;
 }
 nav a:hover {
-    border-top: 2px solid #f5c400;
+    border-top: 3px solid #f5c400;
 }
 /*Boton Ingresar*/
 .login {
     text-decoration: none;
     background-color: rgba(245,196,0,0.9);
-    padding: 20px;
-    position: relative;
-    z-index: 1;
-    left: 955px;
-    top: 5px;
     color: #666666;
+    font-size: 18px;
+    width: 140px;
+    position: absolute;
+    z-index: 1;
+    left: 80%;
+    top: 122px;
+    padding: 10px 15px 5px 30px;
 }
 .login:hover{
-    top: 7px;
     box-shadow: 0px 0px 5px #f5c400;
 }
 .login i {
-    padding-left: 10px;
+    float: right;
+    margin-top: -8px;
 }
 /*Indicadores Economicos*/
 #index {
     margin: 0 auto;
-    width: 824px;
+    width: 80%;
+    font-size: 13px;
 }
 .bgCarouselH {width: 100%; background-color:#fff;}
 .bgCarouselH li {padding: 15px; margin-left: 40px; float: left;}
@@ -157,12 +164,12 @@ nav a:hover {
 /*Servicios*/
 .blanco {
     margin: 0 auto;
-    width: 824px;
+    width: 80%;
     background-color: rgba(255,255,255,0.9);
 }
 .head {
     margin: 0 auto;
-    width: 824px;
+    width: 80%;
     background-color: rgba(245,196,0,0.8);
     position: relative;
     z-index: 1;
@@ -200,7 +207,7 @@ nav a:hover {
 }
 /*Quines Somos*/
 .gris{
-    width: 824px;
+    width: 80%;
     margin: 0 auto;
     padding: 40px 0 90px 0;
 }
@@ -304,7 +311,7 @@ nav a:hover {
 }
 .foto2 {
     margin: 0 auto;
-    width: 824px;
+    width: 80%;
 }
 .secupf2 {
     background-color: rgba(245,196,0,0.8);
@@ -412,7 +419,7 @@ button {
 }
 footer {
     width: 100%;
-    background-color: #e6e6e6;
+    background-color: #fff;
 }
 footer p {
     margin-top: 15px;
