@@ -66,7 +66,7 @@
 	  <div class="item">
 	  	<div class="franja">
 	  		<img src="imagenes/iconos/acompanamiento_icono.png" alt="Imagen Equipo">
-	  		<p>Acompañamiento<br>financiero.</p>
+	  		<p>Acompañamiento<br>financiero</p>
 	  	</div>
 	  </div>
 	  <div class="item"></div>
@@ -95,19 +95,20 @@
 				<div class="prub panel">
 					<p>Soporte via e-mail, sin limite de<br>número de consultas.</p>
 					<p>Continuidad en las consultas y<br>soporte personalizado.</p>
+					<p>Orientación previo al diagnóstico<br>financiero a tu empresa.</p>
 				</div>
 				<div class="bentar accordion">
-					<h4>TARIFAS (mensuales)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+					<h4>TARIFAS (trimestre)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
 				</div>
 				<div class="tarifas panel">
 					<div>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Micro empresa</a><br>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar" onclick="cambiaprecio()">Micro empresa</a><!-- <br>
 						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Pequeña Empresa</a><br>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Mediana Empresa</a>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Mediana Empresa</a> -->
 					</div>
 					<div>
-						<h3>$100.000</h3>
-						<p>(IVA incluido)</p>
+						<h3 id="precio">$300.000</h3>
+						<p>(más IVA)</p>
 					</div>
 				</div>
 			</div>
@@ -116,7 +117,7 @@
 					<h2>PLAN CONSOLIDAR</h2>
 				</div>
 				<div>
-					<h3>Control y análisis<br>financiero</h3>
+					<h3>Análisis financiero<br>Seguimiento y Control</h3>
 					<p>Recibe el soporte financiero<br>para el seguimiento dfe la Gestión<br>mensual de tu empresa o negocio.<br><br></p>
 				</div>
 				<div class="bentar accordion">
@@ -128,20 +129,20 @@
 					<p>Análisis de rentabilidad obtenida por<br>vendedor o por unidad estratégica de<br>negocio.</p>
 					<p>Análisis de Rentabilidades de los<br>productos a partir de los costos<br>suministrados y su contribución<br>marginal.</p>
 					<p>Análisis de compras.</p>
-					<p>Construimos el presupuesto anual de<br>su empresa y hacemos el<br>seguimiento mensual.</p>
+					<p>Estimamos las necesidades<br>de capital de trabajo.</p>
 				</div>
 				<div class="bentar accordion">
-					<h4>TARIFAS (mensuales)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+					<h4>TARIFAS (trimestre)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
 				</div>
 				<div class="tarifas panel">
 					<div>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Micro empresa</a><br>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Pequeña Empresa</a><br>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Mediana Empresa</a>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar1" onclick="cambiaprecio1()">Micro empresa</a><br>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar2" onclick="cambiaprecio2()">Pequeña Empresa</a><!-- <br>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Mediana Empresa</a>  -->
 					</div>
 					<div>
-						<h3>$200.000</h3>
-						<p>(IVA incluido)</p>
+						<h3 id="precio1">$600.000</h3>
+						<p>(más IVA)</p>
 					</div>
 				</div>
 			</div>
@@ -162,17 +163,17 @@
 					<p>Apoyo para que las decisiones de su<br>equipo de trabajo se encaminen al<br>aumento del Valor de su empresa.</p>
 				</div>
 				<div class="bentar accordion">
-					<h4>TARIFAS (mensuales)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+					<h4>TARIFAS (trimestre)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
 				</div>
 				<div class="tarifas panel">
 					<div>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Micro empresa</a><br>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Pequeña Empresa</a><br>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Mediana Empresa</a>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar3" onclick="cambiaprecio3()">Micro empresa</a><br>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar4" onclick="cambiaprecio4()">Pequeña Empresa</a><!-- <br>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Mediana Empresa</a> -->
 					</div>
 					<div>
-						<h3>$1.500.000</h3>
-						<p>(IVA incluido)</p>
+						<h3 id="precio2">$1.500.000</h3><!-- pequena $5.000.000 -->
+						<p>(más IVA)</p>
 					</div>
 				</div>
 			</div>
@@ -189,7 +190,7 @@
 			<div id="servicon2">
 				<div class="icons2" id="it1">
 					<div class="numbers">1</div>
-					<a><img src="imagenes/iconos/paso1.png" alt="Icono Paso1"><p>Suscribir contratos de sericio y<br>acuerdos de confidencialidad con<br> nuestros clientes.</a>
+					<a><img src="imagenes/iconos/paso1.png" alt="Icono Paso1"><p>Suscribir contratos de servicio y<br>acuerdos de confidencialidad con<br> nuestros clientes.</a>
 				</div>
 				<div class="icons2" id="it2">
 					<div class="numbers">2</div>

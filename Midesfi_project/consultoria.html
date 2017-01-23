@@ -10,7 +10,7 @@
 	<title>Midesfi</title>
 	<!--Fonts-->
 	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu+Mono:400,700|Ubuntu:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu+Mono:400,700|Ubuntu:300,400,500,700" rel="stylesheet">
 	<!-- Important Owl stylesheet -->
 	<link rel="stylesheet" href="owl-carousel/owl.carousel.css"/> 
 	<!-- Default Theme -->
@@ -96,17 +96,17 @@
 					<p>Presentación a los dueños de las<br>empresas y a las entidades<br>interesadas en dar financiación a los<br>proyectos.</p>
 				</div>
 				<div class="bentar accordion">
-					<h4>TARIFAS (mensuales)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+					<h4>TARIFAS (trimestre)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
 				</div>
 				<div class="tarifas panel">
 					<div>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Micro empresa</a><br>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Pequeña Empresa</a><br>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Mediana Empresa</a>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar5" onclick="cambiaprecio5()">Micro empresa</a><br>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar6" onclick="cambiaprecio6()">Pequeña Empresa</a><br>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar7" onclick="cambiaprecio7()">Mediana Empresa</a>
 					</div>
 					<div>
-						<h3>$600.000</h3>
-						<p>(IVA incluido)</p>
+						<h3 id="precio3">$800.000</h3><!-- pequena 2500000, mediana 5000000 -->
+						<p>(más IVA)</p>
 					</div>
 				</div>
 			</div>
@@ -116,25 +116,27 @@
 				</div>
 				<div>
 					<h3>Insolvencia y<br>Reestructuración</h3>
-					<p>Realizamos el estudio financiero<br>para determinar la viabilidad de la<br>empresa en el largo plazo.</p>
+					<p>Realizamos el estudio financiero para<br>preservar la empresa en un acuerdo de<br> reestructuración (Marco ley 1116 de 2006).</p>
 				</div>
 				<div class="bentar accordion">
 					<h4>BENEFICIOS</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
 				</div>
 				<div class="prub panel">
-					<p>Evaluación Financiera que<br>determinará la viabilidad de tu<br>empresa, para ser presentada<br>a la Supersociedades o la<br>Supersolidaria, con el fin de adjuntar<br>a la solicitud de adminsión de una<br>empresa a un acuerdo de<br>reestructuración<br>administrativo-operacional para<br>honrar deudas con sus acreedores<br>financieros y de proveedores.</p>
+					<p>Evaluación Financiera que<br>determinará la viabilidad de tu<br>empresa, para ser presentada<br>a la Supersociedades o la<br>Supersolidaria, para adjuntar<br>a la solicitud de adminsión de una<br>empresa a un acuerdo de<br>reestructuración<br>administrativo-operacional para<br>honrar deudas con sus acreedores<br>financieros y de proveedores.</p>
 					<p>Sustentación de la evaluación ante<br>acreedores y Superintendencias.</p>
 				</div>
 				<div class="bentar accordion">
-					<h4>TARIFAS (mensuales)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+					<h4>TARIFAS (trimestre)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
 				</div>
 				<div class="tarifas panel">
 					<div>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Empresa</a>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar8" onclick="cambiaprecio8()">Empresa</a><br>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar9" onclick="cambiaprecio9()">Pequeña Empresa</a><br>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar10" onclick="cambiaprecio10()">Mediana Empresa</a>
 					</div>
 					<div>
-						<h3>$10.000.000</h3>
-						<p>(IVA incluido)</p>
+						<h3 id="precio4">$3.000.000</h3><!-- 7000000, 12000000 -->
+						<p>(más IVA)</p>
 					</div>
 				</div>
 			</div>
@@ -153,15 +155,17 @@
 					<p>Informe con las proyecciones de<br>flujo de caja y la estimación de un<br>valor acorde con los supuestos de la<br>valoración.</p>
 				</div>
 				<div class="bentar accordion">
-					<h4>TARIFAS (mensuales)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+					<h4>TARIFAS (trimestre)</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
 				</div>
 				<div class="tarifas panel">
 					<div>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a href="#">Empresa</a>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar11" onclick="cambiaprecio11()">Empresa</a><br>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar12" onclick="cambiaprecio12()">Pequeña Empresa</a><br>
+						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar13" onclick="cambiaprecio13()">Mediana Empresa</a>
 					</div>
 					<div>
-						<h3>$7.500.000</h3>
-						<p>(IVA incluido)</p>
+						<h3 id="precio5">$3.000.000</h3>
+						<p>(más IVA)</p>
 					</div>
 				</div>
 			</div>
@@ -178,7 +182,7 @@
 			<div id="servicon2">
 				<div class="icons2" id="it1">
 					<div class="numbers">1</div>
-					<a><img src="imagenes/iconos/paso1.png" alt="Icono Paso1"><p>Suscribir contratos de sericio y<br>acuerdos de confidencialidad con<br> nuestros clientes.</a>
+					<a><img src="imagenes/iconos/paso1.png" alt="Icono Paso1"><p>Suscribir contratos de servicio y<br>acuerdos de confidencialidad con<br> nuestros clientes.</a>
 				</div>
 				<div class="icons2" id="it2">
 					<div class="numbers">2</div>
@@ -214,7 +218,7 @@
 			<p>¿Quieres ver Proyectada tu empresa,<br>sabes si <strong>Adquiere Valor</strong> en el tiempo?<br><br>¿Necesitas <strong>tiempo</strong> para controlar la producción y<br>direccionar las ventas sin descuidar la gestión financiera?<br><br>¿Estás en un proyecto, o tienes tu empresa o negocio en<br>marcha y necesitas de un <strong>consejo financiero</strong>?</p>
 			<div>
 			<img src="imagenes/iconos/consultores.png" alt="Icono Consultorees">
-			<p>conoce nuestro servicio de<br><strong><a href="consultoria.html">Acompañamiento<br>financiero</a></strong></p><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+			<p>conoce nuestro servicio de<br><strong><a href="acomfinan.html">Acompañamiento<br>financiero</a></strong></p><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
 			</div>
 	</section>
 	<section class="foto">
@@ -310,7 +314,7 @@
 		 
 		});
 	</script>
-	<!--Configuration Interactions-->
+<!--Configuration Interactions-->
 	<script src="js/interactions.js"></script>
 	<!--Modal Interactions-->
 <!-- 	<script src="js/modal.js"></script> -->
