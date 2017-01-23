@@ -1,0 +1,354 @@
+@charset 'UTF-8';
+
+/**************
+CSS PRINCIPAL
+************/
+/*
+MIDESFI
+WIREFRAME 1
+
+Concepto de interacción
+scroll infinito
+
+Paleta de colores
+Amarillo:       #f5c400
+gris oscuro:    #666666
+gris claro:     #e6e6e6
+blanco:     #fff
+
+
+Tipografia
+ubuntu
+
+MENU
+Barra de contacto superior: 10pt / 13px
+Menú: 12pt / 16px
+Ingresar:14pt / 18px
+indicadores: 10pt / 13px
+
+SLIDE
+Frase publicidad:20pt / 26px
+
+SECCION NECESIDADES
+Franjas de textos: 20pt / 26px negrilla + 16pt / 21px
+textos iconos: 14pt / 18px
+
+SECCION EQUIPO
+frase inicial seccion:16pt / 21px
+contenido: 14pt / 18px
+
+SECCION SERVICIOS
+titulos servicios:16pt / 21px (necesito) 20pt / 26px (servicio) y 16pt / 21px (conocer mas)
+boton registrate: 16pt / 21px
+
+SECCION BLOG
+texto blog:14pt / 18px + 16pt / 21px y negrilla
+
+SECCION CONTACTENOS
+Contenido:14pt / 18px
+Ciudad:12pt / 16px
+Redes Sociales:14pt / 18px
+
+COPYRITGH
+contenido:10pt / 13px
+
+
+*/
+/*Imagen Entrepreneur*/
+#owl-demo .item {
+    display: block;
+    width: 100%;
+    height: 440px;
+    background-image: url('../imagenes/acompañamiento.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.franja {
+    color: #fff;
+    font-size: 26px;
+    padding-top: 12%;
+}
+.franja img{
+    margin-left: 75%;
+}
+.franja p  {
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 15%;
+}
+.head3 {
+    background-color: #fff;
+    padding: 40px 0;
+}
+/*Nuestros Planes*/
+.planes {
+    margin: 0 auto;
+    width: 80%;
+}
+.planes h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.planes h1:last-child {
+    margin: 70px 0 60px 0;
+}
+/*Planes costos*/
+#plan {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.costos {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px #fff solid;
+    width: 32%;
+}
+.costos h2 {
+    background-color: #f5c400;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+.costos h3 {
+    text-align: center;
+    color: #f5c400;
+    padding: 40px 0 20px 0;
+}
+.costos p {
+    text-align: center;
+    color: #e6e6e6;
+    padding-bottom: 20px;
+}
+/*Beneficios y Tarifas*/
+.bentar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: #f5c400;
+    border-bottom: 1px solid #f5c400;
+    margin:0 20px 10px 20px;
+    cursor: pointer;
+}
+.bentar h4 {
+    margin: 5px;
+}
+/*Tarifas*/
+.tarifas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+.tarifas a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #fff;
+}
+.tarifas a:hover {
+    color: #f5c400;
+}
+.tarifas i {
+    color: #f5c400;
+}
+.tarifas a, .tarifas i {
+    padding: 3px 0;
+}
+.tarifas h3 {
+    padding: 0;
+}
+/*Menu Acordion*/
+    .accordion.active, .accordion:hover {
+        background-color: #fff;
+        color: #666666;
+        border-bottom: none;
+        padding: 0 20px;
+        margin: 0 0 10px 0;
+    }
+    div.panel {
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.6s ease-in-out;
+        opacity: 0;
+    }
+    div.panel.show {
+        opacity: 1;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        max-height: 500px;
+    }
+/*Servicios*/
+.head2 {
+    margin: 0 auto;
+    padding: 20px 0 40px 0;
+    width: 80%;
+    background-color: rgb(245,196,0);
+}
+.head2 p{
+    color: #666666;
+    font-size: 21px;
+    text-align: center;
+}
+.head2 strong{
+    font-size: 26px;
+}
+/*Servicios Iconos*/
+#servicon2 {
+    padding: 50px 4% 0 4%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.icons2 {
+    margin-bottom: 50px;
+}
+.icons2 a {
+    text-decoration: none;
+}
+.icons2 img{
+    margin: -10px 130px 20px 130px;
+}
+.icons2 p{
+    text-align: center;
+    color: #666666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.numbers {
+    background-color: #f5c400;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 20px;
+    padding: 3px 0 0 10px;
+    margin-left: 40px;
+}
+#it2 a img {
+    margin-bottom: 33px;
+}
+#it4 a img {
+    margin-bottom: 40px;
+}
+#it5 a img {
+    margin-bottom: 32px;
+}
+/*Adquirir plan*/
+.adquirir {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 30px 10%;
+}
+.adquirir p {
+    padding-bottom: 20px;
+    color: #fff;
+}
+.button2 {
+    width: 260px;
+    background-color: #666666;
+    color: #fff;
+    padding: 10px 70px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.button2:active {
+    box-shadow: 0 0 10px #fff;
+}
+/*Consultoria Financiera*/
+.finan1 {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #f5c400;
+    padding: 30px 30px 40px 50px;
+    color: #e6e6e6;
+    margin-bottom: 45px;
+}
+.finan1 p {
+    font-size: 21px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.finan1 div {
+    float: right;
+    margin-top: -50px;
+    margin-right: 30px;
+}
+.finan1 div img{
+    float: left;
+    margin-top: -10px;
+    width: 15%;
+}
+.finan1 div p {
+    float: right;
+    font-size: 18px;
+    text-align: center;
+}
+.finan1 div p a{
+    font-size: 21px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.finan1 div p i{
+    display: inline block;
+    float: right;
+    color: #f5c400;
+    padding: 0 0 0 10px;
+    margin: -3px 0 0 0;
+}
+/*Seccio Footer*/
+
+.secupf21 {
+    background-color: rgba(245,196,0,0.8);
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    visibility: hidden;
+}
+.secupf21 p {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.secupf21 p strong {
+    font-size: 21px;
+}
+.secupf21 span {
+    background-color: rgba(245,196,0,0.0);
+    color: #fff;
+    font-size: 21px;
+    border: 1px solid #fff;
+    padding: 4px 75px;
+    cursor: pointer;
+}
+.secupf21 span:hover {
+    box-shadow: 0px 0px 5px #fff;
+}
+.secupf21 span:active {
+    border: 2px solid #fff;
+}
+.secdownf21 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.9);
+    padding: 20px 0;
+    margin-top: -10px;
+}
+.secdownf21 p{
+    color: #666666;
+    font-size: 18px;
+    padding-right: 10px;
+}
+.secdownf21 a{
+    color: #666666;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-right: 15px;
+}
