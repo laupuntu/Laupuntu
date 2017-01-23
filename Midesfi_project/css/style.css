@@ -1,0 +1,500 @@
+@charset 'UTF-8';
+
+/**************
+CSS PRINCIPAL
+************/
+/*
+MIDESFI
+WIREFRAME 1
+
+Concepto de interacción
+scroll infinito
+
+Paleta de colores
+Amarillo:       #f5c400
+gris oscuro:    #666666
+gris claro:     #e6e6e6
+blanco:     #fff
+
+
+Tipografia
+ubuntu
+
+MENU
+Barra de contacto superior: 10pt / 13px
+Menú: 12pt / 16px
+Ingresar:14pt / 18px
+indicadores: 10pt / 13px
+
+SLIDE
+Frase publicidad:20pt / 26px
+
+SECCION NECESIDADES
+Franjas de textos: 20pt / 26px negrilla + 16pt / 21px
+textos iconos: 14pt / 18px
+
+SECCION EQUIPO
+frase inicial seccion:16pt / 21px
+contenido: 14pt / 18px
+
+SECCION SERVICIOS
+titulos servicios:16pt / 21px (necesito) 20pt / 26px (servicio) y 16pt / 21px (conocer mas)
+boton registrate: 16pt / 21px
+
+SECCION BLOG
+texto blog:14pt / 18px + 16pt / 21px y negrilla
+
+SECCION CONTACTENOS
+Contenido:14pt / 18px
+Ciudad:12pt / 16px
+Redes Sociales:14pt / 18px
+
+COPYRITGH
+contenido:10pt / 13px
+
+
+*/
+
+/*Reset Inicial*/
+
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+}
+body {
+    background-color: #666666;
+}
+.wrap {
+    width: 100%;
+    background-color: #f5c400; 
+    height: auto;
+}
+/*Contacto Up*/
+.contactUp, .menu {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.contactUp a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    margin: 10px 20px;
+}
+.contactUp a:last-child {
+    margin-right: 0;
+}
+.contactUp a span{
+    float: left;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+/*Menu*/
+.menu {
+    justify-content: space-between;
+    height: 110px;   
+}
+.logo {
+    height: 70px;
+    width: 290px;
+    background-image: url('../imagenes/logos/Midesfi_logo_menu.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 15px 0 30px 10px;
+}
+nav {
+    margin: 45px 0 40px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+nav a:hover {
+    border-top: 3px solid #f5c400;
+}
+/*Boton Ingresar*/
+.login {
+    text-decoration: none;
+    background-color: rgba(245,196,0,0.9);
+    color: #666666;
+    font-size: 18px;
+    width: 140px;
+    position: absolute;
+    z-index: 1;
+    left: 80%;
+    top: 130px;
+    padding: 5px 15px 1px 30px;
+}
+.login:hover{
+    box-shadow: 0px 0px 5px #f5c400;
+}
+.login i {
+    float: right;
+    margin-top: -8px;
+}
+/*Indicadores Economicos*/
+#bgBody{
+    margin: 0 auto;
+    padding: 20px 10%;
+    background-color: #fff;
+}
+/*Modifica texto de fecha de indicadores economicos*/
+#bgBody div{
+    margin-top: -15px;
+}
+/*Modifica texto de indice y valor numero del indice*/
+#bgBody ul li a, #bgBody ul li span{
+    font-size: 13px;
+    color: black !important;
+}
+#bgBody ul li span{
+    margin-top: 3px;
+}
+/*Imagen Entrepreneur*/
+#owl-demo .item {
+    display: block;
+    width: 100%;
+    height: 440px;
+    background-image: url('../imagenes/entrepeneur.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.franja {
+/*     border: 1px solid black; */
+    color: #fff;
+    font-size: 26px;
+    padding: 65px 0 0 10%;
+/*     width: 620px; */
+}
+/*Servicios*/
+.blanco {
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgba(255,255,255,0.9);
+}
+.head {
+    margin: 0 auto;
+    padding: 20px 0 40px 0;
+    width: 80%;
+    background-color: rgba(245,196,0,0.8);
+    position: relative;
+    z-index: 1;
+    top: -65px;
+}
+.head p{
+    color: #666666;
+    font-size: 21px;
+    text-align: center;
+}
+.head strong{
+    font-size: 26px;
+}
+/*Servicios Iconos*/
+#servicon {
+    margin-top: -65px;
+    padding: 40px 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.icons a {
+    text-decoration: none;
+}
+.icons img{
+    margin: 20px 130px;
+}
+.icons p{
+    text-align: center;
+    color: #666666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#item2, #item6 {
+    margin-top: 6px;
+}
+#item3 {
+    margin-top: -1px;
+}
+/*Quines Somos*/
+.gris{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 95px 0;
+}
+.gris div img {
+    margin: 0 49%;
+    margin-bottom: 30px;
+}
+.gris div p {
+    margin: 0 11%;
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+}
+.textserv p {
+    text-align: center;
+    padding: 50px 14%;
+    color: #666666;
+    font-size: 21px;
+}
+.serv {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 0.9em;
+}
+.boxleft p {
+    text-align: right;
+    padding: 5px 50px 5px 0;
+    color: #666666; 
+    font-size: 18px; 
+}
+.boxleft i {
+    color: #f5c400;
+    float: right;
+    margin-top: -5px;
+    padding-left: 15px;
+}
+.boxright p {
+    text-align: left;
+    padding: 5px 0 5px 50px;
+    color:  #666666;
+    font-size: 18px;  
+}
+.boxright i {
+    color: #f5c400;
+    float: left;
+    margin-top: -5px;
+    padding-right: 15px;
+}
+.textyellow {
+    background-color: #f5c400;
+    text-align: center;
+    padding: 25px 20%;
+    color: #fff;
+    font-size: 18px;
+}
+/*Seccion Servicios Acompanamiento financiero*/
+.finan {
+    margin: 50px 60px 40px 50px; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.necleft, .necright {
+    width: 49%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.line {
+    width: 1px;
+    height: auto;
+    background-color: #f5c400;
+}
+.text {
+    width: 40%;
+    color: #e6e6e6;
+}
+.text p{
+    text-align: left !important;
+    font-size: 21px !important;
+    color: #e6e6e6 !important;
+    margin-left: 0 !important;
+}
+.text h2{
+    text-align: left !important;
+    font-size: 26px;
+}
+.text a{
+    text-decoration: none;
+    color: #f5c400;
+    font-size: 21px;
+}
+.text a i{
+    padding-left: 10px;
+}
+.img {
+    float: left;
+    width: 90px;
+    margin-top: 30px;
+}
+.foto {
+    background-image: url('../imagenes/contacto.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+.foto2 {
+    margin: 0 auto;
+    width: 80%;
+}
+.secupf2 {
+    background-color: rgba(245,196,0,0.8);
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    position: relative;
+    z-index: 1;
+    top: -55px;
+}
+.secupf2 p {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.secupf2 p strong {
+    font-size: 21px;
+}
+.secupf2 span {
+    background-color: rgba(245,196,0,0.0);
+    color: #fff;
+    font-size: 21px;
+    border: 1px solid #fff;
+    padding: 4px 75px;
+    cursor: pointer;
+}
+.secupf2 span:hover {
+    box-shadow: 0px 0px 5px #fff;
+}
+.secupf2 span:active {
+    border: 2px solid #fff;
+}
+.secmidf2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0 10%;
+    color: #f5c400;
+    padding-bottom: 50px;
+}
+.secmidf2 p {
+    width: 300px;
+    font-size: 18px;
+}
+.secmidf2 p strong {
+    font-size: 21px;
+}
+#formulario {
+    margin-left: 30%;
+}
+.secmidf2 input {
+    width: 300px;
+    border: 1px solid #f5c400;
+    background-color: transparent;
+    font-style: italic;
+    padding: 5px 0;
+    padding-left: 15px;
+    margin: 0 0 10px 0;
+}
+.secmidf2 input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #f5c400;
+}
+button {
+    color: #666666;
+    width: 300px;
+    background-color: #f5c400;
+    border: 1px solid #f5c400;
+    padding: 5px 0;
+}
+.secdownf2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.9);
+    padding: 20px 35px;
+    margin-top: -10px;
+}
+.secdownf2 p{
+    color: #666666;
+    font-size: 18px;
+    padding-right: 10px;
+}
+.secdownf2 span{
+    color: #f5c400;
+    padding-right: 15px;
+    margin-top: -8px;
+    float: left;
+}
+.secdownf2 a{
+    color: #666666;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.secdownf21 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.9);
+    padding: 20px 0;
+    margin-top: -10px;
+}
+.secdownf21 p{
+    color: #666666;
+    font-size: 18px;
+    padding-right: 10px;
+}
+.secdownf21 a{
+    color: #666666;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-right: 15px;
+}
+.contactenos {
+    margin-bottom: -50px;
+}
+#img2 {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 260px;
+    height: 65px;
+    background-image: url('../imagenes/logos/Midesfi_logo_contactenos.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.contactenos p {
+    font-size: 16px;
+}
+hr {
+    border:1px solid #f5c400;
+    margin: 30px 90px 0 90px;
+}
+#socialmedia {
+    margin: 0 200px ;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#socialmedia p {
+    text-align: center;
+    color:  #f5c400;
+    font-size: 18px;
+}
+#socialmedia a {
+    text-decoration: none;
+    color:  #f5c400;
+    padding-right: 30px;
+}
+footer {
+    width: 100%;
+    background-color: #fff;
+}
+footer p {
+    margin-top: 15px;
+    font-size: 13px;
+}
