@@ -64,17 +64,20 @@ contenido:10pt / 13px
     background-repeat: no-repeat;
 }
 .franja1 {
+    margin:0 auto;
+    width: 80%;
     color: #f5c400;
-    font-size: 26px;
-    padding-top: 12%;
+    font-size: 30px;
+    padding: 160px 30px 0 0;
+    display: flex;
+    flex-flow: column;
 }
 .franja1 img{
-    margin-left: 78%;
+    margin-left: auto;
 }
 .franja1 p  {
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: right;
-    padding-right: 15%;
 }
 .head4 {
     background-color: #f5c400;
