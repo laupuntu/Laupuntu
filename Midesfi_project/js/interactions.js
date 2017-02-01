@@ -77,6 +77,8 @@ function cambiaprecio5() {
         // body...
        document.getElementById("precio3").innerHTML= "$800.000";
        document.querySelector(".tarifas div:last-child").style.display = "block"; //Estilo para mostrar prefio al hacer click
+       document.querySelector(".tarifas div:last-child h3").style.fontSize = "30px"; //Estilo para mostrar prefio al hacer click
+       document.querySelector(".tarifas div:last-child p").style.display = "block";//Estilo para mostrar prefio al hacer click
        document.querySelector("#tar5").style.color = "#f5c400";
        document.querySelector("#tar6").style.color = "#fff";
        document.querySelector("#tar7").style.color = "#fff";
@@ -122,7 +124,9 @@ function cambiaprecio10() {
 function cambiaprecio11() {
         // body...
        document.getElementById("precio5").innerHTML= "$3.000.000";
-       document.querySelector(".pruebatar2 div:last-child").style.display = "block"; //Estilo para mostrar prefio al hacer click
+       document.querySelector(".pruebatar2 div:last-child").style.display = "block";//Estilo para mostrar prefio al hacer click
+       document.querySelector(".pruebatar2 div:last-child h3").style.fontSize = "16px"; //Estilo para mostrar prefio al hacer click
+       document.querySelector(".pruebatar2 div:last-child p").style.display = "block";//Estilo para mostrar prefio al hacer click
        document.querySelector("#tar11").style.color = "#f5c400";
        document.querySelector("#tar12").style.color = "#fff";
        document.querySelector("#tar13").style.color = "#fff";
@@ -144,23 +148,6 @@ function cambiaprecio13() {
        document.querySelector("#tar12").style.color = "#fff";
        document.querySelector("#precio5").style.fontSize = "28px";
 }
-document.querySelector("#tar11").addEventListener("mouseover",animacion1);
-document.querySelector("#tar12").addEventListener("mouseover",animacion1);
-document.querySelector("#tar13").addEventListener("mouseover",animacion1);
-document.querySelector("#tar11").addEventListener("mouseout",animacion2);
-document.querySelector("#tar12").addEventListener("mouseout",animacion2);
-document.querySelector("#tar13").addEventListener("mouseout",animacion2);
-
-/*function animacion1() {
-  // body...
-  document.querySelector(".pruebatar2 i").style.marginLeft = "1px";
-  document.querySelector(".pruebatar2 i").style.transition = "1s";
-  document.querySelector(".pruebatar2 a").style.marginR = "1px";
-}
-function animacion2() {
-  // body...
-  document.querySelector(".pruebatar2 i").style.marginLeft = "0";
-}*/
 
 
 
