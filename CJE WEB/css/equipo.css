@@ -1,0 +1,443 @@
+@charset "UTF-8"
+
+/**************
+CSS PRINCIPAL
+************/
+/*
+Corporativos
+Naranja: #ff6600
+Gris: #808080
+
+Gris claro contactenos superior:#cccccc
+Gris fondo zona logo clientes:#b3b3b3
+Gris contactenos inferior:#808080
+*/
+
+/*Reset Inicial*/
+
+body {
+	max-width: 1024px;
+}
+a {
+	text-decoration: none;
+}
+
+/*Slider*/
+#owl-demo {
+	width: 124.3%;
+	margin-left: -12.13%;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+.franja {
+	width: 100%;
+	height: 220px;
+background: rgba(0,0,0,0.62);
+background: -moz-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: -webkit-gradient(left top, right top, color-stop(60%, rgba(0,0,0,0.40)), color-stop(100%, rgba(199,80,0,0.40)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: linear-gradient(to right, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#c75000', GradientType=1 );
+
+
+}
+/*---Area Practica Descripcion---*/ 
+section {
+	width: 100%;
+	height: 700px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  column;
+    flex-flow: column;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+	margin-top: -210px;
+	position: relative;
+}
+/*Texto en Franja, Iconos Redes y Email*/
+.texsup {
+	width: 50%;
+	height: 10%;
+	margin-left: auto;
+}
+.texsup p strong {
+	text-align: right;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	font-size: 1.8em;
+	color: white;
+}
+.texsup p {
+	text-align: right;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	font-size: 0.7em;
+	color: white;
+}
+.texsup a {
+	margin-top: 10px;
+	text-decoration: none;
+	text-align: right;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	color: white;
+}
+.texsup span {
+	padding-top: 30px;
+	padding-right: 10px;
+}
+.texsup a span:hover {
+	color: #ff6600;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+/*----Cuadro de color y Info casos---*/
+.secup {
+	width: 100%;
+	height: 28.5%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content:  space-around;
+    justify-content: space-around;
+	background-color: rgba(255,102,0,0.85);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 1);
+}
+/* Imagen Profesional*/
+.secup img {
+	margin-right: auto;
+}
+#text {
+	width: 20%;
+	line-height: 1.3em;
+	text-align: left;
+	font-size: 0.7em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #cccccc;;
+	margin-right:50px;
+}
+#text a {
+	text-decoration: none;
+	text-align: left;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #cccccc;
+	cursor: pointer;
+}
+#text a span {
+	visibility: hidden;
+}
+#text a:hover {
+	color: #FFFFFF;
+	font-weight: 400;
+}
+#text a:hover > span{
+	color: #FFFFFF;
+	visibility: visible;
+}
+/*Cuadro Derecho Cuadro Naranja*/
+#text2 {
+	width: 40%;
+	height: 150px;
+	line-height: 1.3em;
+	word-spacing: 0.1em;
+	text-align: right;
+	font-size: 0.8em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	padding-right: 20px;
+	overflow: auto;
+}
+
+/*Info Clientes*/
+.secdown {
+	width: 100%;
+	height: 50%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-between;
+    justify-content:space-between;
+    margin-top: -10px;
+}
+.icof {
+	width: 150px;
+	height: 150px;
+	background-color: rgba(255,102,0,0.85);
+}
+.icof a {
+	text-decoration: none;
+	color:#cccccc;
+}
+.icof a p {
+	line-height: 1.3em;
+	word-spacing: 0.1em;
+	text-align: center;
+	font-size: 0.65em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	margin-top: 90px;
+}
+.icof a p span {
+	padding-top: 10px;
+}
+#item1:hover {
+	background-image: url('../imagenes/abogado_andres_naranja.jpg');
+}
+#item2:hover {
+	background-image: url('../imagenes/abogado1_naranja.jpg');
+}
+#item3:hover {
+	background-image: url('../imagenes/abogado2_naranja.jpg');
+}
+#item4:hover {
+	background-image: url('../imagenes/rodrigo arenas_naranja.jpg');
+}
+#item5:hover {
+	background-image: url('../imagenes/abogado4_naranja.jpg');
+}
+#item6:hover {
+	background-image: url('../imagenes/Angelica_Malo_naranja.jpg');
+}
+#item7:hover {
+	background-image: url('../imagenes/Cristina Prieto_naranja2.jpg');
+}
+#item8:hover {
+	background-image: url('../imagenes/logo_estudio_corporativo_Naranja.jpg');
+}
+#item9:hover {
+	background-image: url('../imagenes/Luis_Felipe_Reyes_naranja.jpg');
+}
+#item10:hover {
+	background-image: url('../imagenes/Santiago_Tellez_naranja.jpg');
+}
+#item11:hover {
+	background-image: url('../imagenes/JuanManuel Erazo_naranja.jpg');
+}
+/*Media Querys*/
+
+/*Movil*/
+@media only screen and (max-width:480px){
+body {
+	width: 100%;
+}
+/*Slider*/
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.franja {
+	width: 100%;
+	height: 55%;
+}
+/*---Area Practica Descripcion---*/ 
+section {
+	width: 100%;
+	height: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  column;
+    flex-flow: column;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+	margin-top: -27%;
+	position: relative;
+	margin-bottom: 2%;
+}
+/*Texto en Franja, Iconos Redes y Email*/
+.texsup {
+	width: 80%;
+	height: 10%;
+}
+.texsup p strong {
+	text-align: right;
+	font-size: 1.8em;
+}
+.texsup p {
+	text-align: right;
+	font-size: 0.6em;
+}
+.texsup a {
+	font-size: 0.9em;
+}
+.texsup span {
+	padding-top: 5%;
+	padding-right: 3%;
+}
+/*----Cuadro de color y Info casos---*/
+.secup {
+	width: 100%;
+	height: auto;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+/* Imagen Profesional*/
+.secup img {
+	width: 50%;
+	height: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+#text {
+	width: 40%;
+	font-size: 0.7em;
+	margin-right: auto;
+	margin-left: 2px;
+}
+#text a span {
+	visibility: visible;
+}
+/*Cuadro Derecho Cuadro Naranja*/
+#text2 {
+	width: auto;
+	height: auto;
+	text-align: center;
+	font-size: 0.7em;
+	margin-top: 7%;
+	margin-bottom: 5%;
+	margin-right: 3%;
+	margin-left: 3%;
+	padding: 5px;
+
+}
+
+/*Info Clientes*/
+.secdown {
+	width: 100%;
+	height: auto;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-between;
+    justify-content:space-between;
+    margin-top: 0;
+}
+.icof {
+	width: 49%;
+	height: auto;
+	margin-bottom: 2%;
+}
+}
+/*Tabletas*/
+@media only screen and (min-width:481px) and (max-width:768px){
+body {
+	width: 730px;
+}
+section {width:100%;}
+body {padding-top:80px;}
+/*---Area Practica Descripcion---*/ 
+section {
+	height: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  column;
+    flex-flow: column;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+	margin-top: -210px;
+	position: relative;
+}
+/*----Cuadro de color y Info casos---*/
+.secup {
+	width: 100%;
+	height: auto;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content:  space-around;
+    justify-content: space-around;
+}
+/* Imagen Profesional*/
+.secup img {
+	margin-right: auto;
+}
+#text {
+	width: 20%;
+	margin-right:0;
+}
+/*Info Clientes*/
+.secdown {
+	width: 100%;
+	height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+}
+.icof {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 1%;
+}
+/*Info Clientes*/
+.secdown {
+	width: 100%;
+	height: auto;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+}
+.icof {
+	width: 19%;
+	height: auto;
+	margin-bottom: 1%;
+}
+.icof a p {
+	font-size: 0.5em;
+}
+}
+/*Pantalla*/
+@media only screen and (min-width: 769px){
+body {
+	width: 1024px;
+	margin: 0 auto;
+}
+}

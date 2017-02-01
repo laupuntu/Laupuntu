@@ -1,0 +1,239 @@
+@charset "UTF-8"
+
+/**************
+CSS PRINCIPAL
+************/
+/*
+Corporativos
+Naranja: #ff6600
+Gris: #808080
+
+Gris claro contactenos superior:#cccccc
+Gris fondo zona logo clientes:#b3b3b3
+Gris contactenos inferior:#808080
+*/
+
+/*Reset Inicial*/
+
+body {
+	max-width: 1024px;
+}
+a {
+	text-decoration: none;
+}
+
+/*Slider*/
+#owl-demo {
+	width: 124.3%;
+	margin-left: -12.13%;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+.franja {
+	width: 100%;
+	height: 220px;
+	background: rgba(0,0,0,0.62);
+background: -moz-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: -webkit-gradient(left top, right top, color-stop(60%, rgba(0,0,0,0.40)), color-stop(100%, rgba(199,80,0,0.40)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: linear-gradient(to right, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#c75000', GradientType=1 );
+	position: fixed;
+	bottom: 0;
+}
+.franja h1 {
+	margin-top: 50px;
+	margin-right: 110px;
+	text-align: right;
+	font-family: 'roboto',sans-serif;
+	font-weight: 400;
+	font-size: 2.1em;
+	color: #ffffff;
+}
+/*---Quienes Somos Sup---*/ 
+section {
+	width: 100%;
+	height: 380px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  column;
+    flex-flow: column;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+	margin-top: -100px;
+	position: relative;
+}
+.secup {
+	width: 100%;
+	height: 50%;
+	background-color: rgba(255,102,0,0.75);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 1);
+}
+.secup img {
+	width: 25%;
+	float: left;
+	margin: 50px 30px 70px 30px;
+}
+.secup p {
+	width: 60%;
+	height: 120px;
+	float: right;
+	line-height: 1.3em;
+	text-align: right;
+	font-size: 0.9em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+	position: relative;
+	right: 15px;
+	top: 25px;
+	padding-right: 20px;
+	overflow: auto;
+}
+/*Quienes Somos Inf*/
+.secdown {
+	width: 100%;
+	height: 50%;
+	isplay: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+}
+.icof p {
+	width: 240px;
+	height: 70px;
+	float: right;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-top: 15px;
+	text-align: left;
+	line-height: 1.3em;
+	font-size: .9em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #808080;
+	border-left: 1px solid #cccccc;
+}
+.acof {
+	width: 40px;
+	height: 40px;
+	padding-top: 15px;
+	color: #ff6600;
+}
+.pcross {
+	padding-right: 10px;
+	color: #808080;
+}
+b {
+	padding-left: 10px;
+	font-size: 1em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #808080;
+}
+a:hover > .pcross {
+	color: #ff6600;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+a:hover > .pcross b {
+	color: #ff6600;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+/*Media Querys*/
+
+/*Movil*/
+@media only screen and (max-width:480px){
+body {
+	width: 400px;
+	margin: 0 auto;
+}
+/*Slider*/
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.franja {
+	width: 100%;
+	height: 55%;
+}
+.franja h1 {
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 1.3em;
+}
+/*---Quienes Somos Sup---*/ 
+section {
+	width: 100%;
+	height: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  column;
+    flex-flow: column;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+	margin-top: -12.13%;
+	position: relative;
+	margin-bottom: 5%;
+}
+.secup {
+	width: 100%;
+	height: auto;
+	margin-bottom: 5%;
+}
+.secup img {
+	display: none;
+}
+.secup p {
+	width: 80%;
+	height: auto;
+	clear: both;
+	line-height: 1.3em;
+	text-align: center;
+	font-size: 0.9em;
+	overflow: auto;
+	margin-top: -5%;
+	margin-bottom: 10%;
+}
+}
+/*Tabletas*/
+@media only screen and (min-width:481px) and (max-width:768px){
+	body {
+		width: 700px;
+	}
+/*---Quienes Somos Sup---*/ 
+section {
+	width: 100%;
+	height: auto;
+}
+/*Pantalla*/
+@media only screen and (min-width:769px){
+body {
+	width: 1024px;
+	margin: 0 auto;
+}
+}

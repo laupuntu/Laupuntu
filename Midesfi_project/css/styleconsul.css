@@ -161,9 +161,6 @@ contenido:10pt / 13px
     color: #fff;
     cursor: pointer;
 }
-/*.tarifas a:hover {
-    color: #f5c400;
-}*/
 .tarifas i {
     color: #f5c400;
 }
@@ -173,8 +170,26 @@ contenido:10pt / 13px
 .tarifas h3 {
     padding: 0;
 }
-#tar5, #tar8, #tar11 {
-    color: #f5c400
+/*#tar5, #tar8, #tar11 {
+    color: #f5c400;
+}*/
+#tar8, #tar9, #tar10 {
+    cursor: default; /*Codigo provisional para tarifas version Omar sin cursor*/
+}
+.tarifas div:last-child {
+    display: none;/*Codigo provisional para tarifas que oculta los precios version Omar*/
+}
+/*Codigo provisional para tarifas version Omar*/
+.tarifas div h3 {
+    font-size: 20px;
+}
+.tarifas div p {
+    font-size: 15px;
+    margin-right: 20px;
+}
+/*Codigo provisional para tarifas version Omar*/
+.pruebatar2 a:hover {
+    transition: 1s;
 }
 /*Menu Acordion*/
     .accordion.active, .accordion:hover {

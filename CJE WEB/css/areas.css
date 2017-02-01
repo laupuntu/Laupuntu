@@ -1,0 +1,303 @@
+@charset "UTF-8"
+
+/**************
+CSS PRINCIPAL
+************/
+/*
+Corporativos
+Naranja: #ff6600
+Gris: #808080
+
+Gris claro contactenos superior:#cccccc
+Gris fondo zona logo clientes:#b3b3b3
+Gris contactenos inferior:#808080
+*/
+
+/*Reset Inicial*/
+
+body {
+	max-width: 1024px;
+}
+a {
+	text-decoration: none;
+}
+/*Slider*/
+#owl-demo {
+	width: 124.3%;
+	margin-left: -12.13%;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+.franja {
+	width: 100%;
+	height: 220px;
+bbackground: rgba(0,0,0,0.62);
+background: -moz-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: -webkit-gradient(left top, right top, color-stop(60%, rgba(0,0,0,0.40)), color-stop(100%, rgba(199,80,0,0.40)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+background: linear-gradient(to right, rgba(0,0,0,0.40) 60%, rgba(199,80,0,0.40) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#c75000', GradientType=1 );
+
+
+}
+/*---Area Practica Descripcion---*/ 
+section {
+	width: 100%;
+	height: 480px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  column;
+    flex-flow: column;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+	margin-top: -200px;
+	position: relative;
+}
+/*Texto en Franja, Logo y Nav*/
+.texsup {
+	width: 50%;
+	height: 20%;
+	margin-left: auto;
+	margin-bottom: 10px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content:  space-between;
+    justify-content: space-between;
+
+}
+.texsup p {
+	margin: auto;
+	line-height: 1.3em;
+	text-align: right;
+	font-size: 1.3em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+.texsup img {
+	margin-right: 30px;
+}
+.texsup a {
+	margin-right: 30px;
+	line-height: 1.3em;
+	text-align: right;
+	font-size: 2em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+.texsup a:hover {
+	color:#ff6600;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+/*----Cuadro de color y Accesos directos---*/
+.secup {
+	width: 100%;
+	height: 40%;
+	background-color: rgba(255,102,0,0.85);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 1);
+}
+.secup p {
+	height: 130px;
+	line-height: 1.3em;
+	text-align: center;
+	font-size: 0.9em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	overflow: auto;
+}
+/*Accesos Directos*/
+.secdown {
+	width: 100%;
+	height: 40%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+}
+.icof p {
+	width: 155px;
+	height: 80px;
+	float: right;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: left;
+	line-height: 1.3em;
+	font-size: .9em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #808080;
+	border-left: 1px solid #cccccc;
+}
+.acof {
+	padding-top: 15px;
+}
+.pcross {
+	padding-right: 10px;
+	padding-top: 10px;
+	color: #808080;
+}
+strong {
+	font-size: 1em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 400;
+	color: #808080;
+}
+#cinte {
+	margin-top: -5px;
+	width: auto;
+	height: 100px;
+}
+
+#esp {
+	margin-top: -5px;
+	width: auto;
+	height: 100px;
+}
+b {
+	padding-left: 10px;
+	font-size: 1em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #808080;
+}
+a:hover > .pcross {
+	color: #ff6600;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+a:hover > .pcross b {
+	color: #ff6600;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+/*Media Querys*/
+
+/*Movil*/
+@media only screen and (max-width:480px){
+body {
+	width: 100%;
+}
+/*Slider*/
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.franja {
+	width: 100%;
+	height: 55%;
+}
+/*---Area Practica Descripcion---*/ 
+section {
+	width: 100%;
+	height: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  column;
+    flex-flow: column;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+	margin-top: -26%;
+	position: relative;
+}
+/*Texto en Franja, Logo y Nav*/
+.texsup {
+	width: 100%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row no-wrap;
+    flex-flow: row no-wrap;
+    -webkit-justify-content:  space-between;
+    justify-content: space-between;
+}
+.texsup p {
+	font-size: 0.8em;
+	margin-right: 3%;
+}
+.texsup img {
+	width: 12.5%;
+	height: auto;
+	margin-right: 3%;
+}
+.texsup a {
+	margin-right: 3%;
+}
+/*----Cuadro de color y Accesos directos---*/
+.secup {
+	height: auto;
+}
+.secup p {
+	height: auto;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+/*Accesos Directos*/
+.secdown {
+	width: 100%;
+	height: auto;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+}
+}
+/*Pantalla*/
+@media only screen and (max-width:769px){
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+/*Texto en Franja, Logo y Nav*/
+.texsup {
+	width: 55%;
+	height: auto;
+}
+.secup p {
+	margin: 30px 50px;
+	padding-right: 20px;
+}
+}

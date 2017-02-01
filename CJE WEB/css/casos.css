@@ -1,0 +1,222 @@
+@charset "UTF-8"
+
+/**************
+CSS PRINCIPAL
+************/
+/*
+Corporativos
+Naranja: #ff6600
+Gris: #808080
+
+Gris claro contactenos superior:#cccccc
+Gris fondo zona logo clientes:#b3b3b3
+Gris contactenos inferior:#808080
+*/
+
+/*Reset Inicial*/
+
+body {
+	max-width: 1024px;
+}
+a {
+	text-decoration: none;
+}
+/*Scroll Bar Solo funciona en Chrome*/
+
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 5px;
+	border: 1px solid white;
+}
+ 
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+	border: 1px solid white;
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: white;
+	border-radius: 5px;
+}
+/*Slider*/
+#owl-demo {
+	width: 1024px;
+	margin-left: -100px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+.franja {
+	width: 1024px;
+	height: 220px;
+background: rgba(0,0,0,0.62);
+background: -moz-linear-gradient(left, rgba(0,0,0,0.70) 60%, rgba(199,80,0,0.70) 100%);
+background: -webkit-gradient(left top, right top, color-stop(60%, rgba(0,0,0,0.70)), color-stop(100%, rgba(199,80,0,0.70)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.70) 60%, rgba(199,80,0,0.70) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,0.70) 60%, rgba(199,80,0,0.70) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,0.70) 60%, rgba(199,80,0,0.70) 100%);
+background: linear-gradient(to right, rgba(0,0,0,0.70) 60%, rgba(199,80,0,0.70) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#c75000', GradientType=1 );
+}
+/*---Area Practica Descripcion---*/ 
+section {
+	width: 100%;
+	height: 500px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  column;
+    flex-flow: column;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+	margin-top: -200px;
+	position: relative;
+}
+/*Texto en Franja, Logo y Nav*/
+.texsup {
+	margin-right: 10px;
+	margin-left: auto;
+	margin-bottom: 10px;
+	margin-top: 1px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content:  space-between;
+    justify-content: space-between;
+}
+
+/*----Cuadro de color y Info casos---*/
+.secup {
+	width: 100%;
+	height: 40%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content:  space-around;
+    justify-content: space-around;
+	background-color: rgba(255,102,0,0.85);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 1);
+}
+/* Cuadro Izquierda cuadro naranja*/
+.iconos {
+	width: 35%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: 20px;
+}
+.iconos img {
+	float: left;
+	padding-right: 20px;
+	padding-top: auto;
+}
+.iconos p {
+	float: left;
+	margin-top: auto;
+	text-align: left;
+	font-size: 0.8em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+}
+#text {
+	width: 100%;
+	height: 100px;
+	clear: both;
+	text-align: left;
+	font-size: 0.8em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+}
+#text > p {
+	padding-top: 25px;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+}
+#text strong {
+	color: #ffffff;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+}
+#text a{
+	text-decoration: none;
+	color:#ffffff;
+}
+#text a:hover {
+	cursor: pointer;
+}
+/*Cuadro Derecho Cuadro Naranja*/
+#text2 {
+	width: 60%;
+	height: 100px;
+	float: right;
+	margin-bottom: auto;
+	padding-right: 20px;
+	padding-top: 5px;
+	letter-spacing: 0.1em;
+	text-align: right;
+	font-size: 0.9em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+}
+/*Info Clientes*/
+.secdown {
+	width: 100%;
+	height: 40%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-flow:  row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    justify-content:space-around;
+}
+.icof img {
+	width: auto;
+	height: 50px;
+	margin-left: 10px;
+}
+.icof p{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 0.7em;
+	font-family: 'roboto',sans-serif;
+	font-weight: 300;
+	color: #808080;
+}
+.pcross {
+	font-size: 1em;
+	padding-right: 10px;
+	padding-top: 10px;
+	color: #cccccc;
+}
+a:hover > .pcross {
+	color: #ff6600;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+a:hover > .pcross b {
+	color: #ff6600;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
