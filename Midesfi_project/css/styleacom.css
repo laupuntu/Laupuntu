@@ -150,31 +150,36 @@ contenido:10pt / 13px
 /*Tarifas*/
 .tarifas {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column-reverse;
     justify-content: space-between;
-    padding: 0 20px;
-    margin-bottom: 30px;
+    padding: 0 30px 0 30px;
 }
 .tarifas a {
-    text-decoration: none;
-    margin-left: 5px;
     color: #fff;
+    margin-right: 10px;
     cursor: pointer;
 }
-/*.tarifas a:hover {
-    color: #f5c400;
-}*/
 .tarifas i {
-    color: #f5c400;
+    color: #f5c400; 
 }
 .tarifas a, .tarifas i {
-    padding: 3px 0;
+    padding-bottom: 5px;
 }
-.tarifas h3 {
+.tarifas h5 {
+    color: #f5c400;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;   
+}
+.tarifas div h3 {
+    font-size: 16px;
     padding: 0;
+    margin: 20px 0 0 0;
+    display: none;
 }
-#tar, #tar1, #tar3 {
-    color:  #f5c400;
+.tarifas div h3 p{
+    font-size: 16px;
+    text-align: center;
 }
 /*Menu Acordion*/
     .accordion.active, .accordion:hover {

@@ -51,14 +51,7 @@
 
 <!-- Indices Economicos -->
 	<div id="bgBody">
-		<script type="text/javascript">
-		  // <![CDATA[
-		  var bgHost = "https://www.applab.in/";
-		  var bgType = "CO-19285-1";
-		  var bgIndi = "9|10|7|5";
-		  (function(d){ var f = bgHost+ "apps/indicators/"+bgType+"/"+bgIndi+"/functions.js"; d.write(unescape("%3Cscript src='"+f+"' type='text/javascript'%3E%3C/script%3E")); })(document);
-		  // ]]>
-		</script>
+
 	</div>
 <!-- Imagen Consultoria financiera -->
 	<div id="owl-demo" class="owl-carousel owl-theme">
@@ -100,13 +93,13 @@
 				</div>
 				<div class="tarifas panel">
 					<div>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar5" onclick="cambiaprecio5()">Micro empresa</a><br>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar6" onclick="cambiaprecio6()">Pequeña Empresa</a><br>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar7" onclick="cambiaprecio7()">Mediana Empresa</a>
+						<a id="tar5" onclick="cambiaprecio5()">Micro empresa&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><h3 id="precio5"></h3><br>
+						<a id="tar6" onclick="cambiaprecio6()">Pequeña Empresa</a><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><h3 id="precio6"></h3><br>
+						<a id="tar7" onclick="cambiaprecio7()">Mediana Empresa</a><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><h3 id="precio7"></h3>
 					</div>
 					<div>
-						<h3 id="precio3">Elige Tipo de Empresa</h3><!-- pequena 2500000, mediana 5000000 -->
-						<p>(más IVA)</p>
+						<h5>Elige Tipo de Empresa</h5><!-- pequena 2500000, mediana 5000000 -->
+						
 					</div>
 				</div>
 			</div>
@@ -132,16 +125,12 @@
 				</div>
 				<div class="tarifas panel">
 					<div>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar8">Micro empresa</a><h3 id="precio4">$3.000.000</h3><!-- 7000000, 12000000  onclick="cambiaprecio8()"-->
-						<p>(más IVA)</p>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar9">Pequeña Empresa</a><h3 id="precio4">$7.000.000</h3><!-- 7000000, 12000000  onclick="cambiaprecio9()"-->
-						<p>(más IVA)</p>
-						<i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><a id="tar10">Mediana Empresa</a><h3 id="precio4">$12.000.000</h3><!-- 7000000, 12000000 onclick="cambiaprecio10()"-->
-						<p>(más IVA)</p>
+						<a id="tar8" onclick="cambiaprecio8()">Micro empresa&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><h3 id="precio8"></h3><br>
+						<a id="tar9" onclick="cambiaprecio9()">Pequeña Empresa</a><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><h3 id="precio9"></h3><br>
+						<a id="tar10" onclick="cambiaprecio10()">Mediana Empresa</a><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><h3 id="precio10"></h3>
 					</div>
 					<div>
-						<h3 id="precio4">$3.000.000</h3><!-- 7000000, 12000000 -->
-						<p>(más IVA)</p>
+						<h5>Elige Tipo de Empresa</h5>
 					</div>
 				</div>
 			</div>
@@ -162,15 +151,14 @@
 				<div class="bentar accordion">
 					<h4>TARIFAS</h4><i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
 				</div>
-				<div class="tarifas panel pruebatar2">
+				<div class="tarifas panel">
 					<div>
-						<i class="fa fa-angle-right fa-lg pruebatar" aria-hidden="true"><a id="tar11" onclick="cambiaprecio11()">Micro empresa</a></i><br>
-						<i class="fa fa-angle-right fa-lg pruebatar" aria-hidden="true"><a id="tar12" onclick="cambiaprecio12()">Pequeña Empresa</a></i><br>
-						<i class="fa fa-angle-right fa-lg pruebatar" aria-hidden="true"><a id="tar13" onclick="cambiaprecio13()">Mediana Empresa</a></i>
+						<a id="tar11" onclick="cambiaprecio11()">Micro empresa&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><h3 id="precio11"></h3><br>
+						<a id="tar12" onclick="cambiaprecio12()">Pequeña Empresa</a><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><h3 id="precio12"></h3><br>
+						<a id="tar13" onclick="cambiaprecio13()">Mediana Empresa</a><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i><h3 id="precio13"></h3>
 					</div>
 					<div>
-						<h3 id="precio5">Elige Tipo de Empresa</h3>
-						<p>(más IVA)</p>
+						<h5>Elige Tipo de Empresa</h5>
 					</div>
 				</div>
 			</div>
@@ -281,21 +269,6 @@
 	<!-- </div> -->
 
 <!-- Scripts -->
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-	<script type="text/javascript" src="http://www.applab.in/Scripts/js/jquery.carouFredSel-5.5.0-packed.js"></script>
-	<script type="text/javascript" language="javascript">
-    $(function() {
-        $("#bgUl").carouFredSel({
-            auto: {
-                items           : 5, // número de item a mostrar
-                duration        : 8500, // velocidad
-                easing          : "linear",
-                pauseDuration   : 0,
-                pauseOnHover    : "immediate"
-            }
-        });
-    });
-	</script>
 	<!--  jQuery 2.2+  -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<!-- Include js plugin -->

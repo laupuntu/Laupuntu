@@ -44,111 +44,149 @@ acc[5].addEventListener("click", function(){
 
 function cambiaprecio() {
         // body...
-       document.getElementById("precio").innerHTML= "$300.000";
+       document.getElementById("precio").innerHTML= "$300.000<p>(mas IVA)</p>";
        document.querySelector("#tar").style.color = "#f5c400";
+       document.querySelector("#precio").style.fontSize = "28px";
+       document.querySelector("#precio").style.display = "block";
 }
 function cambiaprecio1() {
         // body...
-       document.getElementById("precio1").innerHTML= "$600.000";
+       document.getElementById("precio1").innerHTML= "$600.000<p>(mas IVA)</p>";
        document.querySelector("#tar1").style.color = "#f5c400";
        document.querySelector("#tar2").style.color = "#fff";
+       document.querySelector("#precio1").style.fontSize = "28px";
+       document.querySelector("#precio2").style.display = "none";
+       document.querySelector("#precio1").style.display = "block";
 }
 function cambiaprecio2() {
         // body...
-       document.getElementById("precio1").innerHTML= "$1.000.000";
+       document.getElementById("precio2").innerHTML= "$1.000.000<p>(mas IVA)</p>";
        document.querySelector("#tar2").style.color = "#f5c400";
        document.querySelector("#tar1").style.color = "#fff";
+       document.querySelector("#precio2").style.fontSize = "28px";
+       document.querySelector("#precio1").style.display = "none";
+       document.querySelector("#precio2").style.display = "block";
+       document.querySelector("#precio2").style.transition = "All 2s";
 }
 function cambiaprecio3() {
         // body...
-       document.getElementById("precio2").innerHTML= "$1.500.000";
+       document.getElementById("precio3").innerHTML= "$1.500.000<p>(mas IVA)</p>";
        document.querySelector("#tar3").style.color = "#f5c400";
        document.querySelector("#tar4").style.color = "#fff";
+       document.querySelector("#precio3").style.fontSize = "28px";
+       document.querySelector("#precio").style.display = "none";
+       document.querySelector("#precio3").style.display = "block";
 }
 function cambiaprecio4() {
         // body...
-       document.getElementById("precio2").innerHTML= "$5.000.000";
+       document.getElementById("precio4").innerHTML= "$5.000.000<p>(mas IVA)</p>";
        document.querySelector("#tar4").style.color = "#f5c400";
        document.querySelector("#tar3").style.color = "#fff";
+       document.querySelector("#precio4").style.fontSize = "28px";
+       document.querySelector("#precio3").style.display = "none";
+       document.querySelector("#precio4").style.display = "block";
 }
 //funciones cambia precios y color letras planes consultor financiero
 
 function cambiaprecio5() {
         // body...
-       document.getElementById("precio3").innerHTML= "$800.000";
-       document.querySelector(".tarifas div:last-child").style.display = "block"; //Estilo para mostrar prefio al hacer click
-       document.querySelector(".tarifas div:last-child h3").style.fontSize = "30px"; //Estilo para mostrar prefio al hacer click
-       document.querySelector(".tarifas div:last-child p").style.display = "block";//Estilo para mostrar prefio al hacer click
+       document.getElementById("precio5").innerHTML= "$800.000<p>(mas IVA)</p>";
        document.querySelector("#tar5").style.color = "#f5c400";
        document.querySelector("#tar6").style.color = "#fff";
        document.querySelector("#tar7").style.color = "#fff";
+       document.querySelector("#precio5").style.fontSize = "28px";
+       document.querySelector("#precio6").style.display = "none";
+       document.querySelector("#precio7").style.display = "none";
+       document.querySelector("#precio5").style.display = "block";
 }
 function cambiaprecio6() {
         // body...
-       document.getElementById("precio3").innerHTML= "$2.500.000";
+       document.getElementById("precio6").innerHTML= "$2.500.000<p>(mas IVA)</p>";
        document.querySelector("#tar6").style.color = "#f5c400";
        document.querySelector("#tar5").style.color = "#fff";
        document.querySelector("#tar7").style.color = "#fff";
+       document.querySelector("#precio6").style.fontSize = "28px";
+       document.querySelector("#precio5").style.display = "none";
+       document.querySelector("#precio7").style.display = "none";
+       document.querySelector("#precio6").style.display = "block";
 }
 function cambiaprecio7() {
         // body...
-       document.getElementById("precio3").innerHTML= "$5.000.000";
+       document.getElementById("precio7").innerHTML= "$5.000.000<p>(mas IVA)</p>";
        document.querySelector("#tar7").style.color = "#f5c400";
        document.querySelector("#tar5").style.color = "#fff";
        document.querySelector("#tar6").style.color = "#fff";
+       document.querySelector("#precio7").style.fontSize = "28px";
+       document.querySelector("#precio5").style.display = "none";
+       document.querySelector("#precio6").style.display = "none";
+       document.querySelector("#precio7").style.display = "block";
 }
 function cambiaprecio8() {
         // body...
-       document.getElementById("precio4").innerHTML= "$3.000.000";
+       document.getElementById("precio8").innerHTML= "$3.000.000<p>(mas IVA)</p>";
        document.querySelector("#tar8").style.color = "#f5c400";
        document.querySelector("#tar9").style.color = "#fff";
        document.querySelector("#tar10").style.color = "#fff";
-       document.querySelector("#precio4").style.fontSize = "30px";
+       document.querySelector("#precio8").style.fontSize = "28px";
+       document.querySelector("#precio9").style.display = "none";
+       document.querySelector("#precio10").style.display = "none";
+       document.querySelector("#precio8").style.display = "block";
 }
 function cambiaprecio9() {
         // body...
-       document.getElementById("precio4").innerHTML= "$7.000.000";
+       document.getElementById("precio9").innerHTML= "$7.000.000<p>(mas IVA)</p>";
        document.querySelector("#tar9").style.color = "#f5c400";
        document.querySelector("#tar10").style.color = "#fff";
        document.querySelector("#tar8").style.color = "#fff";
-       document.querySelector("#precio4").style.fontSize = "30px";
+       document.querySelector("#precio9").style.fontSize = "28px";
+       document.querySelector("#precio8").style.display = "none";
+       document.querySelector("#precio10").style.display = "none";
+       document.querySelector("#precio9").style.display = "block";
 }
 function cambiaprecio10() {
         // body...
-       document.getElementById("precio4").innerHTML= "$12.000.000";
+       document.getElementById("precio10").innerHTML= "$12.000.000<p>(mas IVA)</p>";
        document.querySelector("#tar10").style.color = "#f5c400";
        document.querySelector("#tar9").style.color = "#fff";
        document.querySelector("#tar8").style.color = "#fff";
-       document.querySelector("#precio4").style.fontSize = "28px";
+       document.querySelector("#precio10").style.fontSize = "28px";
+       document.querySelector("#precio9").style.display = "none";
+       document.querySelector("#precio8").style.display = "none";
+       document.querySelector("#precio10").style.display = "block";
 }
 function cambiaprecio11() {
         // body...
-       document.getElementById("precio5").innerHTML= "$3.000.000";
-       document.querySelector(".pruebatar2 div:last-child").style.display = "block";//Estilo para mostrar prefio al hacer click
-       document.querySelector(".pruebatar2 div:last-child h3").style.fontSize = "16px"; //Estilo para mostrar prefio al hacer click
-       document.querySelector(".pruebatar2 div:last-child p").style.display = "block";//Estilo para mostrar prefio al hacer click
+       document.getElementById("precio11").innerHTML= "$3.000.000<p>(mas IVA)</p>";
        document.querySelector("#tar11").style.color = "#f5c400";
        document.querySelector("#tar12").style.color = "#fff";
        document.querySelector("#tar13").style.color = "#fff";
-       document.querySelector("#precio5").style.fontSize = "30px";
+       document.querySelector("#precio11").style.fontSize = "28px";
+       document.querySelector("#precio12").style.display = "none";
+       document.querySelector("#precio13").style.display = "none";
+       document.querySelector("#precio11").style.display = "block";
 }
 function cambiaprecio12() {
         // body...
-       document.getElementById("precio5").innerHTML= "$7.000.000";
+       document.getElementById("precio12").innerHTML= "$7.000.000<p>(mas IVA)</p>";
        document.querySelector("#tar12").style.color = "#f5c400";
        document.querySelector("#tar11").style.color = "#fff";
        document.querySelector("#tar13").style.color = "#fff";
-       document.querySelector("#precio5").style.fontSize = "30px";
+       document.querySelector("#precio12").style.fontSize = "28px";
+       document.querySelector("#precio13").style.display = "none";
+       document.querySelector("#precio11").style.display = "none";
+       document.querySelector("#precio12").style.display = "block";
 }
 function cambiaprecio13() {
         // body...
-       document.getElementById("precio5").innerHTML= "$12.000.000";
+       document.getElementById("precio13").innerHTML= "$12.000.000<p>(mas IVA)</p>";
        document.querySelector("#tar13").style.color = "#f5c400";
        document.querySelector("#tar11").style.color = "#fff";
        document.querySelector("#tar12").style.color = "#fff";
-       document.querySelector("#precio5").style.fontSize = "28px";
+       document.querySelector("#precio13").style.fontSize = "28px";
+       document.querySelector("#precio12").style.display = "none";
+       document.querySelector("#precio11").style.display = "none";
+       document.querySelector("#precio13").style.display = "block";
 }
-
 
 
 
