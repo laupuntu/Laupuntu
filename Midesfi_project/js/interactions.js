@@ -188,6 +188,12 @@ function cambiaprecio13() {
        document.querySelector("#precio13").style.display = "block";
 }
 
+//Codigo para introducir indicadores economicos
+/*
+document.querySelector("#trm").innerHTML="$ 2,853.99";
+document.querySelector("#dtf").innerHTML="6.91%";
+document.querySelector("#idagric").innerHTML="Proximamente";*/
+
 
 
 

@@ -143,20 +143,8 @@ nav a:hover {
 /*Indicadores Economicos*/
 #bgBody{
     margin: 0 auto;
-    padding: 20px 10%;
+    padding: 10px 10%;
     background-color: #fff;
-}
-/*Modifica texto de fecha de indicadores economicos*/
-#bgBody div{
-    margin-top: -15px;
-}
-/*Modifica texto de indice y valor numero del indice*/
-#bgBody ul li a, #bgBody ul li span{
-    font-size: 13px;
-    color: black !important;
-}
-#bgBody ul li span{
-    margin-top: 3px;
 }
 /*Imagen Entrepreneur*/
 #owl-demo .item {
