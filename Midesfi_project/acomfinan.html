@@ -52,7 +52,7 @@
 <!-- Indices Economicos -->
 	<div id="bgBody">
 		<marquee behavior="" direction="right">
-		TRM: &nbsp&nbsp<span id="trm">$ 2,853.99</span>&nbsp&nbsp&nbsp&nbsp DTF: &nbsp&nbsp<span id="dtf">6.91%</span>&nbsp&nbsp&nbsp&nbsp Indicadores Agricolas: &nbsp&nbsp<span id="idagric">Proximamente</span>&nbsp&nbsp&nbsp&nbsp <span>
+		TRM: &nbsp&nbsp<span id="trm">$ 2,867.76</span>&nbsp&nbsp&nbsp&nbsp DTF: &nbsp&nbsp<span id="dtf">6.91%</span>&nbsp&nbsp&nbsp&nbsp Indicadores Agricolas: &nbsp&nbsp<span id="idagric">Proximamente</span>&nbsp&nbsp&nbsp&nbsp <span>
 			<script>
 				var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
 				var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
@@ -72,8 +72,18 @@
 	  		<p>Acompañamiento<br>financiero</p>
 	  	</div>
 	  </div>
-	  <div class="item"></div>
-	  <div class="item"></div>
+	  <div class="item" id="imgacom1">
+	  	<div class="franja">
+	  		<img src="imagenes/iconos/acompanamiento_icono.png" alt="Imagen Equipo">
+	  		<p>Acompañamiento<br>financiero</p>
+	  	</div>
+	  </div>
+	  <div class="item" id="imgacom2">
+	  	<div class="franja">
+	  		<img src="imagenes/iconos/acompanamiento_icono.png" alt="Imagen Equipo">
+	  		<p>Acompañamiento<br>financiero</p>
+	  	</div>
+	  </div>
 	</div>
 <!-- Servicios -->
 	
@@ -285,21 +295,6 @@
 	<!-- </div> -->
 
 <!-- Scripts -->
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-	<script type="text/javascript" src="http://www.applab.in/Scripts/js/jquery.carouFredSel-5.5.0-packed.js"></script>
-	<script type="text/javascript" language="javascript">
-    $(function() {
-        $("#bgUl").carouFredSel({
-            auto: {
-                items           : 5, // número de item a mostrar
-                duration        : 8500, // velocidad
-                easing          : "linear",
-                pauseDuration   : 0,
-                pauseOnHover    : "immediate"
-            }
-        });
-    });
-	</script>
 	<!--  jQuery 2.2+  -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<!-- Include js plugin -->
@@ -316,7 +311,7 @@
 		      slideSpeed : 1000,
 		      paginationSpeed : 1000,
 		      singleItem:true,
-		      autoPlay:false,
+		      autoPlay:true,
 		      pagination:false,
 		 
 		  	});

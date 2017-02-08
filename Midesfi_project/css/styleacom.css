@@ -79,6 +79,12 @@ contenido:10pt / 13px
     margin-top: 20px;
     text-align: right;
 }
+#imgacom1{
+    background-image: url('../imagenes/acomp_1s.png') !important;
+}
+#imgacom2{
+    background-image: url('../imagenes/acomp_2s.png') !important;
+}
 .head3 {
     background-color: #fff;
     padding: 40px 0;
