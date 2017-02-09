@@ -25,7 +25,7 @@ function fixedtop() {
     document.querySelector("#login").style.display = "none";
   }
 }
-
+//fin menu
 //Menu Plan Emprender
 var acc = document.getElementsByClassName("accordion");
 acc[0].addEventListener("click", function(){
