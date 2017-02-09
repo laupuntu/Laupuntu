@@ -59,7 +59,7 @@ contenido:10pt / 13px
     display: block;
     width: 100%;
     height: 440px;
-    background-image: url('../imagenes/consultoria.png');
+    background-image: url('../imagenes/consul_1s.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -80,10 +80,10 @@ contenido:10pt / 13px
     text-align: right;
 }
 #imgconsul1{
-    background-image: url() !important;
+    background-image: url('../imagenes/consul_2s.png') !important;
 }
-#imgconsul1{
-    background-image: url() !important;
+#imgconsul2{
+    background-image: url('../imagenes/consul_3s.png') !important;
 }
 .head4 {
     background-color: #f5c400;
