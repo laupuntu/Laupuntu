@@ -1,3 +1,31 @@
+/* Fijar menu en la parte de arriba cuando se haga scroll a la pagina */
+window.onscroll = function() {fixedtop()};
+function fixedtop() {
+  if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) 
+  {
+    document.querySelector(".menu").style.position = "fixed";
+    document.querySelector(".menu").style.top = 0;
+    document.querySelector(".menu").style.zIndex = "1000";
+    document.querySelector(".menu").style.backgroundColor = "#666666";
+    document.querySelector(".menu").style.boxShadow = "0px 3px 10px 1px rgba(0, 0, 0, 0.75)";
+    document.querySelector(".menu").style.width = "100%";
+    document.querySelector(".menu").style.padding = "0 10%";
+    document.querySelector(".login").style.display = "none";
+    document.querySelector("#login").style.display = "block";
+  } 
+  else 
+  {
+    document.querySelector(".menu").style.top = "initial";
+    document.querySelector(".menu").style.position = "initial";
+    document.querySelector(".menu").style.backgroundColor = "initial";
+    document.querySelector(".menu").style.width = "80%";
+    document.querySelector(".menu").style.padding = "0";
+    document.querySelector(".menu").style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0)";
+    document.querySelector(".login").style.display = "block";
+    document.querySelector("#login").style.display = "none";
+  }
+}
+
 //Menu Plan Emprender
 var acc = document.getElementsByClassName("accordion");
 acc[0].addEventListener("click", function(){

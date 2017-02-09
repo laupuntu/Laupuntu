@@ -108,6 +108,9 @@ body {
     margin: 15px 0 30px 10px;
 }
 nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     margin: 45px 0 40px 0;
 }
 nav a {
@@ -121,6 +124,9 @@ nav a:hover {
     border-top: 3px solid #f5c400;
 }
 /*Boton Ingresar*/
+#login {
+    display: none;
+}
 .login {
     text-decoration: none;
     background-color: rgba(245,196,0,0.9);

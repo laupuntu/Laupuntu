@@ -303,13 +303,14 @@ contenido:10pt / 13px
     color: #fff;
 }
 .button3 {
+    text-decoration: none;
     width: 260px;
     background-color: #666666;
     color: #fff;
-    padding: 10px 7%;
+    text-align: center;
+    padding: 10px 0;
     display: block;
     margin: 0 auto;
-    cursor: pointer;
 }
 .button3:active {
     box-shadow: 0 0 10px #fff;
