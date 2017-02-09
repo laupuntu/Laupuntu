@@ -187,6 +187,31 @@ contenido:10pt / 13px
     font-size: 16px;
     text-align: center;
 }
+.masinfo {
+    margin-top:15%;
+}
+.masinfo h6 {
+    color:#fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+.tomaraccion {
+    background-color: #f5c400;
+    margin: 15px auto;
+    padding: 10px 11%;
+    width: 100%;
+}
+.tomaraccion a {
+    text-decoration: none;
+    color:#fff;
+    margin: 0 15%;
+    font-size: 16px;
+    font-weight: 300;
+}
+.tomaraccion:hover {
+    box-shadow: 0 0 10px #fff;
+}
 /*Menu Acordion*/
     .accordion.active, .accordion:hover {
         background-color: #fff;
