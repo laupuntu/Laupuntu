@@ -131,8 +131,8 @@ nav a:hover {
     text-decoration: none;
     background-color: rgba(245,196,0,0.9);
     color: #666666;
-    font-size: 18px;
-    width: 140px;
+    font-size: 16px;
+    width: 200px;
     position: absolute;
     z-index: 1;
     left: 80%;
@@ -351,6 +351,11 @@ nav a:hover {
 .secupf2 p strong {
     font-size: 21px;
 }
+
+.secupf2 span a{
+     text-decoration: none;
+     color: white;
+}
 .secupf2 span {
     background-color: rgba(245,196,0,0.0);
     color: #fff;
@@ -359,6 +364,7 @@ nav a:hover {
     padding: 4px 75px;
     cursor: pointer;
 }
+
 .secupf2 span:hover {
     box-shadow: 0px 0px 5px #fff;
 }
