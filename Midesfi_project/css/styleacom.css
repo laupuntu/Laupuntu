@@ -89,6 +89,48 @@ contenido:10pt / 13px
     background-color: #fff;
     padding: 40px 0;
 }
+@media screen and (max-width:768px){
+#owl-demo .item {
+    height: auto;
+}
+/*Imagen Entrepreneur*/
+.franja {
+    font-size: 20px;
+    padding: 15% 0 0 0;
+}
+.franja img{
+    margin: 0 auto;
+}
+.franja p  {
+    margin-top: 1%;
+    text-align: center;
+}
+.head3 {
+    padding: 6% 3%;
+    margin-top: 20%;
+}
+}
+@media screen and (max-width:1034px) and (min-width:768px){
+#owl-demo .item {
+    height: auto;
+}
+/*Imagen Entrepreneur*/
+.franja {
+    font-size: 20px;
+    padding: 0;
+}
+.franja img{
+    margin: 0 auto;
+}
+.franja p  {
+    margin-top: 0;
+    text-align: center;
+}
+.head3 {
+    padding: 3% 2%;
+    margin-top: 0;
+}
+}
 /*Nuestros Planes*/
 .planes {
     margin: 0 auto;
@@ -103,6 +145,21 @@ contenido:10pt / 13px
 }
 .planes h1:last-child {
     margin: 70px 0 60px 0;
+}
+@media screen and (max-width:768px){
+/*Nuestros Planes*/
+.planes {
+    margin-top: -5%;
+}
+}
+@media screen and (max-width:1034px) and (min-width:768px){
+/*Nuestros Planes*/
+.planes {
+    margin-top: -12%;
+}
+.planes h1 {
+    margin:0 0 15% 0;
+}
 }
 /*Planes costos*/
 #plan {
@@ -138,6 +195,21 @@ contenido:10pt / 13px
     color: #f5c400;
     text-align: right;
     font-weight: 300;
+}
+@media screen and (max-width:768px){
+/*Planes costos*/
+#plan {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: -20%;
+}
+.costos {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin-top: 10%;
+}
 }
 /*Beneficios y Tarifas*/
 .bentar {
@@ -212,6 +284,13 @@ contenido:10pt / 13px
 .tomaraccion:hover {
     box-shadow: 0 0 10px #fff;
 }
+@media screen and (max-width:768px){
+/*Tarifas*/
+.tomaraccion {
+    padding: 5%;
+    text-align: center;
+}
+}
 /*Menu Acordion*/
     .accordion.active, .accordion:hover {
         background-color: #fff;
@@ -246,6 +325,18 @@ contenido:10pt / 13px
 }
 .head2 strong{
     font-size: 26px;
+}
+@media screen and (max-width:768px){
+/*Servicios*/
+.head2 {
+    padding: 5%;
+}
+.head2 p{
+    font-size: 16px;
+}
+.head2 strong{
+    font-size: 21px;
+}
 }
 /*Servicios Iconos*/
 #servicon2 {
@@ -289,6 +380,13 @@ contenido:10pt / 13px
 #it5 a img {
     margin-bottom: 32px;
 }
+@media screen and (max-width:768px){
+/*Servicios Iconos*/
+#servicon2 {
+    padding: 7%;
+    justify-content: space-around;
+}
+}
 /*Adquirir plan*/
 .adquirir {
     margin-top: 60px;
@@ -311,6 +409,16 @@ contenido:10pt / 13px
 }
 .button2:active {
     box-shadow: 0 0 10px #fff;
+}
+@media screen and (max-width:768px){
+/*Adquirir plan*/
+.adquirir {
+    margin: 10% auto;
+}
+.button2 {
+    width: 100%;
+    padding: 5%;
+}
 }
 /*Consultoria Financiera*/
 .finan1 {
@@ -353,6 +461,46 @@ contenido:10pt / 13px
     color: #f5c400;
     padding: 0 0 0 10px;
     margin: -3px 0 0 0;
+}
+@media screen and (max-width:768px){
+/*Consultoria Financiera*/
+.finan1 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5%;
+    margin-bottom: 10%;
+}
+.finan1 p {
+    text-align: center;
+}
+.finan1 div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 0;
+}
+.finan1 div img{
+    clear: both;
+    margin: 10% auto;
+
+}
+.finan1 div p {
+    clear: both;
+    font-size: 16px;
+    text-align: center;
+}
+.finan1 div p a{
+    font-size: 18px;
+    margin-left: 0;
+}
+.finan1 div p i{
+    display: block;
+    clear: both;
+    padding: 2%;
+    margin: -2%;
+}
 }
 /*Seccio Footer*/
 
@@ -409,4 +557,44 @@ contenido:10pt / 13px
     text-decoration: none;
     margin-top: 10px;
     padding-right: 15px;
+}
+@media screen and (max-width:768px){
+/*Seccio Footer*/
+.secupf21 {
+    display: none;
+}
+.secdownf21 {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin-top: 4%;
+}
+.secdownf21 p{
+    text-align: center;
+    padding-right: 0;
+}
+.gris {
+    padding: 0;
+    margin-top: -30%;
+}
+}
+@media screen and (max-width:1034px) and (min-width:768px){
+/*Seccio Footer*/
+.secupf21 {
+    display: none;
+}
+.secdownf21 {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin-top: 4%;
+}
+.secdownf21 p{
+    text-align: center;
+    padding-right: 0;
+}
+.gris {
+    padding: 0;
+    margin-top: 0;
+}
 }

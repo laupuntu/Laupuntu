@@ -1,6 +1,13 @@
 /* Fijar menu en la parte de arriba cuando se haga scroll a la pagina */
+/* Fijar menu en la parte de arriba cuando se haga scroll a la pagina */
+var w = window.innerWidth;
+window.addEventListener("resize", pagewidth);
+function pagewidth() {
+  w = window.innerWidth;
+}
 window.onscroll = function() {fixedtop()};
 function fixedtop() {
+if (w>1034) {
   if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) 
   {
     document.querySelector(".menu").style.position = "fixed";
@@ -11,7 +18,8 @@ function fixedtop() {
     document.querySelector(".menu").style.width = "100%";
     document.querySelector(".menu").style.padding = "0 10%";
     document.querySelector(".login").style.display = "none";
-    document.querySelector("#login").style.display = "block";
+    document.querySelector("body").style.marginTop = "100px";
+    // document.querySelector("#login").style.display = "block";
   } 
   else 
   {
@@ -22,10 +30,40 @@ function fixedtop() {
     document.querySelector(".menu").style.padding = "0";
     document.querySelector(".menu").style.boxShadow = "0px 0px 0px 0px rgba(0, 0, 0, 0)";
     document.querySelector(".login").style.display = "block";
-    document.querySelector("#login").style.display = "none";
+    document.querySelector("body").style.marginTop = "initial";
+    /*document.querySelector("#login").style.display = "none";*/
   }
 }
+}
 //fin menu
+/*para el header de navegacion*/
+$(document).ready(main);
+ 
+var contador = 1;
+ 
+function main(){
+  $('.menu_bar').click(function(){
+    // $('nav').toggle(); 
+ 
+    if(contador == 1){
+      $('nav').animate({
+        right: '0'
+      });
+      contador = 0;
+    } else {
+      contador = 1;
+      $('nav').animate({
+        right: '-100%'
+      });
+    }
+ 
+  });
+
+  // Mostramos y ocultamos submenus
+  $('.submenu').click(function(){
+    $(this).children('.children').slideToggle();
+  });
+}
 //Menu Plan Emprender
 var acc = document.getElementsByClassName("accordion");
 acc[0].addEventListener("click", function(){
@@ -102,7 +140,7 @@ function cambiaprecio3() {
        document.querySelector("#tar3").style.color = "#f5c400";
        document.querySelector("#tar4").style.color = "#fff";
        document.querySelector("#precio3").style.fontSize = "28px";
-       document.querySelector("#precio").style.display = "none";
+       document.querySelector("#precio4").style.display = "none";
        document.querySelector("#precio3").style.display = "block";
 }
 function cambiaprecio4() {
