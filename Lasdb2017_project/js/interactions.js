@@ -159,8 +159,8 @@ $(document).ready(function() {
  
   $("#owl-demo1").owlCarousel1({
  
-      autoPlay: false, // Show next and prev buttons
-      slideSpeed : 300,
+      autoPlay: true, // Show next and prev buttons
+      slideSpeed : 30,
       paginationSpeed : 400,
       singleItem: true
  

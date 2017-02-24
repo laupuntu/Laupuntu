@@ -416,6 +416,8 @@ nav ul li:hover {
     height: auto;
     padding-bottom: 25px;
 }
+
+
 /* Section 2 */
 /*Slider*/
 
@@ -426,12 +428,12 @@ nav ul li:hover {
     height: auto;
 }
 .owl-theme1 .owl-controls1 .owl-page1 span{
-    border: 2px solid /* #da1418 */transparent;
+    border: 2px solid  #da1418 /*transparent*/;
     background:  transparent;
 }
 .owl-theme1 .owl-controls1 .owl-page1.active1 span,
 .owl-theme1 .owl-controls1.clickable1 .owl-page1:hover span{
-    background:  /* #da1418 */transparent;
+    background:   #da1418 /*transparent*/;
 }
 /*News*/
 .lastnews {
@@ -446,11 +448,18 @@ nav ul li:hover {
     -ms-flex-line-pack: center;
         align-content: center;
     margin: 35px 100px;
+
 }
+.lastnews article {
+    padding: 50px 20px 50px 20px;
+    border-left: 10px solid #da1418;
+    background-color: lightgrey;
+    }
+
 .lastnews article p {
     float: right;
     color: #6f6f6f;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 .lastnews article span {
     color: #6f6f6f;
@@ -498,6 +507,11 @@ nav ul li:hover {
         width: 900px;
         height: 400px;
     }
+
+    .flight {
+        width: 950px;
+        height: 600px;
+    }
     /* Add Animation */
     @-webkit-keyframes animatetop {
         from {top:-300px; opacity:0}
@@ -512,6 +526,14 @@ nav ul li:hover {
     {
         float: left;
         margin: 120px 100px;
+        color: #da1418;
+    }
+
+    .flight a img
+    {
+        float: left;
+        width: 200px;
+        height: auto;
         color: #da1418;
     }
     .abstract i {
@@ -546,6 +568,10 @@ nav ul li:hover {
     }
     .abstract a {
         margin-top: 250px;  
+    }
+
+    .flight a {
+      margin-left: 20px;
     }
     .modal-content a:hover {
         color: #4d4d4d;
