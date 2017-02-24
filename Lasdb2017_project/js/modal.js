@@ -73,7 +73,7 @@ window.onclick = function(event) {
         modal2.style.display = "none";
     }
 }
-/*// Get the modal
+// Get the modal
 var modal3 = document.getElementById('myModal3');
 
 // Get the button that opens the modal
@@ -148,7 +148,7 @@ window.onclick = function(event) {
         modal5.style.display = "none";
     }
 }
-// Get the modal
+/*// Get the modal
 var modal6 = document.getElementById('myModal6');
 
 // Get the button that opens the modal
