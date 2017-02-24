@@ -1,0 +1,1333 @@
+@charset 'UTF-8';
+
+/**************
+CSS PRINCIPAL
+************/
+/*
+Paleta de colores
+gris oscuro:        #4d4d4d
+gris medio:     #b3b3b3
+gris claro:     #e6e6e6
+blanco:         #fff
+azul:           #227bff
+azul oscuro:        #0070bc
+
+Tipografia
+Open Sans
+
+Tamaño
+Barra de Menu(blanco) : 14pt
+titulos secciones (azul): 21pt
+contenido secciones (blanco): 14pt
+
+Secciones
+Lineas
+    Linea debajo titulo: 30px ancho
+Seccion header
+    email: azul, 11pt
+    submit: azul, 14pt
+    tel:azul, 14pt
+Seccion Standars
+    Valores: azul y 11pt
+Sección Operational Model
+    Subtitulos: blanco, negrilla 14pt
+    contenido: blanco, 12 pt
+Sección Contac us:
+    titulo: azul, mayuscula fija, 14pt
+    subtitulo: gris oscuro, negrilla, 12pt  
+    contenido: gris oscuro, sin negrilla, 12pt
+
+Copyritgh
+azul, 12pt
+WIREFRAME 2
+
+Background
+gris oscuro, transparencia 0.9
+
+Box
+gris claro
+800pxx300px
+
+titulo: open sans, negrilla, azul, 18pt
+contenido: open sans, normal, gris oscuro, 12pt
+
+WIREFRAME 3
+
+Formulario
+Background formulario:azul oscuro
+cajas para rellenar: 220px ancho por 16px alto, color blanco, transparencia 0.6
+
+titulos formulario: open sans, negrilla, 11pt
+subtitulos fomrulario: open sans, normal. 12pt.
+*/
+
+/*Reset Inicial*/
+    *   
+    {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        text-decoration: none;
+    }
+    .parallax-window 
+    {
+        min-height: 400px;
+        background: transparent;
+    }
+    .wrap {
+        width: 100%;
+        background-color: #4d4d4d;
+    /*     position: fixed; */
+    }
+    .wrapsub {
+        height: 100px;
+    }
+    .wrapper {
+        max-width: 814px;
+        margin: auto;
+        height: auto;
+    }
+    .menu_bar {
+        display: none;
+    }
+    .lineaiz {
+        display: block;
+        width: 1px;
+        height: auto;
+        border-color: #227bff;
+    }
+    .lineader {
+        width: 15%;
+        border-color: #227bff;
+        margin-bottom: 20px;
+        margin-top: -5px;
+    }
+    .linea {
+        margin: 0 auto;
+        width: 5%;
+        border-color: #227bff;
+    }
+    @media screen and (max-width:425px){
+    .lineaiz, .lineader {
+        width: 15%;
+        margin-right: 40%;
+    }
+    }
+/*Scroll Bar Solo funciona en Chrome*/
+
+   ::-webkit-scrollbar {
+        width: 0;
+        border-radius: 0;
+        border: 0 solid transparent;
+    }
+     
+    ::-webkit-scrollbar-track {
+        border-radius: 0;
+        border: 0 solid transparent;
+    }
+     
+    ::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        border-radius: 0;
+    }
+/* Header */
+    .contactUp 
+    {
+        height: 30px;
+        display: flex;
+        justify-content: flex-end;
+        flex-flow:row wrap;
+        height: 30px;
+        font-size: 14px;
+        padding: 3px;
+    }
+    .contactUp a 
+    {
+        color: #227bff;
+        margin
+    } 
+    .contactUp a:hover 
+    {
+        text-decoration: none;
+        color: #227bff;
+    }
+    .contacto:first-child
+    {
+        margin-right: auto;
+        font-size: 11px;
+        margin-top:; 5px;
+    }
+    .contacto:last-child
+    {
+        margin-left: 5%;
+    }
+    .contacto img 
+    {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+/**********/
+/* Menu */
+    .navbar {
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+    }
+    nav {
+        text-align: right;
+        padding-top: 30px;
+    }
+    nav ul {
+        list-style: none;
+        padding-top: 45px;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-right: 55px;
+        padding-bottom: 10px;
+    }
+    nav ul li:last-child{
+        margin-right: -55px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 14px;
+    }
+    nav ul li:hover {
+        border-bottom: 2px solid #227bff;
+        padding-bottom: 8px;
+    }
+    .navimg {
+        float: left;
+        margin-left: 50px;
+    }
+    .navimgres {
+        display: none;
+    }
+    hr 
+    {
+        width: 70%;
+        margin-left: auto;
+        margin-top: -2px ;
+        border: 1px solid white;
+    }
+    #sub {
+        display: none;
+    }
+/*Media Querys*/
+    @media screen and (max-width:768px){
+    header {
+        display: none;
+    }
+    .menu_bar {
+        width: 100%;
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index:1001;
+        background-color: #4d4d4d
+    }
+    .menu_bar .bt-menu {
+        display: block;
+        padding: 15px;
+        overflow: hidden;
+        text-decoration: none;
+        float: right;
+    }
+    .bt-menu {
+        cursor: pointer;
+    }
+    .menu_bar span {
+        color: #FFFFFF;
+        font-size: 2em;
+    }
+    /* Menu */
+    #navip {
+        width: 20%;
+        height: 102%;
+        top: 0;
+        position: fixed;
+        right: -100%;
+        margin: 0;
+        margin-top: 40px;
+        padding-right: 10px;
+        padding-top: 30px;
+        z-index: 1;
+        background-color: rgba(77,77,77,0.7);
+    }
+    #navip ul li {
+        display: block;
+        padding-top: 10px;
+        border-bottom: 1px solid #FFFFFF;
+        text-align: center;
+        width: 107%;
+        padding: 20px;
+        margin: 0;
+    }
+    #navip ul li:hover {
+        border-top: 0px solid #da1418;
+        margin-top: 0px;
+    }
+    #navip ul li a {
+        font-size: 1em;
+    }
+    .navimgres {
+        display: block;
+        float: left;
+        padding: 3px 0 3px 10px;
+    }
+    .navimg {
+        display: none;
+    }
+    #sub {
+        display: block;
+    }
+    }
+    @media screen and (max-width:375px){
+    #navip {
+        width: 30%;
+    }
+    #sub {
+        display: block;
+    }
+    }
+/**********/
+/* Initial text */
+    .boxA
+    {
+        background-color: transparent;
+        padding-top: 200px;
+        padding-bottom: 100px;
+        display: flex;
+    }
+    .boxA h1 
+    {
+      display: block;
+      color: #fff;
+      font-size: 29px;
+      text-align: right;
+      font-weight: 400;
+      margin:0 0 0 auto;
+    }
+    .boxA h1 strong 
+    {
+      font-size: 40px;
+      text-align: right;
+      font-weight: 400;
+    }
+    .boxA p 
+    {
+      display: block;
+      color: #227bff;
+      font-size: 14px;
+      text-align: left;
+      font-weight: 400;
+      margin: 10% 5% 0 0;
+    }
+    .linea1 {
+        display: block;
+        width: 1px;
+        height: auto;
+        margin:0 3%;
+        border-color: #227bff;
+    }
+/*Media Querys*/
+    @media screen and (max-width:768px){
+    .boxA
+    {
+        margin-right: 65%;
+        margin-left: 5%;
+    }
+    }
+    @media screen and (max-width:425px){
+    .boxA
+    {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .boxA h1 
+    {
+      text-align: center;
+    }
+    .boxA p 
+    {
+      text-align: center;
+    }
+    }
+/**********/
+/* Services Standars */
+    .boxB 
+    {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .boxB h1 
+    {
+      color: #fff;
+      font-size: 21px;
+      text-align: center;
+      font-weight: 400;
+      padding-top: 3%;
+      padding-bottom: 2%;
+    }
+    .boxAa
+    {
+        margin: 5% 0 5% 0;
+    }
+    .caja
+    {
+        background-color: transparent;
+        display: flex;
+        margin: 5% 0 5% 0;
+    }
+    .caja p 
+    {
+      width: 390px;
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      text-align: left;
+      font-weight: 400;
+      margin: 14% 0 0 5%;
+    }
+    .Aus {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between; 
+        margin: 0 5% 0 0;
+    }
+    .Aus h2 
+    {
+      width: 250px;
+      color: #227bff;
+      font-size: 14px;
+      text-align: right;
+      font-weight: 400;
+    }
+    .Aus h2 strong 
+    {
+      color: #fff;
+      font-size: 20px;
+      text-align: right;
+      font-weight: 400;
+    }
+    .mvvicons {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .mvvicons2 {
+        display: flex;
+        flex-flow: column; 
+        align-items: center;
+    }
+    .mvvicons2 span{
+        color: #227bff;
+    }
+    #values {
+        margin-top: -10px;
+    }
+    #vision span, #mission span {
+        margin-top: 10px;
+    }
+    .mvvicons2 img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+/*    .boxBb 
+    {
+        height: 370px;
+        width: 430px;
+        font-size: 11px;
+        background-color: #b3b3b3;
+        margin-top: -50px;
+        margin-bottom: 50px;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+    }
+    .boxBb img
+    {
+        float: left;
+        margin-top: 40px;
+        margin-left: 45px;
+        margin-right: 25px;
+    }
+    .boxBb ul 
+    {
+        float: left;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        list-style: none; 
+        color: #227bff;
+    }
+    .boxBb ul li {
+        padding: 2px;
+        cursor: pointer;
+    }
+    .boxBb ul li h4
+    {
+        margin-left: 20px;
+        margin-top: -18px;
+    }
+      .boxBb ul li span
+    {
+        font-size: 20px;
+    }*/
+    .textBox
+    {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #ausdown1 {
+        width: 70%;
+        background-color: #4d4d4d;
+        padding: 5px 20px 10px 0;
+    }
+    #ausdown1 h1 {
+        text-align: right;
+        color: #227bff;
+        margin-top: -10px;
+        font-size: 24px;
+    }
+    #ausdown1 p {
+        text-align: right;
+        color: #227bff;
+    }
+    #ausdown2 {
+        width: 30%;
+        background-color: #227bff;
+    }
+    #ausdown2 h1 {
+        margin: 34px auto;
+    }
+/*    .boxBb ul li:hover > span
+    {
+        transition: 1s;
+        padding-left: 10px;
+    }*/
+    /* The Close Button Modal Service Standars*/
+    .close1 {
+        color: #aaa;
+        float: right;
+        font-size: 30px;
+        font-weight: 400;
+        margin: 25px;
+    }
+
+    .close1:hover,
+    .close1:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+/*Media Querys*/
+    @media screen and (max-width:768px){
+   .boxAa
+    {
+        margin-right: 14%;
+        margin-left: 5%;
+    }
+    .boxBb 
+    {
+        margin-right: 2%;
+    }
+    .boxBb img
+    {
+        margin-top: 17%;
+        margin-left: 8%;
+        margin-right: 7%;
+    }
+    .boxBb ul 
+    {
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    /* The Close Button Modal Service Standars*/
+    .close1 {
+        color: #aaa;
+        float: right;
+        font-size: 30px;
+        font-weight: 400;
+        margin: 25px;
+    }
+
+    .close1:hover,
+    .close1:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    }
+    @media screen and (max-width:425px){
+    .boxB 
+    {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: center;
+    }
+   .boxAa
+    {
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    .boxAa h1 
+    {
+      text-align: center;
+    }
+    .boxAa p 
+    {
+      text-align: center;
+    }
+    .boxBb 
+    {
+        height: 100%;
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .boxBb img
+    {
+        clear: both;
+        margin: 5% 35%;
+    }
+    .boxBb ul 
+    {
+        clear: both;
+        margin: 5%;
+    }
+    .textBox
+    {
+        padding: 25%;
+    }
+    /* The Close Button Modal Service Standars*/
+    .close1 {
+        color: #aaa;
+        float: right;
+        font-size: 30px;
+        font-weight: 400;
+        margin: 25px;
+    }
+
+    .close1:hover,
+    .close1:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    }
+/**********/
+/* Solutions */
+    .boxC
+    {
+        margin: 0 auto;
+    }
+    .boxC h1 
+    {
+      color: #fff;
+      font-size: 21px;
+      text-align: center;
+      font-weight: 400;
+      padding-top: 5%;
+      padding-bottom: 3%;
+    }
+    .circles 
+    {
+        display: flex;
+        flex-flow: row wrap-reverse;
+        justify-content:space-around;
+        margin: 10% 2% 0 2%;
+        padding-bottom: 10%;
+    }
+    .icons
+    {
+        margin: 5%;
+    }
+    .icons div 
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .icons div img 
+    {
+        width: 100%;
+        height: auto;
+    }
+    .icons h4
+    {   
+        width: 110px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    #item6 {
+        margin-left: 18%;
+    }
+    #item8{
+        margin-right: 18%;
+    }
+/*Media Querys*/
+    @media screen and (max-width:768px){
+    .circles 
+    {
+        margin-left: 3%;
+    }
+    .boxC
+    {
+        margin-left: 70%;
+        margin-right: 3%;
+        padding-bottom: 100px;
+    }
+    }
+    @media screen and (max-width:425px){
+    .circles 
+    {
+        clear: both;
+        justify-content: space-between;
+        width: 85%;
+        margin-top: 50px;
+    }
+    .icons
+    {
+        margin-bottom: 30px;
+        width: 30%;
+        height: 30%;
+    }
+    #item6, #item8 {
+        margin-top: 5%;
+    }
+    #item7 {
+        margin-top: 0;
+    }
+    #item5 {
+        margin-top: 10%;
+    }
+    .boxC
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .boxC h1 
+    {
+      text-align: center;
+    }
+    .boxC p 
+    {
+      text-align: center;
+    }
+    }
+    /**********/
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(77,77,77); /* Fallback color */
+        background-color: rgba(77,77,77,0.9); /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #e6e6e6;
+        margin: 15% auto;
+        width: 800px;
+        height: 300px;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+        animation-name: animatetop;
+        animation-duration: 1s;
+    }
+    /* Add Animation */
+    @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+    }
+    /*-----*/
+    .modal-content img
+    {
+        width: 10%;
+        height: auto: ;
+        float: left;
+        margin: 110px 100px;
+    }
+    .modal-content h1 {
+        color: #227bff;
+        padding-top: 50px;
+        margin-left: 300px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .modal-content hr {
+        border-color: #227bff;
+        margin-left: 300px;
+        margin-top: 10px;
+        height: 1px;
+        width: 30px;
+
+    }
+    .modal-content p {
+        color: #4d4d4d;
+        height: 150px;
+        font-size: 12px;
+        margin-top: 30px;
+        margin-left: 300px;
+        padding-right: 100px;
+        padding-bottom: 0;
+        text-align: justify;
+        overflow: auto;
+    }
+    /* The Close Button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 30px;
+        font-weight: 400;
+        margin: 25px;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+/*Media Querys*/
+    @media screen and (max-width:768px){
+    /* Modal Content/Box */
+    .modal-content {
+        margin: 15% auto;
+        width: 100%;
+    }
+    .modal-content img
+    {
+        margin: 15%;
+    }
+    .modal-content h1 {
+        margin-left: 20%;
+    }
+    .modal-content hr {
+        margin-left: 20%;
+    }
+    .modal-content p {
+        margin-left: 20%;
+        padding-right: 10%;
+    }
+    }
+    @media screen and (max-width:425px){
+    /* Modal Content/Box */
+    .modal-content {
+        margin: 20% auto;
+        width: 100%;
+        height: auto;
+        padding-bottom: 5%;
+    }
+    /*-----*/
+    .modal-content img
+    {
+        width: 15%;
+        margin: 5% 10%;
+    }
+    .modal-content h1 {
+        padding-top: 10%;
+        margin-left: 35%;
+    }
+    .modal-content hr {
+        margin-left: 35%;
+    }
+    .modal-content p {
+        height: 100px;
+        margin: 5% 0 0 20%;
+        padding-right: 10%;
+    }
+    }
+/**********/
+/* Operational Model */
+    button.accordion {
+        background-color: #0070bc;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 14px;
+        font-weight: 600;
+        transition: 0.4s;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+    }
+
+    button.accordion.active, button.accordion:hover {
+        background-color: #227bff;
+        box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+    }
+    .arrowup {
+        display: none;     
+    }
+    .arrowdown {
+        font-size: 20px;
+        color: #FFFFFF;
+        float: right;
+        margin-left: 5px;  
+    }
+    button.accordion.active .arrowup {
+        display: block;
+        font-size: 20px;
+        color: #FFFFFF;
+        float: right;
+        margin-left: 5px;
+    }
+    button.accordion.active .arrowdown{
+        display: none;
+    }
+    div.panel {
+        padding: 0 18px;
+        background-color: #227bff;
+        color: #ffffff;
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.6s ease-in-out;
+        opacity: 0;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75); 
+    }
+    div.panel p{
+        text-align: justify;
+        font-size: 12px;
+        padding: 30px 32px 50px 32px;
+    }
+    div.panel.show {
+        opacity: 1;
+        max-height: 180px;
+    }
+    .boxCc 
+    {
+        height: 280px;
+        width: 430px;
+        font-size: 11px;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+/*Media Querys*/
+    @media screen and (max-width:768px){
+    .boxCc 
+    {
+        margin-right: 2%;
+    }
+    div.panel p{
+        padding: 5% 10%;
+    }
+    }
+    @media screen and (max-width:425px){
+    .boxCc 
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+    div.panel {
+        overflow: auto;
+    }
+    div.panel p{
+        padding: 3% 5%;
+    }
+    }
+/**********/ 
+/* Contact Us */
+    .boxD
+    {
+      margin: 0 auto;
+    }
+    .boxD h1 
+    {
+      color: #fff;
+      font-size: 21px;
+      text-align: center;
+      font-weight: 400;
+      padding-top: 5%;
+      padding-bottom: 3%;
+    }
+    .location {
+      width: 130%;  
+      background: url(../imagenes/iconos/map.png) no-repeat;
+      background-position: 250px -150px;
+      background-size: 90%;
+    }
+    .down
+    {
+        background-color: transparent;
+        padding-top: 290px;
+        padding-bottom: 100px;
+        display: flex;
+    }
+    .down h1 
+    {
+      font-size: 20px;
+      margin:0 0 10% 5%
+    }
+    .down p 
+    {
+      font-size: 15px;
+      text-align: left;
+      font-weight: 300;
+      margin: 17% 0 0 0;
+    }
+   .lineadown {
+        display: block;
+        width: 1px;
+        height: auto;
+        margin:0 2%;
+        border-color: #227bff;
+    }
+/*Media Querys*/
+    @media screen and (max-width:768px){
+    .location {
+        width: 60%;
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+    .locmap:first-child {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .locmap:last-child {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .boxD
+    {
+        margin-left: 70%;
+        margin-right: 2%;
+        padding-top:150px;
+    }
+    }
+    @media screen and (max-width:425px){
+    .location {
+        flex-flow: column;
+        width: 100%;
+        margin: 20% 0;
+    }
+    .locmap:first-child {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20%;
+    }
+    .locmap:last-child {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .boxD
+    {
+        margin: 0;
+        padding-top:0;
+        padding-bottom: 10%;
+    }
+    .boxD h1 
+    {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    .boxD p 
+    {
+      text-align: center;
+      margin: 0 10%;
+    }
+    }
+/*Copyrigth*/
+    .copy 
+    {
+        height: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:space-between;
+        align-items: center;
+        padding-top: 21px;
+        padding-bottom: 15px;
+        z-index: -100000;
+    }
+    .copy p 
+    {
+        color: #227bff;
+    }
+    .copy a 
+    {
+        width: 84px;
+    }
+    .copy img 
+    {
+        width: 100%;
+        height: 30px;
+    }
+/**********/
+/* Submit */
+    .accordion1 i {
+        margin-left: 70px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    div.accordion1 {
+        background-color: #0070bc;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        font-size: 11px;
+        font-weight: 600;
+        outline: none;
+        transition: 0.4s;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+    }
+    div.accordion1.active1, div.accordion1:hover {
+        background-color: #0070bc;
+        box-shadow: 0px 3px 20px 1px rgba(0, 0, 0, 0.75);
+    }
+
+    div.accordion1.active1 .arrowup1 {
+        display: block;
+        font-size: 20px;
+        color: #FFFFFF;
+        float: right;
+        margin-left: 5px;
+    }
+    div.accordion1.active1 .arrowdown1{
+        display: none;
+    }
+    div.panel1 {
+        padding: 0 45px;
+        background-color: #0070bc;
+        color: #ffffff;
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.6s ease-in-out;
+        opacity: 0;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75); 
+        z-index: 1000000;
+        overflow: auto;
+    }
+    div.panel1 h6{
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    div.panel1 h6:first-child{
+        margin-top: 20px;
+    }
+    div.panel1 input{
+        margin-top: -15px;
+        font-size: 12px;
+        font-weight: 400;
+        width: 220px;
+        height: 16px;
+        background-color: #ffffff;
+        opacity: 0.6;
+        float: right;
+    }
+    div.panel1 input:last-child{
+        margin-bottom: 20px;
+    }
+    div.panel1.show1 {
+        opacity: 1;
+        max-height: 400px;
+    }
+   /*Modificado para posicionar por encima el formulario de submit*/ 
+    .boxDc 
+    {
+        height: auto;
+        width: 430px;
+        margin-top: -285px;
+        position: absolute;
+        margin-right: 100px;
+        margin-left: 386px;
+        z-index: -0;
+ 
+    }
+    textarea {
+        margin-top: -15px;
+        margin-left: 120px;
+        width: 220px;
+        background-color: #ffffff;
+        opacity: 0.6;
+    }
+/*Media Querys*/
+@media screen and (max-width:425px){
+     .accordion1 i {
+        margin-left: 20%;
+        margin-right: 5%;
+    }
+    div.panel1 {
+        padding: 0 0 0 0;
+    }
+    div.panel1 h6{
+        margin: 20% 0 5% 10%;
+    }
+    div.panel1 h6:first-child{
+        margin-top: 5%;
+    }
+    div.panel1 input{
+        margin: 0 5% 0 5%;
+    }
+    div.panel1 input:last-child{
+        margin-bottom: 10%;
+    }
+    textarea {
+        margin:  0 0 -10% 9%;
+    }
+    }
+/**********/
+/**********/
+/* Careers */
+.boton {
+    background-color: #4d4d4d;
+    border: 0px;
+    width: 100%;
+    padding: 2% 0;
+    margin: 20px auto;
+    color: #ffffff;
+}
+.boxDc {
+    z-index: 0;
+} 
+#attachfile, #attachfile1, #attachfile2, #attachfile3 {
+    display: none;
+}
+/* Modifica texto choose file en submit y careers */
+div.panel2 label, div.panel1 label {
+        margin-top: -15px;
+        font-size: 12px;
+        font-weight: 400;
+        width: 220px;
+        height: 25px;
+        opacity: 1;
+        float: right;
+        border: 1px solid #ffffff; 
+        text-align: center;
+        padding: 1% 0;
+        cursor: pointer;
+}
+div.panel2 label:active, div.panel1 label:active {
+    border: 2px solid #ffffff;
+}
+/********/
+   .accordion2 i {
+        margin-left: 70px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    div.accordion2 {
+        background-color: #0070bc;
+        color: #ffffff;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        font-size: 11px;
+        font-weight: 600;
+        outline: none;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+    }
+
+    div.panel2 {
+        padding: 10px 45px;
+        background-color: #0070bc;
+        color: #ffffff;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+    }
+    div.panel2 h6{
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    div.panel2 h6:first-child{
+        margin-top: 20px;
+    }
+    div.panel2 input{
+        margin-top: -15px;
+        font-size: 12px;
+        font-weight: 400;
+        width: 220px;
+        height: 16px;
+        background-color: #ffffff;
+        opacity: 0.6;
+        float: right;
+    }
+    div.panel2 input:last-child{
+        margin-bottom: 20px;
+    }
+/*Media Querys*/
+    @media screen and (max-width:768px){
+    .boxDc 
+    {
+        margin-right: 0;
+        margin-left: 42%;
+    }
+    }
+    @media screen and (max-width:425px){
+    .boxDc 
+    {
+        height: auto;
+        width: 80%;
+        margin-top: -15%;
+        padding-bottom: 10%;
+        position: relative;
+        margin-right: 10%;
+        margin-left: 10%;
+        z-index: -0;
+    }
+    div.panel2 label, div.panel1 label {
+        margin-top: 5%;
+        margin-right: 5%;
+        opacity: 1;
+        clear: both;
+        padding: 1% 0;
+    }
+/********/
+   .accordion2 i {
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+    div.panel2 {
+        padding: 5%  0 0 0;
+        background-color: #0070bc;
+        color: #ffffff;
+        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
+    }
+    div.panel2 h6{
+        margin: 5% 10%;
+    }
+    div.panel2 h6:first-child{
+        margin-top: 2%;
+    }
+    div.panel2 input{
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        clear: both;
+    }
+    div.panel2 input:last-child{
+        margin-bottom: 20px;
+    }
+.boton {
+    margin: 5% 0 0 0;
+}
+    }
+/**********/
