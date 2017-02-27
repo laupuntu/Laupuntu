@@ -102,7 +102,8 @@ contenido:10pt / 13px
     padding: 15% 0 0 0;
 }
 .franja1 img{
-    margin: 0 auto;
+    margin: -50px 5px 50px 160px;
+    width: 40%;
 }
 .franja1 p  {
     margin-top: 1%;

@@ -101,7 +101,7 @@ body {
 /********/
 @media screen and (max-width:1034px){
 body {
-    margin-top: 85px;
+    margin-top: 80px;
 }
 /* Header */
 .menu_bar {
@@ -186,9 +186,10 @@ nav {
     margin: 0;
     padding: 120px 10px;
     z-index: 1000;
-    background-color: rgba(102,102,102,0.7);
+    background-color: rgba(102,102,102,0.9);
 }
 nav a {
+
     text-align: center;
     display: block;
     margin: 0;
@@ -228,9 +229,10 @@ nav a:hover {
     position: absolute;
     z-index: 1;
     left: 45%;
-    top: 130px;
+    top: 230px;
 }
 }
+
 @media screen and (max-width:1034px) and (min-width:768px){
 /*Boton Ingresar*/
 .login {
@@ -261,10 +263,15 @@ nav a:hover {
 /*     width: 620px; */
 }
 @media screen and (max-width:767px){
+#owl-demo .item {     
+    background-size: 140%;
+    }
+
 .franja {
-    padding: 10%;
+    display:none;
+   /* padding: 10%;
     font-size: 18px;
-    text-align: center;
+    text-align: center;*/
 }
 .franja p {
     background-color: rgba(0,0,0,0.3);
@@ -274,7 +281,7 @@ nav a:hover {
 @media screen and (max-width:1034px) and (min-width:768px){
 .franja {
     color: #fff;
-    font-size: 21px;
+    font-size: 10px;
     padding: 3% 0 0 5%;
 }
 .franja p {
@@ -313,10 +320,10 @@ nav a:hover {
     margin-top: -50%;
 }
 .head p{
-    font-size: 16px;
+    font-size: 14px;
 }
 .head strong{
-    font-size: 21px;
+    font-size: 18px;
 }
 }
 @media screen and (max-width:1034px) and (min-width:768px){
@@ -328,7 +335,7 @@ nav a:hover {
     top: 0;
 }
 .head p{
-    font-size: 16px;
+    font-size:16px;
 }
 .head strong{
     font-size: 21px;
@@ -378,7 +385,7 @@ nav a:hover {
 .icons p{
     text-align: center;
     color: #666666;
-    font-size: 17px;
+    font-size: 14px;
     margin-bottom: 20px;
 }
 #item2, #item6 {
@@ -799,7 +806,7 @@ button {
 }
 .secdownf2 p{
     color: #666666;
-    font-size: 18px;
+    font-size: 16px;
     padding-right: 0;
     text-align: center;
     padding-bottom: 3%;
@@ -914,6 +921,7 @@ footer p {
     margin: 0 !important;
     font-size: 9px;
 }
+
 hr {
     border:1px solid #f5c400;
     margin: 10% auto 5% auto;

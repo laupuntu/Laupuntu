@@ -99,7 +99,9 @@ contenido:10pt / 13px
     padding: 15% 0 0 0;
 }
 .franja img{
-    margin: 0 auto;
+    margin: -50px 5px 50px 160px;
+    width: 40%;
+    
 }
 .franja p  {
     margin-top: 1%;
@@ -430,8 +432,7 @@ contenido:10pt / 13px
     margin-bottom: 45px;
 }
 .finan1 p {
-    font-size: 21px;
-    letter-spacing: 2px;
+    font-size: 21px;   
     line-height: 30px;
 }
 .finan1 div {
@@ -473,6 +474,7 @@ contenido:10pt / 13px
 }
 .finan1 p {
     text-align: center;
+    font-size: 18px;
 }
 .finan1 div {
     display: flex;
