@@ -10,7 +10,7 @@
 	<title>Engage Solution</title>
 	<!--Fonts-->
 	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 	<!-- Important Owl stylesheet -->
 	<link rel="stylesheet" href="owl-carousel/owl.carousel.css"/> 
 	<!-- Default Theme -->
@@ -31,13 +31,13 @@
 			        	<a href="mailto:info@engagesol.com">info@engagesol.com</a>
 			        </p>
 		        </div>
-				<div class="contacto boxUp" id="submit">
+				<div class="contacto">
 					<p>
 						<img src="imagenes/iconos/submit.png"></img>
-						<a href="#">Submit Assignment</a>
+						<a href="submit.html">Submit Assignment</a>
 					</p>
 				</div>
-		        <div class="contacto boxUp">
+		        <div class="contacto">
 			        <p>
 			        	<img src="imagenes/iconos/phone.png"></img>
 			        	<a href="tel:18009773642">1-800-977-3642</a>
@@ -47,35 +47,44 @@
 		</div>
 	</header>
 <!-- Menu --> 
-	<section class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fotos/earthquake_1024x500.png">
+	<section class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fotos/earthquake_foto.png">
 		<div class="navbar">
 			<div class="wrapper">
 				<div class="menu_bar">
-				<img src="imagenes/logos/logo_engagesolution_65px.png" alt="Logo Engage Solution" class="navimgres">
+				<img src="imagenes/logos/logo_engagesolution_65px.png" alt="Logo Engage Solution" class="navimgres" onclick="home()">
 	            <a class="bt-menu"><span class="fa fa-bars"></span></a>
 	    		</div>
 				<nav id="navip">
-					<img src="imagenes/logos/logo_engagesolution_65px.png" alt="Logo Engage Solution" class="navimg">
+					<img src="imagenes/logos/logo_engagesolution_65px.png" alt="Logo Engage Solution" class="navimg" onclick="home()">
 				      <ul>
-				        <li><a href="index.html#about" class="lnks">About Us</a></li>
-				        <li><a href="index.html#solutions" class="lnks">solutions</a></li>
+				        <li><a href="#about" class="lnks">About Us</a></li>
+				        <li><a href="#solutions" class="lnks">solutions</a></li>
 				        <li><a href="careers.html" class="lnks">Careers</a></li>
 				        <li><a href="#contactus" class="lnks">contact us</a></li>
-				        <li><a href="#" class="lnks" id="sub">Submit</a></li>
+				        <li><a href="submit.html" class="lnks" id="sub">Submit</a></li>
 				      </ul>
 				</nav>
 				<hr>
 			</div>
 		</div>
 		<div class="wrapper">
-			<div class="boxA">
-				<h1>New Claim<br>Assignment</h1>
-				<hr class="lineaiz">
-				<p>We provide valuable insurance and risk management services to insurance companies, self-insured corporations, claim adjusting firms and governmental entities.</p>
-
+			<div class="boxF">
+				<h1>Submit<br><strong>Assignmenmt</strong></h1>
+				<hr class="linea1">
+				<p>We provide valuable insurance and risk management services to insurance companies, self-insured corporations, claim adjusting firms and governmental entities.
+				<span id="about"></span></p>
 			</div>
-			<div class="boxDc">
- 				<form action="php/correosubmit.php" method="post" id="formulario" enctype="multipart/form-data">
+		</div>
+	</section>
+<!-- Franja Gris --> 
+	<span id="careers"></span>
+	<section class="wrap">
+		<div class="boxB">				
+			<h1>New Claim</h1>
+			<hr class="linea">
+		</div>	
+		<div class="boxDc">
+ 			<form action="php/correosubmit.php" method="post" id="formulario" enctype="multipart/form-data">
 				<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Client information</div>
 					<div class="panel1">
  						<h6>Company:</h6>
@@ -150,7 +159,7 @@
                         <h6>Lien Holder:</h6>
                         <input class="box" name="coLienHol" type="tex">
 					</div>				
-					<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Loss information</div>
+				<div class="accordion1"><i class="fa fa-angle-right" aria-hidden="true"></i>Loss information</div>
 					<div class="panel1">
   						<h6>Loss Date:</h6>
  						<input class="box" name="lDate" type="text">
@@ -172,40 +181,25 @@
 					<input type="hidden" name="correosubmit">
 					<span><?php echo $msg; ?></span>
 			</form>
-			</div>
+		</div>
 		<span id="about"></span>
 		</div>
 	</section>
-<!-- Franja Gris --> 
-	<span id="careers"></span>
-	<section class="wrap wrapsub">
 	</section>
 <!-- Contact Us --> 
-	<section class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fotos/fire_1024x300.png">
+	<section class="parallax-window" data-parallax="scroll" data-image-src="imagenes/fotos/city_foto.png">
 		<div class="wrapper">
-			<div class="location">
-				<div class="locmap">
-					<i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
-					<h4 id="textCA">TEXAS</h4>
-					<div class="address">
-					<h5>Houston</h5>
-					<p>P.O. Box 802724<br>Aventura, RL 33280</p>
-					</div>
-				</div>
-				<div class="locmap">
-					<i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
-					<h4>FLORIDA</h4>
-					<div class="address">
-					<h5>Ft. Lauder Dale</h5>
-					<p>P.O. Box 802724<br>Aventura, FL 33280</p>
-					</div>
-				</div>
-			</div>
 			<div class="boxD">
 				<h1>Contact Us</h1>
-				<hr class="lineader">
-				 <p>Our Firm’s approach to servicing our clients is to understand and address the needs of each individual client. We will accommodate our model to your special needs.</p>
-			</div>	
+				<hr class="linea">
+			</div>
+			<div class="location">	
+				<div class="boxA down">
+					<h1>Our solutions are exactly that,<br>solutions. We have the flexibility<br>to provide you with a customized<br>and evolving product to meet<br>and exceed your needs.</h1>
+					<hr class="lineadown">
+					<p>ENGAGE SOLUTIONS, INC.<br>P. O. BOX 802724<br>Aventura, Florida 33280<br>1 (800) 977-3642</p>
+				</div>
+			</div>
 		</div>
 			<span id="contactus"></span>
 	</section>

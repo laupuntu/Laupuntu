@@ -81,9 +81,6 @@ subtitulos fomrulario: open sans, normal. 12pt.
         background-color: #4d4d4d;
     /*     position: fixed; */
     }
-    .wrapsub {
-        height: 100px;
-    }
     .wrapper {
         max-width: 814px;
         margin: auto;
@@ -177,19 +174,19 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
     nav {
         text-align: right;
-        padding-top: 30px;
+        padding-top: 15px;
     }
     nav ul {
         list-style: none;
-        padding-top: 45px;
+        padding-top: 30px;
     }
     nav ul li {
         display: inline-block;
-        margin-right: 55px;
+        margin-right: 40px;
         padding-bottom: 10px;
     }
-    nav ul li:last-child{
-        margin-right: -55px;
+    nav ul li:last-child {
+        margin-right: 0;
     }
     nav ul li a {
         text-decoration: none;
@@ -203,19 +200,19 @@ subtitulos fomrulario: open sans, normal. 12pt.
     .navimg {
         float: left;
         margin-left: 50px;
+        margin-right:40px;
+        cursor: pointer;
     }
     .navimgres {
         display: none;
+        cursor: pointer;
     }
     hr 
     {
-        width: 70%;
+        width: auto;
         margin-left: auto;
         margin-top: -2px ;
         border: 1px solid white;
-    }
-    #sub {
-        display: none;
     }
 /*Media Querys*/
     @media screen and (max-width:768px){
@@ -300,7 +297,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     .boxA
     {
         background-color: transparent;
-        padding-top: 200px;
+        padding-top: 500px;
         padding-bottom: 100px;
         display: flex;
     }
@@ -377,7 +374,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
     .boxAa
     {
-        margin: 5% 0 5% 0;
+        margin: 20% 0 20% 0;
     }
     .caja
     {
@@ -425,6 +422,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         display: flex;
         flex-flow: column; 
         align-items: center;
+        cursor: pointer;
     }
     .mvvicons2 span{
         color: #227bff;
@@ -439,46 +437,6 @@ subtitulos fomrulario: open sans, normal. 12pt.
         width: 100%;
         margin-bottom: 10px;
     }
-
-
-/*    .boxBb 
-    {
-        height: 370px;
-        width: 430px;
-        font-size: 11px;
-        background-color: #b3b3b3;
-        margin-top: -50px;
-        margin-bottom: 50px;
-        box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
-    }
-    .boxBb img
-    {
-        float: left;
-        margin-top: 40px;
-        margin-left: 45px;
-        margin-right: 25px;
-    }
-    .boxBb ul 
-    {
-        float: left;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        list-style: none; 
-        color: #227bff;
-    }
-    .boxBb ul li {
-        padding: 2px;
-        cursor: pointer;
-    }
-    .boxBb ul li h4
-    {
-        margin-left: 20px;
-        margin-top: -18px;
-    }
-      .boxBb ul li span
-    {
-        font-size: 20px;
-    }*/
     .textBox
     {
         display: flex;
@@ -508,11 +466,40 @@ subtitulos fomrulario: open sans, normal. 12pt.
     #ausdown2 h1 {
         margin: 34px auto;
     }
-/*    .boxBb ul li:hover > span
+    #modalM img, #modalV img
     {
-        transition: 1s;
-        padding-left: 10px;
-    }*/
+        width: auto;
+        height: auto;
+        float: left;
+        margin: 110px 100px;
+    }
+    #modalM h1, #modalV h1 
+    {
+        color: #227bff;
+        text-align: left;
+        font-weight: 600;
+    }
+    #modalM hr, #modalV hr
+    {
+        border-color: #227bff;
+        margin-left: 300px;
+        margin-top: 10px;
+        height: 1px;
+        width: 30px;
+
+    }
+    #modalM p, #modalV p
+    {
+        color: #4d4d4d;
+        height: 150px;
+        font-size: 12px;
+        margin-top: 30px;
+        margin-left: 300px;
+        padding-right: 0;
+        padding-bottom: 0;
+        text-align: justify;
+        overflow: auto;
+    }
     /* The Close Button Modal Service Standars*/
     .close1 {
         color: #aaa;
@@ -672,10 +659,10 @@ subtitulos fomrulario: open sans, normal. 12pt.
         margin-top: 15px;
         font-size: 14px;
     }
-    #item6 {
+    #item5 {
         margin-left: 18%;
     }
-    #item8{
+    #item7{
         margin-right: 18%;
     }
 /*Media Querys*/
@@ -1076,6 +1063,37 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
 /**********/
 /* Submit */
+    .boxF
+    {
+        background-color: transparent;
+        padding-top: 250px;
+        padding-bottom: 100px;
+        display: flex;
+    }
+    .boxF h1 
+    {
+      display: block;
+      color: #227bff;
+      font-size: 30px;
+      text-align: right;
+      font-weight: 300;
+      margin: 0 0 0 5%;
+    }
+    .boxF h1 strong 
+    {
+      font-size: 35px;
+      text-align: right;
+      font-weight: 400;
+    }
+    .boxF p 
+    {
+      display: block;
+      color: #fff;
+      font-size: 17px;
+      text-align: left;
+      font-weight: 300;
+      margin: 15% 0 0 0;
+    }
     .accordion1 i {
         margin-left: 70px;
         margin-right: 20px;
@@ -1152,13 +1170,10 @@ subtitulos fomrulario: open sans, normal. 12pt.
     .boxDc 
     {
         height: auto;
-        width: 430px;
-        margin-top: -285px;
-        position: absolute;
-        margin-right: 100px;
-        margin-left: 386px;
-        z-index: -0;
- 
+        width: 500px;
+        margin: 0 auto; 
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
     textarea {
         margin-top: -15px;
@@ -1195,6 +1210,31 @@ subtitulos fomrulario: open sans, normal. 12pt.
 /**********/
 /**********/
 /* Careers */
+    .boxE
+    {
+        background-color: transparent;
+        padding-top: 250px;
+        padding-bottom: 100px;
+        display: flex;
+    }
+    .boxE h1 
+    {
+      display: block;
+      color: #227bff;
+      font-size: 50px;
+      text-align: right;
+      font-weight: 400;
+      margin: 32% 0 0 22%;
+    }
+    .boxE p 
+    {
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      text-align: left;
+      font-weight: 300;
+      margin: 0 0 0 0;
+    }
 .boton {
     background-color: #4d4d4d;
     border: 0px;
@@ -1203,9 +1243,6 @@ subtitulos fomrulario: open sans, normal. 12pt.
     margin: 20px auto;
     color: #ffffff;
 }
-.boxDc {
-    z-index: 0;
-} 
 #attachfile, #attachfile1, #attachfile2, #attachfile3 {
     display: none;
 }
