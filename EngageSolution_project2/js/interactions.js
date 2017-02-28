@@ -24,6 +24,69 @@ function fixedtop() {
 		document.querySelector(".navbar").style.boxShadow = "none";
 	}
 }
+/* Hover cambio de imagenes iconos About Us */
+$("#mission img").mouseover(function(){
+	$("#mission img").attr("src","imagenes/iconos/mission_hover.png");
+});
+$("#mission img").mouseout(function(){
+	$("#mission img").attr("src","imagenes/iconos/mission.png");
+});
+$("#vision img").mouseover(function(){
+	$("#vision img").attr("src","imagenes/iconos/vision_hover.png");
+});
+$("#vision img").mouseout(function(){
+	$("#vision img").attr("src","imagenes/iconos/vision.png");
+});
+$("#values img").mouseover(function(){
+	$("#values img").attr("src","imagenes/iconos/values_hover.png");
+});
+$("#values img").mouseout(function(){
+	$("#values img").attr("src","imagenes/iconos/values.png");
+});
+/* Hover cambio de imagenes iconos Solutions */
+$("#item1").mouseover(function(){
+	$("#item1 img").attr("src","imagenes/iconos/flood_hover.png");
+});
+$("#item1").mouseout(function(){
+	$("#item1 img").attr("src","imagenes/iconos/flood.png");
+});
+$("#item2").mouseover(function(){
+	$("#item2 img").attr("src","imagenes/iconos/catastrophe_hover.png");
+});
+$("#item2").mouseout(function(){
+	$("#item2 img").attr("src","imagenes/iconos/catastrophe.png");
+});
+$("#item3").mouseover(function(){
+	$("#item3 img").attr("src","imagenes/iconos/casualty_hover.png");
+});
+$("#item3").mouseout(function(){
+	$("#item3 img").attr("src","imagenes/iconos/casualty.png");
+});
+$("#item4").mouseover(function(){
+	$("#item4 img").attr("src","imagenes/iconos/TPA_hover.png");
+});
+$("#item4").mouseout(function(){
+	$("#item4 img").attr("src","imagenes/iconos/TPA.png");
+});
+$("#item5").mouseover(function(){
+	$("#item5 img").attr("src","imagenes/iconos/daily_hover.png");
+});
+$("#item5").mouseout(function(){
+	$("#item5 img").attr("src","imagenes/iconos/daily.png");
+});
+$("#item6").mouseover(function(){
+	$("#item6 img").attr("src","imagenes/iconos/reinspections_hover.png");
+});
+$("#item6").mouseout(function(){
+	$("#item6 img").attr("src","imagenes/iconos/reinspections.png");
+});
+$("#item7").mouseover(function(){
+	$("#item7 img").attr("src","imagenes/iconos/appraisal_hover.png");
+});
+$("#item7").mouseout(function(){
+	$("#item7 img").attr("src","imagenes/iconos/appraisal.png");
+});
+
 /* Click en logo principal lleva a index */
 function home() {
     location.href = "index.html";
