@@ -305,14 +305,14 @@ subtitulos fomrulario: open sans, normal. 12pt.
     {
       display: block;
       color: #fff;
-      font-size: 29px;
+      font-size: 20px;
       text-align: right;
       font-weight: 400;
       margin:0 0 0 auto;
     }
     .boxA h1 strong 
     {
-      font-size: 40px;
+      font-size: 31px;
       text-align: right;
       font-weight: 400;
     }
@@ -451,12 +451,29 @@ subtitulos fomrulario: open sans, normal. 12pt.
         width: 150px !important;
         height: auto !important;
         clear: left !important;
-        margin: 0 250px 0 0 !important;
+        margin: 0 300px 0 0 !important;
     }
     .textmodal {
         width: 200px !important;
-        margin: 0 0 0 150px !important;
+        margin: 25px 0 0 200px !important;
     }
+    .textmodal h2{
+        width: auto !important;
+        margin:0!important;
+        padding:0!important;
+        text-align: right !important;
+        font-weight: 300!important;
+    }
+    .textmodal p{
+        width: auto !important;
+        margin:0!important;
+        padding:0!important;
+        text-align: right !important;
+        color: #227bff !important;
+        font-weight: 400!important;
+        font-size: 18px !important;
+
+    } 
     #myModal9 .modal-content h1 {
         text-align: left;
         padding: 70px 0 20px 0;

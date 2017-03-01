@@ -2,6 +2,7 @@
 window.onscroll = function() {fixedtop()};
 function fixedtop() {
 	if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+		document.querySelector("body").style.marginTop = "50px";
 		document.querySelector(".navbar").style.transition = "all 1s";
 		document.querySelector(".navbar").style.top = 0;
 		document.querySelector(".navbar").style.backgroundColor = "rgba(77,77,77,1)";
@@ -22,6 +23,7 @@ function fixedtop() {
 		document.querySelector(".navimg").style.marginTop = "0";
 		document.querySelector(".navbar hr").style.display = "block";
 		document.querySelector(".navbar").style.boxShadow = "none";
+		document.querySelector("body").style.marginTop = "0";
 	}
 }
 /* Hover cambio de imagenes iconos About Us */
@@ -86,7 +88,34 @@ $("#item7").mouseover(function(){
 $("#item7").mouseout(function(){
 	$("#item7 img").attr("src","imagenes/iconos/appraisal.png");
 });
+/*Carga contenido automatico en Values*/
+var values = ["imagenes/iconos/values_modal_1hover.png","imagenes/iconos/values_modal_2hover.png","imagenes/iconos/values_modal_3hover.png","imagenes/iconos/values_modal_4hover.png","imagenes/iconos/values_modal_5hover.png"];
+var title1 = ["Integrity","Quality","Innovation","Teamwork","Passion"];
+var text1 = ["Do the right thing, always","What we do, we do best","Change is constant","Leverage collective genius","Committed in heart and mind"];
+var htext = document.querySelector('.textmodal h2');
+var ptext = document.querySelector('.textmodal p');
+var vimg = document.querySelector('#valuesmodal img');
+var actual =0;
+function cambiarvalues(){
+$('#valuesmodal').ready(function(){
+	if (actual == values.length){
+		actual = 0;
+	}
+	$('#valuesmodal h2').text(title1[actual]);
+	$('#valuesmodal p').text(text1[actual]);
+	$('#valuesmodal img').attr("src",values[actual]);
+	actual++;
+});
+}
+setInterval(cambiarvalues,3000);
+/*-----*/
 
+$(document).ready(intro);
+
+	function intro(){
+		$('#intro h1').animate({fontSize: "33px"},3000);
+		$('#intro strong').animate({fontSize: "45px"},3000);
+	}
 /* Click en logo principal lleva a index */
 function home() {
     location.href = "index.html";

@@ -489,7 +489,6 @@ nav ul li:hover {
         background-color: rgb(77,77,77); /* Fallback color */
         background-color: rgba(77,77,77,0.9); /* Black w/ opacity */
     }
-
     /* Modal Content/Box */
     .modal-content {
         background-color: #e6e6e6;
@@ -594,6 +593,66 @@ nav ul li:hover {
     }
     .abstract ul{
         height: 220px;
+    }
+    /* Modal Content/Box */
+    .prueba {
+        height: auto;
+    }
+    /*-----*/
+    .prueba i
+    {
+        float: left;
+        margin: 120px 100px;
+        color: #da1418;
+    }
+    .prueba h1 {
+        color: #da1418;
+        font-size: 1em;
+        font-weight: 600;
+        text-align: left;
+        padding-top: 70px;
+    }
+    .prueba p {
+        color: #4d4d4d;
+        height: auto;
+        margin-top: 0;
+        text-align: justify;
+        overflow: none;
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+    .prueba strong {
+        font-weight: bold;
+    }
+    .prueba a {
+        float: left;
+        margin-left: 0;
+        margin-top: 0;
+        text-decoration: none;
+        color: #da1418;
+        font-weight: bold;
+    }
+    .prueba a:hover {
+        color: #4d4d4d;
+    }
+    .prueba h6 {
+        color: #4d4d4d;
+        text-align: left;
+        font-size: 1em;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .prueba li {
+        color: #4d4d4d;
+    }
+    .prueba ul {
+        color: #4d4d4d;
+        height: auto;
+        padding-left: 15px;
+        text-align: justify;
+        font-size: 0.9em;
+        line-height: 1.7em;
+        overflow: scroll;
     }
     /* The Close Button */
     .close {
