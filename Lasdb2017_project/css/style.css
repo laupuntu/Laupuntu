@@ -596,64 +596,57 @@ nav ul li:hover {
     }
     /* Modal Content/Box */
     .prueba {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin: 15% auto;
         height: auto;
+    }
+    .flightA {
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        align-content: space-around !important;
+        margin:0 5%;
+    }
+    .logoavianca {
+        width: 100%;
+        height: 118px;
+        background-image: url(../imagenes/logos/avianca.png);
+        background-repeat: no-repeat;;
+        background-size: contain;
+        padding-bottom: 0;
+        margin:100px 0 220px 0;
+    }
+    .textoavianca {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 200px 0 0 0;
+    }
+    .textoavianca h1 {
+        height: auto;
+        color:#da1418;
+        margin:0;
+        padding: 0;
+    }
+    .textoavianca p {
+        height: auto;
+        color:#da1418;
+        margin:0;
+        padding: 0;
+    }
+    .textoavianca a {
+        text-decoration: none;
+        color:#da1418;
+        margin:0;
+        padding: 0;
+    }
+    .flightB {
+        width: 55%;
     }
     /*-----*/
-    .prueba i
-    {
-        float: left;
-        margin: 120px 100px;
-        color: #da1418;
-    }
-    .prueba h1 {
-        color: #da1418;
-        font-size: 1em;
-        font-weight: 600;
-        text-align: left;
-        padding-top: 70px;
-    }
-    .prueba p {
-        color: #4d4d4d;
-        height: auto;
-        margin-top: 0;
-        text-align: justify;
-        overflow: none;
-        font-size: 0.9em;
-        line-height: 1.5;
-    }
-    .prueba strong {
-        font-weight: bold;
-    }
-    .prueba a {
-        float: left;
-        margin-left: 0;
-        margin-top: 0;
-        text-decoration: none;
-        color: #da1418;
-        font-weight: bold;
-    }
-    .prueba a:hover {
-        color: #4d4d4d;
-    }
-    .prueba h6 {
-        color: #4d4d4d;
-        text-align: left;
-        font-size: 1em;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-    .prueba li {
-        color: #4d4d4d;
-    }
-    .prueba ul {
-        color: #4d4d4d;
-        height: auto;
-        padding-left: 15px;
-        text-align: justify;
-        font-size: 0.9em;
-        line-height: 1.7em;
-        overflow: scroll;
-    }
     /* The Close Button */
     .close {
         color: #da1418;

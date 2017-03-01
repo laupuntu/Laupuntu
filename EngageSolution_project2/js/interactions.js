@@ -107,14 +107,14 @@ $('#valuesmodal').ready(function(){
 	actual++;
 });
 }
-setInterval(cambiarvalues,2500);
+setInterval(cambiarvalues,1500);
 /*-----*/
 
 $(document).ready(intro);
 
 	function intro(){
-		$('#intro h1').animate({fontSize: "33px"},3000);
-		$('#intro strong').animate({fontSize: "45px"},3000);
+		$('#intro h1').animate({fontSize: "33px"},1000);
+		$('#intro strong').animate({fontSize: "45px"},1000);
 	}
 /* Click en logo principal lleva a index */
 function home() {
