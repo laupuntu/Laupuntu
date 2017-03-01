@@ -89,9 +89,9 @@ $("#item7").mouseout(function(){
 	$("#item7 img").attr("src","imagenes/iconos/appraisal.png");
 });
 /*Carga contenido automatico en Values*/
-var values = ["imagenes/iconos/values_modal_1hover.png","imagenes/iconos/values_modal_2hover.png","imagenes/iconos/values_modal_3hover.png","imagenes/iconos/values_modal_4hover.png","imagenes/iconos/values_modal_5hover.png"];
-var title1 = ["Integrity","Quality","Innovation","Teamwork","Passion"];
-var text1 = ["Do the right thing, always","What we do, we do best","Change is constant","Leverage collective genius","Committed in heart and mind"];
+var values = ["imagenes/iconos/values_modal_full.png","imagenes/iconos/values_modal_2hover.png","imagenes/iconos/values_modal_3hover.png","imagenes/iconos/values_modal_4hover.png","imagenes/iconos/values_modal_5hover.png","imagenes/iconos/values_modal_1hover.png"];
+var title1 = ["","Integrity","Quality","Innovation","Teamwork","Passion"];
+var text1 = ["","Do the right thing, always","What we do, we do best","Change is constant","Leverage collective genius","Committed in heart and mind"];
 var htext = document.querySelector('.textmodal h2');
 var ptext = document.querySelector('.textmodal p');
 var vimg = document.querySelector('#valuesmodal img');
@@ -107,7 +107,7 @@ $('#valuesmodal').ready(function(){
 	actual++;
 });
 }
-setInterval(cambiarvalues,3000);
+setInterval(cambiarvalues,2500);
 /*-----*/
 
 $(document).ready(intro);
