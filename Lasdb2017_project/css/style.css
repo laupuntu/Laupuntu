@@ -1130,12 +1130,15 @@ nav ul li:hover {
 .icof div {
     display: none;
 }
-#item14, #item46, #item30, #item20 {
+#item14, #item46, #item30, #item20, #item60 {
     margin-left: auto;
 }
-#item50, #item47, #item49, #item51 {
+#item50, #item47, #item49, #item51  {
     margin-right: 155px;
     margin-left: 5px;
+}
+#item60{
+    margin-top: -155px;
 }
 
    /**********/
@@ -1266,7 +1269,7 @@ nav ul li:hover {
 #item3 p, #item4 p, #item17 p, #item19 p, #item22 p, #item25 p, #item28 p{
     margin-top: 40px;
 }
-#item14, #item20 {
+#item14, #item20, #item60 {
     margin-right: auto;
     margin-left: 7px;
 }
@@ -1460,6 +1463,9 @@ nav ul li:hover {
 }
 #item51 {
     background-image: url('../imagenes/speakers/Katia_DelRio_Tsonis.jpg');
+}
+#item60 {
+    background-image: url('../imagenes/speakers/Kenneth_Kosik.jpg');
 }
 /*Hover Speakers*/
 #item1:hover {
@@ -1712,6 +1718,13 @@ nav ul li:hover {
     background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Katia_DelRio_Tsonis.jpg');
 }
 #item51:hover div {
+    display: block;
+}
+#item60:hover {
+    background: -webkit-linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Kenneth_Kosik.jpg');
+    background: linear-gradient(rgba(0, 136, 170,.6), rgba(0, 136, 170,.6)), url('../imagenes/speakers/Kenneth_Kosik.jpg');
+}
+#item60:hover div {
     display: block;
 }
 /***********/
