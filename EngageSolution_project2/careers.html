@@ -108,8 +108,10 @@
  						<input class="box" name="name" type="text">
                         <h6>Email:</h6>
                         <input class="box" name="email" type="email" placeholder="my_email@email.com">
-                        <br><br>
-                        <h3>Experience Info</h3>
+                   	</div>
+				<div class="accordion2"><i class="fa fa-angle-right" aria-hidden="true"></i>Experience Info</div>
+					<div class="panel2" id="expinfo">
+                        <h3></h3>
                         <br>
  						<h6>1. I starte adjusting claims on the year:</h6><br>
  						<input class="box" name="year" type="date">
@@ -143,8 +145,9 @@
                         <input class="box" name="tornado" type="number">
                         <h6>Fire:</h6>
                         <input class="box" name="other" type="number">
-                        <br>
-                        <h6>Adjuster Lienses</h6>
+                    </div>
+				<div class="accordion2"><i class="fa fa-angle-right" aria-hidden="true"></i>Adjuster Licenses</div>
+					<div class="panel2" id="adjlic">
                         <h6>State:</h6>
                         <input class="box" name="alstate1" type="text">
                         <h6>license #:</h6>
@@ -190,8 +193,9 @@
                         <input class="box" name="aphand" type="checkbox" value="smallcom">
                         <h6>Large Commercial</h6>
                         <input class="box" name="aphand" type="checkbox" value="largecom">
-                        <br>
-                        <h6>OTHER</h6>
+                    </div>
+				<div class="accordion2"><i class="fa fa-angle-right" aria-hidden="true"></i>OTHER</div>
+					<div class="panel2" id="other">
                         <h6>1. Computer Software used:</h6>
                         <h6>Xactimate</h6>
                         <input class="box" name="otherap" type="checkbox" value="xactimate">
@@ -269,12 +273,11 @@
                         <input class="box" name="als" type="radio" value="no">
                         <h6>If yes, please give details:</h6>
                         <input class="box" name="alstext" type="text">
-                        <br>
                         <h6>Attach C.V. file :</h6>
                         <input class="box" name="attach" type="file" id="attachfile">
                         <label class="box" for="attachfile">CHOOSE FILE </label>
                         <button type="submit" class="boton">SEND</button>
-					</div>
+                    </div>
 					<input type="hidden" name="correo">
 				</form>
 			<span><?php echo $msg; ?></span>

@@ -83,3 +83,57 @@ $(function(){
    });
 
 });
+var acc = document.getElementsByClassName("accordion2");
+acc[0].addEventListener("click", function(){
+        this.classList.toggle("active2");
+        this.nextElementSibling.classList.toggle("show2");
+        acc[1].nextElementSibling.classList.remove("show2");
+        acc[1].classList.toggle("active2",false);
+        acc[2].nextElementSibling.classList.remove("show2");
+        acc[2].classList.toggle("active2",false);
+        acc[3].nextElementSibling.classList.remove("show2");
+        acc[3].classList.toggle("active2",false);
+ 	 });
+acc[1].addEventListener("click", function(){
+        this.classList.toggle("active2");
+        this.nextElementSibling.classList.toggle("show2");
+        acc[0].nextElementSibling.classList.remove("show2");
+        acc[0].classList.toggle("active2",false);
+        acc[2].nextElementSibling.classList.remove("show2");
+        acc[2].classList.toggle("active2",false);
+        acc[3].nextElementSibling.classList.remove("show2");
+        acc[3].classList.toggle("active2",false);
+ 	 });
+acc[2].addEventListener("click", function(){
+        this.classList.toggle("active2");
+        this.nextElementSibling.classList.toggle("show2");
+        acc[0].nextElementSibling.classList.remove("show2");
+        acc[0].classList.toggle("active2",false);
+        acc[1].nextElementSibling.classList.remove("show2");
+        acc[1].classList.toggle("active2",false);
+        acc[3].nextElementSibling.classList.remove("show2");
+        acc[3].classList.toggle("active2",false);
+ 	 });
+acc[3].addEventListener("click", function(){
+        this.classList.toggle("active2");
+        this.nextElementSibling.classList.toggle("show2");
+        acc[0].nextElementSibling.classList.remove("show2");
+        acc[0].classList.toggle("active2",false);
+        acc[1].nextElementSibling.classList.remove("show2");
+        acc[1].classList.toggle("active2",false);
+        acc[2].nextElementSibling.classList.remove("show2");
+        acc[2].classList.toggle("active2",false);
+
+ 	 });
+/*acc[4].addEventListener("click", function(){
+        this.classList.toggle("active1");
+        this.nextElementSibling.classList.toggle("show1");
+        acc[2].nextElementSibling.classList.remove("show1");
+        acc[2].classList.toggle("active1",false);
+        acc[0].nextElementSibling.classList.remove("show1");
+        acc[0].classList.toggle("active",false);
+        acc[1].nextElementSibling.classList.remove("show1");
+        acc[1].classList.toggle("active",false);
+        acc[3].nextElementSibling.classList.remove("show1");
+        acc[3].classList.toggle("active",false);
+ 	 });*/
