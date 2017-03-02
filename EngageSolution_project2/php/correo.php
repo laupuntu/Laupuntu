@@ -36,7 +36,7 @@ $msg = null;
         //  $mail->Username = "anyone@anyone.com";
          // $mail->Password = "anyonep#password";
        
-          $mail->From = "danielgaravito@gmail.com";
+          $mail->From = "name@email.com";
         
           $mail->FromName = "Administrator";
         
