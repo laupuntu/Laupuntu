@@ -617,13 +617,13 @@ nav ul li:hover {
         background-repeat: no-repeat;;
         background-size: contain;
         padding-bottom: 0;
-        margin:100px 0 220px 0;
+        margin:100px 0 310px 0;
     }
     .textoavianca {
         width: 100%;
         height: auto;
         padding: 0;
-        margin: 200px 0 0 0;
+        margin: 300px 0 0 0;
     }
     .textoavianca h1 {
         height: auto;
@@ -645,6 +645,36 @@ nav ul li:hover {
     }
     .flightB {
         width: 55%;
+        padding-bottom: 30px
+    }
+    .flightB p{
+        height: auto;
+        overflow: initial;
+        padding:0;
+        margin:0;
+    }
+    .flightB p a{
+        padding:0 0 0 0;
+        margin:0 0 0 0;
+    }
+    .flightB h3{
+        padding:0;
+        margin:0;
+        color:#da1418;
+        font-weight: 300;
+    }
+    .flightB ul{
+        height: auto;
+    }
+    .flightB ul li{
+        list-style-type:decimal;
+    }
+    .flightB ul li ul{
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .flightB ul li ul li{
+        list-style-type:disc;
     }
     /*-----*/
     /* The Close Button */
@@ -2004,6 +2034,7 @@ nav ul li:hover {
 }
 .divTableCell.may {
     font-weight: bold;
+    width: 100px;
 } 
 .divTableCell {
     border-top: 0px solid #999999;
