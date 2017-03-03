@@ -226,6 +226,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         top: 0;
         right: 0;
         z-index:1001;
+        padding-top: 5px;
         background-color: #4d4d4d
     }
     .menu_bar .bt-menu {
@@ -239,12 +240,12 @@ subtitulos fomrulario: open sans, normal. 12pt.
         cursor: pointer;
     }
     .menu_bar span {
-        color: #FFFFFF;
+        color: #227bff;
         font-size: 2em;
     }
     /* Menu */
     #navip {
-        width: 20%;
+        width: 40%;
         height: 102%;
         top: 0;
         position: fixed;
@@ -254,7 +255,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         padding-right: 10px;
         padding-top: 30px;
         z-index: 1;
-        background-color: rgba(77,77,77,0.7);
+        background-color: rgba(34,123,255,0.8);
     }
     #navip ul li {
         display: block;
@@ -297,9 +298,8 @@ subtitulos fomrulario: open sans, normal. 12pt.
     .boxA
     {
         background-color: transparent;
-        padding-top: 500px;
-        padding-bottom: 100px;
-        display: flex;
+        padding-top: 300px;
+        padding-bottom: 100px;       
     }
     .boxA h1 
     {
@@ -333,26 +333,43 @@ subtitulos fomrulario: open sans, normal. 12pt.
         border-color: #227bff;
     }
 /*Media Querys*/
-    @media screen and (max-width:768px){
+    @media screen and (max-width:735px){
     .boxA
-    {
-        margin-right: 65%;
-        margin-left: 5%;
-    }
+        {
+        text-align: center;
+         }
     }
     @media screen and (max-width:425px){
     .boxA
     {
         margin-right: 10%;
         margin-left: 10%;
+         padding-top: 300px;
+         display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
     }
     .boxA h1 
     {
-      text-align: center;
+      text-align: left;
+      font-size: 16px;
+    }
+    .boxA h1 strong 
+    {
+      font-size: 22px;
     }
     .boxA p 
     {
-      text-align: center;
+      text-align: left;
+      font-size: 16px
+    }
+    .linea1 {
+        display: none;
     }
     }
 /**********/
@@ -369,9 +386,10 @@ subtitulos fomrulario: open sans, normal. 12pt.
       font-size: 21px;
       text-align: center;
       font-weight: 400;
-      padding-top: 3%;
-      padding-bottom: 2%;
+      padding-top: 5%;
+      padding-bottom: 3%;
     }
+   
     .boxAa
     {
         margin: 20% 0 20% 0;
@@ -577,7 +595,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
         cursor: pointer;
     }
 /*Media Querys*/
-    @media screen and (max-width:768px){
+    @media screen and (max-width:735px){
    .boxAa
     {
         margin-right: 14%;
@@ -617,48 +635,46 @@ subtitulos fomrulario: open sans, normal. 12pt.
     @media screen and (max-width:425px){
     .boxB 
     {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        align-content: center;
+        margin: 0 auto;
     }
-   .boxAa
+    .Aus 
+    {        
+        margin-left: 28%;
+    }
+    .Aus h2 
     {
-        margin-right: 20%;
-        margin-left: 20%;
-        margin-top: 10%;
+        text-align: left; 
+        font-size: 16px; 
+        width: 350px;      
     }
-    .boxAa h1 
+    .lineaiz{
+        display: none;
+    }
+
+    .caja p 
     {
-      text-align: center;
+       margin-left:  -55%; 
+       padding-top: 10%;
+       width: 350px;
     }
-    .boxAa p 
+    .boxAa
     {
-      text-align: center;
+       margin: 5% 0 5% 0;
     }
-    .boxBb 
-    {
-        height: 100%;
-        width: 100%;
-        margin-top: 10%;
-        margin-bottom: 15%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .boxBb img
-    {
-        clear: both;
-        margin: 5% 35%;
-    }
-    .boxBb ul 
-    {
-        clear: both;
-        margin: 5%;
-    }
+   
+   .mvvicons{
+    margin-top: 100%;
+    margin-left: -5%;
+   }
     .textBox
-    {
-        padding: 25%;
+    {       
+        flex-flow: row wrap;       
     }
+
+    #ausdown1, #ausdown2{
+        padding: 3%;
+    }
+    
     /* The Close Button Modal Service Standars*/
     .close1 {
         color: #aaa;
@@ -673,6 +689,55 @@ subtitulos fomrulario: open sans, normal. 12pt.
         color: black;
         text-decoration: none;
         cursor: pointer;
+    }
+ #modalM img, #modalV img
+    {
+        width: 20%;
+        height: auto;
+        float: none;
+        margin: 30% 0 1% 8%;
+    }
+ #modalM hr, #modalV hr
+    {
+        margin-left: 8%;      
+
+    }
+    #modalM p, #modalV p
+    {        
+        margin-top: 1%;
+        margin-left: 8%;
+        padding-right: 10%;
+        height: 300px;
+    }
+
+#myModal9 .modal-content {
+        margin: 20% auto;
+        width: 90%;
+        height: 500px;
+        padding-bottom: 1%;
+    }
+#myModal9 .modal-content h1 {
+        margin: 0 0 0 8%;
+    }
+    #myModal9 .modal-content hr {
+        margin: 0 0 40px 8%;
+    }
+    #myModal9 .modal-content p {
+        width: 300px;        
+        margin: 0 0 40px 8%;        
+    }
+    #myModal9 .modal-content #valuesmodal
+    {        
+        flex-flow: row wrap;     
+    }
+    #valuesmodal img {
+        width: 140px !important;
+        margin: 2% 15% auto auto !important;
+    }
+
+    .textmodal {
+        width: 120px !important;
+        margin: 1% auto !important;
     }
     }
 /**********/
@@ -742,28 +807,29 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
     }
     @media screen and (max-width:425px){
-    .circles 
-    {
-        clear: both;
-        justify-content: space-between;
-        width: 85%;
-        margin-top: 50px;
-    }
+
     .icons
     {
-        margin-bottom: 30px;
-        width: 30%;
-        height: 30%;
+        margin:2% 3%;
     }
-    #item6, #item8 {
-        margin-top: 5%;
+
+    .icons div 
+    {
+        width: 80px;
+        height: 80px;
     }
-    #item7 {
-        margin-top: 0;
-    }
+
     #item5 {
-        margin-top: 10%;
+        margin-left: 5%;
     }
+    #item7{
+        margin-right: 0;
+    }
+    .circles 
+    {
+      margin: -18% 2% 0 2%; 
+        }
+    
     .boxC
     {
         margin-left: 10%;
@@ -772,6 +838,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     .boxC h1 
     {
       text-align: center;
+      
     }
     .boxC p 
     {
@@ -881,29 +948,32 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
     @media screen and (max-width:425px){
     /* Modal Content/Box */
+    
     .modal-content {
         margin: 20% auto;
-        width: 100%;
-        height: auto;
-        padding-bottom: 5%;
+        width: 90%;
+        height: 500px;
+        padding-bottom: 1%;
     }
     /*-----*/
     .modal-content img
     {
-        width: 15%;
-        margin: 5% 10%;
+        float: none;
+        width: 20%;
+        height: auto;
+        margin: 20% 0 3% 8%;
     }
     .modal-content h1 {
-        padding-top: 10%;
-        margin-left: 35%;
+        margin-top: -10%;
+        margin-left: 8%;
     }
     .modal-content hr {
-        margin-left: 35%;
+        margin-left: 8%;
     }
     .modal-content p {
-        height: 100px;
-        margin: 5% 0 0 20%;
-        padding-right: 10%;
+        height: 400px;
+        margin: 5% 8% ;
+        
     }
     }
 /**********/
@@ -1071,12 +1141,16 @@ subtitulos fomrulario: open sans, normal. 12pt.
     .location {
         flex-flow: column;
         width: 100%;
-        margin: 20% 0;
+        margin: 1% 0;           
+        background: url(../imagenes/iconos/map.png) no-repeat;
+        background-position: 10% 0;
+        background-size: 120%;
+        bac
     }
     .locmap:first-child {
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 20%;
+        margin-bottom: 0;
     }
     .locmap:last-child {
         margin-top: 0;
@@ -1086,17 +1160,23 @@ subtitulos fomrulario: open sans, normal. 12pt.
     {
         margin: 0;
         padding-top:0;
-        padding-bottom: 10%;
+        padding-bottom: 0;
     }
-    .boxD h1 
+    .down h1 
+    {
+     margin: 0;
+     padding-top: 10%;
+     text-align: center;     
+    }
+    .down p 
     {
       text-align: center;
-      padding-bottom: 30px;
+      margin:0;
+      padding: 30px 60px 0 5px;
+      font-size: 16px;
     }
-    .boxD p 
-    {
-      text-align: center;
-      margin: 0 10%;
+    .lineadown{
+        display: none;
     }
     }
 /*Copyrigth*/
@@ -1124,6 +1204,24 @@ subtitulos fomrulario: open sans, normal. 12pt.
         width: 100%;
         height: 30px;
     }
+
+     @media screen and (max-width:425px){
+    .copy 
+    {
+       padding-top: 0;
+        padding-bottom: 0;
+    }
+       .copy p 
+    {
+        padding-left: 8%;
+    }
+
+    .copy img 
+    {
+        width: 90%;
+        height: auto;
+    }
+     }
 /**********/
 /* Submit */
     .boxF
@@ -1247,6 +1345,27 @@ subtitulos fomrulario: open sans, normal. 12pt.
     }
 /*Media Querys*/
 @media screen and (max-width:425px){
+
+    .linea1{
+        display: none;
+    }
+
+    .boxF
+    {      
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .boxF h1 
+    {
+     text-align:left;
+       padding-left: 5%;
+    }
+    .boxF p 
+    {
+     
+      font-weight: 400;
+      margin: 30% 10% 0 -45%;
+    }
      .accordion1 i {
         margin-left: 20%;
         margin-right: 5%;
@@ -1393,6 +1512,26 @@ div.panel2 label:active, div.panel1 label:active {
         margin-left: 10%;
         z-index: -0;
     }
+
+    .boxE
+    {      
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    .boxE h1 
+    {
+    text-align:left;
+    padding-left: 0;
+    padding-bottom: 10%;
+    }
+    .boxE p 
+    {
+     
+      font-weight: 400;
+      margin: 50% 10% 0 -45%;
+    }
+
+
     div.panel2 label, div.panel1 label {
         margin-top: 5%;
         margin-right: 5%;
