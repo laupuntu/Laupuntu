@@ -297,6 +297,8 @@ subtitulos fomrulario: open sans, normal. 12pt.
 /* Initial text */
     .boxA
     {
+        display: flex;
+        flex-flow: row;
         background-color: transparent;
         padding-top: 300px;
         padding-bottom: 100px;       
