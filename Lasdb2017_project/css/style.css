@@ -647,13 +647,13 @@ nav ul li:hover {
         width: 55%;
         padding-bottom: 30px
     }
-    .flightB p{
+    .flightB p, #mod p, #awards p {
         height: auto;
         overflow: initial;
         padding:0;
         margin:0;
     }
-    .flightB p a{
+    .flightB p a, #mod a, #early a, #awards p a{
         padding:0 0 0 0;
         margin:0 0 0 0;
     }
@@ -676,6 +676,15 @@ nav ul li:hover {
     .flightB ul li ul li{
         list-style-type:disc;
     }
+    #mod a, #early a, #awards p a {
+        margin-top: 5px;
+        padding: 5px !important;
+        color:#fff;
+    }
+    #awards h1 {
+        padding-top: 40px;
+    }
+
     /*-----*/
     /* The Close Button */
     .close {
@@ -1903,6 +1912,9 @@ nav ul li:hover {
 }
 #welmed iframe{
     border: 13px solid #FFFFFF;
+}
+#art70 {
+    cursor: pointer;
 }
 /*Media Querys*/
 @media screen and (max-width:375px){
