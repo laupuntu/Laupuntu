@@ -42,7 +42,7 @@ $msg = null;
     $lSpecInstruc = htmlspecialchars($_POST["lSpecInstruc"]);
     $lFullAdj = htmlspecialchars($_POST["lFullAdj"]);
     $lAgreApra = htmlspecialchars($_POST["lAgreApra"]);
-    $email_to = "dagaravito37@misena.edu.co";
+    $email_to = "diego.garavito@laupuntu.com";
     $asunto = "New Claim Assignment";
     $mensaje = "Client information<br><br>Company: $company<br>Address: $cAddress<br>City, State & Zip: $cPlace<br>Adjuster Name: $cAdjname<br>Adjuster Email: $cAdjemail<br>Phone: $cPhone<br>Extension: $cExt<br>Fax: $cFax<br><br>";
     $mensaje1 = "Insured Information<br><br>Insured: $insured<br>Address: $iAddress<br>City, State & Zip: $iPlace<br>Phone: $iPhone<br>Phone: $iPhone1<br>Phone2: $iPhone2<br><br>";
@@ -77,7 +77,7 @@ $msg = null;
         //  $mail->Username = "anyone@anyone.com";
          // $mail->Password = "anyonep#password";
        
-          $mail->From = "danielgaravito@gmail.com";
+          $mail->From = "diego.garavit0@laupuntu,com";
         
           $mail->FromName = "Administrator";
         

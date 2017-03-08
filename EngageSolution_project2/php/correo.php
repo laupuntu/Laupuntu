@@ -69,7 +69,7 @@ $msg = null;
 
     //Email
 
-    $email_to = "myemail@myemail.com";
+    $email_to = "diego.garavito@laupuntu.com";
     $asunto = "Join Our Team";
     $mensaje = "Join Our Team<br><br>Last Name: $lname<br>Firts Name: $fname<br>M.I.: $mi<br>Street: $street<br>City: $city<br>State: $state<br>Zip: $zip<br>home Phone: $hphone<br>Cell Phone: $cphone<br>Email: $email<br><br>Experience Info<br><br>1. I starte adjusting claims on the year: $year<br>2. I have had direct claims experience with the followinf type of claims:<br>Type of Claims<br><br>Property - Personal Lines: $propertypl<br>Property - Comercial Lines: $propertycl<br>Liability - Personal Lines: $liabilitypl<br>Liability - Commercial Lines: $liabilitycl<br>Flood: $flood<br>Other: $other<br><br>3. Types of catastrophes that you have direct claims experience whit:<br>Type of Catastophe<br><br>Hurricane: $hurricane:<br>Flood: $cflood<br>Earthquake: $earthquake<br>Tornado: $tornado<br>Fire: $fire:<br><br>Adjuster Licenses<br><br>State: $alstate<br>License #: $license<br>Type: $type<br>State: $alstate1<br>License #: $license1<br>Type1: $type<br>State: $alstate2<br>License #: $license2<br>Type: $type2<br>State: $alstate3<br>License #: $license3<br>Type: $type3<br>NFIP Certified: $nfip<br>If certified, NFIP #: $nfipnum<br><b>Aproved to handle<br>Residential: $aphand<br><br>OTHER Skills<br>1. Computer Software used: $otherap<br>Other (specify): $otheraptext<br>2. Are you Bilingual: $otherap1<br>Language(s): $otheraptext2<br>3. Your Educational Background: $hsgraduate<br>4. Have you ever been a Staff Adjuster or Supervisor? $sads<br>If yes, please answer:<br>Company: $companysas<br>Dates: datesas$<br>What was your authority? $authoritysas<br>5. Have you ever worked as an “inside” independent adjuster for an insurance company? $iia<br>If yes, please answer:<br>Company: $companyiia<br>Dates: $dateiia<br>What was your role? $authorityiia<br>6. Errors & Omissions Coverage:  Do you have a policy in force? $authorityiia<br>7. Can you carry, set up and use a ladder to inspect a one or two story roof? $tsr<br>8. Have you been convicted of a crime in the last five (5) years (including traffic violations) or have you ever been convicted of a felony? $ccf<br>If yes, please give details: $ccftext<br>9. Have you ever had your adjuster’s license suspended or revoked? $als<br>If yes, please give details: $alstext.";
 
@@ -99,7 +99,7 @@ $msg = null;
         //  $mail->Username = "anyone@anyone.com";
          // $mail->Password = "anyonep#password";
        
-          $mail->From = "name@email.com";
+          $mail->From = "diego.garavito@laupuntu.com";
         
           $mail->FromName = "Administrator";
         
