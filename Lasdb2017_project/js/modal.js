@@ -1155,7 +1155,7 @@ var modal60 = document.getElementById('myModal60');
 var btn60 = document.getElementById("art60");
 
 // Get the <span> element that closes the modal
-var span60 = document.getElementsByClassName("close1")[36];
+var span60 = document.getElementsByClassName("close1")[34];
 
 // When the user clicks on the button, open the modal 
 btn60.onclick = function() {
@@ -1169,8 +1169,8 @@ span60.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal44) {
-        modal44.style.display = "none";
+    if (event.target == modal60) {
+        modal60.style.display = "none";
     }
 }
 //Modal Abstract Submission

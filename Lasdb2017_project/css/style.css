@@ -1172,13 +1172,13 @@ nav ul li:hover {
 #item14, #item46, #item30, #item20, #item60 {
     margin-left: auto;
 }
-#item50, #item47, #item49, #item51  {
+#item50, #item47, #item60, #item51  {
     margin-right: 155px;
     margin-left: 5px;
 }
-#item60{
+/*#item60{
     margin-top: -155px;
-}
+}*/
 
    /**********/
     /* The Modal (background) */
