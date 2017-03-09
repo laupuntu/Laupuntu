@@ -2136,7 +2136,7 @@ nav ul li:hover {
 /* Section 9 */
 #org {
     height: auto;
-    background-color: rgba(255, 255, 255,.7);
+    background-color: rgba(255, 255, 255,.9);
     color: #0088aa;
     word-spacing: 0.1em;
 }
@@ -2211,7 +2211,7 @@ nav ul li:hover {
 }
 .logsec img {
     width: auto;
-    height: 76px;
+    height: 60px;
     padding-left: 20px;
 }
 
@@ -2234,15 +2234,22 @@ nav ul li:hover {
     -ms-flex-line-pack: center;
         align-content: center;
     margin: 0 0 20px 0;
+    
 }
 .logsec2 img {
     width: auto;
-    height: 76px;
+    height: 60px;
+    
 }
-#unal {
-    height: 100px;
-    margin-top: -15px;
+#UDV {    
+
 }
+
+#uant{
+    height: 50px;
+    margin-top: 7px;
+}
+
 .logos a:hover {
     background-color: rgba(255, 255, 255,.15);
 }
