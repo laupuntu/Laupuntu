@@ -1099,30 +1099,30 @@ window.onclick = function(event) {
     }
 }
 // Get the modal
-var modal43 = document.getElementById('myModal43');
-
+/*var modal43 = document.getElementById('myModal43');
+*/
 // Get the button that opens the modal
-var btn43 = document.getElementById("art43");
-
+/*var btn43 = document.getElementById("art43");
+*/
 // Get the <span> element that closes the modal
-var span43 = document.getElementsByClassName("close1")[34];
-
+/*var span43 = document.getElementsByClassName("close1")[34];
+*/
 // When the user clicks on the button, open the modal 
-btn43.onclick = function() {
+/*btn43.onclick = function() {
     modal43.style.display = "block";
 }
-
+*/
 // When the user clicks on <span> (x), close the modal
-span43.onclick = function() {
+/*span43.onclick = function() {
     modal43.style.display = "none";
 }
-
+*/
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+/*window.onclick = function(event) {
     if (event.target == modal43) {
         modal43.style.display = "none";
     }
-}
+}*/
 // Get the modal
 var modal44 = document.getElementById('myModal44');
 
@@ -1130,7 +1130,7 @@ var modal44 = document.getElementById('myModal44');
 var btn44 = document.getElementById("art44");
 
 // Get the <span> element that closes the modal
-var span44 = document.getElementsByClassName("close1")[35];
+var span44 = document.getElementsByClassName("close1")[34];
 
 // When the user clicks on the button, open the modal 
 btn44.onclick = function() {
@@ -1155,7 +1155,7 @@ var modal60 = document.getElementById('myModal60');
 var btn60 = document.getElementById("art60");
 
 // Get the <span> element that closes the modal
-var span60 = document.getElementsByClassName("close1")[34];
+var span60 = document.getElementsByClassName("close1")[35];
 
 // When the user clicks on the button, open the modal 
 btn60.onclick = function() {
