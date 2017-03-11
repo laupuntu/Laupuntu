@@ -2,7 +2,7 @@
 window.onscroll = function() {fixedtop()};
 function fixedtop() {
 	if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
-		document.querySelector("body").style.marginTop = "50px";
+		document.querySelector("body").style.marginTop = "0px";
 		document.querySelector(".navbar").style.transition = "all 1s";
 		document.querySelector(".navbar").style.top = 0;
 		document.querySelector(".navbar").style.backgroundColor = "rgba(77,77,77,1)";
