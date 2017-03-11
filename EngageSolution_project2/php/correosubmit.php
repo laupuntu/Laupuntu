@@ -42,7 +42,7 @@ $msg = null;
     $lSpecInstruc = htmlspecialchars($_POST["lSpecInstruc"]);
     $lFullAdj = htmlspecialchars($_POST["lFullAdj"]);
     $lAgreApra = htmlspecialchars($_POST["lAgreApra"]);
-    $email_to = "diego.garavito@laupuntu.com";
+    $email_to = "formularios@engagesol.com";
     $asunto = "New Claim Assignment";
     $mensaje = "Client information<br><br>Company: $company<br>Address: $cAddress<br>City, State & Zip: $cPlace<br>Adjuster Name: $cAdjname<br>Adjuster Email: $cAdjemail<br>Phone: $cPhone<br>Extension: $cExt<br>Fax: $cFax<br><br>";
     $mensaje1 = "Insured Information<br><br>Insured: $insured<br>Address: $iAddress<br>City, State & Zip: $iPlace<br>Phone: $iPhone<br>Phone: $iPhone1<br>Phone2: $iPhone2<br><br>";
@@ -58,26 +58,26 @@ $msg = null;
           $mail = new PHPMailer;
       
       //indico a la clase que use SMTP
-       //   $mail->IsSMTP();
+          $mail->IsSMTP();
       
           //permite modo debug para ver mensajes de las cosas que van ocurriendo
-          //$mail->SMTPDebug = 2;
+          $mail->SMTPDebug = 2;
 
       //Debo de hacer autenticación SMTP
-         // $mail->SMTPAuth = true;
-          //$mail->SMTPSecure = "ssl";
+         $mail->SMTPAuth = true;
+         $mail->SMTPSecure = "ssl";
 
       //indico el servidor de Gmail para SMTP
-        $mail->Host = "localhost";
+        $mail->Host = "cureserver.net";
 
       //indico el puerto que usa Gmail
-          //$mail->Port = 465;
+          $mail->Port = 465;
 
       //indico un usuario / clave de un usuario de gmail
-        //  $mail->Username = "anyone@anyone.com";
-         // $mail->Password = "anyonep#password";
+         $mail->Username = "formularios@engagesol.com";
+         $mail->Password = "engagesol_2017";
        
-          $mail->From = "diego.garavit0@laupuntu,com";
+          $mail->From = "formularios@engagesol.com";
         
           $mail->FromName = "Administrator";
         
