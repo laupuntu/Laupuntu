@@ -53,7 +53,7 @@ $msg = null;
 
     if (array_key_exists('userfile', $_FILES)) {
         
-        require "../phpmailer/class.phpmailer.php";
+        require "../phpmailer/PHPMailerAutoload.php";
     
           $mail = new PHPMailer;
       
@@ -83,7 +83,7 @@ $msg = null;
         
           $mail->Subject = $asunto;
         
-          $mail->addAddress($email_to, $nombre);
+          $mail->addAddress($email_to);
         
           $mail->MsgHTML($cuerpo);
         
