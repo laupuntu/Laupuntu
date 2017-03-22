@@ -81,6 +81,11 @@ subtitulos fomrulario: open sans, normal. 12pt.
         background-color: #4d4d4d;
     /*     position: fixed; */
     }
+
+    #arriba{
+       width: 100%;
+        background-color: #e6e6e6;
+    }
     .wrapper {
         max-width: 814px;
         margin: auto;
@@ -89,6 +94,8 @@ subtitulos fomrulario: open sans, normal. 12pt.
     .menu_bar {
         display: none;
     }
+
+      
     .lineaiz {
         display: block;
         width: 1px;
@@ -143,7 +150,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     .contactUp a 
     {
         color: #227bff;
-        margin
+        
     } 
     .contactUp a:hover 
     {
@@ -153,7 +160,7 @@ subtitulos fomrulario: open sans, normal. 12pt.
     .contacto:first-child
     {
         margin-right: auto;
-        font-size: 11px;
+        font-size: 14px;
         margin-top:; 5px;
     }
     .contacto:last-child
@@ -203,10 +210,12 @@ subtitulos fomrulario: open sans, normal. 12pt.
         margin-left: 50px;
         margin-right:40px;
         cursor: pointer;
+
     }
     .navimgres {
         display: none;
         cursor: pointer;
+    
     }
     hr 
     {
