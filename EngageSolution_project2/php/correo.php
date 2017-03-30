@@ -83,14 +83,14 @@ $msg = null;
        //   $mail->IsSMTP();
       
           //permite modo debug para ver mensajes de las cosas que van ocurriendo
-          //$mail->SMTPDebug = 2;
+          $mail->SMTPDebug = 2;
 
       //Debo de hacer autenticación SMTP
          // $mail->SMTPAuth = true;
           //$mail->SMTPSecure = "ssl";
 
       //indico el servidor de Gmail para SMTP
-        $mail->Host = "localhost";
+          $mail->Host = "localhost";
 
       //indico el puerto que usa Gmail
           //$mail->Port = 465;
