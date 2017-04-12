@@ -173,7 +173,7 @@ window.onclick = function(event) {
         modal5.style.display = "none";
     }
 }
-/*// Get the modal
+// Get the modal
 var modal6 = document.getElementById('myModal6');
 
 // Get the button that opens the modal
@@ -223,7 +223,7 @@ window.onclick = function(event) {
         modal7.style.display = "none";
     }
 }
-// Get the modal
+/*// Get the modal
 var modal8 = document.getElementById('myModal8');
 
 // Get the button that opens the modal

@@ -685,6 +685,17 @@ nav ul li:hover {
         padding-top: 40px;
     }
 
+    #groups {
+        height: 500px;
+        width: 70%;
+
+    }
+    #groups p {
+        height: 500px;
+        width: auto;
+        
+    }
+
     /*-----*/
     /* The Close Button */
     .close {
@@ -1055,7 +1066,7 @@ nav ul li:hover {
     font-size: 0.813em;
 }
 #viptext h2 {
-    padding-top: 100px;
+    padding-top: 60px;
     padding-left: 40px;
     padding-bottom: 12px;
     font-size: 1.250em;

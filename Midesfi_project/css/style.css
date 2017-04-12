@@ -160,9 +160,9 @@ body {
     height: 70px;
     width: 25%;
     background-image: url('../imagenes/logos/Midesfi_logo_menu.png');
-    background-size: 100%;
+    background-size: 90%;
     background-repeat: no-repeat;
-    margin: 15px 0 30px 10px;
+    margin: 15px 0 15px 10px;
 }
 nav {
     display: -webkit-box;
@@ -261,8 +261,10 @@ nav a:hover {
 /*Indicadores Economicos*/
 #bgBody{
     margin: 0 auto;
-    padding: 10px 10%;
+    padding: 15px 10% 5px 10%;
     background-color: #fff;
+    color:#666666;
+    font-size: 1em;
 }
 /*Imagen Entrepreneur*/
 #owl-demo .item {
