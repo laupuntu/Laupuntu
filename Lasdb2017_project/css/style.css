@@ -685,6 +685,9 @@ nav ul li:hover {
         padding-top: 40px;
     }
 
+#awards {
+    height: 350px;
+}
     #groups {
         height: 500px;
         width: 70%;
@@ -2074,6 +2077,17 @@ nav ul li:hover {
     width: 160%;
     margin: auto 20%;
     background-color: #999999;
+}
+#icgeb {
+      color: #da1418 !important;
+      font-style: italic;
+
+}
+
+#icgeb:hover{
+      color: black!important;
+   
+
 }
 .button {
     background-color: #da1418;
