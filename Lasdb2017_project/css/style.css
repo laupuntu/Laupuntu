@@ -1803,7 +1803,7 @@ nav ul li:hover {
 }
 /*Google Maps*/
 #venue iframe {
-    margin: 0 100px 50px 100px;
+    /*margin: 0 100px 50px 100px;*/
 }
 #venue div {
     margin:  0 100px 30px 100px;
@@ -1898,24 +1898,31 @@ nav ul li:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 36px;
+    -ms-flex-flow: nowrap;
+        flex-flow: nowrap;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+
+
+.box2 iframe{
+    margin-left: 0px;
+ 
 }
 .box2 ul {
-    margin-top: 150px;
+    margin-top: 90px;   
     list-style-type: none;
 }
 .box2 ul i {
-    margin:  6px 15px 0 0;
+    margin:  6px 20px 0 0;
     float: left;
     color: #da1418;
 }
 .box2 li {
-    line-height: 1.7em;
-    text-align: right;
+    line-height: 1.5em;
+    text-align: left;
     letter-spacing: 0.1em;
     word-spacing: 0.1em;
     font-size: 1em;
@@ -1924,7 +1931,9 @@ nav ul li:hover {
     color: #6f6f6f;
     text-decoration: none;
 }
+
 #welmed iframe{
+    margin-left: 200px;
     border: 13px solid #FFFFFF;
 }
 #art70 {
