@@ -1,0 +1,785 @@
+/* auriga_style CSS Document */
+/*reset default*/
+* {
+	margin: 0px;
+	padding: 0px;
+	}
+body{
+	background-color:#edf1f1;
+	width:100%;
+	max-width:1200px;
+	margin:0 auto;
+
+}
+/*--------------------*/
+/*contac up*/
+.ContactUp{
+	width:100%;
+	background-color:#526666;
+	margin:0 auto;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	flex-flow:row no-wrap;
+	justify-content:space-around;
+	}
+
+.contacto span{
+	color:#368282;
+	font-size: 1.5em;
+	margin:0px 10px;
+	}
+
+.contacto h6{
+	color:#fff;
+	font-family: "roboto",sans-serif;
+	font-weight: 300;
+	font-size: 0.8em;
+	line-height: 30px;
+	vertical-align: center;
+	}
+/* mobil and tablet ContactUp responsive*/
+@media screen and (max-width:800px){
+	.ContactUp{
+		display:none;
+		}
+	}
+/*--------------------*/
+/*main container*/
+.MainContainer{
+	width:100%;
+	height: 450px;
+	margin:auto;
+	background-image: url(../imagenes/broca.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	-moz-box-shadow: 0px 1px 2px #050505;
+	-webkit-box-shadow: 0px 1px 2px #050505;
+	box-shadow: 0px 1px 2px #050505;
+	}
+/*--------------------*//*header*/
+.HeaderContainer{
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	flex-flow:row no-wrap;
+	justify-content:space-between;
+	width:100%;
+	max-width:1200px;
+	max-height: 100px;
+	padding: 1.5% 0;
+	background-color:transparent;
+	}
+	
+.fixed{
+	width:100%;
+	max-width:1200px;
+	max-height: 100px;
+	margin-top:10px;
+	position: fixed;
+	z-index: 10;
+	background-color:rgba(54, 130, 130, 0.9);
+	}
+
+.title{
+	color:transparent;
+	margin-left: 10%;
+	}	
+
+.title h5{
+	font-family: "roboto",sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 25px;
+	letter-spacing: 5px;
+	}
+
+.menu{
+	margin-right: 10%;
+	}
+
+.bt-menu h5{
+	color:#fff;
+	text-decoration: none;
+	font-family: "roboto",sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	}
+
+.menu span {
+	font-size:1.2em;
+	margin:0px 10px;
+	cursor: pointer;
+	}
+
+header nav{
+	width:20%;
+	height:100%;
+	right: -100%;
+	margin:3.5% 0px 0px auto;
+	background:rgba(53,130,130,0.7);
+	position: fixed;
+	}
+
+header nav ul li{
+	float:none;
+	display: block;
+	}
+
+header nav ul li a{
+	color: #ffffff;
+	padding: 20px 30px;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-family: "roboto",sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	}
+
+header nav ul li a:hover{
+	font-weight: 700;
+	background: rgba(53,130,130,0.9);	
+	}
+
+header nav ul li span {
+	margin-left: 10px;
+	}
+
+header nav ul li:hover .children {
+	display: none;
+	}
+ 
+header nav ul li .children {
+	width: 100%;
+	display: none;
+	position: relative;
+	}
+
+header nav ul li .children li {
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	}
+ 
+header nav ul li .children li a {
+	padding: 3% 5%;
+	text-align:left;
+	color:#ffffff;
+	font-family: "roboto",sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	}
+
+header nav ul li .children li a:hover {
+	background: rgba(53,130,130,0.9);	
+	}
+
+/* mobil and tablet header responsive*/
+@media screen and (max-width:800px){
+	.HeaderContainer{
+	flex-flow:row wrap;
+	justify-content:space-around;
+	width:100%;
+	max-width:1200px;
+	max-height: 100px;
+	padding: 1.5% 0;
+	background-color:rgba(53,130,130,0.9);
+	}
+	
+	.fixed{
+	max-height: 120px;
+	margin-top:10px;
+	background-color:rgba(54, 130, 130, 0.7);
+	}
+
+	.title{
+	color:#ffffff;
+	margin-left: 0%;
+	}
+
+	.title h5{
+	font-size: 0.9em;
+	line-height: 20px;
+	letter-spacing: 3px;
+	}
+
+	.menu{
+	margin-right: 0;
+	}
+
+	.bt-menu h5{
+	font-size: 0.9em;
+	}
+
+	header nav{
+	width:50%;
+	margin:6% 0px 0px auto;
+	background:rgba(53,130,130,0.9);
+	}
+
+	}
+
+/*--------------------*//*MainContent*/
+.MainContain{
+	width:100%;
+	text-align: center;
+	}
+
+.logo{
+	margin-top:-4%;
+	}
+
+
+.text{
+	margin:1% 20% 5% 20%;
+	}
+
+.text h1{
+	color:#fff;
+	text-decoration: none;
+	font-family: "roboto",sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	}
+/* mobil and tablet MainContent responsive*/
+@media screen and (max-width:800px){
+	
+	.logo img{
+	width:80%;
+	}
+
+	.text{
+	margin:1% 3%;
+	}
+
+	.text h1{
+	font-size: 1em;
+	line-height: 1.5em;
+	}
+
+	}
+
+/*--------------------*//*services*/
+.ServiceContainer{
+	width:80%;
+	background-color: #ffffff;
+	margin:-5% auto 3% auto;
+	text-align: center;
+	z-index: 3;	
+	-moz-box-shadow: 0px 1px 2px #050505;
+	-webkit-box-shadow: 0px 1px 2px #050505;
+	box-shadow: 0px 1px 2px #050505;
+}
+
+.TitleServices{
+	text-align: center;
+	color:#526666;
+}
+
+.TitleServices h2{
+	padding-top: 3%;
+	text-transform: uppercase;
+	font-family: "roboto",sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	letter-spacing: 10px;
+	}
+
+
+.line{
+	width:30px;
+	display: block;
+	border-bottom: 1px solid #526666;
+	margin:10px auto;
+	}
+
+.MainServices{
+	width:80%;
+	margin:0 auto;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	flex-flow:row no-wrap;
+	justify-content:space-around;
+	}
+
+.service{
+	margin:3% 0;
+}
+
+.service a{
+	text-decoration: none;
+	color:#526666;
+}
+
+.service a img{
+	width: 50%;
+	}
+
+.service a h3{
+	padding: 15px 0;
+	text-transform: uppercase;
+	font-family: "roboto",sans-serif;
+	font-weight: 700;
+	font-size: 0.8em;
+	}
+
+.service a h3:hover{
+	font-size: 0.9em;
+	}
+
+.ValueMessage{
+	width: 100%;
+	margin-top:2%;
+	background-color: #d8dfdf;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	flex-flow:row no-wrap;
+	justify-content:center;
+	align-items:center;
+	}
+
+.value{
+	margin:4% 0;
+	}
+
+.value img{
+	margin-right:80px;
+	}
+
+.value h1{
+	color:#526666;
+	max-width:550px;
+	font-family: "roboto",sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	}
+
+/* mobil and tablet ServiceContainer responsive*/
+@media screen and (max-width:800px){
+	.ServiceContainer{
+	width:90%;
+	margin:-15% auto 3% auto;
+	}
+
+	.TitleServices h2{
+	padding-top: 3%;
+	font-size: 0.8em;	
+	}	
+
+	.MainServices{
+	width:90%;
+	margin:0 auto;
+	flex-flow:row wrap;
+	justify-content:space-around;
+	}
+
+	.ValueMessage{
+	flex-flow:row wrap;
+	justify-content:center;
+	align-items:center;
+	}
+
+	.value img{
+	width: 70%;
+	margin:0 auto;
+	}
+
+	.value{
+	margin:4% 0;
+	}
+
+	.value h1{
+	padding: 0 5px;
+	font-size: 0.9em;
+	}
+
+
+	}
+/*--------------------*//*projects*/
+.ProjectContainer{
+	width:80%;
+	background-color: #ffffff;
+	margin:0 auto 3% auto;
+	-moz-box-shadow: 0px 1px 2px #050505;
+	-webkit-box-shadow: 0px 1px 2px #050505;
+	box-shadow: 0px 1px 2px #050505;
+	}
+
+.ProjectImg{
+	margin:0 3%;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+	align-items:center;
+	padding: 3% 0;
+	}
+
+.ProjectTitle {
+	position: absolute;
+	background-color:  rgba(53, 130, 130, 0.8);
+	margin: auto;
+	width: 260px;
+	height: 180px;
+	margin:-192px auto;
+	opacity: 0;
+	transition: all 0.8s;
+	
+	}
+
+.ProjectTitle h2{
+	margin-top:25%;
+	color:#FFF;
+	text-transform: uppercase;
+	text-align:center;
+	vertical-align: center;
+  	font-family: "roboto",sans-serif;
+	font-size: 0.8em;
+	font-weight: 300;
+}
+
+.ProjectTitle p{
+	color:#FFF;
+	text-align:center;
+  	font-family: "roboto",sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.ProjectTitle span{
+	color:#FFF;
+	text-align:center;
+  	font-family: "roboto",sans-serif;
+	font-size: 0.8em;
+	font-weight: 300;
+}
+
+.ProjectTitle:hover{
+	opacity: 1;
+}
+.project img{
+	margin:3% 0;
+	}
+
+.MoreProject{
+	text-align: center;
+	margin:-2% auto;
+	padding-bottom: 3%;
+}
+
+.MoreProject h2{
+	color:#368282;
+	text-align:center;
+  	font-family: "roboto",sans-serif;
+	font-size: 0.9em;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.MoreProject span{
+
+	font-size: 1.5em;
+	color:#368282;
+}
+
+/* mobil and tablet ProjectContainer responsive*/
+@media screen and (max-width:800px){
+	
+	.ProjectContainer{
+	width:90%;
+	margin:0 auto 3% auto;
+	}
+
+	}
+/*--------------------*//*arquitectura*/	
+.ArquitecturaContainer{
+	width:80%;
+	background-color: #d8dfdf;
+	margin:0 auto 3% auto;
+	-moz-box-shadow: 0px 1px 2px #050505;
+	-webkit-box-shadow: 0px 1px 2px #050505;
+	box-shadow: 0px 1px 2px #050505;
+	}
+
+.arquitectura{
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+	align-items:center;
+	padding: 1% 0;
+	background-image: url(../imagenes/arquitectura.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	}
+
+
+.ArquitecturaServicios{
+	text-align: center;
+
+}
+.ArquitecturaServicios p{
+	color:#ffffff;
+	font-family: "roboto",sans-serif;
+	font-weight: 500;
+	font-size: 0.8em;
+	line-height: 20px;
+}
+
+.ArquitecturaServicios h3{
+	color:#ffffff;
+	text-transform: uppercase;
+	font-family: "roboto",sans-serif;
+	font-weight: 500;
+	font-size: 0.7em;
+}
+
+.enlace{
+	text-align: center;
+}
+
+.enlace a{
+	text-decoration: none;
+}
+
+.enlace p{
+	color:#ffffff;
+	font-family: "roboto",sans-serif;
+	font-weight: 500;
+	font-size: 0.9em;
+}
+
+.enlace span{
+	color:#ffffff;
+	font-size: 1.2em;
+	padding: 3% 0;
+}
+
+/* mobil and tabletArquitecturaContainer responsive*/
+@media screen and (max-width:800px){
+	
+	.ArquitecturaContainer{
+	width:90%;
+	margin:0 auto 3% auto;
+	}
+
+	.enlace{
+	margin: 4% auto;
+	}
+
+	.ArquitecturaServicios p{
+	padding:1% 2%;
+	text-align: center;
+}
+
+	}
+
+
+/*--------------------*//*formulary*/
+.FormularyContainer{
+	width:80%;
+	margin:0px auto;
+	background-color: #368282;
+	color:#ffffff;
+	text-align: center;
+	}
+
+.FormularyContainer h2 {
+	padding-top: 10% 0;
+	color:#ffffff;
+}
+
+.FormularyContainer .line{
+	border-color: #ffffff;
+}
+
+.formulary{
+	width:35%;
+	margin:3% auto 0 auto;
+
+	}
+
+.formulary p{
+	font-family: "roboto",sans-serif;
+	font-weight: 300;
+	font-size:0.8em;
+	}
+
+.formulary span{
+	font-size: 1.2em;
+	margin:2%;
+	}
+
+.formulary form{
+	padding-bottom:10%;
+	}
+
+.box{
+	margin:5% 0;
+	font-family: roboto;
+	font-size: 1em;
+	font-weight: 300;
+	float:left;
+	}
+
+.boton{
+	margin:5% 0;
+	color: #fff;
+	font-family: roboto;
+	font-size: 0.7em;
+	text-align: center;
+	padding: 3px 25px;
+	border: 1px solid #FFFFFF;
+	background-color: transparent;
+	}
+
+/* mobil and tablet FormularyContainer responsive*/
+@media screen and (max-width:800px){
+	.FormularyContainer{
+	width:90%;
+	margin:0px auto;
+	}
+
+	.formulary{
+	width:85%;
+	margin:3% auto 0 auto;
+
+	}
+	.formulary form{
+	text-align: center;
+	}
+	.box{
+	text-align: center;
+	}
+
+	}
+/*--------------------*//*contac*/
+.ContactContainer{
+	width:80%;
+	background-color: #526666;
+	margin:0 auto;
+	-moz-box-shadow: 0px 1px 2px #050505;
+	-webkit-box-shadow: 0px 1px 2px #050505;
+	box-shadow: 0px 1px 2px #050505;
+}
+
+.CompanyName{
+	padding:3% 0;
+	color:rgba(255,255,255,0.5);
+	text-align: center;
+}
+
+.CompanyName h2{
+	text-transform: uppercase;
+	font-family:"roboto",sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.CompanyName span{
+	font-weight: 300;
+	font-size: 0.9em;
+}
+
+.InfoContact{
+	margin:0 10%;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	flex-flow:row no-wrap;
+	justify-content:space-between;
+	}
+
+.info{
+	text-align: center;
+	margin:3% 0;
+}
+
+.info span{
+	font-size: 2em;
+	margin:3%;
+	color:#368282;
+	}
+
+.info h6{
+	color:#ffffff;
+	text-transform: none;
+	font-family: "roboto",sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	}
+
+/* mobil and tablet ContactContainer responsive*/
+@media screen and (max-width:800px){
+	.ContactContainer{
+	width:90%;
+	margin:0 auto;
+	}
+	.CompanyName{
+	padding:6% 20px;
+	}
+	.CompanyName h2{	
+	font-size: 0.9em;
+	}
+
+	.InfoContact{
+	flex-flow:row wrap;
+	justify-content:space-around;
+	}
+
+	.info{
+	text-align: center;
+	margin:3% 2%;
+	}
+
+	}
+/*--------------------*//*footer*/
+footer{
+	width:80%;
+	margin:0 auto;
+}
+
+.CopyRigth{
+	margin:0 5%;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	flex-flow:row no-wrap;
+	justify-content:space-around;
+	align-items:center;
+	}
+
+.copy{
+	margin-top:1%;
+}
+
+.copy h4{
+	color:#526666;
+	font-family: "roboto",sans-serif;
+	font-weight: 300;
+	font-size: 0.8em;
+}
+
+/* mobil and tablet Footer responsive*/
+@media screen and (max-width:800px){
+	.CopyRigth{
+	margin:0 3%;
+	flex-flow:row wrap;
+	justify-content:space-between;
+	text-align: center;
+	}
+
+	.copy{
+	margin: 2% auto;
+}
+
+	.copy img{
+	width: 60%;
+	height: auto;
+}
+	}

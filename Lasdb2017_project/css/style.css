@@ -316,6 +316,11 @@ nav ul li:hover {
     height: 80px;
     background-color: #0088aa;
 }
+
+.lasdbSection {
+    height: 120px;
+    background-color:  lightgrey;
+}
 .time {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -327,11 +332,73 @@ nav ul li:hover {
             justify-content: space-between;
     -ms-flex-line-pack: center;
         align-content: center;
-    padding: 15px 100px;
+    padding: 15px 90px;
     color: #da1418;
     font-size: 1em;
     word-spacing: 2px;
     letter-spacing: 1px;
+}
+
+.pay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+            justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 20px 300px;
+
+    
+}
+
+#logoLASDB{
+    height: 70px;
+}
+.textLASDB{
+    margin: 5px 5px;
+    color:#4d4d4d;
+
+}
+.textLASDB h1{
+  
+    font-size: 1.2em;
+    font-weight: 700;
+
+}
+.textLASDB a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color:#4d4d4d;
+}
+
+.textLASDB a:hover {
+    color: #da1418; 
+}
+    
+#tarifasLASDB {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+#tarifasLASDB ul{
+    margin-top: 5px;
+    list-style-type: none;
+    font-size: 1em;
+}
+
+.textLASDB a span {  
+
+    padding: 5px 60px;
+ }
+
+
+.textLASDB p{  
+    color:#4d4d4d;
+    font-size: 0.8em;
+    text-align:center;
+    
 }
 .count:first-child {
     margin-right: auto;
