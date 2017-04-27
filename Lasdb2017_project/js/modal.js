@@ -223,7 +223,7 @@ window.onclick = function(event) {
         modal7.style.display = "none";
     }
 }
-/*// Get the modal
+// Get the modal
 var modal8 = document.getElementById('myModal8');
 
 // Get the button that opens the modal
@@ -247,7 +247,41 @@ window.onclick = function(event) {
     if (event.target == modal8) {
         modal8.style.display = "none";
     }
+}
+
+/*Modal Groups Discount Onload Page*/
+// Timer Modal Pop Up
+setTimeout(loadmodalsicount, 5000);
+// Get the modal
+var modal100 = document.getElementById('myModal100');
+
+// Get the button that opens the modal
+var btn100 = document.getElementsByTagName("body");
+
+// Get the <span> element that closes the modal
+var span100 = document.getElementsByClassName("close")[9];
+
+// When the user clicks on the button, open the modal 
+/*btn100.onload = function() {
+    modal42.style.display = "block";
 }*/
+function loadmodalsicount() {
+    modal100.style.display = "block";
+    modal100.style.zIndex = 1000;
+}
+// When the user clicks on <span> (x), close the modal
+span100.onclick = function() {
+    modal100.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal100) {
+        modal100.style.display = "none";
+    }
+}
+/********/
+
 // Get the modal
 var modal9 = document.getElementById('myModal9');
 
@@ -273,6 +307,7 @@ window.onclick = function(event) {
         modal9.style.display = "none";
     }
 }
+
 // Get the modal
 var modal10 = document.getElementById('myModal10');
 
@@ -1171,32 +1206,5 @@ span60.onclick = function() {
 window.onclick = function(event) {
     if (event.target == modal60) {
         modal60.style.display = "none";
-    }
-}
-//Modal Abstract Submission
-
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the button that opens the modal
-var btn = document.getElementById("btnsub");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
     }
 }
