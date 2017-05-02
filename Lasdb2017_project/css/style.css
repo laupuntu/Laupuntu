@@ -490,29 +490,35 @@ nav ul li:hover {
   display: block;
   overflow: hidden;
 }
+
 figure{
   position: absolute;
   opacity: 0;
   transition: 1s opacity;
+  
 }
+
 figcaption{
   position: absolute;
-  font-size: .8em;
+  font-size: 1em;
   bottom: 0.28em;
-  right: 0;
+  right:0;
   padding: .25em;
-  width: 100px;
-  height: 40px;
-  padding: 10px;
+  width: 150px;
+  height: 25px;
+  padding: 3px;
   color: #fff;
-  background: rgba(0,0,0, .25);
-  border-radius: 2px;
-  text-align: center;
+  background: #e6e6e6;
+  border-radius: 1px;
+  text-align: right;
+  box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.75);
 }
 figcaption a{
     display: inline-block;
-    color: #fff !important;
+    color: #da1418 !important;
     margin: 0 !important;
+    margin-left: 10px;
+    font-weight: 500 !important; 
 }
 figure.show{
   opacity: 1;
@@ -522,12 +528,12 @@ figure.show{
 .next, .prev{
   color: #fff;
   position: absolute;
-  background: rgba(0,0,0, .6);
+  background: rgba(218,20,24,255);
   top: 50%;
   z-index: 1;
   font-size: 2em;
   margin-top: -.75em;
-  opacity: .3;
+  opacity: .4;
   user-select: none;
 }
 .next:hover, .prev:hover{
@@ -816,8 +822,10 @@ figure.show{
     height: 350px;
 }
     #groups {
-        height: 500px;
+        height: 550px;
         width: 70%;
+        padding-left: 7%;
+        margin-top:50px;
 
     }
     #groups p {
