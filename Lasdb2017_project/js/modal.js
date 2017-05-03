@@ -280,6 +280,8 @@ window.onclick = function(event) {
         modal100.style.display = "none";
     }
 }
+
+setInterval(loadmodalsicount,30000);
 /********/
 
 // Get the modal

@@ -271,10 +271,10 @@ var showCurrent = function(){
   // add .show to the one item that's supposed to have it
   $items[itemToShow].classList.add('show');    
 };
-
+ // setInterval(showCurrent,2000);
 // add click events to prev & next buttons 
 document.querySelector('.next').addEventListener('click', function() {
-     counter++;
+	 counter++;
      showCurrent();
   }, false);
 
