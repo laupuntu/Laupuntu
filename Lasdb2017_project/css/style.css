@@ -316,6 +316,10 @@ nav ul li:hover {
     height: 80px;
     background-color: #0088aa;
 }
+.extended {
+    height: 70px;
+    background-color: #da1418;
+}
 
 .lasdbSection {
     height: 120px;
@@ -337,6 +341,21 @@ nav ul li:hover {
     font-size: 1em;
     word-spacing: 2px;
     letter-spacing: 1px;
+}
+.deadline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 15px 150px;
+    color: #fff;
+    
 }
 
 .pay {
@@ -413,6 +432,8 @@ nav ul li:hover {
     margin: 5px 0;
     font-size: 2em;
 }
+
+
 #date {
     margin-left: -8px;
 }   
@@ -425,6 +446,13 @@ nav ul li:hover {
 #timemeet {
     margin: 15px auto;
     font-size: 1.5em;
+}
+
+#dead {
+    margin:0 0;
+    font-size: 1.2em;
+    text-align: center;
+
 }
 /*Media Querys*/
 @media screen and (max-width:768px){
