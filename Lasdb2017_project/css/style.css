@@ -2758,7 +2758,7 @@ figure.show{
 
 /* Section 10 */
 .spon {
-    height: 400px;
+    height: 450px;
 
 }
 .spon h1 {
@@ -2791,10 +2791,10 @@ figure.show{
 }
 
 .logspon a{
-    margin: 5px 0;
-    padding:5px 10px;
+    margin: 3px 0;
+    padding:7px;
     background-color: #fff;
-    height: 80px;
+    height: 100px;
     width: auto;
 }
 /*Media Querys*/
