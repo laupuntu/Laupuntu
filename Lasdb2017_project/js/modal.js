@@ -281,7 +281,7 @@ window.onclick = function(event) {
     }
 }
 
-setInterval(loadmodalsicount,30000);
+//setInterval(loadmodalsicount,30000);
 /********/
 
 // Get the modal
