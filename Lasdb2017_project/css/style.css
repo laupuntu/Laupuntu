@@ -182,6 +182,13 @@ nav ul li:hover {
 .navimgres {
     display: none;
 }
+
+.course{
+    background-color: #da1418;
+    color: #fff; 
+    word-spacing: 5px;
+    padding: 4px 6px;
+}
 /*Media Querys*/
 @media screen and (max-width:768px){
 .wrap {
@@ -260,6 +267,23 @@ nav ul li:hover {
 }
 .main {
     padding-top: 70px;
+}
+
+.satellital{
+    margin: -20px auto 10px auto;
+    padding: 15px auto;
+    border-color: #fff;
+    width: 200px;
+    height:30px;
+    border: 1px solid #fff;
+}
+.satellital a{
+    padding-left: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+
 }
 /* Section 1 */
 #logo {

@@ -1,0 +1,238 @@
+@charset 'UTF-8';
+
+/**************
+CSS PRINCIPAL
+************/
+/*
+Corporativos
+Azul: #0088aa;
+Rojo: #da1418;
+
+*******
+Fonts
+*******
+
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Mono', monospace;
+font-family: 'Ubuntu Condensed', sans-serif;
+
+*****
+Titulos Noticias: 16 pt;
+Contenido Noticias: 10pt;
+Titulo seccion: 20pt;
+Subtitulo seccion: 14pt;
+Contenido Principal Seccion: 13pt;
+Contenido Secundario Seccion: 10pt;
+
+*/
+
+/*Reset Inicial*/
+
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.97em;
+    font-weight: 400;
+}
+body {
+    background-color: #0088aa;
+}
+
+/* Header */
+.wrap {
+    width: 100%;
+    background-color: #0088aa;
+    top: 0;
+/*     position: fixed; */
+}
+.wrapper {
+    max-width: 814px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+/*-----*/
+.contactUp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-flow:row no-wrap;
+        flex-flow:row no-wrap;
+    height: 30px;
+    color: #ffffff;
+    width: 63.5%;
+    margin-left: auto;
+    font-weight: normal;
+}
+.contacto p{
+    padding-top: 7px;
+    padding-right: 15px;  
+    font-size: 0.85em;
+}
+.contacto p:last-child {
+    padding-right: 0;
+}
+.contacto p span {
+    padding-right: 10px;
+}
+.contacto p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.contacto a:hover {
+    font-size: 1em;
+}
+
+/*Sections Reset*/
+.content {
+    height: 400px;
+    background-color: rgba(255,0,0,0.6);
+    color: #FFFFFF;
+}
+.main {
+    padding-top: 70px;
+}
+/*-----*/
+.imagen {
+    width:100%;
+    height:500px;
+    margin:auto;
+    background-image: url("../imagenes/slide/Slide_courses.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;      
+}
+#logo{
+    max-height: 230px;
+}
+
+#tittle{
+    font-weight: 500;
+    font-size: 2.5em;
+    text-align: right;
+    margin-top: -100px;
+}
+
+#dateplace{
+    
+    font-size: 1.5em;
+    text-align: right;
+    
+}
+.course_content {
+    margin:-100px auto;
+    width:75%;
+    height: 900px;
+    background-color:#ececec;
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.55);
+}
+
+.course {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;   
+    justify-content: space-between;
+    padding: 15px 5px;
+    color: #fff;
+}
+
+.course h1{
+    margin-top: 10px;
+    font-size: 1em;
+    color:#da1418;
+}
+
+.course h2{
+    font-size: 1.6em;
+    max-width: 260px;
+    color:#0088aa;
+}
+
+.course p{
+    font-size: 1.1em;  
+    color:#0088aa;  
+}
+
+#curso{
+    margin:30px 10px;
+    max-width: 350px;
+
+}
+
+.course_note {
+    margin:150px auto;
+    width:75%;
+    height: 400px;
+    background-color:#ececec;
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.55);   
+}
+
+.note{
+display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;   
+    justify-content: space-around;
+     padding-top: 30px;   
+    color:#0088aa;
+}
+
+.note h1{
+color:#da1418;
+font-weight: 500;
+font-size: 1.5em;
+}
+
+.note p{
+font-size: 1.1em;
+}
+#nota{
+    margin-top: 15px;
+    width:70%;
+    text-align: center;
+}
+#nota span{
+    color:#da1418;
+    text-align: center;
+}
+
+
+.note ul{
+    font-size: 1.2em;
+    line-height: 20px;
+    list-style-type:decimal;
+    text-align: left;
+}
+
+.note ul a{
+    color: #0088aa;
+    font-weight: 500;
+    
+}
+.note ul a:hover{
+    color: #da1418;
+    font-weight: 500;
+    
+}
+.buton{
+    background-color:#da1418;
+    width:300px;
+    height: 25px;
+    padding: 3px 10px;
+    margin: auto;
+}
+.buton a{
+    text-decoration:none;
+    color: #fff;
+}
+.buton a:hover{
+    font-weight: 500;    
+}
