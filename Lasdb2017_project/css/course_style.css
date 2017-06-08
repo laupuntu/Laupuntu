@@ -127,7 +127,7 @@ body {
 .course_content {
     margin:-100px auto;
     width:75%;
-    height: 900px;
+    height: 950px;
     background-color:#ececec;
     box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.55);
 }
@@ -156,7 +156,8 @@ body {
 }
 
 .course p{
-    font-size: 1.1em;  
+    font-size: 1.1em; 
+    line-height: 20px; 
     color:#0088aa;  
 }
 
@@ -169,7 +170,7 @@ body {
 .course_note {
     margin:150px auto;
     width:75%;
-    height: 400px;
+    height: 450px;
     background-color:#ececec;
     box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.55);   
 }
@@ -196,7 +197,7 @@ font-size: 1.1em;
 }
 #nota{
     margin-top: 15px;
-    width:70%;
+    width:80%;
     text-align: center;
 }
 #nota span{
