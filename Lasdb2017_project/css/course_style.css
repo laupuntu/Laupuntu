@@ -207,8 +207,16 @@ font-size: 1.1em;
 
 .note ul{
     font-size: 1.2em;
-    line-height: 20px;
+    line-height: 22px;
     list-style-type:decimal;
+    text-align: left;
+}
+
+.note ul li ul{
+    margin-left: 50px;
+    font-size: 1em;
+    line-height: 20px;
+    list-style-type:circle;
     text-align: left;
 }
 
@@ -236,3 +244,4 @@ font-size: 1.1em;
 .buton a:hover{
     font-weight: 500;    
 }
+
