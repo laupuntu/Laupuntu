@@ -2782,7 +2782,7 @@ figure.show{
 
 /* Section 10 */
 .spon {
-    height: 450px;
+    height: 650px;
 
 }
 .spon h1 {
@@ -2811,7 +2811,20 @@ figure.show{
             justify-content: space-between;
     -ms-flex-line-pack: center;
         align-content: center;
-    margin: 30px 30px;
+    margin: 2px 30px;
+}
+.logspon2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+      align-content: center 
+
 }
 
 .logspon a{
@@ -2821,6 +2834,14 @@ figure.show{
     height: 100px;
     width: auto;
 }
+
+.logspon2 a{
+    height: 170px;    
+    padding: 25px 335px;
+    margin:12px auto;
+    background-color: #fff;
+}
+
 /*Media Querys*/
 @media screen and (max-width:768px){
 .logspon {
